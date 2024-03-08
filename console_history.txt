@@ -1,0 +1,188 @@
+ti
+cash
+observe
+fow
+ti
+debug_mode
+ti
+debug_mode
+event zombies.100
+event zombies.101
+event zombie_events.101
+tag d00
+event zombie_events.101
+testevent
+testevent zombie_events.1
+event zombie_events.101
+debug_mode
+tag d00
+event zombie_events.101
+testevent zombie_events.1
+tag d01
+testevent zombie_events.1
+tevent zombie_events.1
+event zombie_events.1
+event zombie_events.101
+tag d01
+tag d00
+event zombie_events.101
+testevent zombie_events.101
+testevent zombie_events.1
+tag d00
+testevent zombie_events.1
+tag d01
+testevent zombie_events.1
+cash
+event 1
+reload
+reloadloc
+ti
+debug_mode
+own 185
+ti
+event airstrip.1
+event coup.1
+event flavor_tfa.1
+event horde_spawn.1
+event zombie_raids.1
+event zombie_variants.1
+ti
+fow
+ti
+reloadloc
+ti
+debug_mode
+reloadloc
+ti
+debug_mode
+obesrve
+spectate
+tag dpd
+own 427
+own 395
+own 439
+observe
+ti
+observe
+debug_mode
+tag dpd
+reloadloc
+ti
+debug_mode
+ti
+debug_mode
+ti
+observe
+ti
+debug_mode
+ti
+debug_mode
+event airstrip.1
+debug_mode
+event coup.1
+tag tfa
+event coup.1
+debug_mode
+tag tfa
+own
+help own
+own 1 z01
+debug_mode
+event zombie_raids.1
+ti
+observe
+debug_mode
+observe
+debug_mode
+tag tfa
+event flavor_tfa.1
+testevent airstrip.1
+debug_mode
+testevent airstrip.1
+testevent zombie_raids.1
+event zombie_variants.1
+own 20
+core 20
+add_core 20
+event airstrip.1
+add_core 20
+own 20
+event airstrip.1
+reloadloc
+event airstrip.1
+event zombie_raid.1
+event zombie_raids.1
+event airstrip.1
+own 20
+add_core 20
+event airstrip.1
+ti
+debug_mode
+integrate azt
+integrate tlx
+integrate xiu
+integrate yok
+integrate hst
+integrate coc
+integrate cnp
+integrate lac
+integrate zap
+integrate tot
+integrate oto
+integrate ccm
+integrate gam
+integrate ton
+integrate xa
+integrate xal
+integrate clm
+integrate tar
+integrate mix
+integrate teo
+integrate tla
+integrate mat
+integrate coi
+integrate kic
+integrate itz
+integrate ctm
+integrate cht
+integrate kaq
+tag c00
+cash
+ti
+tag cas
+cash
+tag c00
+adm
+dip
+mil
+tag cas
+tag c00
+ti
+colonize 856
+ti
+colonize 4627
+colonize 875
+ti
+tech
+adm
+dip
+mil
+º
+adm
+dip
+mil
+colonize 4642
+colonize 4643
+colonize 4645
+integrate eng
+integrate sco
+tag cas
+run run.txt
+ti
+debug_MODE
+occupy 4546
+control 4546
+debug_mode
+ls
+oos
+help

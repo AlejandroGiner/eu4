@@ -1,0 +1,8 @@
+name = "Songs of Yuletide"
+archive = "dlc/dlc014_songs_of_yuletide/dlc014.zip"
+steam_id = "241373"
+pops_id = "eu4_dlc014_songs_of_yuletide"
+affects_checksum = no
+affects_compatability = no
+checksum = "2296c7f841d83a7a24a0e9ebb21cbc1d"
+category = "music"

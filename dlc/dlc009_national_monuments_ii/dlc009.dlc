@@ -1,0 +1,8 @@
+name = "National Monuments II"
+archive = "dlc/dlc009_national_monuments_ii/dlc009.zip"
+steam_id = "241368"
+pops_id = "eu4_dlc009_national_monuments_ii"
+affects_checksum = no
+checksum = "0e6e5fdd84e6f6bfce5eb8de92d38a8d"
+affects_compatability = no
+category = "content_pack"

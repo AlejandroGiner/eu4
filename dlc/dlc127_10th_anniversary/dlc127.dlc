@@ -1,0 +1,12 @@
+name = "10th Anniversary Community Music Pack"
+# Free DLC - Comment because Epic
+archive = "dlc/dlc127_10th_anniversary/dlc127.zip"
+steam_id = "2504220"
+egs_id = "a0b908423b574cfea4eafe0925ebf07d"
+egs_prod_id = "cfc300df89444986bed6ff42b1a3ffd2"
+egs_staging_id = "2917d1cdb7f94652b28f382cc1e5eb60"
+pops_id = "dlc127_10th_anniversary"
+affects_checksum = no
+affects_compatability = no
+checksum = "fc7da1f8ed97ebbec0c9f4eddd0c71a5"
+category = "music"

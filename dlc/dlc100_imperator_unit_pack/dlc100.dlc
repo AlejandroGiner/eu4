@@ -1,0 +1,8 @@
+name = "Imperator Unit Pack"
+archive = "dlc/dlc100_imperator_unit_pack/dlc100.zip"
+steam_id = "1009630"
+pops_id = "eu4_dlc100_imperator_unit_pack"
+category = "unit_pack"
+affects_checksum = no
+affects_compatability = no
+checksum = "81019f7b0680e3e5addb7d4a69ce31c1"
