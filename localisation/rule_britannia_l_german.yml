@@ -445,7 +445,7 @@
  INNOVATIVENESS_AMOUNT:0 "Wir haben momentan $AMOUNT|Y$ Innovationsfähigkeit."
  INNOVATIVENESS_CHANGE_DESC:0 "Unsere Innovationsfähigkeit wird von Folgendem modifiziert:\n"
  INNOVATIVENESS_FULL_MOD_DESC:0 "\nAuswirkung bei §Y100§! Innovationsfähigkeit:\n$MOD$"
- INNOVATIVENESS_DESC:1 "Innovationsfähigkeit kann erhöht werden durch:\nErster in einer Technologie: §G+2§!\nErster in einer Idee: §G+1§!\nDer Zeit voraus: §G+0.005§!/Monat\n\nInnovationsfähigkeit nimmt ab durch:\nFortschrittliche Nachbarn: §R-0.03§!/Monat\n"
+ INNOVATIVENESS_DESC:2 "Innovationsfähigkeit kann erhöht werden durch:\nErster in einer Technologie: $FIRSTINTECH|G$\nErster in einer Idee: $FIRSTINIDEA|G$\nDer Zeit voraus: $AHEADOFTIME|G$/Monat\n\nInnovationsfähigkeit nimmt ab durch:\nFortschrittliche Nachbarn: $BEHINDNEIGHBOURS|R$/Monat\n"
  INNOVATIVENESS_MOD_DESC:0 "\nAuswirkung unserer momentanen Innovationsfähigkeit:\n$MOD$"
  TECH_INNOVATIVENESS_DATE:0 "\nDie Technologiestufe $TECH|Y$ wurde am $DATE|Y$ zuerst erreicht."
  TECH_INNOVATIVENESS_DAYS_LEFT:0 " Sie ist für $DAYS|Y$ Tage mehr verfügbar."

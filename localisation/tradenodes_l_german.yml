@@ -77,7 +77,7 @@
  TRADE_MISSION_OFFICE_DESC:0 "Ermöglicht Euch Profite durch Abschöpfen des Handels. Außerhalb Eures Heimatumschlagplatzes könnt Ihr nur dann vom Handel abschöpfen, wenn Euer Händler vor Ort ist. Wird der Händler abberufen, wird der Umschlagplatz nur Handelseinfluss übertragen."
  TRADE_MISSION_TRANSIT_DESC:0 "Umschlagplätze, die nicht Eure Hauptstadt sind und an denen Ihr Handelseinfluss habt, sind Transitplätze. Euer Einfluss führt dazu, dass Ihr Handel weiterleiten könnt, sodass der Wert des Handels entlang einer Kette aus Umschlagplätzen weitertransportiert wird."
  NON_CAPITAL_OFFICE_2:0 "Handelseinnahmen von außerhalb der Hauptstadt: $VAL$"
- ENVOY_TRADING_TRADE_MISSION_TRANSIT:0 "$NAME$ überträgt Handelseinfluss in §Y$PROV$§W."
+ ENVOY_TRADING_TRADE_MISSION_TRANSIT:1 "$NAME$ transferiert Handelsmacht von §Y$FROMPROV$§W nach §Y$TOPROV$§W."
  ENVOY_TRADING_TRADE_MISSION_OFFICE:0 "$NAME$ schöpft Handel in §Y$PROV$§W ab."
  MERCHANT_PRESENT:1 "Händler zugegen: §Y$VAL$§W"
  TRADE_POWER_PUSH_DESC:0 "§Y$VAL$%§W des Einflusses wird verwendet, um Handel weiterzuleiten."

@@ -1,5 +1,5 @@
 ﻿l_german:
- SUB_VIEW_PITCH:0 "- Alle großen Erweiterungen!\n- Mehr als 40 Inhaltspacks einschließlich neuer Einheitenmodelle\n- Sofortiger Zugang zu neuen DLCs am Erscheinungstag\nDieses Angebot ist nur auf dem PC und Steam verfügbar"
+ SUB_VIEW_PITCH:0 "- Alle großen Erweiterungen!\n- Mehr als 40 Inhaltspacks einschließlich neuer Einheitenmodelle\n- Sofortiger Zugang zu neuen DLCs am Erscheinungstag\nDieses Angebot gilt nur für den PC und Steam"
  SUB_ACTIVE_NEED_DOWNLOAD:0 "Du kannst jetzt alle DLC herunterladen. Es dauert nicht lange!\nNach dem Download muss das Spiel neu gestartet werden, um den Installationsprozess abzuschließen."
  SUB_ACTIVE_NEED_RESTART:0 "Starte das Spiel neu, um die Installation zu beenden."
  SUB_ACTIVE_NORMAL:0 "Alle verfügbaren DLC wurden installiert.\nSollte ein DLC nicht ordnungsgemäß funktionieren, nutze "Verifizieren", um die Dateien auf Fehler zu überprüfen."
@@ -40,7 +40,7 @@
  SUB_VIEW_SURVEY_OTHER_TEXT:0 "Anderes"
  SUB_VIEW_UNSUB_CONFIRM_TITLE:0 "Abbestellen"
  SUB_VIEW_UNSUB_CONFIRM_MSG:0 "Bist du sicher, dass du das Abo abbestellen möchtest?\nWir werden dich vermissen!"
- SUB_VIEW_THIRD_PARTY:0 "Sabaton Musik-Paket (deaktivieren bevor Spielinhalte aufgenommen oder gestreamt werden). Neustart erforderlich."
+ SUB_VIEW_THIRD_PARTY:0 "Sabaton-Musikpaket aktiviert. Deaktiviert diese Option beim Streaming auf Twitch oder ähnlichen Plattformen (erfordert einen Neustart)"
  SUBSCRIPTION_ERROR_DISK_WRITE:0 "Fehler beim Schreiben auf die Festplatte. Bitte überprüfe den freien Speicherplatz."
  SUBSCRIPTION_ERROR_DOWNLOAD_FAILED:0 "Fehler beim Herunterladen der Dateien. Bitte überprüfe deine Internetverbindung."
  SUB_DLC_OWNED:0 "§YAbonniert§!"

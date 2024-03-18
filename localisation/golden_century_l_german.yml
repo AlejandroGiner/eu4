@@ -323,7 +323,7 @@
  CAN_NOT_ESTABLISH_ORDER:1 "Kann keinen Heiligen Orden in $LOCATION|Y$ gründen."
  MODIFIER_CENTER_OF_TRADE_UPGRADE_COST:0 "Aufwertungskosten (Handelszentren)"
  MODIFIER_MISSIONARY_MAINTENANCE_COST:0 "Unterhaltskosten (Missionare)"
- MODIFIER_NAVAL_TRADITION_FROM_TRADE:1 "Flottentradition durch Handelsschutz"
+ MODIFIER_NAVAL_TRADITION_FROM_TRADE:2 "Marinetradition aus Schutz des Handels"
  MODIFIER_ADMIRAL_COST:0 "Kosten (Admiräle)"
  MODIFIER_EXPEL_MINORITIES_COST:0 "Kosten (Minderheiten vertreiben)"
  IDEA_MAY_FABRICATE_FOR_VASSALS:1 "Kann Ansprüche für Untertanen fingieren"

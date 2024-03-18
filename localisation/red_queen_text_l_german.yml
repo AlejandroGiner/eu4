@@ -197,6 +197,8 @@
  DLC_dlc104_TOOLTIP_DELAYED:0 "- 5 neue Einheitenmodelle für Italien, Deutschland, das Heilige Römische Reich und Lothringen"
  DLC_dlc105_TOOLTIP_INSTANT:0 "Emperor Music Pack"
  DLC_dlc105_TOOLTIP_DELAYED:0 "- 3 Musikstücke für europäische Nationen"
+ DLC_dlc106_TOOLTIP_INSTANT:0 "Leviathan"
+ DLC_dlc106_TOOLTIP_DELAYED:0 "- Südostasiatische Missionsbäume\n- Denkmäler\n- Verbesserte Kolonialnationen\n- Für Gefallen hofieren\n- Entwicklung bündeln\n- Staaten zentralisieren\n- Verbesserte Regentschaften\n- Totemismus\n\nWeitere Inhalte:\n- Mandala-Regierungsreform\n- Hauptstadt plündern\n- Transportschiffe flottmachen"
  MAPMODE_EXPANSION:0 "DEBUG: Empfohlene Erweiterungen"
  MAPMODE_CONTENT:0 "DEBUG: Empfohlene Inhaltspakete"
  MAPMODE_UNIT:0 "DEBUG: Empfohlene Einheitenpakete"
@@ -408,6 +410,8 @@
  LANDING_dlc104_FLAVOR_TEXT:0 "Verbessert Eure Spielerfahrung von Europa Universalis IV mit 5 neuen Einheitenmodellen für Italien, Deutschland, das Heilige Römische Reich und Lothringen"
  LANDING_dlc105_TEXT:0 "Hauptinhalte:\n- 3 Musikstücke für europäische Nationen"
  LANDING_dlc105_FLAVOR_TEXT:0 "Genießt 3 Musikstücke, die vom Europa der frühen Neuzeit inspiriert wurden."
+ LANDING_dlc106_TEXT:0 "- Südostasiatische Missionsbäume\n- Denkmäler\n- Verbesserte Kolonialnationen\n- Für Gefallen hofieren\n- Entwicklung bündeln\n- Staaten zentralisieren\n- Verbesserte Regentschaften\n- Totemismus\n\nWeitere Inhalte:\n- Mandala-Regierungsreformen\n- Hauptstadt plündern\n- Transportschiffe flottmachen"
+ LANDING_dlc106_FLAVOR_TEXT:0 "Stellt Euch eine Hauptstadt vor, die wie ein Juwel funkelt. Eine Hauptstadt, die durch den Reichtum aus dem Hinterland veredelt und durch die Abgaben von Vasallen verziert wurde. Eine Hauptstadt, die nicht von einem territorialen Reich, sondern von einem kompakten und konzentrierten Staat errichtet wurde. Stellt es Euch vor und lasst es anschließend in Europa Universalis IV: Leviathan geschehen.\n\nLeviathan gibt Euch die Werkzeuge an die Hand, um in die "Höhe" zu spielen, mit konzentrierteren Reichen, die nur einige wenige Machtzentren haben. Leviathan verbessert auch eine Menge anderer gut etablierter Spielfunktionen wie die Regentschaften und die Kolonien."
  #Recommend textsl_english:
  dlcXXX_reason_has_stuff_reason:1 "\nWir empfehlen dieses Einheitenpaket, da Ihr eine Nation ausgewählt habt, die hierdurch neue Einheitenmodelle erhält."
  dlcXXX_reason_india_reason:1 "\nWir empfehlen diesen DLC, da Ihr eine Nation ausgewählt habt, die sich in §YIndien§! befinden."

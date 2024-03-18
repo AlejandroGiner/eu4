@@ -79,6 +79,8 @@
  string_IhmIhr_female:0 "Ihr"
  string_ihnsie_male:0 "ihn"
  string_ihnsie_female:0 "sie"
+ string_IhnSie_male:0 "Ihn"
+ string_IhnSie_female:0 "Sie"
  
  #Relativpronomen
  string_demder_male:0 "dem"
@@ -97,6 +99,8 @@
  string_endingR_female:0 ""
  string_endingIN_male:0 ""
  string_endingIN_female:0 "in"
+ string_endingRM_male:0 "m"
+ string_endingRM_female:0 "r"
 
  # Pierre's Emperor stuff
  string_GetADMderdie:0 "[This.GetADMderdie]"
@@ -207,3 +211,18 @@
  string_GetADMinFemale:0 "[This.GetADMinFemale]"
  string_GetDIPinFemale:0 "[This.GetDIPinFemale]"
  string_GetMILinFemale:0 "[This.GetMILinFemale]"
+ 
+ ### english custom loc variants ###
+ # GetStateForm
+ string_crown_DE1:0 "die Krone"
+ string_sublime_porte_DE1:0 "die Hohe Pforte"
+ string_council_DE1:0 "der Rat"
+ string_crown_DE2:0 "der Krone"
+ string_sublime_porte_DE2:0 "der Hohen Pforte"
+ string_council_DE2:0 "des Rates"
+ string_crown_DE3:0 "der Krone"
+ string_sublime_porte_DE3:0 "der Hohen Pforte"
+ string_council_DE3:0 "dem Rat"
+ string_crown_DE4:0 "die Krone"
+ string_sublime_porte_DE4:0 "die Hohe Pforte"
+ string_council_DE4:0 "den Rat"

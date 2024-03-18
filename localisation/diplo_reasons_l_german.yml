@@ -163,7 +163,7 @@
  DIPLO_IS_CONSOLIDATING:0 "Haben eigene Pläne: "
  DIPLO_HAS_TRUCE_WITH:0 "$WHO1$ hat einen Waffenstillstand mit $WHO2$: "
  DIPLO_FEAR_OF_BEING_ANNEXED:0 "Furcht vor einer Annektierung: "
- DIPLO_RESTRICTED_REGION:0 "Regionale Skepsis der Handelscharter"
+ DIPLO_RESTRICTED_REGION:0 "Regionale Skepsis der Handelscharter: "
  DIPLO_TRADING_CITY:0 "Ist eine Handelsstadt: "
  DIPLO_SELL_PROVINCE_FREE_CITY:0 "Würde den Status einer §YReichsstadt§! verlieren: "
  DIPLO_SELL_PROVINCE_TRADE_LEAGUE:0 "Müsste eine §YHandelsliga§! verlassen: "
