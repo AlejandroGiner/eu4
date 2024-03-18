@@ -1274,7 +1274,6 @@ emp_burgundy_4 = {
 								capital_scope = {
 									region = france_region
 								}
-								liberty_desire = 50
 							}
 						}
 					}
@@ -1288,7 +1287,6 @@ emp_burgundy_4 = {
 							capital_scope = {
 								region = france_region
 							}
-							liberty_desire = 50
 						}
 					}
 				}
@@ -1301,7 +1299,6 @@ emp_burgundy_4 = {
 						capital_scope = {
 							region = france_region
 						}
-						liberty_desire = 50
 					}
 					hidden_effect = { FRA = { free_vassal = prev } }
 					ROOT = { vassalize = prev }
@@ -1399,8 +1396,8 @@ emp_burgundy_4 = {
 				calc_true_if = {
 					desc = emp_bur_influence_the_princes_trigger_tooltip3
 					all_country = {
-						OR = {
-							capital_scope = {
+						capital_scope = {
+							OR = {
 								region = north_german_region
 								region = south_german_region
 							}
