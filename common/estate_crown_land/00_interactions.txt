@@ -10,7 +10,7 @@ interaction = {
 		hidden_trigger = { has_any_estates = yes }
     }
     effect = {
-	 if = {
+		if = {
             limit = { current_age = age_of_discovery }
             add_years_of_estate_land_income = 2.5
         }
@@ -290,6 +290,10 @@ interaction = {
 						loyalty = 30
 					}
 				}
+				estate_influence = {
+					estate = all
+					influence = 1
+				}				
 			}
 			spawn_rebels_seize_land_switch = yes
 		}
