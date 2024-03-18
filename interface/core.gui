@@ -18,7 +18,7 @@ guiTypes = {
 			size = { x=500 y=365 }
 			borderSize = { x=0 y=0 }
 			scrollbartype = "standardlistbox_slider"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		# Text edit box

@@ -445,7 +445,7 @@ guiTypes = {
         	iconType = {
             	name = "tithe_state"
             	spriteType = "GFX_tithe_state"
-            	position = { x=70 y=70 }
+            	position = { x=67 y=69 }
             	Orientation = "UPPER_LEFT"
             	scale = 0.75
         	}

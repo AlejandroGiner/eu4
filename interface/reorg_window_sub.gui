@@ -120,7 +120,7 @@ guiTypes = {
 			spriteType = "GFX_unitpanel_drilling_frame_s"
 			position = { x = -14 y = -1 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		iconType = {
@@ -298,7 +298,7 @@ guiTypes = {
 			spriteType = "GFX_unitpanel_drilling_frame_s"
 			position = { x = 14 y = -1 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 

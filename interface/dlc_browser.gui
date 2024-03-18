@@ -94,7 +94,7 @@ guiTypes = {
             name = "dlc_desc_title"
             position = { x=200 y=380 }
             font = "vic_20"
-			text = "Features"
+			text = "DLC_FEATURES"
             maxWidth = 400
             maxHeight = 330
         }
@@ -110,7 +110,7 @@ guiTypes = {
             name = "dlc_flavor_title"
             position = { x=650 y=380 }
             font = "vic_20"
-			text = "Description"
+			text = "DLC_DESCRIPTION"
             maxWidth = 400
             maxHeight = 330
         }
@@ -127,7 +127,7 @@ guiTypes = {
             position = { x=23 y=157 }
             font = "vic_20"
 			format = center
-			text = "Recommended DLCs"
+			text = "RECOMMENDED_DLCS"
             maxWidth = 100
             maxHeight = 330
         }
@@ -174,7 +174,7 @@ guiTypes = {
             position = { x=793 y=157 }
             font = "vic_20"
 			format = center
-			text = "Recommended Countries"
+			text = "RECOMMENDED_COUNTRIES"
             maxWidth = 100
             maxHeight = 330
         }
@@ -249,7 +249,7 @@ guiTypes = {
             position = { x=307 y=530 }
             font = "vic_20"
             borderSize = { x=4 y=4 }
-            text = "Recommended DLCs"
+            text = "RECOMMENDED_DLCS"
             maxWidth = 300
             maxHeight = 25
             format = center
