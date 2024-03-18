@@ -59,7 +59,7 @@ spriteTypes = {
 		animation_rate_fps = 20
 		looping = yes
 		play_on_show = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	frameAnimatedSpriteType = {
@@ -70,7 +70,7 @@ spriteTypes = {
 		animation_rate_fps = 20
 		looping = yes
 		play_on_show = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}	
 		
 	frameAnimatedSpriteType = {
@@ -81,7 +81,7 @@ spriteTypes = {
 		animation_rate_fps = 20
 		looping = yes
 		play_on_show = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
@@ -92,7 +92,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_reorg_bg_navalTop_bg"
 		texturefile = "gfx/interface/reorg_bg_navalTop_bg.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
@@ -103,25 +103,25 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_unitpanel_nu_top_bg"
 		texturefile = "gfx/interface/unitpanel_nu_top_bg.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
 		name = "GFX_unitpanel_morale_frame"
 		texturefile = "gfx/interface/unitpanel_morale_frame.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_unitpanel_drilling_frame"
 		texturefile = "gfx/interface/unitpanel_drilling_frame.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
 		name = "GFX_unitpanel_drilling_frame_s"
 		texturefile = "gfx/interface/unitpanel_drilling_frame_s.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
@@ -139,7 +139,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_unitpanel_small_frame"
 		texturefile = "gfx/interface/unitpanel_small_frame.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
@@ -319,6 +319,11 @@ spriteTypes = {
 		name = "GFX_unitpanel_button_hunt_rebels_dharma"
 		texturefile = "gfx/interface/unitpanel_button_hunt_rebels_dharma.dds"
 	}
+
+	spriteType = {
+		name = "GFX_unitpanel_button_enable_carpet_siege"
+		texturefile = "gfx/interface/unitpanel_button_enable_carpet_siege.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_army_drill_button"
@@ -469,7 +474,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//no_leader_glow.dds"
 		
 		effectFile = "gfx/FX/buttonstate.lua"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {

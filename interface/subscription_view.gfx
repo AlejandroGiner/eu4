@@ -155,4 +155,9 @@ spriteTypes = {
 		name = "GFX_preview_emperor"
 		texturefile = "gfx/interface/sub/main/subscription_new_image_16_emperor.dds"
 	}
+
+	spriteType = {
+		name = "GFX_preview_leviathan"
+		texturefile = "gfx/interface/sub/main/subscription_new_image_17_leviathan.dds"
+	}
 }

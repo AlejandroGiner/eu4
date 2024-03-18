@@ -1612,4 +1612,47 @@ spriteTypes = {
 		texturefile = "gfx/interface/achievements/achievement_holiest_roman_empire.dds"
 	}	
 
+    ### Leviathan
+	
+	
+	spriteType = {
+		name = "GFX_achievement_311"
+		texturefile = "gfx/interface/achievements/achievement_wonderful.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_achievement_312"
+		texturefile = "gfx/interface/achievements/achievement_spice_girls.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_achievement_314"
+		texturefile = "gfx/interface/achievements/achievement_to_the_bone.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_achievement_315"
+		texturefile = "gfx/interface/achievements/achievement_keep_the_flame_burning.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_achievement_316"
+		texturefile = "gfx/interface/achievements/achievement_new_new_deli.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_achievement_317"
+		texturefile = "gfx/interface/achievements/achievement_the_power_of_three.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_achievement_318"
+		texturefile = "gfx/interface/achievements/achievement_quizquiz_pro_quo.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_achievement_319"
+		texturefile = "gfx/interface/achievements/achievement_thats_no_mon.dds"
+	}	
+	
 }

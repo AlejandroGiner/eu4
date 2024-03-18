@@ -394,5 +394,9 @@ spriteTypes = {
 		name = "LANDING_dlc105_HEADER_PICTURE"
 	 	texturefile = "gfx/dlc_pictures/dlc105_emperor_music.dds"
 	}
+	spriteType = {
+		name = "LANDING_dlc106_HEADER_PICTURE"
+	 	texturefile = "gfx/dlc_pictures/dlc106_leviathan_banner.dds"
+	}
 
 }

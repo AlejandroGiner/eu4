@@ -404,6 +404,11 @@ spriteTypes = {
 		name = "GFX_text_DLC_emp"
 		texturefile = "gfx/interface/emperor_icon_s.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_text_DLC_lev"
+		texturefile = "gfx/interface/leviathan_icon_s.dds"
+	}
 
 	spriteType = {
 		name = "GFX_trade_icon"

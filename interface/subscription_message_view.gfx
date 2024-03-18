@@ -100,4 +100,9 @@ spriteTypes = {
 		name = "GFX_sub_message_content_15"
 		texturefile = "gfx/interface/sub/startup/subscription_startup_image_16_emperor.dds"
 	}
+
+	spriteType = {
+		name = "GFX_sub_message_content_16"
+		texturefile = "gfx/interface/sub/startup/subscription_startup_image_17_leviathan.dds"
+	}
 }
