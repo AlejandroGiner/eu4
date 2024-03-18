@@ -11,7 +11,6 @@ tutorial = {
 	category = 3
 	
 	page = {
-		index = 1
 		title = "TUT_CAM_CHAPTER03_PAGE01_TITLE"
 		text = "TUT_CAM_CHAPTER03_PAGE01_TEXT"
 		object = "TUT_CAM_CHAPTER03_PAGE01_OBJECTIVES"
@@ -61,7 +60,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 2
 		title = "TUT_CAM_CHAPTER03_PAGE02_TITLE"
 		text = "TUT_CAM_CHAPTER03_PAGE02_TEXT"
 		object = "TUT_CAM_CHAPTER03_PAGE02_OBJECTIVES"
@@ -80,6 +78,34 @@ tutorial = {
 				enable = yes
 				target = 224
 			}
+			# These effects below ensure that the new player can actually send a colonist to the province / 
+			# assign an explorer to the boat
+			add_idea_group = exploration_ideas
+			add_idea = quest_for_the_new_world
+			add_idea = colonial_ventures
+			add_idea = overseas_exploration
+			add_dip_tech = 1
+			# Kill the ships to make sure that the fleet name "Armada Real" is free
+			224 = {
+				kill_units = {
+					who = ROOT
+					type = heavy_ship
+					amount = 4
+				}
+				kill_units = {
+					who = ROOT
+					type = light_ship
+					amount = 6
+				}
+				kill_units = {
+					who = ROOT
+					type = transport
+					amount = 11
+				}
+			}
+			224 = {
+				heavy_ship = ROOT
+			}
 		}
 		leave_page_effect = {
 			direction_pointer = { enable = no }
@@ -88,6 +114,8 @@ tutorial = {
 		
 		trigger = {
 			select_navy = "Armada Real"
+			num_of_explorers = 1
+			NOT = { num_of_free_explorers = 1 }
 		}
 		
 		option = {
@@ -108,7 +136,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 3
 		title = "TUT_CAM_CHAPTER03_PAGE03_TITLE"
 		text = "TUT_CAM_CHAPTER03_PAGE03_TEXT"
 		object = "TUT_CAM_CHAPTER03_PAGE03_OBJECTIVES"
@@ -148,7 +175,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 4
 		title = "TUT_CAM_CHAPTER03_PAGE04_TITLE"
 		text = "TUT_CAM_CHAPTER03_PAGE04_TEXT"
 		object = "TUT_CAM_CHAPTER03_PAGE04_OBJECTIVES"
@@ -187,7 +213,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 5
 		title = "TUT_CAM_CHAPTER03_PAGE04_TITLE"
 		text = "TUT_CAM_CHAPTER03_PAGE04_TEXT"
 		object = "TUT_CAM_CHAPTER03_PAGE04_OBJECTIVES"
@@ -226,7 +251,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 6
 		title = "TUT_CAM_CHAPTER03_PAGE04_TITLE"
 		text = "TUT_CAM_CHAPTER03_PAGE04_TEXT"
 		object = "TUT_CAM_CHAPTER03_PAGE04_OBJECTIVES"
@@ -265,7 +289,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 7
 		title = "TUT_CAM_CHAPTER03_PAGE04_TITLE"
 		text = "TUT_CAM_CHAPTER03_PAGE04_TEXT"
 		object = "TUT_CAM_CHAPTER03_PAGE04_OBJECTIVES"
@@ -304,7 +327,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 8
 		title = "TUT_CAM_CHAPTER03_PAGE05_TITLE"
 		text = "TUT_CAM_CHAPTER03_PAGE05_TEXT"
 		object = "TUT_CAM_CHAPTER03_PAGE05_OBJECTIVES"
@@ -324,6 +346,7 @@ tutorial = {
 				enable = yes
 				target = 489
 			}
+			discover_province = 489
 		}
 		leave_page_effect = {
 			direction_pointer = { enable = no }
@@ -352,7 +375,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 9
 		title = "TUT_CAM_CHAPTER03_PAGE06_TITLE"
 		text = "TUT_CAM_CHAPTER03_PAGE06_TEXT"
 		object = "TUT_CAM_CHAPTER03_PAGE06_OBJECTIVES"
@@ -389,7 +411,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 10
 		title = "TUT_CAM_CHAPTER03_PAGE07_TITLE"
 		text = "TUT_CAM_CHAPTER03_PAGE07_TEXT"
 		object = "TUT_CAM_CHAPTER03_PAGE07_OBJECTIVES"
@@ -431,7 +452,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 11
 		title = "TUT_CAM_CHAPTER03_PAGE08_TITLE"
 		text = "TUT_CAM_CHAPTER03_PAGE08_TEXT"
 		object = "TUT_CAM_CHAPTER03_PAGE08_OBJECTIVES"

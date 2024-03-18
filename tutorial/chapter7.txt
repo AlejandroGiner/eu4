@@ -10,7 +10,6 @@ tutorial = {
 	save_game = "eu4_tutorial_chapter5.eu4"
 	
 	page = {
-		index = 1
 		title = "TUT_ADV_CHAPTER03_PAGE01_TITLE"
 		text = "TUT_ADV_CHAPTER03_PAGE01_TEXT"
 		object = "TUT_ADV_CHAPTER03_PAGE01_OBJECTIVES"
@@ -68,7 +67,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 2
 		title = "TUT_ADV_CHAPTER03_PAGE02_TITLE"
 		text = "TUT_ADV_CHAPTER03_PAGE02_TEXT"
 		object = "TUT_ADV_CHAPTER03_PAGE02_OBJECTIVES"
@@ -125,7 +123,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 3
 		title = "TUT_ADV_CHAPTER03_PAGE03_TITLE"
 		text = "TUT_ADV_CHAPTER03_PAGE03_TEXT"
 		object = "TUT_ADV_CHAPTER03_PAGE03_OBJECTIVES"
@@ -170,7 +167,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 4
 		title = "TUT_ADV_CHAPTER03_PAGE04_TITLE"
 		text = "TUT_ADV_CHAPTER03_PAGE04_TEXT"
 		object = "TUT_ADV_CHAPTER03_PAGE04_OBJECTIVES"
@@ -218,7 +214,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 5
 		title = "TUT_ADV_CHAPTER03_PAGE05_TITLE"
 		text = "TUT_ADV_CHAPTER03_PAGE05_TEXT"
 		object = "TUT_ADV_CHAPTER03_PAGE05_OBJECTIVES"
@@ -279,7 +274,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 6
 		title = "TUT_ADV_CHAPTER03_PAGE06_TITLE"
 		text = "TUT_ADV_CHAPTER03_PAGE06_TEXT"
 		object = "TUT_ADV_CHAPTER03_PAGE06_OBJECTIVES"
@@ -327,7 +321,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 7
 		title = "TUT_ADV_CHAPTER03_PAGE07_TITLE"
 		text = "TUT_ADV_CHAPTER03_PAGE07_TEXT"
 		object = "TUT_ADV_CHAPTER03_PAGE07_OBJECTIVES"
@@ -368,7 +361,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 8
 		title = "TUT_ADV_CHAPTER03_PAGE08_TITLE"
 		text = "TUT_ADV_CHAPTER03_PAGE08_TEXT"
 		object = "TUT_ADV_CHAPTER03_PAGE08_OBJECTIVES"
@@ -419,7 +411,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 9
 		title = "TUT_ADV_CHAPTER03_PAGE09_TITLE"
 		text = "TUT_ADV_CHAPTER03_PAGE09_TEXT"
 		object = "TUT_ADV_CHAPTER03_PAGE09_OBJECTIVES"
@@ -464,7 +455,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 10
 		title = "TUT_ADV_CHAPTER03_PAGE10_TITLE"
 		text = "TUT_ADV_CHAPTER03_PAGE10_TEXT"
 		object = "TUT_ADV_CHAPTER03_PAGE10_OBJECTIVES"
@@ -480,7 +470,7 @@ tutorial = {
 		#TEXT SHOULD SAY SHIP TAB 
 		
 		trigger = {
-			num_of_light_ship = 8
+			num_of_light_ship = 10
 		}
 		
 		option = {
@@ -501,7 +491,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 11
 		title = "TUT_ADV_CHAPTER03_PAGE11_TITLE"
 		text = "TUT_ADV_CHAPTER03_PAGE11_TEXT"
 		object = "TUT_ADV_CHAPTER03_PAGE11_OBJECTIVES"

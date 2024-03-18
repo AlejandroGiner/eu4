@@ -11,7 +11,6 @@ tutorial = {
 	category = 3
 	
 	page = {
-		index = 1
 		title = "TUT_CAM_CHAPTER02_PAGE01_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE01_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE01_OBJECTIVES"
@@ -24,6 +23,24 @@ tutorial = {
 			add_country_modifier = {
 				name = tutorial_modifier
 				duration = -1
+			}
+			# Kill the ships to make sure that the fleet name "Armada Real" is free
+			224 = {
+				kill_units = {
+					who = ROOT
+					type = heavy_ship
+					amount = 4
+				}
+				kill_units = {
+					who = ROOT
+					type = light_ship
+					amount = 6
+				}
+				kill_units = {
+					who = ROOT
+					type = transport
+					amount = 11
+				}
 			}
 		}
 		
@@ -55,7 +72,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 2
 		title = "TUT_CAM_CHAPTER02_PAGE02_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE02_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE02_OBJECTIVES"
@@ -89,7 +105,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 3
 		title = "TUT_CAM_CHAPTER02_PAGE03_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE03_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE03_OBJECTIVES"
@@ -133,7 +148,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 4
 		title = "TUT_CAM_CHAPTER02_PAGE04_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE04_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE04_OBJECTIVES"
@@ -181,7 +195,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 5
 		title = "TUT_CAM_CHAPTER02_PAGE04_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE04_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE04_OBJECTIVES"
@@ -227,7 +240,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 6
 		title = "TUT_CAM_CHAPTER02_PAGE05_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE05_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE05_OBJECTIVES"
@@ -275,7 +287,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 7
 		title = "TUT_CAM_CHAPTER02_PAGE05_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE05_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE05_OBJECTIVES"
@@ -323,7 +334,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 8
 		title = "TUT_CAM_CHAPTER02_PAGE06_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE06_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE06_OBJECTIVES"
@@ -363,7 +373,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 9
 		title = "TUT_CAM_CHAPTER02_PAGE07_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE07_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE07_OBJECTIVES"
@@ -376,12 +385,12 @@ tutorial = {
 			ai = no
 			close_window = "all"
 			goto = 219
-			add_stability = 3
+			add_stability = 2
 			country_event = { id = tutorial.2 }
 		}		
 		
 		trigger = {
-			NOT = { stability = 3}
+			NOT = { stability = 3 }
 		}
 		
 		option = {
@@ -402,7 +411,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 10
 		title = "TUT_CAM_CHAPTER02_PAGE08_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE08_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE08_OBJECTIVES"
@@ -439,7 +447,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 11
 		title = "TUT_CAM_CHAPTER02_PAGE09_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE09_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE09_OBJECTIVES"
@@ -483,7 +490,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 12
 		title = "TUT_CAM_CHAPTER02_PAGE10_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE10_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE10_OBJECTIVES"
@@ -533,7 +539,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 13
 		title = "TUT_CAM_CHAPTER02_PAGE11_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE11_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE11_OBJECTIVES"
@@ -576,7 +581,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 14
 		title = "TUT_CAM_CHAPTER02_PAGE12_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE12_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE12_OBJECTIVES"
@@ -610,7 +614,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 15
 		title = "TUT_CAM_CHAPTER02_PAGE12_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE12_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE12_OBJECTIVES"
@@ -654,7 +657,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 16
 		title = "TUT_CAM_CHAPTER02_PAGE13_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE13_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE13_OBJECTIVES"
@@ -697,7 +699,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 17
 		title = "TUT_CAM_CHAPTER02_PAGE14_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE14_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE14_OBJECTIVES"
@@ -745,7 +746,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 18
 		title = "TUT_CAM_CHAPTER02_PAGE14_inst_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE14_inst_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE14_inst_OBJECTIVES"
@@ -794,7 +794,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 19
 		title = "TUT_CAM_CHAPTER02_PAGE15_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE15_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE15_OBJECTIVES"
@@ -837,7 +836,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 20
 		title = "TUT_CAM_CHAPTER02_PAGE16_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE16_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE16_OBJECTIVES"
@@ -874,7 +872,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 21
 		title = "TUT_CAM_CHAPTER02_PAGE17_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE17_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE17_OBJECTIVES"
@@ -896,11 +893,16 @@ tutorial = {
 		}
 		connected_icons = { dummy-ul unique_ideas_category }
 		
-		trigger = {
-			SPA = {
-				has_idea = quest_for_the_new_world
-			}
-		}
+		# For some unholy reason, the tutorial doesn't want to continue
+		# when the player actually researches Quest for a New World.
+		# For the purpose of testing the later chapter / to test the whole tutorial
+		# in one go, I disabled the trigger.
+		
+		#trigger = {
+		#	SPA = {
+		#		has_idea = quest_for_the_new_world
+		#	}
+		#}
 		
 		option = {
 			button = "TutorialPageButtonOption"
@@ -920,7 +922,6 @@ tutorial = {
 		}
 	}
 	page = {
-		index = 22
 		title = "TUT_CAM_CHAPTER02_PAGE18_TITLE"
 		text = "TUT_CAM_CHAPTER02_PAGE18_TEXT"
 		object = "TUT_CAM_CHAPTER02_PAGE18_OBJECTIVES"

@@ -10,7 +10,6 @@ tutorial = { #About Mapmodes
 	category = 2
 	
 	page = { #About Terrain Mapmode
-		index = 1
 		map_modes = { 0 1 4 3 2 5 }
 		title = "TUT_ADV_CHAPTER02_PAGE01_TITLE"
 		text = "TUT_ADV_CHAPTER02_PAGE01_TEXT"
@@ -63,7 +62,6 @@ tutorial = { #About Mapmodes
 		}
 	}
 	page = { #About Political Mapmode
-		index = 2
 		map_modes = { 0 1 4 3 2 5 }
 		title = "TUT_ADV_CHAPTER02_PAGE02_TITLE"
 		text = "TUT_ADV_CHAPTER02_PAGE02_TEXT"
@@ -116,7 +114,6 @@ tutorial = { #About Mapmodes
 		}
 	}
 	page = { #About Trade Mapmode
-		index = 3
 		map_modes = { 0 1 4 3 2 5 }
 		title = "TUT_ADV_CHAPTER02_PAGE03_TITLE"
 		text = "TUT_ADV_CHAPTER02_PAGE03_TEXT"
@@ -169,7 +166,6 @@ tutorial = { #About Mapmodes
 		}
 	}
 	page = { #About Imperial Mapmode
-		index = 4
 		map_modes = { 0 1 4 3 2 5 }
 		title = "TUT_ADV_CHAPTER02_PAGE04_TITLE"
 		text = "TUT_ADV_CHAPTER02_PAGE04_TEXT"
@@ -222,7 +218,6 @@ tutorial = { #About Mapmodes
 		}
 	}
 	page = { #About Religious Mapmode
-		index = 5
 		map_modes = { 0 1 4 3 2 5 }
 		title = "TUT_ADV_CHAPTER02_PAGE05_TITLE"
 		text = "TUT_ADV_CHAPTER02_PAGE05_TEXT"
@@ -275,7 +270,6 @@ tutorial = { #About Mapmodes
 		}
 	}
 	page = { #About Diplomatic Mapmode
-		index = 6
 		map_modes = { 0 1 4 3 2 5 }
 		title = "TUT_ADV_CHAPTER02_PAGE06_TITLE"
 		text = "TUT_ADV_CHAPTER02_PAGE06_TEXT"
@@ -328,7 +322,6 @@ tutorial = { #About Mapmodes
 		}
 	}
 	page = { #About More Mapmodes
-		index = 7
 		map_modes = { 0 1 4 3 2 5 }
 		title = "TUT_ADV_CHAPTER02_PAGE07_TITLE"
 		text = "TUT_ADV_CHAPTER02_PAGE07_TEXT"
@@ -381,7 +374,6 @@ tutorial = { #About Mapmodes
 		}
 	}
 	page = { #End of chapter
-		index = 8
 		map_modes = { 0 1 4 3 2 5 }
 		title = "TUT_ADV_CHAPTER02_PAGE08_TITLE"
 		text = "TUT_ADV_CHAPTER02_PAGE08_TEXT"
