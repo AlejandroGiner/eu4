@@ -31,16 +31,16 @@
  PAPAL_BULL_POSSIBLE:0 "§YBulles pontificales§!\nVoici les bulles que le contrôleur de la Curie peut faire publier.\n"
  PAPAL_BULL_EXPLANATION:1 "Les bulles pontificales sont des avantages que le contrôleur de la Curie peut faire publier, en puisant dans le trésor de la Curie, afin d'en faire bénéficier tous les pays catholiques. Ces bulles restent valides jusqu'à l'élection du prochain pape."
  JUSTIFY_TRADE_BASE:0 "Le coût pour justifier un conflit commercial dépend de :\nCoût de base : $VAL|Y0$\n"
- FABRICATE_CLAIM_BASE:1 "§!Le coût pour fabriquer une revendication dépend de :\nCoût de base : $VAL|Y0$\n"
+ FABRICATE_CLAIM_BASE:1 "Le coût pour fabriquer une revendication dépend de :\nCoût de base : $VAL|Y0$\n"
  FABRICATE_CLAIM_INSIDE_HRE:1 "Dans le Saint-Empire : $VAL|-=1%$\n"
  FABRICATE_ALREADY_CLAIMS:1 "Déjà $CLAIM|Y$ revendications : $VAL|-=1%$\n"
  FABRICATE_CLAIM_CAPPED:0 "\nPlafonné à un coût de $VAL|Y$"
  SPECIAL_FORCE_LIMIT:0 "Nous ne pouvons avoir que $VAL|Y$ $NAME$ du fait de :\n$WHY$"
- COSSACKS_FORCELIMIT:0 "Nous ne pouvons recruter de §Gcosaques§! que jusqu'à hauteur de $VAL|%Y$ de notre limite de forces ($FL$) du fait de :\n"
- RAJPUT_FORCELIMIT:0 "Nous ne pouvons recruter de §Grâjpoutes§! que jusqu'à hauteur de $VAL|%Y$ de notre limite de forces ($FL$) du fait de :\n"
- REV_GUARD_FORCELIMIT:0 "Nous ne pouvons recruter de §GGarde nationale§! que jusqu'à hauteur de $VAL|%Y$ de notre limite de forces ($FL$) du fait de :\n"
- MARINES_FORCELIMIT:0 "Nous ne pouvons recruter de §Gfusiliers marins§! que jusqu'à hauteur de $VAL|%Y$ de notre limite de forces ($FL$) du fait de :\n"
- JANISSARY_FORCELIMIT:0 "Nous ne pouvons recruter de §Gjanissaires§! que jusqu'à hauteur de $VAL|%Y$ de notre limite de forces ($FL$) car ils ne peuvent être recrutés que dans les provinces païennes.\n"
+ COSSACKS_FORCELIMIT:0 "Nous ne pouvons recruter de §Gcosaques§! que jusqu'à hauteur de $VAL|%Y$ de notre limite de forces ($FL$) du fait de :\n" # [LocEditor:AwaitingBatchUpdate]
+ RAJPUT_FORCELIMIT:0 "Nous ne pouvons recruter de §Grâjpoutes§! que jusqu'à hauteur de $VAL|%Y$ de notre limite de forces ($FL$) du fait de :\n" # [LocEditor:AwaitingBatchUpdate]
+ REV_GUARD_FORCELIMIT:0 "Nous ne pouvons recruter de §GGarde nationale§! que jusqu'à hauteur de $VAL|%Y$ de notre limite de forces ($FL$) du fait de :\n" # [LocEditor:AwaitingBatchUpdate]
+ MARINES_FORCELIMIT:0 "Nous ne pouvons recruter de §Gfusiliers marins§! que jusqu'à hauteur de $VAL|%Y$ de notre limite de forces ($FL$) du fait de :\n" # [LocEditor:AwaitingBatchUpdate]
+ JANISSARY_FORCELIMIT:0 "Nous ne pouvons recruter de §Gjanissaires§! que jusqu'à hauteur de $VAL|%Y$ de notre limite de forces ($FL$) car ils ne peuvent être recrutés que dans les provinces païennes.\n" # [LocEditor:AwaitingBatchUpdate]
  NO_CURRENT_COUNTRIES_IN_THIS_LIST:0 "Actuellement aucun pays"
  HARSH_INFO_TOOLTIP:0 "$VAL|Y$ cardinaux soutiennent des mesures intransigeantes au concile.\nLes soutenir confère à $WHO$ ces avantages :\n$EFFECT$"
  CONCIL_INFO_TOOLTIP:0 "$VAL|Y$ cardinaux soutiennent des mesures conciliantes au concile.\nLes soutenir confère à $WHO$ ces avantages :\n$EFFECT$"
@@ -119,7 +119,7 @@
  IS_NOT_A_RIVAL_TRIGGER:0 "$NAME|Y$ n'est PAS un pays rival"
  IS_A_RIVAL_TRIGGER:0 "$NAME|Y$ est un pays rival"
  YEARLY_TAX_INCOME:0 "Revenus fiscaux annuels"
- MODIFIER_RELIGIOUS_CONVERSION_RESISTANCE_DRO:1 "Ceci représente la capacité du pays à résister à la propagation de croyances nouvelles depuis les foyers de la Réforme, en réduisant les chances que nos provinces cèdent au le prosélytisme."
+ MODIFIER_RELIGIOUS_CONVERSION_RESISTANCE_DRO:1 "Ceci représente la capacité du pays à résister à la propagation de croyances nouvelles depuis les foyers de la Réforme, en réduisant les chances que nos provinces cèdent au prosélytisme."
  MODIFIER_LEGITIMATE_SUBJECT_ELECTOR:0 "Dépendance légitime et électeur"
  MODIFIER_ACCEPT_VASSALIZATION_REASONS:0 "Acceptation de la vassalisation"
  MODIFIER_TRANSFER_TRADE_POWER_REASONS:0 "Acception du transfert commercial"
@@ -193,8 +193,8 @@
  COUNCIL_STANCE_THEM_TITLE:0 "$POSITION_HEAD$ à Trente"
  COUNCIL_STANCE_THEM_SETUP:0 "Si un autre pays change de position au concile de Trente"
  COUNCIL_STANCE_THEM_HEADER:0 "Un message de l'archevêque"
- COUNCIL_STANCE_THEM_1:0 "$WHO$ change de position à Trente"
- COUNCIL_STANCE_THEM_2:0 " "
+ COUNCIL_STANCE_THEM_1:1 "$WHO$ change de position à Trente"
+ COUNCIL_STANCE_THEM_2:1 " "
  COUNCIL_STANCE_THEM_3:0 "$WHO$ a décidé d'adopter désormais une position $POSITION$ au concile de Trente."
  COUNCIL_STANCE_THEM_4:0 ""
  COUNCIL_STANCE_THEM_5:0 "" # [LocEditor:CustomLanguageKey]
@@ -287,7 +287,7 @@
  DEFAULT_HEGEMON_REACTION:0 "C'est extrêmement inquiétant."
  # Hegemon
  ANY_GP_COUNTRY_STARTS:0 "N'importe quelle grande puissance"
- ANY_OTHER_GP_COUNTRY_STARTS:0 "Une autre grande puissance"
+ ANY_OTHER_GP_COUNTRY_STARTS:0 "Toutes les autres grandes puissances" # [LocEditor:AwaitingBatchUpdate]
  cb_hegemon:0 "Endiguement de l'hégémonie"
  cb_hegemon_desc:0 "Ce pays doit être rabaissé !"
  military_hegemon:0 "Hégémonie militaire"
@@ -299,7 +299,7 @@
  DIPLO_HEGEMON:0 "Hégémonie de $WHO$ : "
  is_hegemon:0 "Hégémonie"
  allied_to_hegemon:0 "Alliance avec un pays hégémonique"
- SCORE_HEGEMONY:0 "Enfin, le score est multiplié par $VAL$ : être un pays hégémonique l'accroît, tandis qu'en être l'allié le réduit."
+ SCORE_HEGEMONY:1 "Le score final est multiplié par $VAL|2%+Y$ : être un pays hégémonique l'accroît, tandis qu'en être l'allié le réduit."
  HEGEMON_CURRENTLY_AT:0 "Avec une puissance hégémonique actuellement à $VAL|2%Y$, $WHO$ bénéficie de :\n"
  HEGEMON_POWER_MONTHL:1 "La puissance hégémonique évolue de $VAL|2+=%$ par mois"
  HEGEMON_NO_LONGER_ELIGIBLE:0 " car $NAME$ n'est plus éligible du fait de :\n$WHY$"
@@ -328,7 +328,7 @@
  HAVE_AT_LEAST_MARINES_THAN:1 "A au moins $VALUE|Y$ de fusiliers marins.\n"
  MODIFIER_ALLOWED_MARINE_FRACTION:0 "Limite des forces de fusiliers marins"
  MARINE_REGIMENT:0 "Régiment de fusiliers marins\nIgnore les pénalités au débarquement : §Goui§!\nUtilise des effectifs de marins : §Goui§!\nVitesse de débarquement : $VAL$\nDégâts de choc subis : $VAL2$\n"
- MARINES_DESC:0 "$MAX|Y$ fusiliers marins peuvent être recrutés, du fait que nous pouvons en lever à hauteur de $VAL|%$ de notre limite de force grâce à :\n"
+ MARINES_DESC:0 "Troupes d'élite aussi bien sur la terre ferme qu'en mer, les §Yfusiliers marins§! sont levés parmi les réserves de marins et bénéficient d'avantage lors des combats outre-mer." # [LocEditor:AwaitingBatchUpdate]
  CANNOT_AFFORD_SAILIRS:0 "Nous manquons de marins. Il nous en faudrait $VALUE|Y$ pour lever une unité de fusiliers marins."
  # Imperial CB loc
  IMPERIAL_REALM_WAR_ENABLED:1 "Permet à l'Empereur de créer un casus belli §YGuerre impériale§! à l'encontre de tout pays n'appartenant pas au Saint-Empire.\n"
@@ -339,16 +339,16 @@
  ASSIGN_HEIR_SOMEONE_ELSE_RULER:0 "Nous ne sommes pas le partenaire majeur de l'union personnelle, aussi ne pouvons-nous présenter d'héritier."
  ASSIGN_HEIR_NOT_WITH_FIXED_DYNASTY:0 "Un pays gouverné par une dynastie prédéfinie ne peut présenter d'héritier."
  ASSIGN_HEIR_TITLE:0 "Présentation d'un héritier"
- ASSIGN_HEIR_DESC:0 "Présenter un nouvel héritier va coûter $PRESTIGE|Y$ en prestige et $LEGITIMACY|Y$ en légitimité. Le voulez-vous vraiment ?"
+ ASSIGN_HEIR_DESC:0 "\nPrésenter un nouvel héritier va coûter $PRESTIGE|Y$ en prestige et $LEGITIMACY|Y$ en légitimité. Le voulez-vous vraiment ?"
  ASSIGN_HEIR_ALREADY_HEIR:0 "Nous avons déjà un héritier."
- ASSIGN_HEIR_TT:0 "§YPrésenter un nouvel héritier§!\nAu prix de $LEGITIMACY|Y$ en légitimité et $PRESTIGE|Y$ en prestige, nous pouvons présenter un nouvel héritier."
+ ASSIGN_HEIR_TT:1 "§YPrésenter un nouvel héritier§!\nAu prix de $LEGITIMACY|Y$ en légitimité et $PRESTIGE|Y$ en prestige, nous pouvons présenter un nouvel héritier."
  ASSIGN_HEIR_NOT_MONARCHY:0 "Seules les monarchies peuvent présenter un nouvel héritier."
  ASSIGN_HEIR_NOT_HEIRS:0 "Notre régime politique ne reconnaît pas les héritiers."
  ASSIGN_HEIR_AT_WAR:0 "Nous ne pouvons présenter un nouvel héritier alors que nous sommes en guerre."
  ASSIGN_HEIR_NOT_NOMADS:0 "Les nomades ne peuvent présenter un nouvel héritier."
  ASSIGN_HEIR_REGENCY:0 "Nous ne pouvons présenter un nouvel héritier au cours d'une régence."
- ASSIGN_HEIR_PRESTIGE:0 "Nous ne disposons pas des $VAL|Y$ points de prestige nécessaires pour présenter un nouvel héritier."
- ASSIGN_HEIR_LEGITIMACY:0 "Nous ne disposons pas des $VAL|Y$ points de légitimité nécessaires pour présenter un nouvel héritier."
+ ASSIGN_HEIR_PRESTIGE:0 "Nous ne disposons pas des $VAL|Y$ points de prestige nécessaires pour présenter un nouvel héritier." # [LocEditor:AwaitingBatchUpdate]
+ ASSIGN_HEIR_LEGITIMACY:0 "Nous ne disposons pas des $VAL|Y$ points de légitimité nécessaires pour présenter un nouvel héritier." # [LocEditor:AwaitingBatchUpdate]
  # Military Access Mapmode
  MILITARY_ACCESS_OWN:0 "$TAG|Y$ possède cette province en propre."
  MILITARY_ACCESS_SUBJECT:0 "Cette province est possédée par $SUBJECT|Y$, dépendance de $TAG|Y$, qui dispose donc de l'accès militaire."
@@ -445,7 +445,7 @@
  FORCE_JOIN_HRE_WAR_NAME:0 "$ORDER$Guerre $FIRST$-$SECOND$ de conquête impériale"
  cb_force_join_hre:0 "Extension du Saint-Empire"
  cb_force_join_hre_desc:0 "Ce pays doit intégrer le Saint-Empire !"
- take_capital_force_join_hre_desc:2 "Toutes les provinces de $COUNTRY|Y$ en $CONTINENT|Y$ vont intégrer le Saint-Empire, et l'Empereur va gagner $AUTHORITY|G$ en autorité impériale."
+ take_capital_force_join_hre_desc:3 "Toutes les provinces de $COUNTRY|Y$ et ses dépendances en $CONTINENT|Y$ qui peuvent intégrer le Saint-Empire vont le faire, et l'Empereur va gagner $AUTHORITY|G$ en autorité impériale."
  CB_ALLOWED_JOIN_EMPIRE:0 "Ajout de provinces au Saint-Empire"
  JOIN_EMPIRE_TREATY_NAME:0 "Extension du Saint-Empire"
  HRE_LEAVE_STILL_BOUND_BY_TREATY:0 "Nous sommes liés par un traité de paix qui nous contraint à rester dans le Saint-Empire au moins jusqu'au $UNTIL|Y$."
@@ -607,7 +607,7 @@
  REDUCE_CURIA_TREASURY:0 "Retire $CASH$¤ du trésor de la Curie.\n"
  INSTITUTION_LACKING_ACTIVE:0 "N'a pas adopté toutes les institutions actuelles"
  INSTITUTION_NOT_LACKING_ACTIVE:0 "A adopté toutes les institutions actuelles"
- WARN_NAVIES_OUT_OF_PORT:0 "§YCertaines flottes ne sont pas à l'abri des ports !§!"
+ WARN_NAVIES_OUT_OF_PORT:0 "§YCertaines flottes ne sont pas à l'abri dans les ports !§!"
  appointed_cardinal:0 "A nommé un cardinal"
  # DotF
  DEFENDER_OF_FAITH_SAME_FAITH:0 "Puissant défenseur de la foi"
@@ -615,7 +615,7 @@
  IS_DEFENDER_OF_FAITH_OF_TIER:0 "Défenseur de la foi de niveau $TIER|Y$"
  MODIFIER_MANPOWER_IN_TRUE_FAITH_PROVINCES:0 "Rés. mil. dans les prov. de la véritable foi"
  DEFENDER_OF_FAITH_EFFECT:1 "Le pays est défenseur de la foi de niveau $TIER|Y$, car $COUNTRIES|Y$ pays au total pratiquent la foi $RELIGION|Y$. Le prochain niveau sera accessible à partir de $NEXT|Y$ pays. Pour l'heure, être le défenseur de la foi se traduit par :\n$EFFECT$"
- DEFENDER_OF_FAITH_HIGHEST_EFFECT:0 "$TIER|Y$ pays sur un total de $COUNTRIES|Y$ pratiquent la foi $RELIGION|Y$. Pour l'heure, être le défenseur de la foi se traduit par :\n$EFFECT$"
+ DEFENDER_OF_FAITH_HIGHEST_EFFECT:0 "Le pays est défenseur de la foi de niveau $TIER|Y$, car $COUNTRIES|Y$ pays au total pratiquent la foi $RELIGION|Y$. Pour l'heure, être le défenseur de la foi se traduit par :\n$EFFECT$"
  DEFENDER_OF_FAITH_SHARED_EFFECT:0 "En outre, tous nos frères de foi vont bénéficier de :\n$EFFECT$"
  # Macrobuilder
  MACRO_STATES_NUM_PROVINCES:0 "$VAL$/$SIZE$"
@@ -739,7 +739,7 @@
  alert_piety_interaction_delayed:0 ""
  CROWN_LAND_NO_EFFECT:0 "Aucun effet"
  CROWN_LAND_NO_EFFECT_TOOLTIP:0 "La part des terres contrôlées par l'État n'a aucune conséquence."
- CROWN_LAND_LEVEL_DESC:1 "Les terres contrôlées par l'État mesurent la part du pays sous contrôle direct de l'État. Si celui-ci contrôle plus de §Y50%§! du pays, nous bénéficierons de véritables avantages. S'il en contrôle moins de §Y30%§!, notre autorité en sera réduite.\n\nLa part de terres contrôlées par l'État peut être accrue :\n– en §Yconfisquant les terres§! des ordres ;\n– en §Ydéveloppant§! les provinces ;\n– en §Yconquérant des territoires§! alors que l'influence cumulée des ordres est inférieure à §Y60%§! ;\n– en §Yconquérant des territoires§! alors que l'absolutisme est élevé."
+ CROWN_LAND_LEVEL_DESC:3 "Les terres contrôlées par l'État mesurent la part du pays sous contrôle direct de l'État. Si celui-ci contrôle plus de §Y50%§! du pays, nous bénéficierons de véritables avantages. S'il en contrôle moins de §Y30%§!, notre autorité en sera réduite.\n\nLa part de terres contrôlées par l'État peut être accrue :\n– en §Yconfisquant les terres§! des ordres ;\n– en §Ydéveloppant§! les provinces ;\n– en §Yconquérant des territoires§! alors que l'influence cumulée des ordres est inférieure à §Y60%§! ;\n– en §Yconquérant des territoires§! alors que l'absolutisme est élevé."
  DELEGATE_PATRIARCH_TOOLTIP:0 "§YNommer un métropolite§!"
  DELEGATE_HOLYORDER_TOOLTIP:0 "§YAttribuer aux $ORDER$§!"
  DELEGATE_PASHA_ALREADY_HAS:0 "§RUn pacha a déjà été affecté en $STATE|Y$.§!\n"
@@ -774,9 +774,9 @@
  HINT_ZONEOFCONTROL_TITLE:0 "Zone de contrôle"
  HINT_ZONEOFCONTROL_TEXT:0 "Les forts pourvus d'une garnison assurent une zone de contrôle sur les provinces qui les entourent. Ces zones restreignent les mouvements des armées ennemies et les contraignent à prendre d'abord le fort. "
  VIEW_MISSION_TREE:0 "Arbre des missions de $COUNTRY|Y$."
- VIEW_MISSION_TREE_CURRENT:0 "C'est l'arbre des missions actuellement affiché."
- VIEW_MISSION_TREE_OURS:0 "Ceci est l'arbre des missions de notre pays."
- VIEW_MISSION_TREE_SUBJECT:0 "Nous pouvons voir l'arbre des missions de ce pays car il est notre §Ydépendance§!."
+ VIEW_MISSION_TREE_CURRENT:0 "C'est l'arbre des missions actuellement affiché." # [LocEditor:AwaitingBatchUpdate]
+ VIEW_MISSION_TREE_OURS:0 "Ceci est l'arbre des missions de notre pays." # [LocEditor:AwaitingBatchUpdate]
+ VIEW_MISSION_TREE_SUBJECT:0 "Nous pouvons voir l'arbre des missions de ce pays car il est notre §Ydépendance§!." # [LocEditor:AwaitingBatchUpdate]
  ADJECTIVE_MISSION_TITLE:0 "Missions $ADJ$s"
  SECEDE_SUBJ_PROVINCES:0 "$WHO$ va céder $WHAT$ à $TO$, faisant évoluer de $LD|-$ son aspiration à la liberté."
  STATES_TAB_TOOLTIP:0 "Administrer les États"
@@ -806,7 +806,7 @@
  MIL_CONST_MERCENARY_TIP:0 "La $MERC|Y$ sera disponible ici le $DATE|Y$."
  building_soldier_households:0 "Garnison"
  building_ramparts:0 "Remparts"
- GOODS_BONUS:0 "Sera plus efficace dans les provinces ayant $LIST$.\n"
+ GOODS_BONUS:0 "Sera plus efficace dans les provinces produisant $LIST$.\n"
  building_impressment_offices:0 "Bureau de recrutement"
  MERCENARY_COMPANY_LOCAL:0 "locale"
  NO_GENERAL:0 "Pas de général"
@@ -1033,16 +1033,9 @@
  IMPERIAL_INCIDENT_ENDED_SETUP:0 "Si un incident impérial prend fin"
  IMPERIAL_INCIDENT_ENDED_HEADER:0 "$MESSENGER$"
  IMPERIAL_INCIDENT_ENDED_1:0 "$TITLE$"
- IMPERIAL_INCIDENT_ENDED_2:0 " "
- IMPERIAL_INCIDENT_ENDED_3:0 "L'incident impérial $TITLE$ a pris fin." # [LocEditor:CustomLanguageKey]
- IMPERIAL_INCIDENT_ENDED_4:0 " " # [LocEditor:CustomLanguageKey]
- IMPERIAL_INCIDENT_ENDED_5:0 "$TEXT$" # [LocEditor:CustomLanguageKey]
- IMPERIAL_INCIDENT_ENDED_6:0 "" # [LocEditor:CustomLanguageKey]
- IMPERIAL_INCIDENT_ENDED_LOG:0 "Fin d'un incident impérial." # [LocEditor:CustomLanguageKey]
+ IMPERIAL_INCIDENT_ENDED_2:0 "L'incident impérial $TITLE$ a pris fin.\n$TEXT$"
+ IMPERIAL_INCIDENT_ENDED_LOG:0 "Fin de l'incident impérial $TITLE$." # [LocEditor:CustomLanguageKey]
  IMPERIAL_INCIDENT_ENDED_BTN1:0 "D'accord"
- IMPERIAL_INCIDENT_ENDED_BTN2:0 "D'accord" # [LocEditor:CustomLanguageKey]
- IMPERIAL_INCIDENT_ENDED_BTN3:0 "Voir" # [LocEditor:CustomLanguageKey]
- IMPERIAL_INCIDENT_ENDED_MAP:0 "" # [LocEditor:CustomLanguageKey]
  CREATE_SUCCESSION_CRISIS_EFFECT:0 "$ATTACKER|Y$ va déclencher un conflit pour contester l'union entre $TARGET|Y$ et $DEFENDER|Y$.\n"
  picked_wrong_incident_option:0 "Vues divergentes à la Diète"
  picked_right_incident_option:0 "Même position que nous à la Diète"
@@ -1071,5 +1064,5 @@
  force_peasant_republic_desc:0 "[From.GetLeLaNPCap] [From.GetName] v[From.GetAOntNP] devenir une république paysanne."
  CB_ALLOWED_force_peasant_republic:0 "Imposer l'autorité des paysans"
  PEACE_force_peasant_republic:0 "Imposer l'autorité des paysans"
- ESTATE_PRIVILEGE_MAX_GRANTED:0 "§RUn ordre ne peut bénéficier de plus de 4 privilèges.§!"
-
+ just_lost_war_timer:0 "Défaite récente"
+ 

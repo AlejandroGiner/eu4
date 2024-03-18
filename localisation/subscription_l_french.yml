@@ -1,5 +1,5 @@
 ﻿l_french:
- SUB_VIEW_PITCH:0 "– Toutes les expansions !\n– Plus de 40 packs de contenu, dont de nouveaux modèles d'unités.\n– Accès immédiat à tous les nouveaux DLC dès le jour de leur sortie.\nCette offre est disponible sur PC et Steam uniquement."
+ SUB_VIEW_PITCH:0 "– Toutes les expansions !\n– Plus de 40 packs de contenu, dont de nouveaux modèles d'unités.\n– Accès immédiat à tous les nouveaux DLC dès le jour de leur sortie.\nCette offre n'est disponible que sur PC et Steam."
  SUB_ACTIVE_NEED_DOWNLOAD:0 "Vous pouvez maintenant télécharger tous les DLC. Cela ne sera pas long !\nAprès les avoir téléchargés, vous devrez relancer le jeu afin de terminer le processus d'installation."
  SUB_ACTIVE_NEED_RESTART:0 "Relancez le jeu pour terminer l'installation."
  SUB_ACTIVE_NORMAL:0 "Tous les DLC disponibles ont été installés.\nSi certains ne fonctionnent pas correctement, vous pouvez vérifier leur installation en cliquant sur « Vérifier »."
@@ -40,7 +40,7 @@
  SUB_VIEW_SURVEY_OTHER_TEXT:0 "Autre"
  SUB_VIEW_UNSUB_CONFIRM_TITLE:0 "Se désinscrire"
  SUB_VIEW_UNSUB_CONFIRM_MSG:0 "Voulez-vous vraiment vous désinscrire ?\nVous allez nous manquer !"
- SUB_VIEW_THIRD_PARTY:0 "Désactiver le pack de musiques de Sabaton avant de streamer ou d’enregistrer une vidéo (redémarrage requis)"
+ SUB_VIEW_THIRD_PARTY:0 "Active le pack musical Sabaton. Veuillez désactiver cette option si vous streamez sur Twitch ou toute plateforme similaire (nécessite de redémarrer le jeu)."
  SUBSCRIPTION_ERROR_DISK_WRITE:0 "Erreur d'écriture disque, veuillez vérifier l'espace libre."
  SUBSCRIPTION_ERROR_DOWNLOAD_FAILED:0 "Impossible de télécharger, veuillez vérifier votre connexion Internet."
  SUB_DLC_OWNED:0 "§YSouscrire§!"

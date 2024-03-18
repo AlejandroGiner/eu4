@@ -116,10 +116,10 @@
  THEYATTACK_HEADER:0 "$MESSENGER$"
  THEYATTACK_1:0 "Le sang va couler"
  THEYATTACK_2:0 " "
- THEYATTACK_3:0 "$MONARCHTITLE$, la rumeur se répand : $ACTOR$ se prépare à attaquer $RECIPIENT$."
- THEYATTACK_4:0 "Si nous souhaitons intervenir, nous ne disposons guère de temps."
- THEYATTACK_5:0 " "
- THEYATTACK_6:0 "C'est sans doute la personnalité $PERSONALITY|Y$ de $RULER$ qui explique que nous l'ayons appris."
+ THEYATTACK_3:0 "$MONARCHTITLE$, la rumeur se répand : $ACTOR|Y$ se prépare à attaquer $RECIPIENT|Y$. Si nous souhaitons intervenir, nous ne disposons guère de temps."
+ THEYATTACK_4:0 " "
+ THEYATTACK_5:0 "C'est sans doute la personnalité $PERSONALITY|Y$ de $RULER$ qui explique que nous l'ayons appris."
+ THEYATTACK_6:0 ""
  THEYATTACK_LOG:0 "$ACTOR$ se prépare à attaquer $RECIPIENT$."
  THEYATTACK_BTN1:0 "D'accord"
  THEYATTACK_BTN2:0 "D'accord"
@@ -130,10 +130,10 @@
  THEYATTACKUS_HEADER:0 "$MESSENGER$"
  THEYATTACKUS_1:0 "La guerre s'annonce"
  THEYATTACKUS_2:0 " "
- THEYATTACKUS_3:0 "$MONARCHTITLE$, la rumeur se répand que $ACTOR$ se prépare à nous déclarer la guerre !"
- THEYATTACKUS_4:0 "Nous devons préparer nos défenses."
- THEYATTACKUS_5:0 " "
- THEYATTACKUS_6:0 "C'est sans doute la personnalité $PERSONALITY|Y$ de $RULER$ qui explique que nous l'ayons appris."
+ THEYATTACKUS_3:0 "$MONARCHTITLE$, la rumeur se répand que $ACTOR|Y$ se prépare à nous déclarer la guerre !"
+ THEYATTACKUS_4:0 " "
+ THEYATTACKUS_5:0 "Nous devons préparer nos défenses."
+ THEYATTACKUS_6:0 "\nC'est sans doute la personnalité $PERSONALITY|Y$ de $RULER$ qui explique que nous l'ayons appris."
  THEYATTACKUS_LOG:0 "$ACTOR$ se prépare à nous attaquer."
  THEYATTACKUS_BTN1:0 "D'accord"
  THEYATTACKUS_BTN2:0 "D'accord"
@@ -144,7 +144,7 @@
  THEYATTACKSPY_HEADER:0 "$MESSENGER$"
  THEYATTACKSPY_1:0 "Quelque chose se prépare…"
  THEYATTACKSPY_2:0 " "
- THEYATTACKSPY_3:0 "$MONARCHTITLE$, nos espions nous informent que $ACTOR$ songe à attaquer $RECIPIENT$."
+ THEYATTACKSPY_3:0 "$MONARCHTITLE$, nos espions nous informent que $ACTOR|Y$ songe à attaquer $RECIPIENT|Y$."
  THEYATTACKSPY_4:0 " "
  THEYATTACKSPY_5:0 "Peut-être pourrait tirer profit de cette information, ou même les décourager de mettre en œuvre leur plan agressif ?"
  THEYATTACKSPY_6:0 "Quoi qu'il en soit, c'est la preuve de l'efficacité de notre réseau en $ACTOR$."
@@ -158,7 +158,7 @@
  THEYATTACKUSSPY_HEADER:0 "$MESSENGER$"
  THEYATTACKUSSPY_1:0 "La guerre s'annonce"
  THEYATTACKUSSPY_2:0 " "
- THEYATTACKUSSPY_3:0 "$MONARCHTITLE$, nos espions nous informent que $ACTOR$ songe à nous déclarer la guerre !"
+ THEYATTACKUSSPY_3:0 "$MONARCHTITLE$, nos espions nous informent que $ACTOR|Y$ songerait à nous déclarer la guerre !"
  THEYATTACKUSSPY_4:0 " "
  THEYATTACKUSSPY_5:0 "Nous devons rapidement préparer nos défenses. Faire la preuve de notre puissance pourrait peut-être les décourager de passer à l'action."
  THEYATTACKUSSPY_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -270,7 +270,7 @@
  LEAVETRADELEAGUE_HEADER:0 "$MESSENGER$"
  LEAVETRADELEAGUE_1:0 "Départ de la ligue"
  LEAVETRADELEAGUE_2:0 " "
- LEAVETRADELEAGUE_3:0 "$MONARCHTITLE$, nous avons quitté la ligue commerciale\ndirigée par $LEADER$."
+ LEAVETRADELEAGUE_3:0 "$MONARCHTITLE$, nous avons quitté la ligue commerciale\ndirigée par $LEADER|Y$."
  LEAVETRADELEAGUE_4:0 " "
  LEAVETRADELEAGUE_5:0 "Nous ferons bien plus de profits par nous-mêmes." # [LocEditor:CustomLanguageKey]
  LEAVETRADELEAGUE_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -284,7 +284,7 @@
  WEJOINEDTRADELEAGUE_HEADER:0 "$MESSENGER$"
  WEJOINEDTRADELEAGUE_1:0 "Ligue commerciale intégrée"
  WEJOINEDTRADELEAGUE_2:0 " "
- WEJOINEDTRADELEAGUE_3:0 "$MONARCHTITLE$, nous avons intégré la ligue commerciale dirigée par $LEADER$."
+ WEJOINEDTRADELEAGUE_3:0 "$MONARCHTITLE$, nous avons intégré la ligue commerciale dirigée par $LEADER|Y$."
  WEJOINEDTRADELEAGUE_4:0 " "
  WEJOINEDTRADELEAGUE_5:0 "À nous tous, nous prendrons le contrôle de tous les flux commerciaux." # [LocEditor:CustomLanguageKey]
  WEJOINEDTRADELEAGUE_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -298,7 +298,7 @@
  WEJOINEDTRADELEAGUEDECLINE_HEADER:0 "$MESSENGER$"
  WEJOINEDTRADELEAGUEDECLINE_1:0 "Entrée dans une ligue commerciale refusée"
  WEJOINEDTRADELEAGUEDECLINE_2:0 " "
- WEJOINEDTRADELEAGUEDECLINE_3:0 "$MONARCHTITLE$, nous n'étions pas les bienvenus dans la ligue commerciale que dirige $LEADER$."
+ WEJOINEDTRADELEAGUEDECLINE_3:0 "$MONARCHTITLE$, nous n'étions pas les bienvenus dans la ligue commerciale que dirige $LEADER|Y$."
  WEJOINEDTRADELEAGUEDECLINE_4:0 " "
  WEJOINEDTRADELEAGUEDECLINE_5:0 "Préparons notre vengeance." # [LocEditor:CustomLanguageKey]
  WEJOINEDTRADELEAGUEDECLINE_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -312,7 +312,7 @@
  OTHERJOINSOURTRADELEAGUE_HEADER:0 "Un message de"
  OTHERJOINSOURTRADELEAGUE_1:0 "$ACTOR$"
  OTHERJOINSOURTRADELEAGUE_2:0 " "
- OTHERJOINSOURTRADELEAGUE_3:0 "$MONARCHTITLE$, $ACTOR$ a intégré notre ligue commerciale."
+ OTHERJOINSOURTRADELEAGUE_3:0 "$MONARCHTITLE$, $ACTOR|Y$ a intégré la ligue commerciale."
  OTHERJOINSOURTRADELEAGUE_4:0 " "
  OTHERJOINSOURTRADELEAGUE_5:0 "Cela nous rendra plus riches encore."
  OTHERJOINSOURTRADELEAGUE_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -326,7 +326,7 @@
  OTHERJOINSOURTRADELEAGUEDECLINE_HEADER:0 "Un message de"
  OTHERJOINSOURTRADELEAGUEDECLINE_1:0 "$ACTOR$"
  OTHERJOINSOURTRADELEAGUEDECLINE_2:0 " "
- OTHERJOINSOURTRADELEAGUEDECLINE_3:0 "$MONARCHTITLE$, $ACTOR$ a décliné\nnotre invitation à intégrer\nnotre ligue commerciale."
+ OTHERJOINSOURTRADELEAGUEDECLINE_3:0 "$MONARCHTITLE$, $ACTOR|Y$ a décliné notre invitation à intégrer la ligue commerciale."
  OTHERJOINSOURTRADELEAGUEDECLINE_4:0 "" # [LocEditor:CustomLanguageKey]
  OTHERJOINSOURTRADELEAGUEDECLINE_5:0 "" # [LocEditor:CustomLanguageKey]
  OTHERJOINSOURTRADELEAGUEDECLINE_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -340,7 +340,7 @@
  OTHERJOINSOTHERTRADELEAGUE_HEADER:0 "Un message de"
  OTHERJOINSOTHERTRADELEAGUE_1:0 "$ACTOR$"
  OTHERJOINSOTHERTRADELEAGUE_2:0 " "
- OTHERJOINSOTHERTRADELEAGUE_3:0 "$MONARCHTITLE$, $ACTOR$ a intégré\nla ligue commerciale dirigée par $LEADER$."
+ OTHERJOINSOTHERTRADELEAGUE_3:0 "$MONARCHTITLE$, $ACTOR|Y$ a intégré la ligue commerciale dirigée par $LEADER|Y$."
  OTHERJOINSOTHERTRADELEAGUE_4:0 "" # [LocEditor:CustomLanguageKey]
  OTHERJOINSOTHERTRADELEAGUE_5:0 "" # [LocEditor:CustomLanguageKey]
  OTHERJOINSOTHERTRADELEAGUE_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -354,7 +354,7 @@
  OTHERKICKEDOUTOURTRADELEAGUE_HEADER:0 "Un message de"
  OTHERKICKEDOUTOURTRADELEAGUE_1:0 "$ACTOR$"
  OTHERKICKEDOUTOURTRADELEAGUE_2:0 " "
- OTHERKICKEDOUTOURTRADELEAGUE_3:0 "$MONARCHTITLE$, $LEADER$ a renvoyé $RECIPIENT$ de sa ligue commerciale."
+ OTHERKICKEDOUTOURTRADELEAGUE_3:0 "$MONARCHTITLE$, $LEADER|Y$ a renvoyé $RECIPIENT|Y$ de sa ligue commerciale."
  OTHERKICKEDOUTOURTRADELEAGUE_4:0 "" # [LocEditor:CustomLanguageKey]
  OTHERKICKEDOUTOURTRADELEAGUE_5:0 "" # [LocEditor:CustomLanguageKey]
  OTHERKICKEDOUTOURTRADELEAGUE_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -368,10 +368,10 @@
  WELEAVEOURTRADELEAGUE_HEADER:0 "$MESSENGER$"
  WELEAVEOURTRADELEAGUE_1:0 "Départ de la ligue commerciale"
  WELEAVEOURTRADELEAGUE_2:0 " "
- WELEAVEOURTRADELEAGUE_3:0 "$MONARCHTITLE$, nous avons quitté\nla ligue commerciale dirigée par $OLD_LEADER$."
+ WELEAVEOURTRADELEAGUE_3:0 "$MONARCHTITLE$, nous avons quitté la ligue commerciale dirigée par $OLD_LEADER|Y$."
  WELEAVEOURTRADELEAGUE_4:0 " "
  WELEAVEOURTRADELEAGUE_5:0 "$REASON1$\n$REASON2$"
- WELEAVEOURTRADELEAGUE_6:0 "\nIls s'en sortiront bien tous seuls."
+ WELEAVEOURTRADELEAGUE_6:0 "\nNous nous en sortirons bien mieux ainsi."
  WELEAVEOURTRADELEAGUE_LOG:0 "Nous avons quitté la ligue commerciale dirigée par $OLD_LEADER$"
  WELEAVEOURTRADELEAGUE_BTN1:0 "D'accord"
  WELEAVEOURTRADELEAGUE_BTN2:0 "D'accord"
@@ -382,7 +382,7 @@
  WELEAVEOWNTRADELEAGUE_HEADER:0 "$MESSENGER$"
  WELEAVEOWNTRADELEAGUE_1:0 "Départ de la ligue commerciale"
  WELEAVEOWNTRADELEAGUE_2:0 " "
- WELEAVEOWNTRADELEAGUE_3:0 "$MONARCHTITLE$, nous avons quitté\nla ligue commerciale\nque nous dirigions jusqu'à présent. $LEADER$ a pris notre suite et la dirigera désormais."
+ WELEAVEOWNTRADELEAGUE_3:0 "$MONARCHTITLE$, nous avons quitté la ligue commerciale que nous dirigions jusqu'à présent. $LEADER|Y$ a pris notre suite et la dirigera désormais."
  WELEAVEOWNTRADELEAGUE_4:0 " "
  WELEAVEOWNTRADELEAGUE_5:0 "$REASON1$\n$REASON2$"
  WELEAVEOWNTRADELEAGUE_6:0 ""
@@ -410,7 +410,7 @@
  OTHERLEAVESOURTRADELEAGUE_HEADER:0 "Un message de"
  OTHERLEAVESOURTRADELEAGUE_1:0 "$ACTOR$"
  OTHERLEAVESOURTRADELEAGUE_2:0 " "
- OTHERLEAVESOURTRADELEAGUE_3:0 "$MONARCHTITLE$, $ACTOR$ a quitté la ligue commerciale dirigée par $OLD_LEADER$."
+ OTHERLEAVESOURTRADELEAGUE_3:0 "$MONARCHTITLE$, $ACTOR|Y$ a quitté la ligue commerciale dirigée par $OLD_LEADER|Y$."
  OTHERLEAVESOURTRADELEAGUE_4:0 " "
  OTHERLEAVESOURTRADELEAGUE_5:0 "$REASON1$\n$REASON2$"
  OTHERLEAVESOURTRADELEAGUE_6:0 "\nCela prouve bien qu'on ne peut leur faire confiance."
@@ -424,7 +424,7 @@
  OTHERLEAVESOTHERTRADELEAGUE_HEADER:0 "Un message de"
  OTHERLEAVESOTHERTRADELEAGUE_1:0 "$ACTOR$"
  OTHERLEAVESOTHERTRADELEAGUE_2:0 " "
- OTHERLEAVESOTHERTRADELEAGUE_3:0 "$MONARCHTITLE$, $ACTOR$ a quitté\nla ligue commerciale dirigée par $OLD_LEADER$."
+ OTHERLEAVESOTHERTRADELEAGUE_3:0 "$MONARCHTITLE$, $ACTOR|Y$ a quitté la ligue commerciale dirigée par $OLD_LEADER|Y$."
  OTHERLEAVESOTHERTRADELEAGUE_4:0 " "
  OTHERLEAVESOTHERTRADELEAGUE_5:0 "$REASON1$\n$REASON2$"
  OTHERLEAVESOTHERTRADELEAGUE_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -438,9 +438,9 @@
  WESLAVERAID_HEADER:0 "$MESSENGER$"
  WESLAVERAID_1:0 "Retour de raid"
  WESLAVERAID_2:0 " "
- WESLAVERAID_3:0 "Notre flotte a razzié les côtes de $WHERE$ pour y faire du butin et prendre des £icon_sailors£."
+ WESLAVERAID_3:0 "Notre flotte a razzié les côtes de $WHERE|Y$ pour y faire du butin et prendre des esclaves."
  WESLAVERAID_4:0 " "
- WESLAVERAID_5:0 "Elle en a ramené $SAILORS$£icon_sailors£ et $CASH$¤ et, même si l'opinion de ce pays a chuté de $OPINION_HIT$, nous saurons en faire bon usage." # [LocEditor:CustomLanguageKey]
+ WESLAVERAID_5:0 "Elle en a ramené $SAILORS$£icon_sailors£ et $CASH$¤ et, même si l'opinion de ce pays a chuté de $OPINION_HIT|Y$, nous saurons en faire bon usage." # [LocEditor:CustomLanguageKey]
  WESLAVERAID_6:0 ""
  WESLAVERAID_LOG:0 "Le raid de $WHERE$ a rapporté $SAILORS$£icon_sailors£ et $CASH$¤."
  WESLAVERAID_BTN1:0 "Magnifique"
@@ -451,7 +451,7 @@
  SLAVERAIDONUS_HEADER:0 "$MESSENGER$"
  SLAVERAIDONUS_1:0 "Raid sur nos côtes !"
  SLAVERAIDONUS_2:0 " "
- SLAVERAIDONUS_3:0 "Les satanés pirates de $WHO$ ont razzié les côtes de $WHERE$. $SAILORS$£icon_sailors£ et $CASH$¤ ont été pillés."
+ SLAVERAIDONUS_3:0 "Les satanés pirates de $WHO|Y$ ont razzié les côtes de $WHERE|Y$, y pillant $SAILORS$£icon_sailors£ et $CASH$¤."
  SLAVERAIDONUS_4:0 " "
  SLAVERAIDONUS_5:0 "Ces provinces mettront du temps à s'en remettre."
  SLAVERAIDONUS_6:0 ""
@@ -464,7 +464,7 @@
  FAVORSGAINED_HEADER:0 "Un message de notre chancelier"
  FAVORSGAINED_1:0 "Gain de faveur"
  FAVORSGAINED_2:0 " "
- FAVORSGAINED_3:0 "Grâce à notre inestimable assistance lors de la guerre, $WHO$ nous doit désormais $NUM|Y$ points de faveur."
+ FAVORSGAINED_3:0 "Grâce à notre inestimable assistance lors de la guerre, $WHO|Y$ nous doit désormais $NUM|Y$ points de faveur."
  FAVORSGAINED_4:0 " "
  FAVORSGAINED_5:0 "Nous saurons en faire bon usage."
  FAVORSGAINED_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -477,7 +477,7 @@
  VICTORYCARD_HEADER:0 "Un message de notre chancelier"
  VICTORYCARD_1:0 "Carte de victoire reçue"
  VICTORYCARD_2:0 " "
- VICTORYCARD_3:0 "Notre objectif est de contrôler\nla contrée de $AREA$ tout entière."
+ VICTORYCARD_3:0 "Notre objectif est de contrôler\nla contrée de $AREA|Y$ tout entière."
  VICTORYCARD_4:0 " "
  VICTORYCARD_5:1 "Tant que nous posséderons et contrôlerons l'ensemble des provinces de cette contrée de façon légitime, notre score s'accroîtra chaque mois, jusqu'à un maximum de $SCORE|Y$."
  VICTORYCARD_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -491,7 +491,7 @@
  FULL_VICTORYCARD_HEADER:0 "Un message de notre chancelier"
  FULL_VICTORYCARD_1:0 "Carte de victoire gagnante !"
  FULL_VICTORYCARD_2:0 " "
- FULL_VICTORYCARD_3:0 "Nous avons désormais pris le contrôle et légitimé\nl'intégralité de la contrée de $AREA$."
+ FULL_VICTORYCARD_3:0 "Nous avons désormais pris le contrôle et légitimé\nl'intégralité de la contrée de $AREA|Y$."
  FULL_VICTORYCARD_4:0 " "
  FULL_VICTORYCARD_5:0 "Nous obtiendrons très bientôt notre bonus de score total de $SCORE|Y$." # [LocEditor:CustomLanguageKey]
  FULL_VICTORYCARD_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -505,7 +505,7 @@
  FAILING_VICTORYCARD_HEADER:0 "Un message de notre chancelier"
  FAILING_VICTORYCARD_1:0 "Carte de victoire perdue !"
  FAILING_VICTORYCARD_2:0 " "
- FAILING_VICTORYCARD_3:0 "Nous n'avons plus désormais le contrôle total\nsur la contrée de $AREA$."
+ FAILING_VICTORYCARD_3:0 "Nous n'avons plus désormais le contrôle total\nsur la contrée de $AREA|Y$."
  FAILING_VICTORYCARD_4:0 " "
  FAILING_VICTORYCARD_5:0 "Nous perdons donc désormais le score que nous avions accumulé grâce à elle." # [LocEditor:CustomLanguageKey]
  FAILING_VICTORYCARD_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -519,11 +519,11 @@
  ESTATEMOD_LOST_HEADER:0 "Un message de notre chancelier"
  ESTATEMOD_LOST_1:0 "Expiration d'un modificateur lié aux ordres"
  ESTATEMOD_LOST_2:0 " "
- ESTATEMOD_LOST_3:0 "Le modificateur « $LOST_MOD$ »,\nlié aux $ESTATE|Y$, a cessé de faire effet."
+ ESTATEMOD_LOST_3:0 "Le modificateur $LOST_MOD|Y$\nlié aux $ESTATE|Y$, a cessé de faire effet."
  ESTATEMOD_LOST_4:0 " "
  ESTATEMOD_LOST_5:0 "$LOST_EFFECT$"
  ESTATEMOD_LOST_6:0 "" # [LocEditor:CustomLanguageKey]
- ESTATEMOD_LOST_LOG:0 "Le modificateur « $LOST_MOD$ », lié aux $ESTATE$, a expiré."
+ ESTATEMOD_LOST_LOG:0 "Le modificateur $LOST_MOD|Y$, lié aux $ESTATE$, a expiré."
  ESTATEMOD_LOST_BTN1:0 "D'accord"
  ESTATEMOD_LOST_BTN2:0 "D'accord"
  ESTATEMOD_LOST_BTN3:0 "Voir"
@@ -575,7 +575,7 @@
  CULTURALUNION_CS_LOST_HEADER:0 "Un message de notre chancelier"
  CULTURALUNION_CS_LOST_1:0 "Fin de l'union culturelle"
  CULTURALUNION_CS_LOST_2:0 " "
- CULTURALUNION_CS_LOST_3:0 "Ayant perdu le rang de $RANK|Y$\n, nous ne sommes plus désormais\nl'union culturelle de la sphère $GROUP|Y$."
+ CULTURALUNION_CS_LOST_3:0 "Ayant perdu le rang de $RANK|Y$, nous ne sommes plus désormais l'union culturelle de la sphère $GROUP|Y$."
  CULTURALUNION_CS_LOST_4:0 ""
  CULTURALUNION_CS_LOST_5:0 "" # [LocEditor:CustomLanguageKey]
  CULTURALUNION_CS_LOST_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -603,7 +603,7 @@
  NEWTRADEGOOD_HEADER:0 "Un message de notre gouverneur"
  NEWTRADEGOOD_1:0 "Début de la production"
  NEWTRADEGOOD_2:0 " "
- NEWTRADEGOOD_3:0 "La province de $PROV$ produit désormais\nun nouveau bien commercial : $GOOD|Y$."
+ NEWTRADEGOOD_3:0 "La province de $PROV|Y$ produit désormais un nouveau bien commercial : $GOOD|Y$."
  NEWTRADEGOOD_4:0 ""
  NEWTRADEGOOD_5:0 "" # [LocEditor:CustomLanguageKey]
  NEWTRADEGOOD_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -795,7 +795,7 @@
  NEWACTIVECARDINAL_BTN1:0 "D'accord"
  NEWACTIVECARDINAL_BTN2:0 "D'accord"
  NEWACTIVECARDINAL_BTN3:0 "Voir"
- NEWACTIVECARDINAL_MAP:0 "" # [LocEditor:CustomLanguageKey]
+ NEWACTIVECARDINAL_MAP:0 "Cardinal créé" # [LocEditor:CustomLanguageKey]
  FUTURECARDINALDEAD_TITLE:0 "Fin cardinal"
  FUTURECARDINALDEAD_SETUP:0 "Si une province perd la dignité cardinalice"
  FUTURECARDINALDEAD_HEADER:0 "Des nouvelles du Saint-Siège"
@@ -880,7 +880,7 @@
  DIPLOMAT_RETURNED_BTN2:0 "D'accord"
  DIPLOMAT_RETURNED_BTN3:0 "Voir"
  DIPLOMAT_RETURNED_MAP:0 "Diplomate rentré"
- KNOWLEDGE_SHARING_TITLE:0 "Partage de connaissances"
+ KNOWLEDGE_SHARING_TITLE:0 "Partage de conn."
  KNOWLEDGE_SHARING_SETUP:0 "Si un pays accepte une offre de partage de connaissances"
  KNOWLEDGE_SHARING_HEADER:0 "Un messager de"
  KNOWLEDGE_SHARING_1:0 "$RECIPIENT_COUNTRY$"
@@ -889,7 +889,7 @@
  KNOWLEDGE_SHARING_4:0 " "
  KNOWLEDGE_SHARING_5:0 "$EFFECT$"
  KNOWLEDGE_SHARING_6:0 ""
- KNOWLEDGE_SHARING_LOG:0 "$ACTOR$ et $WHO$ ont accepté de partager leurs connaissances."
+ KNOWLEDGE_SHARING_LOG:0 "$RECIPIENT$ et $WHO$ ont accepté de partager leurs connaissances."
  KNOWLEDGE_SHARING_BTN1:1 "D'accord"
  KNOWLEDGE_SHARING_BTN2:1 "D'accord"
  KNOWLEDGE_SHARING_BTN3:0 "Voir"
@@ -967,7 +967,7 @@
  SUPPORTHEIR_HEADER:0 "Un message de"
  SUPPORTHEIR_1:0 "$ACTOR$"
  SUPPORTHEIR_2:0 " "
- SUPPORTHEIR_3:0 "$MONARCHTITLE$, $WHO$ soutient désormais la candidature d'un membre de sa dynastie au trône de $RECIPIENT$."
+ SUPPORTHEIR_3:0 "$MONARCHTITLE$, $WHO|Y$ soutient désormais la candidature d'un membre de sa dynastie au trône de $RECIPIENT|Y$."
  SUPPORTHEIR_4:0 ""
  SUPPORTHEIR_5:0 ""
  SUPPORTHEIR_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -981,7 +981,7 @@
  STOPSUPPORTHEIR_HEADER:0 "Un message de"
  STOPSUPPORTHEIR_1:0 "$ACTOR$"
  STOPSUPPORTHEIR_2:0 " "
- STOPSUPPORTHEIR_3:0 "$MONARCHTITLE$, $WHO$ a cessé de soutenir la candidature du membre de sa dynastie au trône de $RECIPIENT$."
+ STOPSUPPORTHEIR_3:0 "$MONARCHTITLE$, $WHO|Y$ a cessé de soutenir la candidature du membre de sa dynastie au trône de $RECIPIENT|Y$."
  STOPSUPPORTHEIR_4:0 ""
  STOPSUPPORTHEIR_5:0 ""
  STOPSUPPORTHEIR_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -995,7 +995,7 @@
  IMPROVERELATIONS_HEADER:0 "Un message de"
  IMPROVERELATIONS_1:0 "$ACTOR$"
  IMPROVERELATIONS_2:0 " "
- IMPROVERELATIONS_3:0 "$MONARCHTITLE$, nous avons été informés que les diplomates de $WHO$ ont commencé à améliorer les relations avec $RECIPIENT$."
+ IMPROVERELATIONS_3:0 "$MONARCHTITLE$, nous avons été informés que les diplomates de $WHO|Y$ ont commencé à améliorer les relations avec $RECIPIENT|Y$."
  IMPROVERELATIONS_4:0 " "
  IMPROVERELATIONS_5:0 "Ces talentueux diplomates obtiendront\ntrès certainement des résultats."
  IMPROVERELATIONS_6:0 ""
@@ -1009,7 +1009,7 @@
  STOPIMPROVERELATIONS_HEADER:0 "$MESSENGER$"
  STOPIMPROVERELATIONS_1:0 "$WHO$"
  STOPIMPROVERELATIONS_2:0 " "
- STOPIMPROVERELATIONS_3:0 "$MONARCHTITLE$, nous avons été informés que les diplomates de $WHO$ ont cessé d'améliorer les relations avec $RECIPIENT$."
+ STOPIMPROVERELATIONS_3:0 "$MONARCHTITLE$, nous avons été informés que les diplomates de $WHO|Y$ ont cessé d'améliorer les relations avec $RECIPIENT|Y$."
  STOPIMPROVERELATIONS_4:0 " "
  STOPIMPROVERELATIONS_5:0 "Les conséquences de leur travail\nse feront sentir quelque temps encore."
  STOPIMPROVERELATIONS_6:0 ""
@@ -1023,7 +1023,7 @@
  STOPIMPROVERELATIONSMAXOPINIONUS_HEADER:0 "Un message de"
  STOPIMPROVERELATIONSMAXOPINIONUS_1:0 "$RECIPIENT$"
  STOPIMPROVERELATIONSMAXOPINIONUS_2:0 " "
- STOPIMPROVERELATIONSMAXOPINIONUS_3:0 "$MONARCHTITLE$, notre diplomate a cessé d'améliorer nos relations avec $RECIPIENT$ : elles ont été améliorées autant que possible, jusqu'à $MAX_OPINION|Y$."
+ STOPIMPROVERELATIONSMAXOPINIONUS_3:0 "$MONARCHTITLE$, notre diplomate a cessé d'améliorer les relations avec $RECIPIENT|Y$ : elles ont été améliorées autant que possible, jusqu'à $MAX_OPINION|Y$."
  STOPIMPROVERELATIONSMAXOPINIONUS_4:0 " "
  STOPIMPROVERELATIONSMAXOPINIONUS_5:0 "Jusqu'à ce que nous le rappelions, notre diplomate restera en $RECIPIENT$ pour maintenir nos relations."
  STOPIMPROVERELATIONSMAXOPINIONUS_6:0 ""
@@ -1037,7 +1037,7 @@
  STOPIMPROVERELATIONSMAXOPINION_HEADER:0 "Un message de"
  STOPIMPROVERELATIONSMAXOPINION_1:0 "$WHO$"
  STOPIMPROVERELATIONSMAXOPINION_2:0 " "
- STOPIMPROVERELATIONSMAXOPINION_3:0 "$MONARCHTITLE$, nous avons été informés que les diplomates de $WHO$ ont cessé d'améliorer les relations avec $RECIPIENT$ : elles l'ont été autant que possible, jusqu'à $MAX_OPINION|Y$."
+ STOPIMPROVERELATIONSMAXOPINION_3:0 "$MONARCHTITLE$, nous avons été informés que les diplomates de $WHO|Y$ ont cessé d'améliorer les relations avec $RECIPIENT|Y$ : elles l'ont été autant que possible, jusqu'à $MAX_OPINION|Y$."
  STOPIMPROVERELATIONSMAXOPINION_4:0 " "
  STOPIMPROVERELATIONSMAXOPINION_5:0 "Les conséquences de leur travail\nse feront sentir quelque temps encore."
  STOPIMPROVERELATIONSMAXOPINION_6:0 ""
@@ -1051,7 +1051,7 @@
  COREGAINOTHER_HEADER:0 "$MESSENGER$"
  COREGAINOTHER_1:0 "Province légitimée"
  COREGAINOTHER_2:0 " "
- COREGAINOTHER_3:0 "$WHO$ a légitimé la province de\n$PROV$, mais c'est aussi l'une de nos provinces légitimes !" # [LocEditor:CustomLanguageKey]
+ COREGAINOTHER_3:0 "$WHO|Y$ a légitimé la province de $PROV|Y$, mais c'est aussi l'une de nos provinces légitimes !" # [LocEditor:CustomLanguageKey]
  COREGAINOTHER_4:0 "" # [LocEditor:CustomLanguageKey]
  COREGAINOTHER_5:0 "" # [LocEditor:CustomLanguageKey]
  COREGAINOTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -1205,7 +1205,7 @@
  LEAVEFEDERATION_HEADER:0 "$MESSENGER$"
  LEAVEFEDERATION_1:0 "Nous avons quitté la fédération"
  LEAVEFEDERATION_2:0 " "
- LEAVEFEDERATION_3:0 "$MONARCHTITLE$, nous avons quitté la fédération\nmenée par les $LEADER$."
+ LEAVEFEDERATION_3:0 "$MONARCHTITLE$, nous avons quitté la fédération\nmenée par les $LEADER|Y$."
  LEAVEFEDERATION_4:0 " "
  LEAVEFEDERATION_5:0 "Nous serons plus forts seuls." # [LocEditor:CustomLanguageKey]
  LEAVEFEDERATION_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -1219,7 +1219,7 @@
  WEJOINEDFEDERATION_HEADER:0 "$MESSENGER$"
  WEJOINEDFEDERATION_1:0 "Fédération intégrée"
  WEJOINEDFEDERATION_2:0 " "
- WEJOINEDFEDERATION_3:0 "$MONARCHTITLE$, nous avons intégré la fédération\ndirigée par les $LEADER$."
+ WEJOINEDFEDERATION_3:0 "$MONARCHTITLE$, nous avons intégré la fédération\ndirigée par les $LEADER|Y$."
  WEJOINEDFEDERATION_4:0 " "
  WEJOINEDFEDERATION_5:0 "Ensemble, nous seront plus forts face aux agresseurs." # [LocEditor:CustomLanguageKey]
  WEJOINEDFEDERATION_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -1233,7 +1233,7 @@
  WEJOINEDFEDERATIONDECLINE_HEADER:0 "$MESSENGER$"
  WEJOINEDFEDERATIONDECLINE_1:0 "Nous n'étions pas les bienvenus"
  WEJOINEDFEDERATIONDECLINE_2:0 " "
- WEJOINEDFEDERATIONDECLINE_3:0 "$MONARCHTITLE$, nous n'étions pas les bienvenus\nau sein de la fédération dirigée par les $LEADER$."
+ WEJOINEDFEDERATIONDECLINE_3:0 "$MONARCHTITLE$, nous n'étions pas les bienvenus\nau sein de la fédération dirigée par les $LEADER|Y$."
  WEJOINEDFEDERATIONDECLINE_4:0 " "
  WEJOINEDFEDERATIONDECLINE_5:0 "Nous devrons nous débrouiller seuls face aux agresseurs." # [LocEditor:CustomLanguageKey]
  WEJOINEDFEDERATIONDECLINE_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -1247,7 +1247,7 @@
  OTHERJOINSOURFEDERATION_HEADER:0 "Un message des"
  OTHERJOINSOURFEDERATION_1:0 "$ACTOR$"
  OTHERJOINSOURFEDERATION_2:0 " "
- OTHERJOINSOURFEDERATION_3:0 "$MONARCHTITLE$, les $ACTOR$ ont intégré notre fédération."
+ OTHERJOINSOURFEDERATION_3:0 "$MONARCHTITLE$, les $ACTOR|Y$ ont intégré notre fédération."
  OTHERJOINSOURFEDERATION_4:0 " "
  OTHERJOINSOURFEDERATION_5:0 "Avec leur aide,\nnous serons plus forts face aux agresseurs." # [LocEditor:CustomLanguageKey]
  OTHERJOINSOURFEDERATION_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -1261,7 +1261,7 @@
  OTHERJOINSOURFEDERATIONDECLINE_HEADER:0 "Un message des"
  OTHERJOINSOURFEDERATIONDECLINE_1:0 "$ACTOR$"
  OTHERJOINSOURFEDERATIONDECLINE_2:0 " "
- OTHERJOINSOURFEDERATIONDECLINE_3:0 "$MONARCHTITLE$, les $ACTOR$ ont décliné\nl'invitation à intégrer notre fédération."
+ OTHERJOINSOURFEDERATIONDECLINE_3:0 "$MONARCHTITLE$, les $ACTOR|Y$ ont décliné\nl'invitation à intégrer notre fédération."
  OTHERJOINSOURFEDERATIONDECLINE_4:0 "" # [LocEditor:CustomLanguageKey]
  OTHERJOINSOURFEDERATIONDECLINE_5:0 "" # [LocEditor:CustomLanguageKey]
  OTHERJOINSOURFEDERATIONDECLINE_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -1275,7 +1275,7 @@
  OTHERJOINSOTHERFEDERATION_HEADER:0 "Un message des"
  OTHERJOINSOTHERFEDERATION_1:0 "$ACTOR$"
  OTHERJOINSOTHERFEDERATION_2:0 " "
- OTHERJOINSOTHERFEDERATION_3:0 "$MONARCHTITLE$, les $ACTOR$ ont intégré\nla fédération dirigée par les $LEADER$."
+ OTHERJOINSOTHERFEDERATION_3:0 "$MONARCHTITLE$, les $ACTOR|Y$ ont intégré\nla fédération dirigée par les $LEADER|Y$."
  OTHERJOINSOTHERFEDERATION_4:0 ""
  OTHERJOINSOTHERFEDERATION_5:0 "" # [LocEditor:CustomLanguageKey]
  OTHERJOINSOTHERFEDERATION_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -1289,7 +1289,7 @@
  OTHERLEAVSOURFEDERATION_HEADER:0 "Un message des"
  OTHERLEAVSOURFEDERATION_1:0 "$ACTOR$"
  OTHERLEAVSOURFEDERATION_2:0 " "
- OTHERLEAVSOURFEDERATION_3:0 "$MONARCHTITLE$, les $ACTOR$ ont quitté\nnotre fédération, que mènent les $LEADER$."
+ OTHERLEAVSOURFEDERATION_3:0 "$MONARCHTITLE$, les $ACTOR|Y$ ont quitté\nnotre fédération, que mènent les $LEADER|Y$."
  OTHERLEAVSOURFEDERATION_4:0 ""
  OTHERLEAVSOURFEDERATION_5:0 "" # [LocEditor:CustomLanguageKey]
  OTHERLEAVSOURFEDERATION_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -1303,7 +1303,7 @@
  OTHERKICKEDOUTOURFEDERATION_HEADER:0 "Un message des"
  OTHERKICKEDOUTOURFEDERATION_1:0 "$ACTOR$"
  OTHERKICKEDOUTOURFEDERATION_2:0 " "
- OTHERKICKEDOUTOURFEDERATION_3:0 "$MONARCHTITLE$, les $RECIPIENT$ ont été chassé\nde notre fédération, que mènent les $LEADER$."
+ OTHERKICKEDOUTOURFEDERATION_3:0 "$MONARCHTITLE$, les $RECIPIENT|Y$ ont été chassé\nde notre fédération, que mènent les $LEADER|Y$."
  OTHERKICKEDOUTOURFEDERATION_4:0 ""
  OTHERKICKEDOUTOURFEDERATION_5:0 "" # [LocEditor:CustomLanguageKey]
  OTHERKICKEDOUTOURFEDERATION_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -1317,7 +1317,7 @@
  OTHERLEAVSOTHERFEDERATION_HEADER:0 "Un message des"
  OTHERLEAVSOTHERFEDERATION_1:0 "$ACTOR$"
  OTHERLEAVSOTHERFEDERATION_2:0 " "
- OTHERLEAVSOTHERFEDERATION_3:0 "$MONARCHTITLE$, les $ACTOR$ ont quitté\nla fédération menée par les $LEADER$."
+ OTHERLEAVSOTHERFEDERATION_3:0 "$MONARCHTITLE$, les $ACTOR|Y$ ont quitté\nla fédération menée par les $LEADER|Y$."
  OTHERLEAVSOTHERFEDERATION_4:0 ""
  OTHERLEAVSOTHERFEDERATION_5:0 "" # [LocEditor:CustomLanguageKey]
  OTHERLEAVSOTHERFEDERATION_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -1486,21 +1486,21 @@
  FABRICATECLAIMSME_HEADER:0 "$MESSENGER$"
  FABRICATECLAIMSME_1:0 "Revendication fabriquée"
  FABRICATECLAIMSME_2:1 " "
- FABRICATECLAIMSME_3:0 "$MONARCHTITLE$, $WHO$ dispose désormais\nd'une revendication sur $TARGET$."
+ FABRICATECLAIMSME_3:0 "$MONARCHTITLE$, nous disposons désormais d'une revendication sur la province de $TARGET|Y$."
  FABRICATECLAIMSME_4:0 " "
- FABRICATECLAIMSME_5:0 "Tout aussi suspicieux que peut l'être $RECIPIENT$ à l'égard des documents fournis, ils suffiront à justifier une guerre." # [LocEditor:CustomLanguageKey]
+ FABRICATECLAIMSME_5:0 "Tout aussi suspicieux que peut l'être $RECIPIENT|Y$ à l'égard des documents fournis, ils suffiront à justifier une guerre." # [LocEditor:CustomLanguageKey]
  FABRICATECLAIMSME_6:0 "" # [LocEditor:CustomLanguageKey]
- FABRICATECLAIMSME_LOG:0 "Une revendication a été fabriqué par $WHO$ sur $TARGET$."
+ FABRICATECLAIMSME_LOG:0 "Nous avons fabriqué une revendication sur $TARGET$ en $RECIPIENT$."
  FABRICATECLAIMSME_BTN1:0 "D'accord"
  FABRICATECLAIMSME_BTN2:0 "D'accord"
  FABRICATECLAIMSME_BTN3:0 "Voir"
- FABRICATECLAIMSME_MAP:0 "" # [LocEditor:CustomLanguageKey]
+ FABRICATECLAIMSME_MAP:0 "Revendication" # [LocEditor:CustomLanguageKey]
  FABRICATECLAIMSTHEM_TITLE:0 "Revendication"
  FABRICATECLAIMSTHEM_SETUP:0 "Si un pays a fabriqué une revendication dans un autre"
  FABRICATECLAIMSTHEM_HEADER:0 "$MESSENGER$"
  FABRICATECLAIMSTHEM_1:0 "Revendication fabriquée"
  FABRICATECLAIMSTHEM_2:0 " "
- FABRICATECLAIMSTHEM_3:0 "$MONARCHTITLE$, ces chiens galeux de $WHO$\nont l'audace de revendiquer $TARGET$."
+ FABRICATECLAIMSTHEM_3:0 "$MONARCHTITLE$, ces chiens galeux de $WHO|Y$\nont l'audace de revendiquer la province de $TARGET|Y$."
  FABRICATECLAIMSTHEM_4:0 " "
  FABRICATECLAIMSTHEM_5:0 "Aussi fallacieux que ce soit, cela peut leur suffire\nà justifier la guerre s'ils le souhaitent."
  FABRICATECLAIMSTHEM_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -1508,7 +1508,7 @@
  FABRICATECLAIMSTHEM_BTN1:0 "D'accord"
  FABRICATECLAIMSTHEM_BTN2:0 "D'accord"
  FABRICATECLAIMSTHEM_BTN3:0 "Voir"
- FABRICATECLAIMSTHEM_MAP:0 "" # [LocEditor:CustomLanguageKey]
+ FABRICATECLAIMSTHEM_MAP:0 "Revendication" # [LocEditor:CustomLanguageKey]
  JUSTIFYTRADECONFLICTME_TITLE:0 "Confl. comm. justifié"
  JUSTIFYTRADECONFLICTME_SETUP:0 "Si nous justifions un conflit commercial contre un autre pays"
  JUSTIFYTRADECONFLICTME_HEADER:0 "$MESSENGER$"
@@ -1837,7 +1837,7 @@
  EVILDISCOVEREDUS_HEADER:0 "$MESSENGER$"
  EVILDISCOVEREDUS_1:0 "Agent repéré"
  EVILDISCOVEREDUS_2:0 " "
- EVILDISCOVEREDUS_3:0 "$MONARCHTITLE$, nous venons d'apprendre que notre diplomate en $RECIPIENT$ a été découvert alors qu'il tentait de constituer un réseau d'espionnage."
+ EVILDISCOVEREDUS_3:0 "$MONARCHTITLE$, nous venons d'apprendre que notre diplomate en $RECIPIENT|Y$ a été découvert alors qu'il tentait de constituer un réseau d'espionnage."
  EVILDISCOVEREDUS_4:0 " "
  EVILDISCOVEREDUS_5:0 "Il a été expulsé et de nombreux agents arrêtés,\nréduisant à $NEWVAL|Y$ l'étendue de notre réseau."
  EVILDISCOVEREDUS_6:0 ""
@@ -1851,9 +1851,9 @@
  EVILWEDISCOVERED_HEADER:0 "$MESSENGER$"
  EVILWEDISCOVERED_1:0 "Agent découvert"
  EVILWEDISCOVERED_2:0 " "
- EVILWEDISCOVERED_3:0 "$MONARCHTITLE$, nous venons d'apprendre qu'un diplomate de $WHO$ a été découvert alors qu'il tentait de constituer un réseau d'espionnage."
+ EVILWEDISCOVERED_3:0 "$MONARCHTITLE$, nous venons d'apprendre qu'un diplomate de $WHO|Y$ a été découvert alors qu'il tentait de constituer un réseau d'espionnage."
  EVILWEDISCOVERED_4:0 " "
- EVILWEDISCOVERED_5:0 "Ce diplomate a été expulsé et de nombreux agents arrêtés,\nréduisant à $NEWVAL|Y$ l'étendue de ce réseau."
+ EVILWEDISCOVERED_5:0 "Il a été expulsé et de nombreux agents arrêtés,\nréduisant à $NEWVAL|Y$ l'étendue de ce réseau."
  EVILWEDISCOVERED_6:0 ""
  EVILWEDISCOVERED_LOG:0 "Un agent de $WHO$ a été découvert alors qu'il tentait de $ACTION$ en $TARGET$."
  EVILWEDISCOVERED_BTN1:0 "D'accord"
@@ -1865,9 +1865,9 @@
  EVILDISCOVEREDOTHER_HEADER:0 "$MESSENGER$"
  EVILDISCOVEREDOTHER_1:0 "Agent découvert"
  EVILDISCOVEREDOTHER_2:0 " "
- EVILDISCOVEREDOTHER_3:0 "$MONARCHTITLE$, nous venons d'apprendre\nqu'un diplomate de $WHO$ a été découvert alors qu'il tentait de constituer un réseau d'espionnage en $RECIPIENT$."
+ EVILDISCOVEREDOTHER_3:0 "$MONARCHTITLE$, nous venons d'apprendre\nqu'un diplomate de $WHO|Y$ a été découvert alors qu'il tentait de constituer un réseau d'espionnage en $RECIPIENT|Y$."
  EVILDISCOVEREDOTHER_4:0 " "
- EVILDISCOVEREDOTHER_5:0 "Ce diplomate a été expulsé et de nombreux agents arrêtés."
+ EVILDISCOVEREDOTHER_5:0 "Il a été expulsé, et de nombreux agents arrêtés."
  EVILDISCOVEREDOTHER_6:0 ""
  EVILDISCOVEREDOTHER_LOG:0 "Un agent de $WHO$ a été découvert alors qu'il tentait de $ACTION$ en $TARGET$."
  EVILDISCOVEREDOTHER_BTN1:0 "D'accord"
@@ -1875,11 +1875,11 @@
  EVILDISCOVEREDOTHER_BTN3:0 "Voir"
  EVILDISCOVEREDOTHER_MAP:0 "" # [LocEditor:CustomLanguageKey]
  EVILDISCOVEREDUSFABRICATECLAIM_TITLE:0 "Agent découvert"
- EVILDISCOVEREDUSFABRICATECLAIM_SETUP:0 "Si on nous découvre en train de fabriquer une revendication"
+ EVILDISCOVEREDUSFABRICATECLAIM_SETUP:0 "Si nous sommes découverts en train de fabriquer une revendication"
  EVILDISCOVEREDUSFABRICATECLAIM_HEADER:0 "$MESSENGER$"
  EVILDISCOVEREDUSFABRICATECLAIM_1:0 "Notre agent a été repéré !"
  EVILDISCOVEREDUSFABRICATECLAIM_2:0 " "
- EVILDISCOVEREDUSFABRICATECLAIM_3:0 "$MONARCHTITLE$, nous avons été informés\nqu'un de nos agents en $TARGET$\na été découvert par $WHO$, alors qu'il fabriquait\nune revendication sur la province de $LOCATION$."
+ EVILDISCOVEREDUSFABRICATECLAIM_3:0 "$MONARCHTITLE$, nous avons été informés qu'un de nos agents en $TARGET|Y$ a été découvert par $WHO|Y$, alors qu'il fabriquait une revendication sur la province de $LOCATION|Y$."
  EVILDISCOVEREDUSFABRICATECLAIM_4:0 " "
  EVILDISCOVEREDUSFABRICATECLAIM_5:0 "$RESULT$"
  EVILDISCOVEREDUSFABRICATECLAIM_6:0 ""
@@ -1893,7 +1893,7 @@
  EVILWEDISCOVEREDFABRICATECLAIM_HEADER:0 "$MESSENGER$"
  EVILWEDISCOVEREDFABRICATECLAIM_1:0 "Agent hostile découvert"
  EVILWEDISCOVEREDFABRICATECLAIM_2:0 " "
- EVILWEDISCOVEREDFABRICATECLAIM_3:0 "$MONARCHTITLE$, nous venons d'en être informés par le commandant de la garde de $TARGET$ : un agent de $WHO$ a été découvert en train de fabriquer une revendication sur notre province de $LOCATION$."
+ EVILWEDISCOVEREDFABRICATECLAIM_3:0 "$MONARCHTITLE$, nous venons d'en être informés par le commandant de la garde de $TARGET|Y$ : un agent de $WHO|Y$ a été découvert en train de fabriquer une revendication sur notre province de $LOCATION|Y$."
  EVILWEDISCOVEREDFABRICATECLAIM_4:0 " "
  EVILWEDISCOVEREDFABRICATECLAIM_5:0 "$RESULT$"
  EVILWEDISCOVEREDFABRICATECLAIM_6:0 ""
@@ -1907,7 +1907,7 @@
  EVILDISCOVEREDUSJUSTIFYTRADECONFLICT_HEADER:0 "$MESSENGER$"
  EVILDISCOVEREDUSJUSTIFYTRADECONFLICT_1:0 "Agent découvert"
  EVILDISCOVEREDUSJUSTIFYTRADECONFLICT_2:0 " "
- EVILDISCOVEREDUSJUSTIFYTRADECONFLICT_3:0 "$MONARCHTITLE$, nous avons été informés\nque notre agent en $TARGET$ a été découvert par $WHO$, alors qu'il cherchait de justes causes pour faire éclater un conflit commercial contre $LOCATION$."
+ EVILDISCOVEREDUSJUSTIFYTRADECONFLICT_3:0 "$MONARCHTITLE$, nous avons été informés que notre agent en $TARGET|Y$ a été découvert par $WHO|Y$, alors qu'il cherchait de justes causes pour faire éclater un conflit commercial contre $LOCATION|Y$."
  EVILDISCOVEREDUSJUSTIFYTRADECONFLICT_4:0 " "
  EVILDISCOVEREDUSJUSTIFYTRADECONFLICT_5:0 "$RESULT$"
  EVILDISCOVEREDUSJUSTIFYTRADECONFLICT_6:0 ""
@@ -1921,7 +1921,7 @@
  EVILWEDISCOVEREDJUSTIFYTRADECONFLICT_HEADER:0 "$MESSENGER$"
  EVILWEDISCOVEREDJUSTIFYTRADECONFLICT_1:0 "Agent découvert"
  EVILWEDISCOVEREDJUSTIFYTRADECONFLICT_2:0 " "
- EVILWEDISCOVEREDJUSTIFYTRADECONFLICT_3:0 "$MONARCHTITLE$, nous avons été informés\npar le commandant de la garde de $TARGET$\nque $WHO$ a été découvert en train de tenter de chercher de justes causes pour faire éclater un conflit commercial contre $LOCATION$."
+ EVILWEDISCOVEREDJUSTIFYTRADECONFLICT_3:0 "$MONARCHTITLE$, nous avons été informés par le commandant de la garde de $TARGET|Y$ que $WHO|Y$ a été découvert en train de tenter de chercher de justes causes pour faire éclater un conflit commercial contre $LOCATION|Y$."
  EVILWEDISCOVEREDJUSTIFYTRADECONFLICT_4:0 " "
  EVILWEDISCOVEREDJUSTIFYTRADECONFLICT_5:0 "$RESULT$"
  EVILWEDISCOVEREDJUSTIFYTRADECONFLICT_6:0 ""
@@ -1986,7 +1986,7 @@
  NEWMONOTHER_HEADER:0 " "
  NEWMONOTHER_1:0 "Un $TITLE$ $ACTION$"
  NEWMONOTHER_2:0 " "
- NEWMONOTHER_3:0 "Un ambassadeur de $COUNTRY$ nous en a apporté la nouvelle :\n$FULLMONARCHNAME$\n($ADM$£adm£ / $DIP$£dip£ / $MIL$£mil£)\n$RISE$ en $COUNTRY$."
+ NEWMONOTHER_3:0 "Son ambassadeur nous en a apporté la nouvelle :\n$FULLMONARCHNAME$\n($ADM$£adm£ / $DIP$£dip£ / $MIL$£mil£)\n$RISE$ en $COUNTRY|Y$."
  NEWMONOTHER_4:0 " "
  NEWMONOTHER_5:0 "On dit que ce nouveau dirigeant $PERSONALITY$."
  NEWMONOTHER_6:0 ""
@@ -2000,7 +2000,7 @@
  ADVISOR_DEATH_OTHER_HEADER:0 " "
  ADVISOR_DEATH_OTHER_1:0 "Un conseiller est mort !"
  ADVISOR_DEATH_OTHER_2:0 " "
- ADVISOR_DEATH_OTHER_3:0 "Le $ADVISORNAME$,\nqui conseillait $COUNTRY$, est mort."
+ ADVISOR_DEATH_OTHER_3:0 "Le $ADVISORNAME$,\nqui conseillait $COUNTRY|Y$, est mort."
  ADVISOR_DEATH_OTHER_4:0 " "
  ADVISOR_DEATH_OTHER_5:0 "Son pays pleure sa mort, car les conseillers de cette envergure sont rares."
  ADVISOR_DEATH_OTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2050,17 +2050,17 @@
  ADVISOR_ARRIVED_PROV_BTN1:0 "D'accord"
  ADVISOR_ARRIVED_PROV_BTN2:0 "D'accord"
  ADVISOR_ARRIVED_PROV_BTN3:0 "Voir"
- ADVISOR_ARRIVED_PROV_MAP:0 "Apparition de $ADVISORNAME$"
+ ADVISOR_ARRIVED_PROV_MAP:0 "$ADVISORNAME$"
  NEW_FEDERATION_LEADER_TITLE:0 "Dirigeant de fédération"
  NEW_FEDERATION_LEADER_SETUP:0 "Si une fédération est dirigée par une nouvelle nation"
  NEW_FEDERATION_LEADER_HEADER:0 " "
  NEW_FEDERATION_LEADER_1:0 "Nouveaux dirigeants de fédération"
  NEW_FEDERATION_LEADER_2:0 " " # [LocEditor:CustomLanguageKey]
  NEW_FEDERATION_LEADER_3:0 "Le chef des $OLD_LEADER$ est mort."
- NEW_FEDERATION_LEADER_4:0 " "
- NEW_FEDERATION_LEADER_5:0 "Les $NEW_LEADER$, avec une autorité fédérale de $FED_AUTH$, dirigent désormais la fédération." # [LocEditor:CustomLanguageKey]
+ NEW_FEDERATION_LEADER_4:1 " "
+ NEW_FEDERATION_LEADER_5:0 "Les $NEW_LEADER$ dirigent désormais la fédération." # [LocEditor:CustomLanguageKey]
  NEW_FEDERATION_LEADER_6:0 "" # [LocEditor:CustomLanguageKey]
- NEW_FEDERATION_LEADER_LOG:0 "Le chef de $OLD_LEADER$ est mort, et les $NEW_LEADER$ sont les nouveaux dirigeants de la fédération."
+ NEW_FEDERATION_LEADER_LOG:0 "Le chef des $OLD_LEADER$ est mort, et les $NEW_LEADER$ sont les nouveaux dirigeants de la fédération."
  NEW_FEDERATION_LEADER_BTN1:0 "D'accord"
  NEW_FEDERATION_LEADER_BTN2:0 "D'accord"
  NEW_FEDERATION_LEADER_BTN3:0 "Voir"
@@ -2208,7 +2208,7 @@
  EMPEROR_HEADER:0 "Nouvel empereur élu !"
  EMPEROR_1:0 "Saint-Empire romain germanique"
  EMPEROR_2:0 " "
- EMPEROR_3:0 "Les électeurs du Saint-Empire romain germanique ont élu empereur $KING$ de $COUNTRY$."
+ EMPEROR_3:0 "Les électeurs du Saint-Empire romain germanique ont élu empereur $KING|Y$ de $COUNTRY|Y$."
  EMPEROR_4:0 " "
  EMPEROR_5:0 "Le nouvel empereur a promis d'œuvrer à protéger les droits des États."
  EMPEROR_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2292,7 +2292,7 @@
  OTHERJOINLEAGUE_HEADER:0 "Un message de $COUNTRY$"
  OTHERJOINLEAGUE_1:0 "Entrée dans une ligue religieuse"
  OTHERJOINLEAGUE_2:0 " "
- OTHERJOINLEAGUE_3:0 "$COUNTRY$ a intégré la §YLigue $RELIGION$§!\ncontre leurs ennemis communs au sein de l'Empire."
+ OTHERJOINLEAGUE_3:0 "$COUNTRY|Y$ a intégré la §YLigue $RELIGION$§!\ncontre leurs ennemis communs au sein de l'Empire."
  OTHERJOINLEAGUE_4:0 ""
  OTHERJOINLEAGUE_5:0 ""
  OTHERJOINLEAGUE_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2320,7 +2320,7 @@
  OTHERLEAVELEAGUE_HEADER:0 "Un messager de $COUNTRY$"
  OTHERLEAVELEAGUE_1:0 "Sortie d'une ligue"
  OTHERLEAVELEAGUE_2:0 " "
- OTHERLEAVELEAGUE_3:0 "$COUNTRY$ a quitté la §YLigue $RELIGION$§!."
+ OTHERLEAVELEAGUE_3:0 "$COUNTRY|Y$ a quitté la §YLigue $RELIGION$§!."
  OTHERLEAVELEAGUE_4:0 " "
  OTHERLEAVELEAGUE_5:0 "$REACTION$" # [LocEditor:CustomLanguageKey]
  OTHERLEAVELEAGUE_6:0 ""
@@ -2362,7 +2362,7 @@
  OTHERCONVERT_SECONDARY_HEADER:0 " "
  OTHERCONVERT_SECONDARY_1:0 "Nouveau syncrétisme"
  OTHERCONVERT_SECONDARY_2:0 " "
- OTHERCONVERT_SECONDARY_3:0 "$COUNTRY$ a décidé de faire de la foi\n$RELIGION|Y$ sa religion secondaire."
+ OTHERCONVERT_SECONDARY_3:0 "$COUNTRY|Y$ a décidé de faire de la foi $RELIGION|Y$ sa religion secondaire."
  OTHERCONVERT_SECONDARY_4:0 " "
  OTHERCONVERT_SECONDARY_5:0 "$REACTION$" # [LocEditor:CustomLanguageKey]
  OTHERCONVERT_SECONDARY_6:0 ""
@@ -2376,7 +2376,7 @@
  OTHERCONVERT_HEADER:0 " "
  OTHERCONVERT_1:0 "Une foi nouvelle !"
  OTHERCONVERT_2:0 " "
- OTHERCONVERT_3:0 "$COUNTRY$ s'est converti à la foi $RELIGION|Y$."
+ OTHERCONVERT_3:0 "$COUNTRY|Y$ s'est converti à la foi $RELIGION|Y$."
  OTHERCONVERT_4:0 " "
  OTHERCONVERT_5:0 "$REACTION$" # [LocEditor:CustomLanguageKey]
  OTHERCONVERT_6:0 ""
@@ -2533,7 +2533,7 @@
  COLSUCCESS_HEADER:0 "Un rapport de notre gouverneur"
  COLSUCCESS_1:0 "Nouvelle colonie !"
  COLSUCCESS_2:0 " "
- COLSUCCESS_3:0 "$MONARCHTITLE$, nous avons établi une nouvelle colonie\nen $PROV$."
+ COLSUCCESS_3:0 "$MONARCHTITLE$, nous avons établi une nouvelle colonie\nen $PROV|Y$."
  COLSUCCESS_4:0 " "
  COLSUCCESS_5:0 "Y envoyer plus de colons nous permettra\nd'en faire une province civilisée." # [LocEditor:CustomLanguageKey]
  COLSUCCESS_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2583,7 +2583,7 @@
  ENDOFWARPOPUP_4:0 "" # [LocEditor:CustomLanguageKey]
  ENDOFWARPOPUP_5:0 "" # [LocEditor:CustomLanguageKey]
  ENDOFWARPOPUP_6:0 "" # [LocEditor:CustomLanguageKey]
- ENDOFWARPOPUP_LOG:0 "$RECIPIENT$ est de nouveau en paix avec $ACTOR$."
+ ENDOFWARPOPUP_LOG:0 "$RECIPIENT$ est à présent en paix avec $ACTOR$."
  ENDOFWARPOPUP_BTN1:0 "Fermer"
  ENDOFWARPOPUP_BTN2:0 "Fermer"
  ENDOFWARPOPUP_BTN3:0 "Voir"
@@ -2677,7 +2677,7 @@
  ROYMARACCEPT_HEADER:0 "Un message de"
  ROYMARACCEPT_1:0 "$RECIPIENT$"
  ROYMARACCEPT_2:0 " "
- ROYMARACCEPT_3:0 "$MONARCHTITLE$, nous avons contracté un mariage royal avec $RECIPIENT$."
+ ROYMARACCEPT_3:0 "$MONARCHTITLE$, nous avons contracté un mariage royal avec $RECIPIENT|Y$."
  ROYMARACCEPT_4:0 " "
  ROYMARACCEPT_5:0 "Nos relations mutuelles n'en seront que meilleures." # [LocEditor:CustomLanguageKey]
  ROYMARACCEPT_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2691,7 +2691,7 @@
  ROYMARREJECT_HEADER:0 "Un message de"
  ROYMARREJECT_1:0 "$RECIPIENT$"
  ROYMARREJECT_2:0 " "
- ROYMARREJECT_3:0 "$MONARCHTITLE$, $RECIPIENT$ a repoussé notre bienveillante proposition de mariage royal."
+ ROYMARREJECT_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a repoussé notre bienveillante proposition de mariage royal."
  ROYMARREJECT_4:0 ""
  ROYMARREJECT_5:0 ""
  ROYMARREJECT_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2705,7 +2705,7 @@
  ROYMARACCEPTOTHER_HEADER:0 "Un message de"
  ROYMARACCEPTOTHER_1:0 "$RECIPIENT$"
  ROYMARACCEPTOTHER_2:0 " "
- ROYMARACCEPTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT$ a contracté\nun mariage royal avec $ACTOR$."
+ ROYMARACCEPTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a contracté\nun mariage royal avec $ACTOR|Y$."
  ROYMARACCEPTOTHER_4:0 ""
  ROYMARACCEPTOTHER_5:0 ""
  ROYMARACCEPTOTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2719,7 +2719,7 @@
  ROYMARREJECTOTHER_HEADER:0 "Un message de"
  ROYMARREJECTOTHER_1:0 "$RECIPIENT$"
  ROYMARREJECTOTHER_2:0 " "
- ROYMARREJECTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT$ a repoussé la proposition de mariage royal présentée par $ACTOR$."
+ ROYMARREJECTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a repoussé la proposition de mariage royal présentée par $ACTOR|Y$."
  ROYMARREJECTOTHER_4:0 ""
  ROYMARREJECTOTHER_5:0 ""
  ROYMARREJECTOTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2733,7 +2733,7 @@
  ROYMARWEACCEPT_HEADER:0 "$MESSENGER$"
  ROYMARWEACCEPT_1:0 "$RECIPIENT$"
  ROYMARWEACCEPT_2:0 " "
- ROYMARWEACCEPT_3:0 "$MONARCHTITLE$, nous avons contracté un mariage royal avec $RECIPIENT$."
+ ROYMARWEACCEPT_3:0 "$MONARCHTITLE$, nous avons contracté un mariage royal avec $RECIPIENT|Y$."
  ROYMARWEACCEPT_4:0 " "
  ROYMARWEACCEPT_5:0 "Nos relations mutuelles n'en sont que meilleures." # [LocEditor:CustomLanguageKey]
  ROYMARWEACCEPT_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2747,7 +2747,7 @@
  ROYMARWEREJECT_HEADER:0 "$MESSENGER$"
  ROYMARWEREJECT_1:0 "$RECIPIENT$"
  ROYMARWEREJECT_2:0 " "
- ROYMARWEREJECT_3:0 "$MONARCHTITLE$, nous avons repoussé la proposition de mariage royal de $ACTOR$."
+ ROYMARWEREJECT_3:0 "$MONARCHTITLE$, nous avons bien évidemment repoussé la proposition de mariage royal de $ACTOR|Y$."
  ROYMARWEREJECT_4:0 ""
  ROYMARWEREJECT_5:0 ""
  ROYMARWEREJECT_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2761,7 +2761,7 @@
  ROYMAROTHERBREAK_HEADER:0 "Un message de"
  ROYMAROTHERBREAK_1:0 "$ACTOR$"
  ROYMAROTHERBREAK_2:0 " "
- ROYMAROTHERBREAK_3:0 "$MONARCHTITLE$, $ACTOR$ a mis fin à son mariage royal avec $RECIPIENT$."
+ ROYMAROTHERBREAK_3:0 "$MONARCHTITLE$, $ACTOR|Y$ a mis fin à son mariage royal avec $RECIPIENT|Y$."
  ROYMAROTHERBREAK_4:0 ""
  ROYMAROTHERBREAK_5:0 ""
  ROYMAROTHERBREAK_6:0 ""
@@ -2775,7 +2775,7 @@
  ROYMAROTHERBREAKUS_HEADER:0 "Un message de"
  ROYMAROTHERBREAKUS_1:0 "$ACTOR$"
  ROYMAROTHERBREAKUS_2:0 " "
- ROYMAROTHERBREAKUS_3:0 "$MONARCHTITLE$, $ACTOR$ a rompu le mariage royal contracté avec nous."
+ ROYMAROTHERBREAKUS_3:0 "$MONARCHTITLE$, $ACTOR|Y$ a rompu le mariage royal contracté avec nous."
  ROYMAROTHERBREAKUS_4:0 ""
  ROYMAROTHERBREAKUS_5:0 ""
  ROYMAROTHERBREAKUS_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2789,7 +2789,7 @@
  ROYMARWEBREAK_HEADER:0 "Un message de"
  ROYMARWEBREAK_1:0 "$ACTOR$"
  ROYMARWEBREAK_2:0 " "
- ROYMARWEBREAK_3:0 "$MONARCHTITLE$, nous avons rompu le mariage royal contracté avec $RECIPIENT$."
+ ROYMARWEBREAK_3:0 "$MONARCHTITLE$, nous avons rompu le mariage royal contracté avec $RECIPIENT|Y$."
  ROYMARWEBREAK_4:0 ""
  ROYMARWEBREAK_5:0 ""
  ROYMARWEBREAK_6:0 ""
@@ -2803,7 +2803,7 @@
  MILALLACCEPT_HEADER:0 "Un message de"
  MILALLACCEPT_1:0 "$RECIPIENT$"
  MILALLACCEPT_2:0 " "
- MILALLACCEPT_3:0 "$MONARCHTITLE$, $RECIPIENT$ a accepté\nnotre proposition d'alliance."
+ MILALLACCEPT_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a accepté\nnotre proposition d'alliance."
  MILALLACCEPT_4:0 ""
  MILALLACCEPT_5:0 ""
  MILALLACCEPT_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2817,8 +2817,8 @@
  MILALLREJECT_HEADER:0 "Un message de"
  MILALLREJECT_1:0 "$RECIPIENT$"
  MILALLREJECT_2:0 " "
- MILALLREJECT_3:0 "$MONARCHTITLE$, nous avons reçu de graves nouvelles : $RECIPIENT$ a rejeté notre proposition d'alliance."
- MILALLREJECT_4:0 ""
+ MILALLREJECT_3:0 "$MONARCHTITLE$, nous avons reçu de graves nouvelles."
+ MILALLREJECT_4:0 "$RECIPIENT|Y$ a rejeté notre proposition d'alliance."
  MILALLREJECT_5:0 ""
  MILALLREJECT_6:0 ""
  MILALLREJECT_LOG:0 "$RECIPIENT$ a rejeté notre proposition d'alliance."
@@ -2831,7 +2831,7 @@
  MILLALLJOINREJECTOTHER_HEADER:0 "Un message de"
  MILLALLJOINREJECTOTHER_1:0 "$RECIPIENT$"
  MILLALLJOINREJECTOTHER_2:0 " "
- MILLALLJOINREJECTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT$ a rejeté la proposition d'alliance présentée par $ACTOR$."
+ MILLALLJOINREJECTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a rejeté la proposition d'alliance présentée par $ACTOR|Y$."
  MILLALLJOINREJECTOTHER_4:0 ""
  MILLALLJOINREJECTOTHER_5:0 ""
  MILLALLJOINREJECTOTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2845,7 +2845,7 @@
  MILLALLINVACCEPTENEMY_HEADER:0 "Un message de"
  MILLALLINVACCEPTENEMY_1:0 "$RECIPIENT$"
  MILLALLINVACCEPTENEMY_2:0 " "
- MILLALLINVACCEPTENEMY_3:0 "$MONARCHTITLE$, $ACTOR$ a conclu une alliance\navec notre ennemi, $RECIPIENT$."
+ MILLALLINVACCEPTENEMY_3:0 "$MONARCHTITLE$, $ACTOR|Y$ a conclu une alliance avec notre ennemi, $RECIPIENT|Y$."
  MILLALLINVACCEPTENEMY_4:0 ""
  MILLALLINVACCEPTENEMY_5:0 ""
  MILLALLINVACCEPTENEMY_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2859,7 +2859,7 @@
  MILLALLINVACCEPTOTHER_HEADER:0 "Un message de"
  MILLALLINVACCEPTOTHER_1:0 "$RECIPIENT$"
  MILLALLINVACCEPTOTHER_2:0 " "
- MILLALLINVACCEPTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT$ a contracté\nune alliance avec $ACTOR$."
+ MILLALLINVACCEPTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a contracté\nune alliance avec $ACTOR|Y$."
  MILLALLINVACCEPTOTHER_4:0 ""
  MILLALLINVACCEPTOTHER_5:0 ""
  MILLALLINVACCEPTOTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2873,7 +2873,7 @@
  MILALLBANOTHER_HEADER:0 "Un message de"
  MILALLBANOTHER_1:0 "$ACTOR$"
  MILALLBANOTHER_2:0 " "
- MILALLBANOTHER_3:0 "$MONARCHTITLE$, $ACTOR$ a rompu\nson alliance avec $RECIPIENT$."
+ MILALLBANOTHER_3:0 "$MONARCHTITLE$, $ACTOR|Y$ a rompu\nson alliance avec $RECIPIENT|Y$."
  MILALLBANOTHER_4:0 ""
  MILALLBANOTHER_5:0 "" # [LocEditor:CustomLanguageKey]
  MILALLBANOTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2887,7 +2887,7 @@
  MILALLBAN_HEADER:0 "Un message de"
  MILALLBAN_1:0 "$ACTOR$"
  MILALLBAN_2:0 " "
- MILALLBAN_3:0 "$MONARCHTITLE$, $ACTOR$ a rompu\nl'alliance avec nous."
+ MILALLBAN_3:0 "$MONARCHTITLE$, $ACTOR|Y$ a rompu\nl'alliance avec nous."
  MILALLBAN_4:0 ""
  MILALLBAN_5:0 "" # [LocEditor:CustomLanguageKey]
  MILALLBAN_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2901,7 +2901,7 @@
  MILALLWEBAN_HEADER:0 "$MESSENGER$"
  MILALLWEBAN_1:0 "Alliance rompue !"
  MILALLWEBAN_2:0 " "
- MILALLWEBAN_3:0 "$MONARCHTITLE$, nous avons rompu\nl'alliance avec $RECIPIENT$."
+ MILALLWEBAN_3:0 "$MONARCHTITLE$, nous avons bien évidemment\nrompu l'alliance avec $RECIPIENT|Y$."
  MILALLWEBAN_4:0 ""
  MILALLWEBAN_5:0 "" # [LocEditor:CustomLanguageKey]
  MILALLWEBAN_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2915,7 +2915,7 @@
  MILALLWEACCEPT_HEADER:0 "$MESSENGER$"
  MILALLWEACCEPT_1:0 "Alliance acceptée !"
  MILALLWEACCEPT_2:0 " "
- MILALLWEACCEPT_3:0 "$MONARCHTITLE$, nous avons accepté\nune alliance avec $ACTOR$."
+ MILALLWEACCEPT_3:0 "$MONARCHTITLE$, nous avons accepté\nune alliance avec $ACTOR|Y$."
  MILALLWEACCEPT_4:0 ""
  MILALLWEACCEPT_5:0 ""
  MILALLWEACCEPT_6:0 ""
@@ -2929,7 +2929,7 @@
  MILALLWEREJECT_HEADER:0 "$MESSENGER$"
  MILALLWEREJECT_1:0 "Alliance rejetée !"
  MILALLWEREJECT_2:0 " "
- MILALLWEREJECT_3:0 "$MONARCHTITLE$, nous avons rejeté la proposition d'alliance\nprésentée par $ACTOR$."
+ MILALLWEREJECT_3:0 "$MONARCHTITLE$, nous avons bien évidemment rejeté la proposition d'alliance présentée par $ACTOR|Y$."
  MILALLWEREJECT_4:0 ""
  MILALLWEREJECT_5:0 ""
  MILALLWEREJECT_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2943,7 +2943,7 @@
  TRADEREFUSAL_HEADER:0 "$MESSENGER$"
  TRADEREFUSAL_1:0 "Embargo !"
  TRADEREFUSAL_2:0 " "
- TRADEREFUSAL_3:0 "$MONARCHTITLE$, $ACTOR$ refuse que nos marchands accèdent à ses provinces !"
+ TRADEREFUSAL_3:0 "$MONARCHTITLE$, $ACTOR|Y$ refuse que nos marchands accèdent à ses provinces !"
  TRADEREFUSAL_5:0 "Cela signifie que nos marchands vont perdre en puissance commerciale dans chaque nœud où se trouvent des provinces de $ACTOR$." # [LocEditor:CustomLanguageKey]
  TRADEREFUSAL_BTN1:0 "D'accord"
  TRADEREFUSAL_BTN2:0 "D'accord"
@@ -2954,7 +2954,7 @@
  TRADEREFUSALOTHER_HEADER:0 "$MESSENGER$"
  TRADEREFUSALOTHER_1:0 "Embargo"
  TRADEREFUSALOTHER_2:0 " "
- TRADEREFUSALOTHER_3:0 "$MONARCHTITLE$, $ACTOR$ refuse désormais que les marchands de $RECIPIENT$ accèdent à ses provinces."
+ TRADEREFUSALOTHER_3:0 "$MONARCHTITLE$, $ACTOR|Y$ refuse désormais que les marchands de $RECIPIENT|Y$ accèdent à ses provinces."
  TRADEREFUSALOTHER_4:0 ""
  TRADEREFUSALOTHER_5:0 ""
  TRADEREFUSALOTHER_BTN1:0 "D'accord"
@@ -2966,7 +2966,7 @@
  OWNTRADEREFUSAL_HEADER:0 "$MESSENGER$"
  OWNTRADEREFUSAL_1:0 "Embargo !"
  OWNTRADEREFUSAL_2:0 " "
- OWNTRADEREFUSAL_3:0 "$MONARCHTITLE$, nous avons interdit l'accès à nos provinces aux marchands de $RECIPIENT$ et leur refusons désormais tout commerce avec nous."
+ OWNTRADEREFUSAL_3:0 "$MONARCHTITLE$, nous avons interdit l'accès à nos provinces aux marchands de $RECIPIENT|Y$ et leur refusons désormais tout commerce avec nous."
  OWNTRADEREFUSAL_4:0 " "
  OWNTRADEREFUSAL_5:0 "Ils ne peuvent plus nous envoyer de marchands ; ceux déjà sur place ne leur rapporteront plus aucun revenu et disposeront d'une puissance commerciale amoindrie dans les nœuds commerciaux où nous sommes bien implantés." # [LocEditor:CustomLanguageKey]
  OWNTRADEREFUSAL_BTN1:0 "D'accord"
@@ -2977,7 +2977,7 @@
  OWNTRADEALLOW_SETUP:0 "Si nous levons l'embargo imposé à un pays"
  OWNTRADEALLOW_HEADER:0 "$MESSENGER$"
  OWNTRADEALLOW_1:0 "Embargo levé"
- OWNTRADEALLOW_3:0 "$MONARCHTITLE$, nous avons rouvert l'accès à nos provinces aux marchands de $RECIPIENT$, et permettons à ce pays de commercer de nouveau avec nous."
+ OWNTRADEALLOW_3:0 "$MONARCHTITLE$, nous avons rouvert l'accès à nos provinces aux marchands de $RECIPIENT|Y$, et permettons à ce pays de commercer de nouveau avec nous."
  OWNTRADEALLOW_4:0 ""
  OWNTRADEALLOW_5:0 "" # [LocEditor:CustomLanguageKey]
  OWNTRADEALLOW_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -2990,7 +2990,7 @@
  TRADEALLOW_HEADER:0 "$MESSENGER$"
  TRADEALLOW_1:0 "Embargo levé !"
  TRADEALLOW_2:0 " "
- TRADEALLOW_3:0 "$ACTOR$ autorise de nouveau\nnos marchands à accéder à leur marché !"
+ TRADEALLOW_3:0 "$ACTOR|Y$ autorise de nouveau\nnos marchands à accéder à ses marchés !"
  TRADEALLOW_4:0 ""
  TRADEALLOW_5:0 "" # [LocEditor:CustomLanguageKey]
  TRADEALLOW_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -3003,7 +3003,7 @@
  TRADEALLOWOTHER_HEADER:0 "$MESSENGER$"
  TRADEALLOWOTHER_1:0 "Embargo levé"
  TRADEALLOWOTHER_2:0 " "
- TRADEALLOWOTHER_3:0 "$ACTOR$ autorise de nouveau les marchands de $RECIPIENT$ à accéder à son marché."
+ TRADEALLOWOTHER_3:0 "$ACTOR|Y$ autorise de nouveau les marchands de $RECIPIENT|Y$ à accéder à ses marchés."
  TRADEALLOWOTHER_4:0 ""
  TRADEALLOWOTHER_5:0 ""
  TRADEALLOWOTHER_6:0 ""
@@ -3016,7 +3016,7 @@
  ANNEXACCEPT_HEADER:0 "Un message de"
  ANNEXACCEPT_1:0 "$RECIPIENT$"
  ANNEXACCEPT_2:0 " "
- ANNEXACCEPT_3:0 "$MONARCHTITLE$, $RECIPIENT$ a accepté son annexion\net fait désormais partie intégrante de notre glorieux pays."
+ ANNEXACCEPT_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a accepté son annexion\net fait désormais partie intégrante de notre glorieux pays."
  ANNEXACCEPT_4:0 " "
  ANNEXACCEPT_5:0 "Prestige : $PRESTIGE$"
  ANNEXACCEPT_6:0 ""
@@ -3030,7 +3030,7 @@
  WEANNEXACCEPT_HEADER:0 "$MESSENGER$"
  WEANNEXACCEPT_1:0 "Annexion !"
  WEANNEXACCEPT_2:0 " "
- WEANNEXACCEPT_3:0 "$MONARCHTITLE$, nous avons accepté les exigences d'annexion de notre puissant ennemi, $ACTOR$."
+ WEANNEXACCEPT_3:0 "$MONARCHTITLE$, nous avons accepté les exigences d'annexion de notre puissant ennemi, $ACTOR|Y$."
  WEANNEXACCEPT_4:0 " "
  WEANNEXACCEPT_5:0 "Pour nous, la partie est terminée !"
  WEANNEXACCEPT_6:0 ""
@@ -3044,7 +3044,7 @@
  ANNEXACCEPTOTHER_HEADER:0 "Un message de"
  ANNEXACCEPTOTHER_1:0 "$ACTOR$"
  ANNEXACCEPTOTHER_2:0 " "
- ANNEXACCEPTOTHER_3:0 "$MONARCHTITLE$, $ACTOR$ a annexé $RECIPIENT$, qui fait désormais partie intégrante de ce pays."
+ ANNEXACCEPTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a été annexé par $ACTOR|Y$ et fait désormais partie intégrante de ce pays."
  ANNEXACCEPTOTHER_4:0 ""
  ANNEXACCEPTOTHER_5:0 "" # [LocEditor:CustomLanguageKey]
  ANNEXACCEPTOTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -3114,10 +3114,10 @@
  VASALLACCEPT_HEADER:0 "Un message de"
  VASALLACCEPT_1:0 "$RECIPIENT$"
  VASALLACCEPT_2:0 " "
- VASALLACCEPT_3:0 "$MONARCHTITLE$, $RECIPIENT$ a su saisir\nl'opportunité unique de devenir notre vassal."
+ VASALLACCEPT_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a su saisir l'opportunité unique de devenir notre vassal."
  VASALLACCEPT_4:0 " "
- VASALLACCEPT_5:0 "Ce pays nous reversera désormais la moitié de ses revenus fiscaux."
- VASALLACCEPT_6:0 ""
+ VASALLACCEPT_5:0 "Ce pays nous reversera désormais une part de ses revenus fiscaux."
+ VASALLACCEPT_6:0 "" # [LocEditor:AwaitingBatchUpdate]
  VASALLACCEPT_LOG:0 "$RECIPIENT$ est désormais notre vassal."
  VASALLACCEPT_BTN1:0 "Parfait !"
  VASALLACCEPT_BTN2:0 "Parfait !"
@@ -3128,7 +3128,7 @@
  VASALLREJECT_HEADER:0 "Un message de"
  VASALLREJECT_1:0 "$RECIPIENT$"
  VASALLREJECT_2:0 " "
- VASALLREJECT_3:0 "$MONARCHTITLE$, $RECIPIENT$ a rejeté\nnotre si généreuse invitation à devenir notre vassal."
+ VASALLREJECT_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a rejeté notre si généreuse invitation à devenir notre vassal."
  VASALLREJECT_4:0 " "
  VASALLREJECT_5:0 "C'est à se demander comment ce pays a pu perdurer\njusqu'à présent avec de tels dirigeants…"
  VASALLREJECT_6:0 ""
@@ -3141,7 +3141,7 @@
  VASALLACCEPTOTHER_HEADER:0 "Un message de"
  VASALLACCEPTOTHER_1:0 "$ACTOR$"
  VASALLACCEPTOTHER_2:0 " "
- VASALLACCEPTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT$ est devenu\nvassal de $ACTOR$."
+ VASALLACCEPTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ est devenu vassal de $ACTOR|Y$."
  VASALLACCEPTOTHER_4:0 ""
  VASALLACCEPTOTHER_5:0 ""
  VASALLACCEPTOTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -3155,7 +3155,7 @@
  VASALLREJECTOTHER_HEADER:0 "Un message de"
  VASALLREJECTOTHER_1:0 "$ACTOR$"
  VASALLREJECTOTHER_2:0 " "
- VASALLREJECTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT$ a refusé\nde devenir vassal de $ACTOR$."
+ VASALLREJECTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a refusé de devenir vassal de $ACTOR|Y$."
  VASALLREJECTOTHER_4:0 ""
  VASALLREJECTOTHER_5:0 ""
  VASALLREJECTOTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -3169,7 +3169,7 @@
  VASALLWEREJECT_HEADER:0 "$MESSENGER$"
  VASALLWEREJECT_1:0 "Vassalisation refusée"
  VASALLWEREJECT_2:0 " "
- VASALLWEREJECT_3:0 "$MONARCHTITLE$, nous avons bien évidemment refusé\n\nde $ACTOR$ de devenir leurs vassaux."
+ VASALLWEREJECT_3:0 "$MONARCHTITLE$, nous avons bien évidemment refusé\n\nde $ACTOR|Y$ de devenir leurs vassaux."
  VASALLWEREJECT_4:0 " "
  VASALLWEREJECT_5:0 "Il est même amusant qu'ils aient cru que nous pourrions accepter."
  VASALLWEREJECT_6:0 ""
@@ -3183,7 +3183,7 @@
  VASALLWEACCEPT_HEADER:0 "$MESSENGER$"
  VASALLWEACCEPT_1:0 "Vassalisation"
  VASALLWEACCEPT_2:0 " "
- VASALLWEACCEPT_3:0 "$MONARCHTITLE$, nous avons décidé de devenir\nde façon temporaire les vassaux de $RECIPIENT$."
+ VASALLWEACCEPT_3:0 "$MONARCHTITLE$, nous avons décidé de devenir\nde façon temporaire les vassaux de $RECIPIENT|Y$."
  VASALLWEACCEPT_4:0 " "
  VASALLWEACCEPT_5:0 "Nous pourrons tout naturellement les trahir dès que l'occasion s'en présentera."
  VASALLWEACCEPT_6:0 ""
@@ -3197,7 +3197,7 @@
  VASALLBREAKOTHER_HEADER:0 "Un message de"
  VASALLBREAKOTHER_1:0 "$ACTOR$"
  VASALLBREAKOTHER_2:0 " "
- VASALLBREAKOTHER_3:0 "$MONARCHTITLE$, $ACTOR$ a libéré\n$RECIPIENT$ du lien de vassalité qui les unissait."
+ VASALLBREAKOTHER_3:0 "$MONARCHTITLE$, $ACTOR|Y$ a libéré\n$RECIPIENT|Y$ du lien de vassalité qui les unissait."
  VASALLBREAKOTHER_4:0 ""
  VASALLBREAKOTHER_5:0 ""
  VASALLBREAKOTHER_6:0 ""
@@ -3211,7 +3211,7 @@
  VASALLBREAK_HEADER:0 "$MESSENGER$"
  VASALLBREAK_1:0 "Indépendance retrouvée"
  VASALLBREAK_2:0 " "
- VASALLBREAK_3:0 "$MONARCHTITLE$, $ACTOR$ nous a stupidement\nlibérés de notre lien de vassalité."
+ VASALLBREAK_3:0 "$MONARCHTITLE$, $ACTOR|Y$ nous a sottement\nlibérés de notre lien de vassalité."
  VASALLBREAK_4:0 " "
  VASALLBREAK_5:0 "Nous saurons récompenser cette folie comme elle le mérite."
  VASALLBREAK_6:0 ""
@@ -3225,7 +3225,7 @@
  WEVASALLBREAK_HEADER:0 "$MESSENGER$"
  WEVASALLBREAK_1:0 "Indépendance accordée"
  WEVASALLBREAK_2:0 " "
- WEVASALLBREAK_3:0 "Nous étions las de la vassalité de $RECIPIENT$."
+ WEVASALLBREAK_3:0 "Nous étions las de la vassalité de $RECIPIENT|Y$."
  WEVASALLBREAK_4:0 " "
  WEVASALLBREAK_5:0 "$RECIPIENT$ devrait nous remercier de l'opportunité qui lui est offerte."
  WEVASALLBREAK_6:0 ""
@@ -3361,12 +3361,12 @@
  WEWARN_BTN3:0 "Voir"
  WEWARN_MAP:0 "" # [LocEditor:CustomLanguageKey]
  INSUTOUS_TITLE:0 "Insultes"
- INSUTOUS_SETUP:0 "Si un pays nous envoie une lettre d'insultes"
+ INSUTOUS_SETUP:0 "Si un pays nous insulte"
  INSUTOUS_HEADER:0 "Un message de"
  INSUTOUS_1:0 "$ACTOR$"
  INSUTOUS_2:0 " "
- INSUTOUS_3:0 "$MONARCHTITLE$, ces faquins sans foi ni loi\nde $ACTOR$ nous ont envoyé une lettre d'insultes."
- INSUTOUS_4:0 "Nous disposons donc désormais d'un casus belli contre ce pays,\net nos relations se sont détériorées."
+ INSUTOUS_3:0 "$MONARCHTITLE$, ces faquins sans foi ni loi de $ACTOR|Y$ nous ont insultés."
+ INSUTOUS_4:0 "\nNous disposons donc désormais d'un casus belli contre ce pays,\net nos relations se sont détériorées."
  INSUTOUS_5:0 " " # [LocEditor:CustomLanguageKey]
  INSUTOUS_6:0 "Nous avons pour habitude d'ignorer les messages de ruffians aussi grossiers."
  INSUTOUS_LOG:0 "$ACTOR$ nous a envoyé une lettre d'insultes."
@@ -3375,11 +3375,11 @@
  INSUTOUS_BTN3:0 "Voir"
  INSUTOUS_MAP:0 "" # [LocEditor:CustomLanguageKey]
  WEINSU_TITLE:0 "Insultes"
- WEINSU_SETUP:0 "Si nous envoyons une lettre d'insultes à un autre pays"
+ WEINSU_SETUP:0 "Si nous insultons un autre pays"
  WEINSU_HEADER:0 "$MESSENGER$"
  WEINSU_1:0 "Insulte"
  WEINSU_2:0 " "
- WEINSU_3:0 "$MONARCHTITLE$, nous avons envoyé une lettre fort adroitement tournée à $RECIPIENT$, qui l'a malheureusement prise pour une lettre d'insultes."
+ WEINSU_3:0 "$MONARCHTITLE$, nous avons envoyé une lettre fort adroitement tournée à $RECIPIENT|Y$, qui l'a malheureusement prise pour une lettre d'insultes."
  WEINSU_4:0 " "
  WEINSU_5:0 "Leur manque de culture est fort divertissant,\nmais ils semblent malgré tout assez fâchés."
  WEINSU_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -3389,11 +3389,11 @@
  WEINSU_BTN3:0 "Voir"
  WEINSU_MAP:0 "" # [LocEditor:CustomLanguageKey]
  INSUOTHER_TITLE:0 "Insultes"
- INSUOTHER_SETUP:0 "Si un pays envoie une lettre d'insultes à un autre"
+ INSUOTHER_SETUP:0 "Si un pays en insulte un autre"
  INSUOTHER_HEADER:0 "Un message de"
  INSUOTHER_1:0 "$ACTOR$"
  INSUOTHER_2:0 " "
- INSUOTHER_3:0 "$MONARCHTITLE$, $ACTOR$ a envoyé\nune lettre d'insultes à $RECIPIENT$."
+ INSUOTHER_3:0 "$MONARCHTITLE$, $ACTOR|Y$ a insulté $RECIPIENT|Y$."
  INSUOTHER_4:0 ""
  INSUOTHER_5:0 ""
  INSUOTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -3407,7 +3407,7 @@
  INSUTOUS_SCORNFUL_HEADER:0 "Un messager de"
  INSUTOUS_SCORNFUL_1:0 "$ACTOR$"
  INSUTOUS_SCORNFUL_2:1 " "
- INSUTOUS_SCORNFUL_3:0 "$MONARCHTITLE$, ces racailles de $ACTOR$ nous ont accablés d'outrages :\n\n« $SCORNFUL_INSULT|Y$ »"
+ INSUTOUS_SCORNFUL_3:0 "$MONARCHTITLE$, ces racailles de $ACTOR|Y$ nous ont accablés d'outrages :\n\n« $SCORNFUL_INSULT|Y$ »"
  INSUTOUS_SCORNFUL_4:1 " "
  INSUTOUS_SCORNFUL_5:1 "Nous allons devoir apprendre à ces barbares comment se comporter à l'égard de meilleurs qu'eux."
  INSUTOUS_SCORNFUL_6:1 ""
@@ -3421,7 +3421,7 @@
  WEINSU_SCORNFUL_HEADER:0 "$MESSENGER$"
  WEINSU_SCORNFUL_1:0 "Outrages"
  WEINSU_SCORNFUL_2:0 " "
- WEINSU_SCORNFUL_3:0 "$MONARCHTITLE$, nous avons envoyé une lettre extrêmement bien tournée à $RECIPIENT$ :\n\n« $SCORNFUL_INSULT|Y$ »"
+ WEINSU_SCORNFUL_3:0 "$MONARCHTITLE$, nous avons envoyé une lettre extrêmement bien tournée à $RECIPIENT|Y$ :\n\n« $SCORNFUL_INSULT|Y$ »"
  WEINSU_SCORNFUL_4:0 " "
  WEINSU_SCORNFUL_5:0 "Malheureusement, il semble que ces barbares l'ont interprétée comme un véritable outrage. Leur manque de culture est des plus plaisants, même si pour leur part ils ne semblent guère s'en amuser."
  WEINSU_SCORNFUL_6:0 ""
@@ -3435,7 +3435,7 @@
  INSUOTHER_SCORNFUL_HEADER:0 "Un messager de"
  INSUOTHER_SCORNFUL_1:0 "$ACTOR$"
  INSUOTHER_SCORNFUL_2:0 " "
- INSUOTHER_SCORNFUL_3:0 "$MONARCHTITLE$, $ACTOR$ a accablé $RECIPIENT$ d'outrages :\n\n« $SCORNFUL_INSULT|Y$ »"
+ INSUOTHER_SCORNFUL_3:0 "$MONARCHTITLE$, $ACTOR|Y$ a accablé $RECIPIENT|Y$ d'outrages :\n\n« $SCORNFUL_INSULT|Y$ »"
  INSUOTHER_SCORNFUL_4:0 "" # [LocEditor:CustomLanguageKey]
  INSUOTHER_SCORNFUL_5:0 ""
  INSUOTHER_SCORNFUL_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -3743,7 +3743,7 @@
  MILALLHONOUR_HEADER:0 "Un message de"
  MILALLHONOUR_1:0 "$RECIPIENT$"
  MILALLHONOUR_2:0 " "
- MILALLHONOUR_3:0 "$MONARCHTITLE$, nous ne sommes pas surpris d'apprendre que $RECIPIENT$ a honoré notre alliance et rejoint nos invincibles armées dans la guerre contre $VERSUS$."
+ MILALLHONOUR_3:0 "$MONARCHTITLE$, nous ne sommes pas surpris d'apprendre que $RECIPIENT|Y$ a honoré notre alliance et rejoint nos invincibles armées dans la guerre contre $VERSUS|Y$."
  MILALLHONOUR_4:0 " "
  MILALLHONOUR_5:0 "$RECIPIENT$ est désormais en guerre contre $TARGETLIST$."
  MILALLHONOUR_6:0 ""
@@ -3757,9 +3757,9 @@
  WEMILALLHONOUR_HEADER:0 "$MESSENGER$"
  WEMILALLHONOUR_1:0 "Nous honorons notre alliance"
  WEMILALLHONOUR_2:0 " "
- WEMILALLHONOUR_3:0 "$MONARCHTITLE$, nous avons jugé que $ACTOR$ était digne d'être épaulé dans la guerre contre $VERSUS$."
+ WEMILALLHONOUR_3:0 "$MONARCHTITLE$, nous avons jugé que $ACTOR|Y$ était digne d'être épaulé dans la guerre contre $VERSUS|Y$."
  WEMILALLHONOUR_4:0 " "
- WEMILALLHONOUR_5:0 "Nous sommes désormais en guerre contre $TARGETLIST$."
+ WEMILALLHONOUR_5:0 "Nous sommes désormais en guerre contre $TARGETLIST|Y$."
  WEMILALLHONOUR_6:0 ""
  WEMILALLHONOUR_LOG:0 "Nous avons rejoint $ACTOR$ dans sa guerre contre $TARGETLIST$."
  WEMILALLHONOUR_BTN1:0 "D'accord"
@@ -3771,9 +3771,9 @@
  WEMILALLSUPPORTIND_HEADER:0 "$MESSENGER$"
  WEMILALLSUPPORTIND_1:0 "Soutien à l'indépendance"
  WEMILALLSUPPORTIND_2:0 " "
- WEMILALLSUPPORTIND_3:0 "$MONARCHTITLE$, nous avons rejoint $ACTOR$ dans sa guerre légitime pour arracher son indépendance à $VERSUS$."
+ WEMILALLSUPPORTIND_3:0 "$MONARCHTITLE$, nous avons rejoint $ACTOR|Y$ dans sa guerre légitime pour arracher son indépendance à $VERSUS|Y$."
  WEMILALLSUPPORTIND_4:0 " "
- WEMILALLSUPPORTIND_5:0 "Nous sommes désormais en guerre contre $TARGETLIST$."
+ WEMILALLSUPPORTIND_5:0 "Nous sommes désormais en guerre contre $TARGETLIST|Y$."
  WEMILALLSUPPORTIND_6:0 ""
  WEMILALLSUPPORTIND_LOG:0 "Nous avons rejoint la guerre d'indépendance de $ACTOR$ contre $TARGETLIST$."
  WEMILALLSUPPORTIND_BTN1:0 "D'accord"
@@ -3799,9 +3799,9 @@
  OTHERMILALLHONOUR_HEADER:0 "Un message de"
  OTHERMILALLHONOUR_1:0 "$RECIPIENT$"
  OTHERMILALLHONOUR_2:0 " "
- OTHERMILALLHONOUR_3:0 "$MONARCHTITLE$, $RECIPIENT$ a honoré son alliance avec $ACTOR$."
+ OTHERMILALLHONOUR_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a honoré son alliance avec $ACTOR|Y$."
  OTHERMILALLHONOUR_4:0 " "
- OTHERMILALLHONOUR_5:0 "$RECIPIENT$ est désormais en guerre contre $TARGETLIST$."
+ OTHERMILALLHONOUR_5:0 "$RECIPIENT$ est désormais en guerre contre $TARGETLIST|Y$."
  OTHERMILALLHONOUR_6:0 ""
  OTHERMILALLHONOUR_LOG:0 "$RECIPIENT$ a rejoint $ACTOR$ dans la guerre contre $TARGETLIST$."
  OTHERMILALLHONOUR_BTN1:0 "D'accord"
@@ -3813,7 +3813,7 @@
  MILALLDISHONOUR_HEADER:0 "Un message de"
  MILALLDISHONOUR_1:0 "$RECIPIENT$"
  MILALLDISHONOUR_2:0 " "
- MILALLDISHONOUR_3:0 "$MONARCHTITLE$, ces traîtres de $RECIPIENT$ ont refusé de rejoindre notre guerre noble et juste."
+ MILALLDISHONOUR_3:0 "$MONARCHTITLE$, ces traîtres de $RECIPIENT|Y$ ont refusé de rejoindre notre guerre noble et juste."
  MILALLDISHONOUR_4:0 " "
  MILALLDISHONOUR_5:0 "Ils peuvent s'estimer heureux que nous soyons occupés en ce moment."
  MILALLDISHONOUR_6:0 "Nous n'oublierons pas cet acte indigne de si tôt."
@@ -3827,7 +3827,7 @@
  WEMILALLDISHONOUR_HEADER:0 "$MESSENGER$"
  WEMILALLDISHONOUR_1:0 "Alliance désavouée"
  WEMILALLDISHONOUR_2:0 " "
- WEMILALLDISHONOUR_3:0 "$MONARCHTITLE$, nous avons décidé que la guerre que livre $ACTOR$ est contraire à nos intérêts actuels."
+ WEMILALLDISHONOUR_3:0 "$MONARCHTITLE$, nous avons signifié à $ACTOR|Y$ que sa guerre est contraire à nos intérêts actuels."
  WEMILALLDISHONOUR_4:0 " "
  WEMILALLDISHONOUR_5:0 "Nous avons pris grand plaisir à leur signifier\nqu'il ne fallait pas compter sur nous dans ce conflit.$FAITH$" # [LocEditor:CustomLanguageKey]
  WEMILALLDISHONOUR_6:1 ""
@@ -3841,7 +3841,7 @@
  OTHERMILALLDISHONOUR_HEADER:0 "Un message de"
  OTHERMILALLDISHONOUR_1:0 "$RECIPIENT$"
  OTHERMILALLDISHONOUR_2:0 " "
- OTHERMILALLDISHONOUR_3:0 "$MONARCHTITLE$, $RECIPIENT$ a désavoué\nl'alliance conclue avec $ACTOR$."
+ OTHERMILALLDISHONOUR_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a désavoué\nl'alliance conclue avec $ACTOR|Y$."
  OTHERMILALLDISHONOUR_4:0 " "
  OTHERMILALLDISHONOUR_5:0 "Les imbéciles.\nPlus ils seront divisés, plus vite ils tomberont."
  OTHERMILALLDISHONOUR_6:0 ""
@@ -3996,7 +3996,7 @@
  REGENTOTHER_HEADER:0 "Un message de"
  REGENTOTHER_1:0 "$ACTOR$"
  REGENTOTHER_2:1 " "
- REGENTOTHER_3:0 "$MONARCHTITLE$, l'héritier de $COUNTRY$ étant encore trop jeune pour régner, un conseil de régence va gouverner le pays."
+ REGENTOTHER_3:0 "$RMONARCHTITLE$, l'héritier de $COUNTRY|Y$ étant encore trop jeune pour régner, un conseil de régence va gouverner le pays."
  REGENTOTHER_4:0 " "
  REGENTOTHER_5:0 "Ses capacités diplomatiques s'en trouvent réduites.\nPeut-être est-il temps de frapper ?" # [LocEditor:CustomLanguageKey]
  REGENTOTHER_6:0 ""
@@ -4008,10 +4008,10 @@
  QUEENREGENT_TITLE:0 "Régence"
  QUEENREGENT_SETUP:0 "Si la consort prend la tête du pays"
  QUEENREGENT_HEADER:0 "Un message de notre gouverneur"
- QUEENREGENT_1:0 "Régence de la $QUEENPRINCE$ !"
+ QUEENREGENT_1:0 "Régence de la $QUEENPRINCE$"
  QUEENREGENT_2:0 " "
  QUEENREGENT_3:0 "Notre regretté souverain a malencontreusement décidé\nde trépasser un peu trop tôt, alors que son héritier\nn'est pas encore en âge d'assumer le rôle de monarque."
- QUEENREGENT_4:0 "$NAME$ va désormais gouverner le pays,\njusqu'à ce que l'héritier atteigne la majorité."
+ QUEENREGENT_4:0 "$NAME|Y$ va désormais gouverner le pays,\njusqu'à ce que l'héritier atteigne la majorité."
  QUEENREGENT_5:0 " "
  QUEENREGENT_6:0 "Contrairement à un conseil de régence, nous pourrons toujours déclarer la guerre."
  QUEENREGENT_LOG:0 "Notre $QUEENPRINCE$ gouverne désormais le pays."
@@ -4024,7 +4024,7 @@
  QUEENREGENTOTHER_HEADER:0 "Un messager de"
  QUEENREGENTOTHER_1:0 "$ACTOR$"
  QUEENREGENTOTHER_2:0 " "
- QUEENREGENTOTHER_3:0 "$RMONARCHTITLE$, l'héritier de $COUNTRY$ étant encore trop jeune pour régner, la $QUEENPRINCE$ va gouverner le pays."
+ QUEENREGENTOTHER_3:0 "$RMONARCHTITLE$, l'héritier de $COUNTRY|Y$ étant encore trop jeune pour régner, la $QUEENPRINCE$ va gouverner le pays."
  QUEENREGENTOTHER_4:0 " "
  QUEENREGENTOTHER_5:0 "C'est d'un pathétique… Peut-être est-il temps de frapper ?" # [LocEditor:CustomLanguageKey]
  QUEENREGENTOTHER_6:0 ""
@@ -4052,7 +4052,7 @@
  COLONYDAMAGED_HEADER:0 "$MESSENGER$"
  COLONYDAMAGED_1:0 "Colonie attaquée"
  COLONYDAMAGED_2:0 " "
- COLONYDAMAGED_3:0 "$MONARCHTITLE$, des sauvages ont attaqué notre colonie de $PROVINCE$. Plusieurs colons ont été tués, et des bâtiments incendiés."
+ COLONYDAMAGED_3:0 "$MONARCHTITLE$, des sauvages ont attaqué notre colonie de $PROVINCE|Y$. Plusieurs colons ont été tués, et des bâtiments incendiés."
  COLONYDAMAGED_4:0 " "
  COLONYDAMAGED_5:0 "Cela vaut-il vraiment la peine de tenter de leur apporter la civilisation ?"
  COLONYDAMAGED_6:0 ""
@@ -4066,7 +4066,7 @@
  NATIVERISING_HEADER:0 "$MESSENGER$"
  NATIVERISING_1:0 "Soulèvement indigène"
  NATIVERISING_2:0 " "
- NATIVERISING_3:0 "$MONARCHTITLE$, ces sauvages ingrats de $PROVINCE$ se sont soulevés et attaquent à présent notre paisible colonie."
+ NATIVERISING_3:0 "$MONARCHTITLE$, ces sauvages ingrats de $PROVINCE|Y$ se sont soulevés et attaquent à présent notre paisible colonie."
  NATIVERISING_4:0 ""
  NATIVERISING_5:0 "" # [LocEditor:CustomLanguageKey]
  NATIVERISING_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -4253,7 +4253,7 @@
  MISSSUCC_SELF_HEADER:0 "$MESSENGER$"
  MISSSUCC_SELF_1:0 "Succès de la conversion"
  MISSSUCC_SELF_2:0 " "
- MISSSUCC_SELF_3:0 "$MONARCHTITLE$, nous sommes enfin parvenus à convertir les infidèles de $PROV$ à la seule vraie foi !"
+ MISSSUCC_SELF_3:0 "$MONARCHTITLE$, nous sommes enfin parvenus à convertir les infidèles de $PROV|Y$ à la seule vraie foi !"
  MISSSUCC_SELF_4:0 " "
  MISSSUCC_SELF_5:0 "$EXTRA$"
  MISSSUCC_SELF_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -4267,7 +4267,7 @@
  MISSSUCC_OTHER_IN_US_HEADER:0 "$MESSENGER$"
  MISSSUCC_OTHER_IN_US_1:0 "Succès de la conversion"
  MISSSUCC_OTHER_IN_US_2:0 " "
- MISSSUCC_OTHER_IN_US_3:0 "$MONARCHTITLE$, $OTHER$ est enfin parvenu à convertir les hérétiques de la province de $PROV$ à la seule véritable foi !"
+ MISSSUCC_OTHER_IN_US_3:0 "$MONARCHTITLE$, $OTHER|Y$ est enfin parvenu à convertir les hérétiques de la province de $PROV|Y$ à la seule véritable foi !"
  MISSSUCC_OTHER_IN_US_4:0 ""
  MISSSUCC_OTHER_IN_US_5:0 "" # [LocEditor:CustomLanguageKey]
  MISSSUCC_OTHER_IN_US_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -4281,7 +4281,7 @@
  MISSSUCC_US_IN_OTHER_HEADER:0 "$MESSENGER$"
  MISSSUCC_US_IN_OTHER_1:0 "Succès de la conversion"
  MISSSUCC_US_IN_OTHER_2:0 " "
- MISSSUCC_US_IN_OTHER_3:0 "$MONARCHTITLE$, nous sommes enfin parvenus à convertir la province $SUBJECT_ADJ$ de $PROV$ à la foi $RELIGION$ !"
+ MISSSUCC_US_IN_OTHER_3:0 "$MONARCHTITLE$, nous sommes enfin parvenus à convertir la province $SUBJECT_ADJ|Y$ de $PROV|Y$ à la foi $RELIGION|Y$ !"
  MISSSUCC_US_IN_OTHER_4:0 " "
  MISSSUCC_US_IN_OTHER_5:0 "$EXTRA$"
  MISSSUCC_US_IN_OTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -4312,9 +4312,9 @@
  ATTACKTHEM_HEADER:0 "$MESSENGER$"
  ATTACKTHEM_1:0 "Nous avons engagé l'ennemi !"
  ATTACKTHEM_2:0 " "
- ATTACKTHEM_3:0 "$MONARCHTITLE$, nos glorieuses armées ont attaqué l'ennemi en $PROV$."
+ ATTACKTHEM_3:0 "$MONARCHTITLE$, nos glorieuses armées ont attaqué l'ennemi en $PROV|Y$."
  ATTACKTHEM_4:0 " "
- ATTACKTHEM_5:0 "Les forces pitoyables de $DEFENDER$ vont être écrasées sous la botte de $ATTACKER$."
+ ATTACKTHEM_5:0 "Les forces pitoyables de $DEFENDER|Y$ vont être écrasées sous la botte de $ATTACKER$."
  ATTACKTHEM_6:0 ""
  ATTACKTHEM_LOG:0 "Nous avons attaqué l'ennemi en $PROV$."
  ATTACKTHEM_BTN1:0 "D'accord"
@@ -4326,9 +4326,9 @@
  ATTACKUS_HEADER:0 "$MESSENGER$"
  ATTACKUS_1:0 "Nos troupes sont assaillies !"
  ATTACKUS_2:0 " "
- ATTACKUS_3:0 "$MONARCHTITLE$, nos glorieuses armées sont attaquées par l'ennemi en $PROV$."
+ ATTACKUS_3:0 "$MONARCHTITLE$, nos glorieuses armées sont attaquées par l'ennemi en $PROV|Y$."
  ATTACKUS_4:0 " "
- ATTACKUS_5:0 "Les forces pitoyables de $ATTACKER$ vont venir s'empaler sur les piques des valeureux soldats de $DEFENDER$."
+ ATTACKUS_5:0 "Les forces pitoyables de $ATTACKER|Y$ vont venir s'empaler sur les piques des valeureux soldats de $DEFENDER$."
  ATTACKUS_6:0 ""
  ATTACKUS_LOG:0 "Nous avons été attaqués en $PROV$."
  ATTACKUS_BTN1:0 "D'accord"
@@ -4340,9 +4340,9 @@
  SIEGEUS_HEADER:0 "$MESSENGER$"
  SIEGEUS_1:0 "Une forteresse assiégée"
  SIEGEUS_2:0 " "
- SIEGEUS_3:0 "$MONARCHTITLE$, notre puissante forteresse de $PROV$ est assiégée."
+ SIEGEUS_3:0 "$MONARCHTITLE$, notre puissante forteresse de $PROV|Y$ est assiégée."
  SIEGEUS_4:0 " "
- SIEGEUS_5:0 "Mais ne craignez rien : les forces de $ATTACKER$ vont s'écraser contre nos murailles comme l'océan sur la falaise."
+ SIEGEUS_5:0 "Mais ne craignez rien : les forces de $ATTACKER|Y$ vont s'écraser contre nos murailles comme l'océan sur la falaise."
  SIEGEUS_6:0 ""
  SIEGEUS_LOG:0 "Notre forteresse de $PROV$ est assiégée."
  SIEGEUS_BTN1:0 "D'accord"
@@ -4354,7 +4354,7 @@
  SIEGETHEM_HEADER:0 "$MESSENGER$"
  SIEGETHEM_1:0 "L'ennemi est assiégé"
  SIEGETHEM_2:0 " "
- SIEGETHEM_3:0 "$MONARCHTITLE$, nous avons mis le siège devant la pitoyable forteresse de $DEFENDER$ en $PROV$."
+ SIEGETHEM_3:0 "$MONARCHTITLE$, nous avons mis le siège devant la pitoyable forteresse de $DEFENDER|Y$ en $PROV|Y$."
  SIEGETHEM_4:0 " "
  SIEGETHEM_5:0 "Il faudra peu de temps à nos troupes pour franchir les murs et en éliminer la garnison. Qu'ils se rendent ou qu'ils périssent !"
  SIEGETHEM_6:0 ""
@@ -4393,12 +4393,14 @@
  SIEGEOVER_BTN2:0 "D'accord"
  SIEGEOVER_BTN3:0 "Voir"
  SIEGEOVER_MAP:0 "" # [LocEditor:CustomLanguageKey]
+ NEW_GURU_TITLE:0 "Nouveau gourou"
+ NO_GURU_TITLE:0 "Aucun gourou"
  OCCUPATIONOVER_TITLE:0 "Prov. occupée"
  OCCUPATIONOVER_SETUP:0 "Si une province non fortifiée est occupée"
  OCCUPATIONOVER_HEADER:0 "$MESSENGER$"
- OCCUPATIONOVER_1:0 "$WINNER$ occupe $PROV$"
+ OCCUPATIONOVER_1:0 "Occupation de $PROV$"
  OCCUPATIONOVER_2:0 " "
- OCCUPATIONOVER_3:0 "$MONARCHTITLE$, $WINNER$ occupe la province de $PROV$, et ses troupes contrôlent désormais la province."
+ OCCUPATIONOVER_3:0 "$MONARCHTITLE$, les troupes de $WINNER|Y$ occupent la province de $PROV|Y$ et s'en sont assuré le contrôle."
  OCCUPATIONOVER_4:0 ""
  OCCUPATIONOVER_5:0 "" # [LocEditor:CustomLanguageKey]
  OCCUPATIONOVER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -4471,7 +4473,7 @@
  NEWFOGWE_HEADER:0 "$MESSENGER$"
  NEWFOGWE_1:0 "Nouveau régime politique !"
  NEWFOGWE_2:0 " "
- NEWFOGWE_3:0 "$MONARCHTITLE$, en adoptant un nouveau régime politique\nnous sommes entrés dans une ère nouvelle."
+ NEWFOGWE_3:0 "$MONARCHTITLE$, en adoptant un nouveau régime politique nous sommes entrés dans une ère nouvelle."
  NEWFOGWE_4:0 " "
  NEWFOGWE_5:0 "Nous gouvernerons désormais selon les principes\nde la $FOG$."
  NEWFOGWE_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -4485,7 +4487,7 @@
  NEWFOGOTHER_HEADER:0 "Un message de"
  NEWFOGOTHER_1:0 "$COUNTRY$"
  NEWFOGOTHER_2:0 " "
- NEWFOGOTHER_3:0 "En adoptant le nouveau régime politique de la $FOG$, $COUNTRY$ prétend être entré dans une ère nouvelle."
+ NEWFOGOTHER_3:0 "En adoptant le nouveau régime politique de la $FOG$, $COUNTRY|Y$ prétend être entré dans une ère nouvelle."
  NEWFOGOTHER_4:0 " "
  NEWFOGOTHER_5:0 "$COUNTRY$ suivra désormais une voie nouvelle dans l'histoire."
  NEWFOGOTHER_6:0 ""
@@ -4513,7 +4515,7 @@
  INHERITOTHER_HEADER:0 "Un message de"
  INHERITOTHER_1:0 "$COUNTRY$"
  INHERITOTHER_2:0 " "
- INHERITOTHER_3:0 "$COUNTRY$ nous rapporte avoir hérité du trône de $INHERITED$."
+ INHERITOTHER_3:0 "$COUNTRY|Y$ nous rapporte avoir hérité du trône de $INHERITED|Y$."
  INHERITOTHER_4:0 " "
  INHERITOTHER_5:0 "La grâce et la beauté sont parfois aussi efficaces que les canons."
  INHERITOTHER_6:0 ""
@@ -4527,7 +4529,7 @@
  UNIONWEMASTER_HEADER:0 "$MESSENGER$"
  UNIONWEMASTER_1:0 "Union personnelle"
  UNIONWEMASTER_2:0 " "
- UNIONWEMASTER_3:0 "$MONARCHTITLE$, nous avons formé une union personnelle\navec $INHERITED$."
+ UNIONWEMASTER_3:0 "$MONARCHTITLE$, nous avons formé une union personnelle\navec $INHERITED|Y$."
  UNIONWEMASTER_4:0 "Ce pays nous a juré allégeance, nous permettant de régner sur nos deux nations comme si elles n'étaient qu'une. Il ne pourra en sortir que du bien."
  UNIONWEMASTER_5:0 " "
  UNIONWEMASTER_6:0 "Nos deux nations seront désormais gouvernées par notre glorieux $ACTUALMONARCHTITLE$."
@@ -4541,7 +4543,7 @@
  UNIONWELESSER_HEADER:0 "$MESSENGER$"
  UNIONWELESSER_1:0 "Union personnelle"
  UNIONWELESSER_2:0 " "
- UNIONWELESSER_3:0 "$MONARCHTITLE$, même si cela était à contre-cœur,\nnous avons prêté allégeance\nau $TITLE$ de $COUNTRY$."
+ UNIONWELESSER_3:0 "$MONARCHTITLE$, même si cela était à contre-cœur,\nnous avons prêté allégeance\nau $TITLE$ de $COUNTRY|Y$."
  UNIONWELESSER_4:0 " "
  UNIONWELESSER_5:0 "Nous sommes donc soumis aux caprices d'un souverain étranger.\nPour l'instant, du moins…"
  UNIONWELESSER_6:0 ""
@@ -4555,7 +4557,7 @@
  UNIONOTHER_HEADER:0 "Un message de"
  UNIONOTHER_1:0 "$COUNTRY$"
  UNIONOTHER_2:0 " "
- UNIONOTHER_3:0 "Nous venons d'apprendre que $COUNTRY$ a formé une union personnelle avec $INHERITED$."
+ UNIONOTHER_3:0 "Nous venons d'apprendre que $COUNTRY|Y$ a formé une union personnelle avec $INHERITED|Y$."
  UNIONOTHER_4:0 " "
  UNIONOTHER_5:0 "C'est désormais le $TITLE$ de $COUNTRY$ qui gouvernera $INHERITED$."
  UNIONOTHER_6:0 ""
@@ -4789,11 +4791,11 @@
  OTHERCANCELWARSUBSIDIES_BTN3:0 "Voir"
  OTHERCANCELWARSUBSIDIES_MAP:0 "" # [LocEditor:CustomLanguageKey]
  OURTRUCEENDS_TITLE:0 "Expiration trêve"
- OURTRUCEENDS_SETUP:0 "Si la trêve entre nous et un autre pays vient à son terme"
+ OURTRUCEENDS_SETUP:0 "Si la trêve avec un autre pays vient à son terme"
  OURTRUCEENDS_HEADER:0 "Un message de notre chancelier"
  OURTRUCEENDS_1:0 "Fin de la trêve"
  OURTRUCEENDS_2:0 " "
- OURTRUCEENDS_3:0 "La trêve avec $ACTOR$ a expiré." # [LocEditor:CustomLanguageKey]
+ OURTRUCEENDS_3:0 "La trêve avec $ACTOR|Y$ a expiré." # [LocEditor:CustomLanguageKey]
  OURTRUCEENDS_4:0 " " # [LocEditor:CustomLanguageKey]
  OURTRUCEENDS_5:0 "Nous pouvons déclarer de nouveau la guerre à $ACTOR$ sans pénalités – mais l'inverse est tout aussi vrai."
  OURTRUCEENDS_6:0 "\nLes années de paix sont révolues."
@@ -4835,7 +4837,7 @@
  INDEPENDANCE_HEADER:0 "Un message de"
  INDEPENDANCE_1:0 "$ACTOR$"
  INDEPENDANCE_2:0 " "
- INDEPENDANCE_3:0 "Ce pays, en proclamant son indépendance de $OPRESSOR$, est enfin parvenu à se débarrasser de ses oppresseurs et de ses chaînes."
+ INDEPENDANCE_3:0 "$ACTOR|Y$, en proclamant son indépendance de $OPRESSOR|Y$, est enfin parvenu à se débarrasser de ses oppresseurs et de ses chaînes."
  INDEPENDANCE_4:0 " "
  INDEPENDANCE_5:0 "Il peut désormais jouir de sa liberté toute nouvelle."
  INDEPENDANCE_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -5092,9 +5094,9 @@
  ENEMYMILALLHONOUR_HEADER:0 "Un message de"
  ENEMYMILALLHONOUR_1:0 "$RECIPIENT$"
  ENEMYMILALLHONOUR_2:0 " "
- ENEMYMILALLHONOUR_3:0 "$MONARCHTITLE$, $RECIPIENT$ a honoré son alliance avec $ACTOR$."
+ ENEMYMILALLHONOUR_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a honoré son alliance avec $ACTOR|Y$."
  ENEMYMILALLHONOUR_4:0 " "
- ENEMYMILALLHONOUR_5:0 "$RECIPIENT$ est désormais en guerre\ncontre $TARGETLIST$."
+ ENEMYMILALLHONOUR_5:0 "Ce pays est désormais en guerre\ncontre $TARGETLIST|Y$."
  ENEMYMILALLHONOUR_6:0 ""
  ENEMYMILALLHONOUR_LOG:0 "$RECIPIENT$ a rejoint $ACTOR$ dans la guerre contre $TARGETLIST$."
  ENEMYMILALLHONOUR_BTN1:0 "D'accord"
@@ -5106,9 +5108,9 @@
  ENEMYMILALLHONOURSUBJECT_HEADER:0 "Un messager de"
  ENEMYMILALLHONOURSUBJECT_1:0 "$RECIPIENT$"
  ENEMYMILALLHONOURSUBJECT_2:0 " "
- ENEMYMILALLHONOURSUBJECT_3:0 "$MONARCHTITLE$, notre dépendance $RECIPIENT$ a honoré son alliance militaire avec $ACTOR$"
+ ENEMYMILALLHONOURSUBJECT_3:0 "$MONARCHTITLE$, notre dépendance $RECIPIENT|Y$ a honoré son alliance militaire avec $ACTOR|Y$."
  ENEMYMILALLHONOURSUBJECT_4:0 " "
- ENEMYMILALLHONOURSUBJECT_5:0 "Elle est désormais en guerre contre $TARGETLIST$."
+ ENEMYMILALLHONOURSUBJECT_5:0 "Elle est désormais en guerre contre $TARGETLIST|Y$."
  ENEMYMILALLHONOURSUBJECT_6:0 ""
  ENEMYMILALLHONOURSUBJECT_LOG:0 "$RECIPIENT$ a rejoint $ACTOR$ dans la guerre contre $TARGETLIST$."
  ENEMYMILALLHONOURSUBJECT_BTN1:0 "D'accord"
@@ -5122,7 +5124,7 @@
  UNITARRIVED_HEADER:0 "$MESSENGER$"
  UNITARRIVED_1:0 "Une $TYPE$ à destination"
  UNITARRIVED_2:0 " "
- UNITARRIVED_3:0 "Notre $NAME$ est parvenue\nsans encombre en $PROV$."
+ UNITARRIVED_3:0 "Notre $NAME|Y$ est parvenue\nsans encombre en $PROV|Y$."
  UNITARRIVED_4:0 " "
  UNITARRIVED_5:0 "Elle y attend de nouveaux ordres."
  UNITARRIVED_6:0 ""
@@ -5138,7 +5140,7 @@
  RMEND_2:0 " "
  RMEND_3:0 "Triste nouvelle…\nCe grand homme d'État qu'était $KING$ est décédé."
  RMEND_4:0 " "
- RMEND_5:0 "Le mariage royal avec $KINGCOUNTRY$ est rompu."
+ RMEND_5:0 "Le mariage royal avec $KINGCOUNTRY|Y$ est rompu."
  RMEND_6:0 ""
  RMEND_LOG:0 "Le mariage royal avec $KINGCOUNTRY$ a pris fin."
  RMEND_BTN1:0 "D'accord"
@@ -5151,7 +5153,7 @@
  PUEND_1:0 "Fin de l'union personnelle"
  PUEND_2:0 " "
  PUEND_3:0 "$KING$ est mort."
- PUEND_4:0 "L'union personnelle avec $KINGCOUNTRY$ a été dissoute."
+ PUEND_4:0 "L'union personnelle avec $KINGCOUNTRY|Y$ a été dissoute."
  PUEND_5:0 " "
  PUEND_6:0 "Nous sommes de nouveau maîtres de notre destinée."
  PUEND_LOG:0 "Notre union personnelle avec $KINGCOUNTRY$ a pris fin."
@@ -5164,7 +5166,7 @@
  PUENDWAR_HEADER:0 " " # [LocEditor:CustomLanguageKey]
  PUENDWAR_1:0 "Union personnelle rompue"
  PUENDWAR_2:0 " "
- PUENDWAR_3:0 "L'union personnelle avec $KINGCOUNTRY$ a été rompue."
+ PUENDWAR_3:0 "L'union personnelle avec $KINGCOUNTRY|Y$ a été rompue."
  PUENDWAR_4:0 " "
  PUENDWAR_5:0 "Nous sommes de nouveau libres de forger notre destinée."
  PUENDWAR_6:0 ""
@@ -5180,7 +5182,7 @@
  PUABANDON_2:0 " "
  PUABANDON_3:0 "Nous avons renoncé à notre union personnelle avec $COUNTRY|Y$."
  PUABANDON_4:0 " " # [LocEditor:CustomLanguageKey]
- PUABANDON_5:0 "Ce pays ne sera plus une charge pour notre glorieux pays"
+ PUABANDON_5:0 "Ces misérables ne seront plus une charge pour notre glorieux pays."
  PUABANDON_6:0 ""
  PUABANDON_LOG:0 "Nous avons renoncé à l'union personnelle avec $COUNTRY$."
  PUABANDON_BTN1:0 "D'accord"
@@ -5220,7 +5222,7 @@
  LEADERTRAIT_GAINED_HEADER:0 " "
  LEADERTRAIT_GAINED_1:0 "Trait de commandant acquis"
  LEADERTRAIT_GAINED_2:0 " "
- LEADERTRAIT_GAINED_3:0 "L'expérience acquise au combat a permis à notre $TYPE$ $LEADER|Y$ d'acquérir le trait\n« $NAME|Y$ »."
+ LEADERTRAIT_GAINED_3:0 "L'expérience acquise au combat a permis à notre $TYPE$ $LEADER|Y$ d'acquérir le trait\n$NAME|Y$."
  LEADERTRAIT_GAINED_4:0 " "
  LEADERTRAIT_GAINED_5:0 "Cela va lui donner comme avantage :\n$DESC$"
  LEADERTRAIT_GAINED_6:0 ""
@@ -5234,9 +5236,9 @@
  NEWFACTION_HEADER:0 "$MESSENGER$"
  NEWFACTION_1:0 "Nouvelle faction au pouvoir"
  NEWFACTION_2:0 " "
- NEWFACTION_3:0 "$FACTION|Y$\ndomine désormais la scène politique nationale."
+ NEWFACTION_3:0 "$FACTION|Y$\ndomine désormais la scène politique."
  NEWFACTION_4:0 " "
- NEWFACTION_5:0 "Cela aura évidemment des répercussions sur notre politique :\n$VALUES$"
+ NEWFACTION_5:0 "Cela aura évidemment des répercussions sur la vie du pays :\n$VALUES$"
  NEWFACTION_6:0 ""
  NEWFACTION_LOG:0 "$FACTION$ est arrivée au pouvoir."
  NEWFACTION_BTN1:0 "D'accord"
@@ -5247,8 +5249,8 @@
  PROVINCELOST_HEADER:0 "$MESSENGER$"
  PROVINCELOST_1:0 "Province perdue !"
  PROVINCELOST_2:0 " "
- PROVINCELOST_3:0 "Nous avons perdu la province de $PROV$."
- PROVINCELOST_4:0 "Elle est entre les mains de ce pays détestable qu'est $COUNTRY$."
+ PROVINCELOST_3:0 "Nous avons perdu la province de $PROV|Y$."
+ PROVINCELOST_4:0 "Elle est entre les mains de ce pays détestable qu'est $COUNTRY|Y$."
  PROVINCELOST_5:0 " "
  PROVINCELOST_6:0 "Il nous faut la reprendre !"
  PROVINCELOST_LOG:0 "Nous avons perdu $PROV$, au bénéfice de $COUNTRY$."
@@ -5261,11 +5263,11 @@
  CAPITALMOVED_HEADER:0 "Capitale politique transférée"
  CAPITALMOVED_1:0 "$COUNTRY$"
  CAPITALMOVED_2:0 " "
- CAPITALMOVED_3:0 "Nous avons établi notre nouvelle capitale politique en $PROVINCE$."
+ CAPITALMOVED_3:0 "Nous avons établi notre nouvelle capitale politique dans la province de $PROVINCE$."
  CAPITALMOVED_4:0 "" # [LocEditor:CustomLanguageKey]
  CAPITALMOVED_5:0 "" # [LocEditor:CustomLanguageKey]
  CAPITALMOVED_6:0 "" # [LocEditor:CustomLanguageKey]
- CAPITALMOVED_LOG:0 "Nous avons établi notre nouvelle capitale politique en $PROVINCE$."
+ CAPITALMOVED_LOG:0 "Nous avons établi notre nouvelle capitale politique dans la province de $PROVINCE$."
  CAPITALMOVED_BTN1:0 "Fantastique !"
  CAPITALMOVED_BTN2:0 "Fantastique !"
  CAPITALMOVED_BTN3:0 "Voir"
@@ -5275,11 +5277,11 @@
  CAPITALMOVEDOTHER_HEADER:0 " "
  CAPITALMOVEDOTHER_1:0 "Capitale politique transférée"
  CAPITALMOVEDOTHER_2:0 " "
- CAPITALMOVEDOTHER_3:0 "$THEM$ a établi sa nouvelle capitale politique en $PROVINCE$."
+ CAPITALMOVEDOTHER_3:0 "$THEM$ a établi sa nouvelle capitale politique dans la province de $PROVINCE$."
  CAPITALMOVEDOTHER_4:0 "" # [LocEditor:CustomLanguageKey]
  CAPITALMOVEDOTHER_5:0 "" # [LocEditor:CustomLanguageKey]
  CAPITALMOVEDOTHER_6:0 "" # [LocEditor:CustomLanguageKey]
- CAPITALMOVEDOTHER_LOG:0 "$THEM$ a établi sa nouvelle capitale politique en $PROVINCE$."
+ CAPITALMOVEDOTHER_LOG:0 "$THEM$ a établi sa nouvelle capitale politique dans la province de $PROVINCE$."
  CAPITALMOVEDOTHER_BTN1:0 "Très bien"
  CAPITALMOVEDOTHER_BTN2:0 "Très bien"
  CAPITALMOVEDOTHER_BTN3:0 "Voir"
@@ -5556,7 +5558,7 @@
  COLONYCITYUS_HEADER:0 "$MESSENGER$"
  COLONYCITYUS_1:0 "Colonie autosuffisante"
  COLONYCITYUS_2:0 " "
- COLONYCITYUS_3:0 "$MONARCHTITLE$, notre colonie en $PROVINCE$\ns'est suffisamment développée pour être autosuffisante."
+ COLONYCITYUS_3:0 "$MONARCHTITLE$, notre colonie en $PROVINCE|Y$\ns'est suffisamment développée pour être autosuffisante."
  COLONYCITYUS_4:0 " "
  COLONYCITYUS_5:0 "Prestige : $PRESTIGE$"
  COLONYCITYUS_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -5712,7 +5714,7 @@
  DECLWAR_HEADER:0 "$WAR$"
  DECLWAR_1:0 "GUERRE !"
  DECLWAR_2:0 " "
- DECLWAR_3:0 "$MONARCHTITLE$, $BADWORD$ $AGRESSOR$\nnous ont déclaré la guerre !"
+ DECLWAR_3:0 "$MONARCHTITLE$, $BADWORD$ $AGRESSOR|Y$\nnous ont déclaré la guerre !"
  DECLWAR_4:0 "Préparons-nous pour la bataille…"
  DECLWAR_5:0 " " # [LocEditor:CustomLanguageKey]
  DECLWAR_6:0 "$CASUS$"
@@ -5726,7 +5728,7 @@
  DECLWAROTHER_HEADER:0 "Un message de"
  DECLWAROTHER_1:0 "$AGRESSOR$"
  DECLWAROTHER_2:0 " "
- DECLWAROTHER_3:0 "$MONARCHTITLE$, $AGRESSOR$ a déclaré la guerre à son ennemi, $DEFENDER$."
+ DECLWAROTHER_3:0 "$MONARCHTITLE$, $AGRESSOR|Y$ a déclaré la guerre à son ennemi, $DEFENDER|Y$."
  DECLWAROTHER_4:0 " "
  DECLWAROTHER_5:0 "$CASUS$"
  DECLWAROTHER_6:0 ""
@@ -5740,7 +5742,7 @@
  WEDECLWAR_HEADER:0 "$WAR$"
  WEDECLWAR_1:0 "Guerre !"
  WEDECLWAR_2:0 " "
- WEDECLWAR_3:0 "Nous avons déclaré la $WAR$ à $DEFENDER$." # [LocEditor:CustomLanguageKey]
+ WEDECLWAR_3:0 "Nous avons déclaré la $WAR$ à $DEFENDER|Y$." # [LocEditor:CustomLanguageKey]
  WEDECLWAR_4:0 "" # [LocEditor:CustomLanguageKey]
  WEDECLWAR_5:0 "" # [LocEditor:CustomLanguageKey]
  WEDECLWAR_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -5749,12 +5751,12 @@
  WEDECLWAR_BTN2:0 "D'accord"
  WEDECLWAR_BTN3:0 "Voir"
  WEDECLWAR_MAP:0 "GUERRE !"
- DECLWARCOLATT_TITLE:1 "Dépendance en guerre"
+ DECLWARCOLATT_TITLE:1 "Dép. en guerre"
  DECLWARCOLATT_SETUP:1 "Si l'une de nos dépendances déclenche une guerre"
  DECLWARCOLATT_HEADER:0 " "
  DECLWARCOLATT_1:1 "$WAR$"
  DECLWARCOLATT_2:0 " "
- DECLWARCOLATT_3:0 "Notre $SUBJECT$, $AGRESSOR$, a déclaré la guerre à $DEFENDER$."
+ DECLWARCOLATT_3:0 "Notre $SUBJECT$, $AGRESSOR|Y$, a déclaré la guerre à $DEFENDER|Y$."
  DECLWARCOLATT_4:0 " " # [LocEditor:CustomLanguageKey]
  DECLWARCOLATT_5:0 "$CASUS$" # [LocEditor:CustomLanguageKey]
  DECLWARCOLATT_6:0 ""
@@ -5768,7 +5770,7 @@
  DECLWARCOLDEF_HEADER:0 " "
  DECLWARCOLDEF_1:0 "$WAR$"
  DECLWARCOLDEF_2:1 " "
- DECLWARCOLDEF_3:0 "$AGRESSOR$ a déclaré la guerre à notre $SUBJECT$ de $DEFENDER$."
+ DECLWARCOLDEF_3:0 "$AGRESSOR|Y$ a déclaré la guerre à notre $SUBJECT$ de $DEFENDER|Y$."
  DECLWARCOLDEF_4:0 " " # [LocEditor:CustomLanguageKey]
  DECLWARCOLDEF_5:0 "$CASUS$" # [LocEditor:CustomLanguageKey]
  DECLWARCOLDEF_6:0 ""
@@ -5778,29 +5780,29 @@
  DECLWARCOLDEF_BTN3:0 "Voir"
  DECLWARCOLDEF_MAP:0 "GUERRE !"
  WEGAINCB_TITLE:0 "Casus belli obtenu"
- WEGAINCB_SETUP:0 "Si nous obtenons un casus belli"
+ WEGAINCB_SETUP:0 "Si nous obtenons un casus belli contre un autre pays"
  WEGAINCB_HEADER:0 " "
  WEGAINCB_1:0 "Casus belli"
  WEGAINCB_2:0 " "
- WEGAINCB_3:0 "$MONARCHTITLE$, nous avons obtenu le casus belli « $CASUS$ » contre $ENEMY$."
+ WEGAINCB_3:0 "$MONARCHTITLE$, nous avons obtenu le casus belli $CASUS|Y$ contre $ENEMY|Y$."
  WEGAINCB_4:0 "$DESC$"
  WEGAINCB_5:0 ""
  WEGAINCB_6:0 ""
- WEGAINCB_LOG:0 "Nous avons obtenu le casus belli « $CASUS$ » contre $ENEMY$."
+ WEGAINCB_LOG:0 "Nous avons obtenu le casus belli $CASUS$ contre $ENEMY$."
  WEGAINCB_BTN1:0 "D'accord"
  WEGAINCB_BTN2:0 "D'accord"
  WEGAINCB_BTN3:0 "Voir"
  WEGAINCB_MAP:0 "" # [LocEditor:CustomLanguageKey]
  WELOSECB_TITLE:0 "Casus belli perdu"
- WELOSECB_SETUP:0 "Si nous perdons un casus belli"
+ WELOSECB_SETUP:0 "Si nous perdons un casus belli contre un autre pays"
  WELOSECB_HEADER:0 " "
  WELOSECB_1:0 "Casus belli perdu"
  WELOSECB_2:0 " "
- WELOSECB_3:0 "$MONARCHTITLE$, nous avons malheureusement perdu le casus belli « $CASUS$ » contre $ENEMY$."
+ WELOSECB_3:0 "$MONARCHTITLE$, nous avons malheureusement perdu le casus belli $CASUS|Y$ contre $ENEMY|Y$."
  WELOSECB_4:0 ""
  WELOSECB_5:0 ""
  WELOSECB_6:0 "" # [LocEditor:CustomLanguageKey]
- WELOSECB_LOG:0 "Nous avons perdu le casus belli « $CASUS$ » contre $ENEMY$."
+ WELOSECB_LOG:0 "Nous avons perdu le casus belli $CASUS$ contre $ENEMY$."
  WELOSECB_BTN1:0 "D'accord"
  WELOSECB_BTN2:0 "D'accord"
  WELOSECB_BTN3:0 "Voir"
@@ -5868,13 +5870,13 @@
  NEWQUEEN_NAME_1:0 "$STATS$"
  NEWQUEEN_NAME_2:0 "$COUNTRY$ a une nouvelle $QUEENPRINCE$. $PRONOUN$ s'appelle :"
  HEIR_DISINHERIT_TITLE:0 "Héritier déshérité"
- HEIR_DISINHERIT_SETUP:0 "Si notre héritier est déshérité"
- HEIR_DISINHERIT_HEADER:0 "L'avenir nous sourit de nouveau !"
- HEIR_DISINHERIT_1:0 " "
- HEIR_DISINHERIT_2:0 "$HEIRNAME$ a été retiré de la ligne de succession."
- HEIR_DISINHERIT_3:0 " "
- HEIR_DISINHERIT_4:0 "Notre avenir est bien plus brillant ainsi."
- HEIR_DISINHERIT_5:0 "" # [LocEditor:CustomLanguageKey]
+ HEIR_DISINHERIT_SETUP:0 "Si nous déshéritons notre héritier"
+ HEIR_DISINHERIT_HEADER:0 " "
+ HEIR_DISINHERIT_1:0 "$HEIRNAME$ déshérité"
+ HEIR_DISINHERIT_2:0 " "
+ HEIR_DISINHERIT_3:0 "$HEIRNAME$ a été retiré de la ligne de succession."
+ HEIR_DISINHERIT_4:0 " "
+ HEIR_DISINHERIT_5:0 "Notre avenir est bien plus brillant ainsi." # [LocEditor:CustomLanguageKey]
  HEIR_DISINHERIT_6:0 "" # [LocEditor:CustomLanguageKey]
  HEIR_DISINHERIT_LOG:0 "Nous avons déshérité $HEIRNAME$."
  HEIR_DISINHERIT_BTN1:0 "D'accord"
@@ -6391,11 +6393,11 @@
  PROVMODEXP_HEADER:0 " "
  PROVMODEXP_1:0 "Expiration d'un modificateur provincial"
  PROVMODEXP_2:0 " "
- PROVMODEXP_3:0 "« $MOD$ »\na cessé de faire effet en $PROV$."
+ PROVMODEXP_3:0 "$MOD|Y$\na cessé de faire effet en $PROV|Y$."
  PROVMODEXP_4:0 " "
  PROVMODEXP_5:0 "($DESC$)" # [LocEditor:CustomLanguageKey]
  PROVMODEXP_6:0 "" # [LocEditor:CustomLanguageKey]
- PROVMODEXP_LOG:0 "La province de $PROV$ n'est plus sujette à « $MOD$ »."
+ PROVMODEXP_LOG:0 "La province de $PROV$ n'est plus sujette à $MOD$."
  PROVMODEXP_BTN1:0 "D'accord"
  PROVMODEXP_BTN2:0 "D'accord"
  PROVMODEXP_BTN3:0 "Voir"
@@ -6405,7 +6407,7 @@
  COUNTRYMODEXP_HEADER:0 " "
  COUNTRYMODEXP_1:0 "Expiration d'un modificateur national"
  COUNTRYMODEXP_2:0 " "
- COUNTRYMODEXP_3:0 "« $MOD$ »\na cessé de faire effet en $COUNTRY$."
+ COUNTRYMODEXP_3:0 "$MOD|Y$\na cessé de faire effet en $COUNTRY|Y$."
  COUNTRYMODEXP_4:0 " "
  COUNTRYMODEXP_5:0 "($DESC$)" # [LocEditor:CustomLanguageKey]
  COUNTRYMODEXP_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -6617,9 +6619,9 @@
  SUCCESSIONWAR_HEADER:0 "$MESSENGER$"
  SUCCESSIONWAR_1:0 "Guerre de Succession $TARGET$"
  SUCCESSIONWAR_2:0 " "
- SUCCESSIONWAR_3:0 "$MONARCHTITLE$, $SECOND$ est entré en guerre contre $FIRST$."
+ SUCCESSIONWAR_3:0 "$MONARCHTITLE$, $SECOND|Y$ est entré en guerre contre $FIRST|Y$."
  SUCCESSIONWAR_4:0 " "
- SUCCESSIONWAR_5:0 "L'ancien souverain de $NATION$ souhaitait que son trône revienne à $FIRST$ à sa mort. Toutefois, le dirigeant de $SECOND$ prétend que feu Sa Majesté n'avait plus toute sa tête, et que c'est lui qui devrait monter sur le trône."
+ SUCCESSIONWAR_5:0 "L'ancien souverain de $NATION|Y$ souhaitait que son trône revienne à $FIRST$ à sa mort. Toutefois, le dirigeant de $SECOND$ prétend que feu Sa Majesté n'avait plus toute sa tête, et que c'est lui qui devrait monter sur le trône."
  SUCCESSIONWAR_6:1 "\nLa guerre s'annonce longue et sanglante."
  SUCCESSIONWAR_LOG:0 "La guerre de Succession $TARGET$ a éclaté entre $FIRST$ et $SECOND$."
  SUCCESSIONWAR_BTN1:0 "D'accord"
@@ -6631,9 +6633,9 @@
  SUCCESSIONWARUS_HEADER:0 "$MESSENGER$"
  SUCCESSIONWARUS_1:0 "Guerre de Succession $TARGET$"
  SUCCESSIONWARUS_2:0 " "
- SUCCESSIONWARUS_3:0 "$MONARCHTITLE$, $SECOND$ est entré en guerre contre $FIRST$."
+ SUCCESSIONWARUS_3:0 "$MONARCHTITLE$, $SECOND|Y$ est entré en guerre contre $FIRST|Y$."
  SUCCESSIONWARUS_4:0 " "
- SUCCESSIONWARUS_5:0 "L'ancien souverain de $NATION$ souhaitait que son trône revienne à $FIRST$ à sa mort. Toutefois, le dirigeant de $SECOND$ prétend que feu Sa Majesté n'avait plus toute sa tête et que c'est lui devrait monter sur le trône."
+ SUCCESSIONWARUS_5:0 "L'ancien souverain de $NATION|Y$ souhaitait que son trône revienne à $FIRST$ à sa mort. Toutefois, le dirigeant de $SECOND$ prétend que feu Sa Majesté n'avait plus toute sa tête et que c'est lui devrait monter sur le trône."
  SUCCESSIONWARUS_6:1 "\nLa guerre s'annonce longue et sanglante."
  SUCCESSIONWARUS_LOG:0 "La guerre de Succession $TARGET$ a éclaté entre $FIRST$ et $SECOND$."
  SUCCESSIONWARUS_BTN1:0 "D'accord"
@@ -6645,9 +6647,9 @@
  PUENDMASTER_HEADER:0 "Fin d'une union"
  PUENDMASTER_1:0 "Fin de l'union personnelle"
  PUENDMASTER_2:0 " "
- PUENDMASTER_3:0 "L'union personnelle avec $KINGCOUNTRY$ a pris fin."
+ PUENDMASTER_3:0 "L'union personnelle avec $KINGCOUNTRY|Y$ a pris fin."
  PUENDMASTER_4:0 " "
- PUENDMASTER_5:0 "Les nobles félons de $KINGCOUNTRY$ ont élu leur propre monarque." # [LocEditor:CustomLanguageKey]
+ PUENDMASTER_5:0 "Les nobles félons de $KINGCOUNTRY|Y$ ont élu leur propre monarque." # [LocEditor:CustomLanguageKey]
  PUENDMASTER_6:0 "" # [LocEditor:CustomLanguageKey]
  PUENDMASTER_LOG:0 "L'union personnelle avec $KINGCOUNTRY$ a pris fin."
  PUENDMASTER_BTN1:0 "D'accord"
@@ -7023,11 +7025,11 @@
  NEWPERSONALITY_MONARCH_HEADER:0 "$MESSENGER$"
  NEWPERSONALITY_MONARCH_1:0 "Personnalité de $NAME$"
  NEWPERSONALITY_MONARCH_2:0 " "
- NEWPERSONALITY_MONARCH_3:0 "Il semble que notre $WHO$ $NAME$ doive désormais être $PERSONALITY$."
+ NEWPERSONALITY_MONARCH_3:0 "Il semble que notre $WHO$ $NAME$ doive désormais être $PERSONALITY|Y$."
  NEWPERSONALITY_MONARCH_4:0 " "
  NEWPERSONALITY_MONARCH_5:0 "Cela se traduira sur le gouvernement de $COUNTRY$ par :\n$EFFECT$" # [LocEditor:CustomLanguageKey]
  NEWPERSONALITY_MONARCH_6:0 "" # [LocEditor:CustomLanguageKey]
- NEWPERSONALITY_MONARCH_LOG:0 "Notre $WHO$ $NAME$ est désormais $PERSONALITY$."
+ NEWPERSONALITY_MONARCH_LOG:0 "$WHO$ $NAME$ est désormais $PERSONALITY$."
  NEWPERSONALITY_MONARCH_BTN1:0 "D'accord"
  NEWPERSONALITY_MONARCH_BTN2:0 "D'accord"
  NEWPERSONALITY_MONARCH_BTN3:0 "Voir"
@@ -7037,11 +7039,11 @@
  NEWPERSONALITY_HEIR_HEADER:0 "$MESSENGER$"
  NEWPERSONALITY_HEIR_1:0 "Personnalité de $NAME$"
  NEWPERSONALITY_HEIR_2:0 " "
- NEWPERSONALITY_HEIR_3:0 "Il semble que notre $WHO$ $NAME$ doive désormais être $PERSONALITY$."
+ NEWPERSONALITY_HEIR_3:0 "Il semble que notre $WHO$ $NAME$ doive désormais être $PERSONALITY|Y$."
  NEWPERSONALITY_HEIR_4:0 " "
  NEWPERSONALITY_HEIR_5:0 "Si $NAME$ règne un jour sur $COUNTRY$, cela se traduira par :\n$EFFECT$" # [LocEditor:CustomLanguageKey]
  NEWPERSONALITY_HEIR_6:0 "" # [LocEditor:CustomLanguageKey]
- NEWPERSONALITY_HEIR_LOG:0 "Notre $WHO$ $NAME$ est désormais $PERSONALITY$."
+ NEWPERSONALITY_HEIR_LOG:0 "$WHO$ $NAME$ est désormais $PERSONALITY$."
  NEWPERSONALITY_HEIR_BTN1:0 "D'accord"
  NEWPERSONALITY_HEIR_BTN2:0 "D'accord"
  NEWPERSONALITY_HEIR_BTN3:0 "Voir"
@@ -7051,11 +7053,11 @@
  NEWPERSONALITY_CONSORT_HEADER:0 "$MESSENGER$"
  NEWPERSONALITY_CONSORT_1:0 "Personnalité de $NAME$"
  NEWPERSONALITY_CONSORT_2:0 " "
- NEWPERSONALITY_CONSORT_3:0 "Il semble que notre $WHO$ $NAME$ doive désormais être $PERSONALITY$."
+ NEWPERSONALITY_CONSORT_3:0 "Il semble que notre $WHO$ $NAME|Y$ doive désormais être $PERSONALITY|Y$."
  NEWPERSONALITY_CONSORT_4:0 " "
  NEWPERSONALITY_CONSORT_5:0 "Si $NAME$ règne un jour sur $COUNTRY$, cela se traduira par :\n$EFFECT$" # [LocEditor:CustomLanguageKey]
  NEWPERSONALITY_CONSORT_6:0 "" # [LocEditor:CustomLanguageKey]
- NEWPERSONALITY_CONSORT_LOG:0 "Notre $WHO$ $NAME$ est désormais $PERSONALITY$."
+ NEWPERSONALITY_CONSORT_LOG:0 "$WHO$ $NAME$ est désormais $PERSONALITY$."
  NEWPERSONALITY_CONSORT_BTN1:0 "D'accord"
  NEWPERSONALITY_CONSORT_BTN2:0 "D'accord"
  NEWPERSONALITY_CONSORT_BTN3:0 "Voir"
@@ -7065,11 +7067,11 @@
  EMBRACEINST_OTHER_HEADER:0 " "
  EMBRACEINST_OTHER_1:0 "$INSTITUTION$"
  EMBRACEINST_OTHER_2:0 " "
- EMBRACEINST_OTHER_3:0 "Nous avons appris que $COUNTRY$ a adopté l'institution « $INSTITUTION$ », ce qui va favoriser son développement technologique et lui permettre :\n$BONUS$"
+ EMBRACEINST_OTHER_3:0 "Nous avons appris que $COUNTRY|Y$ a adopté l'institution $INSTITUTION|Y$, ce qui va favoriser son développement technologique et lui permettre :\n$BONUS$"
  EMBRACEINST_OTHER_4:0 ""
  EMBRACEINST_OTHER_5:0 ""
  EMBRACEINST_OTHER_6:0 "" # [LocEditor:CustomLanguageKey]
- EMBRACEINST_OTHER_LOG:0 "$COUNTRY$ a adopté l'institution « $INSTITUTION$ »."
+ EMBRACEINST_OTHER_LOG:0 "$COUNTRY$ a adopté l'institution $INSTITUTION$."
  EMBRACEINST_OTHER_BTN1:0 "D'accord"
  EMBRACEINST_OTHER_BTN2:0 "D'accord"
  EMBRACEINST_OTHER_BTN3:0 "Voir"
@@ -7079,11 +7081,11 @@
  EMBRACEINST_HEADER:0 " "
  EMBRACEINST_1:0 "Adoption de $INSTITUTION$"
  EMBRACEINST_2:0 " "
- EMBRACEINST_3:1 "Nous avons adopté l'institution « $INSTITUTION$ », ce qui va favoriser notre développement technologique et nous permettre :\n$BONUS$"
+ EMBRACEINST_3:1 "Nous avons adopté l'institution $INSTITUTION|Y$, ce qui va favoriser notre développement technologique et nous permettre :\n$BONUS$"
  EMBRACEINST_4:0 " "
  EMBRACEINST_5:0 "Nos avancées peuvent nous rendre fiers de notre beau pays !" # [LocEditor:CustomLanguageKey]
  EMBRACEINST_6:0 "" # [LocEditor:CustomLanguageKey]
- EMBRACEINST_LOG:0 "Nous avons adopté l'institution « $INSTITUTION$ »."
+ EMBRACEINST_LOG:0 "Nous avons adopté l'institution $INSTITUTION$."
  EMBRACEINST_BTN1:0 "D'accord"
  EMBRACEINST_BTN2:0 "D'accord"
  EMBRACEINST_BTN3:0 "Voir"
@@ -7093,7 +7095,7 @@
  REFNATIVE_OTHER_HEADER:0 " "
  REFNATIVE_OTHER_1:0 "Réforme d'une tribu"
  REFNATIVE_OTHER_2:0 " "
- REFNATIVE_OTHER_3:0 "La tribu des $COUNTRY$ est devenue un véritable État\net dispose désormais d'un réel gouvernement."
+ REFNATIVE_OTHER_3:0 "La tribu des $COUNTRY|Y$ est devenue un véritable État et dispose désormais d'un réel gouvernement."
  REFNATIVE_OTHER_4:1 " "
  REFNATIVE_OTHER_5:0 "$SPONSOR_TEXT$" # [LocEditor:CustomLanguageKey]
  REFNATIVE_OTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7121,7 +7123,7 @@
  REFRELIGION_OTHER_HEADER:0 " "
  REFRELIGION_OTHER_1:0 "Réformes religieuses"
  REFRELIGION_OTHER_2:0 " "
- REFRELIGION_OTHER_3:0 "Les $COUNTRY$ ont réformé et centralisé leur religion et leur société. Il s'agit pour eux d'un progrès considérable."
+ REFRELIGION_OTHER_3:0 "Les $COUNTRY|Y$ ont réformé et centralisé leur religion et leur société. Il s'agit pour eux d'un progrès considérable."
  REFRELIGION_OTHER_4:1 " "
  REFRELIGION_OTHER_5:0 "$SPONSOR_TEXT$" # [LocEditor:CustomLanguageKey]
  REFRELIGION_OTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7177,7 +7179,7 @@
  RIVAL_SET_HEADER:0 " "
  RIVAL_SET_1:0 "Nouvelle rivalité"
  RIVAL_SET_2:0 " "
- RIVAL_SET_3:0 "$THEM$ a officiellement annoncé\nque $RIVAL$ est désormais son rival."
+ RIVAL_SET_3:0 "$THEM|Y$ a officiellement annoncé\nque $RIVAL|Y$ est désormais son rival."
  RIVAL_SET_4:0 ""
  RIVAL_SET_5:0 "" # [LocEditor:CustomLanguageKey]
  RIVAL_SET_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7191,7 +7193,7 @@
  RIVAL_REMOVED_HEADER:0 " "
  RIVAL_REMOVED_1:0 "Fin de la rivalité"
  RIVAL_REMOVED_2:0 " "
- RIVAL_REMOVED_3:0 "$THEM$ ne considère désormais plus\n$RIVAL$ comme son rival."
+ RIVAL_REMOVED_3:0 "$THEM|Y$ ne considère désormais plus\n$RIVAL|Y$ comme son rival."
  RIVAL_REMOVED_4:0 ""
  RIVAL_REMOVED_5:0 "" # [LocEditor:CustomLanguageKey]
  RIVAL_REMOVED_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7205,7 +7207,7 @@
  RIVAL_LOST_HEADER:0 "Fin de la rivalité avec"
  RIVAL_LOST_1:0 "$RIVAL$"
  RIVAL_LOST_2:0 " "
- RIVAL_LOST_3:0 "$RIVAL$ n'est plus un rival valable pour $WHO$."
+ RIVAL_LOST_3:0 "$RIVAL|Y$ n'est plus un rival valable pour $WHO|Y$."
  RIVAL_LOST_4:0 "" # [LocEditor:CustomLanguageKey]
  RIVAL_LOST_5:0 "" # [LocEditor:CustomLanguageKey]
  RIVAL_LOST_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7219,7 +7221,7 @@
  POLICY_ENACTED_HEADER:0 " "
  POLICY_ENACTED_1:0 "Nouvelle politique définie"
  POLICY_ENACTED_2:0 " "
- POLICY_ENACTED_3:0 "$THEM$ a défini une nouvelle politique :\n$POLICY$."
+ POLICY_ENACTED_3:0 "$THEM|Y$ a défini une nouvelle politique :\n$POLICY|Y$."
  POLICY_ENACTED_4:0 "" # [LocEditor:CustomLanguageKey]
  POLICY_ENACTED_5:0 "" # [LocEditor:CustomLanguageKey]
  POLICY_ENACTED_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7233,7 +7235,7 @@
  POLICY_REPEALED_HEADER:0 " "
  POLICY_REPEALED_1:0 "Une politique abrogée"
  POLICY_REPEALED_2:0 " "
- POLICY_REPEALED_3:0 "$THEM$ a abrogé sa politique\nde $POLICY$."
+ POLICY_REPEALED_3:0 "$THEM|Y$ a abrogé sa politique\nde $POLICY|Y$."
  POLICY_REPEALED_4:0 "" # [LocEditor:CustomLanguageKey]
  POLICY_REPEALED_5:0 "" # [LocEditor:CustomLanguageKey]
  POLICY_REPEALED_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7247,7 +7249,7 @@
  TRADE_RELATION_CANCEL_HEADER:0 " "
  TRADE_RELATION_CANCEL_1:0 "Transfert de puissance commerciale annulé"
  TRADE_RELATION_CANCEL_2:0 " "
- TRADE_RELATION_CANCEL_3:0 "$THEM$ a cessé de transférer une partie\nde sa puissance commerciale à $WHO$."
+ TRADE_RELATION_CANCEL_3:0 "$THEM|Y$ a cessé de transférer une partie de sa puissance commerciale à $WHO|Y$."
  TRADE_RELATION_CANCEL_4:0 "" # [LocEditor:CustomLanguageKey]
  TRADE_RELATION_CANCEL_5:0 "" # [LocEditor:CustomLanguageKey]
  TRADE_RELATION_CANCEL_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7261,7 +7263,7 @@
  TRADE_RELATION_ACCEPT_HEADER:0 " "
  TRADE_RELATION_ACCEPT_1:0 "Transfert de puissance commerciale"
  TRADE_RELATION_ACCEPT_2:0 " "
- TRADE_RELATION_ACCEPT_3:0 "$THEM$ transfèrera dorénavant\nde la puissance commerciale à $WHO$."
+ TRADE_RELATION_ACCEPT_3:0 "$THEM|Y$ transfèrera dorénavant une part de sa puissance commerciale à $WHO|Y$."
  TRADE_RELATION_ACCEPT_4:0 "" # [LocEditor:CustomLanguageKey]
  TRADE_RELATION_ACCEPT_5:0 "" # [LocEditor:CustomLanguageKey]
  TRADE_RELATION_ACCEPT_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7271,13 +7273,13 @@
  TRADE_RELATION_ACCEPT_BTN3:0 "Voir"
  TRADE_RELATION_ACCEPT_MAP:0 "" # [LocEditor:CustomLanguageKey]
  STEER_TRADE_RELATION_CANCEL_TITLE:0 "Annul. détourn. comm."
- STEER_TRADE_RELATION_CANCEL_SETUP:0 "Si un pays cesse de détourner le commerce"
+ STEER_TRADE_RELATION_CANCEL_SETUP:0 "Si un pays cesse de détourner son commerce"
  STEER_TRADE_RELATION_CANCEL_HEADER:0 " "
- STEER_TRADE_RELATION_CANCEL_1:0 "Annulation d'une relation commerciale"
+ STEER_TRADE_RELATION_CANCEL_1:0 "Fin du détournement du commerce"
  STEER_TRADE_RELATION_CANCEL_2:0 " "
- STEER_TRADE_RELATION_CANCEL_3:0 "$THEM$ refuse désormais de détourner le commerce vers $WHO$."
+ STEER_TRADE_RELATION_CANCEL_3:0 "$THEM|Y$ refuse désormais de détourner le commerce vers $WHO|Y$."
  STEER_TRADE_RELATION_CANCEL_4:0 " "
- STEER_TRADE_RELATION_CANCEL_5:0 "Les marchands de ce pays se réjouissent très certainement ce soir." # [LocEditor:CustomLanguageKey]
+ STEER_TRADE_RELATION_CANCEL_5:0 "Ce soir, ses marchands se réjouiront très certainement." # [LocEditor:CustomLanguageKey]
  STEER_TRADE_RELATION_CANCEL_6:0 "" # [LocEditor:CustomLanguageKey]
  STEER_TRADE_RELATION_CANCEL_LOG:0 "$THEM$ a cessé de détourner le commerce au profit de $WHO$."
  STEER_TRADE_RELATION_CANCEL_BTN1:0 "D'accord"
@@ -7285,11 +7287,11 @@
  STEER_TRADE_RELATION_CANCEL_BTN3:0 "Voir"
  STEER_TRADE_RELATION_CANCEL_MAP:0 "" # [LocEditor:CustomLanguageKey]
  STEER_TRADE_RELATION_ACCEPT_TITLE:0 "Accept. détourn. comm."
- STEER_TRADE_RELATION_ACCEPT_SETUP:0 "Si un pays accepte de détourner le commerce"
+ STEER_TRADE_RELATION_ACCEPT_SETUP:0 "Si un pays accepte de détourner son commerce"
  STEER_TRADE_RELATION_ACCEPT_HEADER:0 " "
- STEER_TRADE_RELATION_ACCEPT_1:0 "Acceptation d'une relation commerciale"
+ STEER_TRADE_RELATION_ACCEPT_1:0 "Détournement du commerce"
  STEER_TRADE_RELATION_ACCEPT_2:0 " "
- STEER_TRADE_RELATION_ACCEPT_3:0 "$THEM$ va désormais détourner le commerce au profit de $WHO$."
+ STEER_TRADE_RELATION_ACCEPT_3:0 "$THEM|Y$ va désormais détourner son commerce au profit de $WHO|Y$."
  STEER_TRADE_RELATION_ACCEPT_4:0 " "
  STEER_TRADE_RELATION_ACCEPT_5:0 "Même dans leurs pires cauchemars, les marchands de $THEM$ n'avaient sans doute jamais imaginé pire sort que celui-là."
  STEER_TRADE_RELATION_ACCEPT_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7429,7 +7431,7 @@
  EXPLORATION_FINISHED_HEADER:0 "Un rapport de notre explorateur"
  EXPLORATION_FINISHED_1:0 "Missions d'exploration achevée"
  EXPLORATION_FINISHED_2:0 " "
- EXPLORATION_FINISHED_3:0 "$NAME$ a achevé de $MISSION$."
+ EXPLORATION_FINISHED_3:0 "$NAME$ a terminé d'explorer $MISSION|Y$."
  EXPLORATION_FINISHED_4:0 " "
  EXPLORATION_FINISHED_5:1 "Ces régions ont été rajoutées sur nos cartes."
  EXPLORATION_FINISHED_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7485,7 +7487,7 @@
  SUBJECTINTERACT_OVERLORD_INSTANT_HEADER:0 " "
  SUBJECTINTERACT_OVERLORD_INSTANT_1:0 "$NAME$"
  SUBJECTINTERACT_OVERLORD_INSTANT_2:0 " "
- SUBJECTINTERACT_OVERLORD_INSTANT_3:0 "En tant que suzerain de $SUBJECT$, nous avons décidé $WHAT$."
+ SUBJECTINTERACT_OVERLORD_INSTANT_3:0 "En tant que suzerains de $SUBJECT$, nous avons décidé $WHAT$."
  SUBJECTINTERACT_OVERLORD_INSTANT_4:0 " "
  SUBJECTINTERACT_OVERLORD_INSTANT_5:0 "$EFFECT1$\n$EFFECT2$\n$EFFECT3$"
  SUBJECTINTERACT_OVERLORD_INSTANT_6:0 ""
@@ -7516,7 +7518,7 @@
  CONDOTTIERI_ACCEPTED_HEADER:0 " "
  CONDOTTIERI_ACCEPTED_1:0 "Armée mercenaire acceptée"
  CONDOTTIERI_ACCEPTED_2:0 " "
- CONDOTTIERI_ACCEPTED_3:0 "$RECIPIENT$ a accepté de solder notre $ARMYDESC$ en tant qu'armée mercenaire, au prix de $PRICE|Y$¤ par mois."
+ CONDOTTIERI_ACCEPTED_3:0 "$RECIPIENT|Y$ a accepté de solder notre $ARMYDESC$ en tant qu'armée mercenaire, au prix de $PRICE|Y$¤ par mois."
  CONDOTTIERI_ACCEPTED_4:0 ""
  CONDOTTIERI_ACCEPTED_5:0 "" # [LocEditor:CustomLanguageKey]
  CONDOTTIERI_ACCEPTED_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7530,7 +7532,7 @@
  CONDOTTIERI_ACCEPTED_OTHER_HEADER:0 " "
  CONDOTTIERI_ACCEPTED_OTHER_1:0 "Armée mercenaire acceptée"
  CONDOTTIERI_ACCEPTED_OTHER_2:0 " "
- CONDOTTIERI_ACCEPTED_OTHER_3:0 "$RECIPIENT$ a accepté de solder\nla $ARMYDESC$ de $ACTOR|Y$ en tant qu'armée mercenaire, au prix de $PRICE|Y$¤ par mois."
+ CONDOTTIERI_ACCEPTED_OTHER_3:0 "$RECIPIENT|Y$ a accepté de solder\nla $ARMYDESC$ de $ACTOR|Y$ en tant qu'armée mercenaire, au prix de $PRICE|Y$¤ par mois."
  CONDOTTIERI_ACCEPTED_OTHER_4:0 ""
  CONDOTTIERI_ACCEPTED_OTHER_5:0 ""
  CONDOTTIERI_ACCEPTED_OTHER_6:0 ""
@@ -7544,7 +7546,7 @@
  CONDOTTIERI_DECLINED_HEADER:0 " "
  CONDOTTIERI_DECLINED_1:0 "Armée mercenaire refusée"
  CONDOTTIERI_DECLINED_2:0 " "
- CONDOTTIERI_DECLINED_3:0 "$RECIPIENT$ a refusé de solder notre $ARMYDESC$ en tant qu'armée mercenaire."
+ CONDOTTIERI_DECLINED_3:0 "$RECIPIENT|Y$ a refusé de solder notre $ARMYDESC$ en tant qu'armée mercenaire."
  CONDOTTIERI_DECLINED_4:0 "" # [LocEditor:CustomLanguageKey]
  CONDOTTIERI_DECLINED_5:0 "" # [LocEditor:CustomLanguageKey]
  CONDOTTIERI_DECLINED_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7554,11 +7556,11 @@
  CONDOTTIERI_DECLINED_BTN3:0 "Voir"
  CONDOTTIERI_DECLINED_MAP:0 "" # [LocEditor:CustomLanguageKey]
  CANCELCONDOTTIERI_TITLE:0 "Fin arm. merc."
- CANCELCONDOTTIERI_SETUP:0 "Si un pays cesse de solder une de nos armées mercenaires"
+ CANCELCONDOTTIERI_SETUP:0 "Si un pays cesse de solder l'une de nos armées mercenaires"
  CANCELCONDOTTIERI_HEADER:0 " "
  CANCELCONDOTTIERI_1:0 "Armée mercenaire renvoyée"
  CANCELCONDOTTIERI_2:0 " "
- CANCELCONDOTTIERI_3:0 "$ACTOR$ a mis un terme au contrat de solde de l'une de nos armées mercenaires."
+ CANCELCONDOTTIERI_3:0 "$ACTOR|Y$ a mis un terme au contrat de solde de l'une de nos armées mercenaires."
  CANCELCONDOTTIERI_4:0 "$REASON1$"
  CANCELCONDOTTIERI_5:0 "$REASON2$"
  CANCELCONDOTTIERI_6:0 "$REASON3$"
@@ -7572,7 +7574,7 @@
  CONDOTTIERI_CANCELLED_OTHER_HEADER:0 " "
  CONDOTTIERI_CANCELLED_OTHER_1:0 "Armée mercenaire renvoyée"
  CONDOTTIERI_CANCELLED_OTHER_2:0 " "
- CONDOTTIERI_CANCELLED_OTHER_3:0 "$OWNER$ a cessé de solder la $ARMYDESC$ de $RENTER|Y$ en tant qu'armée mercenaire."
+ CONDOTTIERI_CANCELLED_OTHER_3:0 "$OWNER|Y$ a cessé de solder la $ARMYDESC$ de $RENTER|Y$ en tant qu'armée mercenaire."
  CONDOTTIERI_CANCELLED_OTHER_4:0 ""
  CONDOTTIERI_CANCELLED_OTHER_5:0 ""
  CONDOTTIERI_CANCELLED_OTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7614,7 +7616,7 @@
  WEFORCEDBREAKALLIANCE_HEADER:0 "$MESSENGER$"
  WEFORCEDBREAKALLIANCE_1:0 "Alliance rompue"
  WEFORCEDBREAKALLIANCE_2:0 " "
- WEFORCEDBREAKALLIANCE_3:0 "$MONARCHTITLE$, nous avons obligé ce pays moindre qu'est $RECIPIENT$ à rompre son alliance avec @$TAG$$WITH|Y$."
+ WEFORCEDBREAKALLIANCE_3:0 "$MONARCHTITLE$, nous avons obligé ce pays moindre qu'est $RECIPIENT|Y$ à rompre son alliance avec @$TAG$$WITH|Y$."
  WEFORCEDBREAKALLIANCE_4:0 " "
  WEFORCEDBREAKALLIANCE_5:0 "$RECIPIENT$ et $WITH$ l'acceptent de bien mauvaise grâce, et la trêve avec $RECIPIENT$ aura cours jusqu'au $TRUCEDATE|Y$."
  WEFORCEDBREAKALLIANCE_6:0 ""
@@ -7628,7 +7630,7 @@
  FORCEDBREAKALLIANCE_HEADER:0 "Un messager de"
  FORCEDBREAKALLIANCE_1:0 "$ACTOR$"
  FORCEDBREAKALLIANCE_2:0 " "
- FORCEDBREAKALLIANCE_3:0 "$MONARCHTITLE$, cette grande puissance qu'est $ACTOR$ nous a obligés à rompre l'alliance avec @$TAG$$WITH|Y$."
+ FORCEDBREAKALLIANCE_3:0 "$MONARCHTITLE$, cette grande puissance qu'est $ACTOR|Y$ nous a contraints à rompre l'alliance avec @$TAG$$WITH|Y$."
  FORCEDBREAKALLIANCE_4:0 " "
  FORCEDBREAKALLIANCE_5:0 "Nous avons une trêve avec $ACTOR$ jusqu'au $TRUCEDATE|Y$."
  FORCEDBREAKALLIANCE_6:0 "Mais nous nous souviendrons de cela, des siècles durant."
@@ -7642,7 +7644,7 @@
  OTHERFORCEDBREAKALLIANCE_HEADER:0 "Un messager de"
  OTHERFORCEDBREAKALLIANCE_1:0 "$ACTOR$"
  OTHERFORCEDBREAKALLIANCE_2:0 " "
- OTHERFORCEDBREAKALLIANCE_3:0 "$MONARCHTITLE$, cette grande puissance qu'est $ACTOR$ a obligé $RECIPIENT$ à rompre son alliance avec @$TAG$$WITH|Y$."
+ OTHERFORCEDBREAKALLIANCE_3:0 "$MONARCHTITLE$, cette grande puissance qu'est $ACTOR|Y$ a contraint $RECIPIENT|Y$ à rompre son alliance avec @$TAG$$WITH|Y$."
  OTHERFORCEDBREAKALLIANCE_4:0 " "
  OTHERFORCEDBREAKALLIANCE_5:0 "L'avenir paraît désormais très incertain…" # [LocEditor:CustomLanguageKey]
  OTHERFORCEDBREAKALLIANCE_6:0 ""
@@ -7656,7 +7658,7 @@
  FORCEDALLYBREAKALLIANCE_HEADER:0 "Un messager de"
  FORCEDALLYBREAKALLIANCE_1:0 "$ACTOR$"
  FORCEDALLYBREAKALLIANCE_2:0 " "
- FORCEDALLYBREAKALLIANCE_3:0 "$MONARCHTITLE$, la grande puissance qu'est $ACTOR$ a obligé notre allié $RECIPIENT$ à rompre son alliance avec @$TAG$$WITH|Y$."
+ FORCEDALLYBREAKALLIANCE_3:0 "$MONARCHTITLE$, la grande puissance qu'est $ACTOR|Y$ a contraint notre allié $RECIPIENT|Y$ à rompre son alliance avec nous."
  FORCEDALLYBREAKALLIANCE_4:0 " "
  FORCEDALLYBREAKALLIANCE_5:0 "Nous ne sommes pas prêts d'oublier cet affront !" # [LocEditor:CustomLanguageKey]
  FORCEDALLYBREAKALLIANCE_6:0 ""
@@ -7670,9 +7672,9 @@
  BREAKALLIANCE_DECLINED_HEADER:0 " "
  BREAKALLIANCE_DECLINED_1:0 "Refus de rompre une alliance"
  BREAKALLIANCE_DECLINED_2:0 " "
- BREAKALLIANCE_DECLINED_3:0 "$RECIPIENT$ a refusé d'accéder à notre demande et de rompre son alliance avec @$TAG$$WITH|Y$."
+ BREAKALLIANCE_DECLINED_3:0 "$RECIPIENT|Y$ a refusé d'accéder à notre demande et de rompre son alliance avec @$TAG$$WITH|Y$."
  BREAKALLIANCE_DECLINED_4:0 " " # [LocEditor:CustomLanguageKey]
- BREAKALLIANCE_DECLINED_5:1 "Nous avons perdu $PRESTIGE$ en prestige, mais nous sauvons venger ce déshonneur."
+ BREAKALLIANCE_DECLINED_5:1 "Nous y avons perdu $PRESTIGE|Y$ en prestige, mais nous saurons venger ce déshonneur."
  BREAKALLIANCE_DECLINED_6:1 ""
  BREAKALLIANCE_DECLINED_LOG:0 "$RECIPIENT$ a refusé d'accéder à notre demande de rompre une alliance."
  BREAKALLIANCE_DECLINED_BTN1:0 "Tant pis"
@@ -7684,7 +7686,7 @@
  OVERLORD_DEVELOPED_SUBJECT_PROVINCE_HEADER:0 " "
  OVERLORD_DEVELOPED_SUBJECT_PROVINCE_1:0 "Notre suzerain a développé une province"
  OVERLORD_DEVELOPED_SUBJECT_PROVINCE_2:0 " "
- OVERLORD_DEVELOPED_SUBJECT_PROVINCE_3:0 "$OVERLORD$ a développé notre province de $PROVINCENAME$ en y accroissant la $POWERTYPE$."
+ OVERLORD_DEVELOPED_SUBJECT_PROVINCE_3:0 "$OVERLORD$ a développé notre province de $PROVINCENAME|Y$ en y accroissant la $POWERTYPE$."
  OVERLORD_DEVELOPED_SUBJECT_PROVINCE_4:0 " " # [LocEditor:CustomLanguageKey]
  OVERLORD_DEVELOPED_SUBJECT_PROVINCE_5:0 "Cela a contribué à réduire l'aspiration à la liberté de la population."
  OVERLORD_DEVELOPED_SUBJECT_PROVINCE_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7698,7 +7700,7 @@
  GREAT_POWER_STATUS_GAINED_HEADER:0 "Statut de grande puissance"
  GREAT_POWER_STATUS_GAINED_1:0 "Nous sommes devenus une grande puissance"
  GREAT_POWER_STATUS_GAINED_2:0 " "
- GREAT_POWER_STATUS_GAINED_3:0 "Le reste du monde tremble devant notre puissance, et la gloire de $ACTOR$ s'élève jusque loin au-delà de l'horizon."
+ GREAT_POWER_STATUS_GAINED_3:0 "Le reste du monde tremble devant notre puissance, et la gloire de $ACTOR|Y$ s'élève jusque loin au-delà de l'horizon."
  GREAT_POWER_STATUS_GAINED_4:0 " "
  GREAT_POWER_STATUS_GAINED_5:0 "§YDe nouvelles actions diplomatiques nous sont maintenant offertes.§!" # [LocEditor:CustomLanguageKey]
  GREAT_POWER_STATUS_GAINED_6:0 ""
@@ -7712,7 +7714,7 @@
  GREAT_POWER_STATUS_GAINED_OTHER_HEADER:0 "Une grande puissance nouvelle"
  GREAT_POWER_STATUS_GAINED_OTHER_1:0 "$OTHER$ est une grande puissance"
  GREAT_POWER_STATUS_GAINED_OTHER_2:0 " "
- GREAT_POWER_STATUS_GAINED_OTHER_3:0 "Mieux vaudrait rester prudents envers $OTHER$, qui vient d'entrer parmi les grandes puissances de ce monde."
+ GREAT_POWER_STATUS_GAINED_OTHER_3:0 "Mieux vaudrait rester prudents envers $OTHER|Y$, qui vient d'entrer parmi les grandes puissances de ce monde."
  GREAT_POWER_STATUS_GAINED_OTHER_4:0 " " # [LocEditor:CustomLanguageKey]
  GREAT_POWER_STATUS_GAINED_OTHER_5:0 "Nous devrons tout faire pour déjouer ses plans et lui survivre."
  GREAT_POWER_STATUS_GAINED_OTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7738,11 +7740,11 @@
  GREAT_POWER_STATUS_LOST_OTHER_TITLE:0 "Fin gde puiss."
  GREAT_POWER_STATUS_LOST_OTHER_SETUP:0 "Si un pays perd son statut de grande puissance"
  GREAT_POWER_STATUS_LOST_OTHER_HEADER:0 " "
- GREAT_POWER_STATUS_LOST_OTHER_1:0 "$OTHER$ n'est plus une grande puissance"
+ GREAT_POWER_STATUS_LOST_OTHER_1:0 "Déclassement d'une puissance"
  GREAT_POWER_STATUS_LOST_OTHER_2:0 " "
- GREAT_POWER_STATUS_LOST_OTHER_3:0 "Ce pays n'est plus considéré comme une grande puissance."
+ GREAT_POWER_STATUS_LOST_OTHER_3:0 "$OTHER|Y$ n'est plus considéré comme une grande puissance."
  GREAT_POWER_STATUS_LOST_OTHER_4:0 " " # [LocEditor:CustomLanguageKey]
- GREAT_POWER_STATUS_LOST_OTHER_5:0 "Les pays du monde entier ont décidé de ne plus prêter l'oreille\naux rodomontades de $OTHER$." # [LocEditor:CustomLanguageKey]
+ GREAT_POWER_STATUS_LOST_OTHER_5:0 "Les pays du monde entier ont décidé de ne plus prêter l'oreille désormais à ses rodomontades." # [LocEditor:CustomLanguageKey]
  GREAT_POWER_STATUS_LOST_OTHER_6:0 "" # [LocEditor:CustomLanguageKey]
  GREAT_POWER_STATUS_LOST_OTHER_LOG:0 "$OTHER$ n'est plus une grande puissance."
  GREAT_POWER_STATUS_LOST_OTHER_BTN1:0 "D'accord"
@@ -7810,11 +7812,11 @@
  TRIBUTARYACCEPT_HEADER:0 "Un message de"
  TRIBUTARYACCEPT_1:0 "$RECIPIENT$"
  TRIBUTARYACCEPT_2:0 " "
- TRIBUTARYACCEPT_3:0 "$MONARCHTITLE$, $RECIPIENT$ a saisi l'occasion exceptionnelle de devenir notre §Ytributaire§!."
+ TRIBUTARYACCEPT_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a saisi l'occasion exceptionnelle de devenir notre §Ytributaire§!."
  TRIBUTARYACCEPT_4:0 " "
  TRIBUTARYACCEPT_5:0 "Nous pouvons désormais exiger de lui chaque année un tribut, et s'il a le moindre retard technologique il pourra plus aisément nous rattraper."
  TRIBUTARYACCEPT_6:0 ""
- TRIBUTARYACCEPT_LOG:0 "$RECIPIENT$ nous versera désormais un tribut."
+ TRIBUTARYACCEPT_LOG:0 "$RECIPIENT$ sera désormais notre tributaire."
  TRIBUTARYACCEPT_BTN1:0 "Très bien !"
  TRIBUTARYACCEPT_BTN2:0 "Très bien !"
  TRIBUTARYACCEPT_BTN3:0 "Voir"
@@ -7824,11 +7826,11 @@
  TRIBUTARYREJECT_HEADER:0 "Un message de"
  TRIBUTARYREJECT_1:0 "$RECIPIENT$"
  TRIBUTARYREJECT_2:0 " "
- TRIBUTARYREJECT_3:0 "$MONARCHTITLE$, $RECIPIENT$ a rejeté notre offre incroyablement généreuse de nous verser un tribut."
+ TRIBUTARYREJECT_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a rejeté notre offre incroyablement généreuse de nous verser un tribut."
  TRIBUTARYREJECT_4:0 " "
- TRIBUTARYREJECT_5:0 "Avec des dirigeants aussi insensés, il est même étonnant que $RECIPIENT$ ait pu survivre jusqu'à nos jours."
+ TRIBUTARYREJECT_5:0 "Avec des dirigeants aussi insensés, il est même étonnant que ce pays ait pu perdurer jusqu'à nos jours."
  TRIBUTARYREJECT_6:0 ""
- TRIBUTARYREJECT_LOG:0 "$RECIPIENT$ a refusé de nous verser un tribut."
+ TRIBUTARYREJECT_LOG:0 "$RECIPIENT$ a refusé de devenir notre tributaire."
  TRIBUTARYREJECT_BTN1:0 "D'accord"
  TRIBUTARYREJECT_BTN2:0 "D'accord"
  TRIBUTARYREJECT_BTN3:0 "Voir"
@@ -7837,7 +7839,7 @@
  TRIBUTARYACCEPTOTHER_HEADER:0 "Un message de"
  TRIBUTARYACCEPTOTHER_1:0 "$ACTOR$"
  TRIBUTARYACCEPTOTHER_2:0 " "
- TRIBUTARYACCEPTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT$ a accepté de verser désormais un tribut à $ACTOR$."
+ TRIBUTARYACCEPTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a accepté de verser désormais un tribut à $ACTOR|Y$."
  TRIBUTARYACCEPTOTHER_4:0 ""
  TRIBUTARYACCEPTOTHER_5:0 ""
  TRIBUTARYACCEPTOTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7851,7 +7853,7 @@
  TRIBUTARYREJECTOTHER_HEADER:0 "Un message de"
  TRIBUTARYREJECTOTHER_1:0 "$ACTOR$"
  TRIBUTARYREJECTOTHER_2:0 " "
- TRIBUTARYREJECTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT$ a refusé de verser un tribut à $ACTOR$."
+ TRIBUTARYREJECTOTHER_3:0 "$MONARCHTITLE$, $RECIPIENT|Y$ a refusé de verser tribut à $ACTOR|Y$."
  TRIBUTARYREJECTOTHER_4:0 ""
  TRIBUTARYREJECTOTHER_5:0 ""
  TRIBUTARYREJECTOTHER_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7864,7 +7866,7 @@
  TRIBUTARYWEREJECT_HEADER:0 "$MESSENGER$"
  TRIBUTARYWEREJECT_1:0 "Tribut refusé"
  TRIBUTARYWEREJECT_2:0 " "
- TRIBUTARYWEREJECT_3:0 "$MONARCHTITLE$, nous avons bien évidemment refusé de verser le moindre tribut à $ACTOR$."
+ TRIBUTARYWEREJECT_3:0 "$MONARCHTITLE$, nous avons bien évidemment refusé de verser le moindre tribut à $ACTOR|Y$."
  TRIBUTARYWEREJECT_4:0 " "
  TRIBUTARYWEREJECT_5:0 ""
  TRIBUTARYWEREJECT_6:0 "Il est même amusant qu'ils aient cru que nous pourrions accepter."
@@ -7877,7 +7879,7 @@
  TRIBUTARYWEACCEPT_HEADER:0 "$MESSENGER$"
  TRIBUTARYWEACCEPT_1:0 "Tribut accepté"
  TRIBUTARYWEACCEPT_2:0 " "
- TRIBUTARYWEACCEPT_3:0 "$MONARCHTITLE$, nous avons accepté de façon temporaire de verser un tribut à $RECIPIENT$."
+ TRIBUTARYWEACCEPT_3:0 "$MONARCHTITLE$, nous avons accepté de façon temporaire de verser un tribut à $RECIPIENT|Y$."
  TRIBUTARYWEACCEPT_4:0 " "
  TRIBUTARYWEACCEPT_5:0 "Nous pourrons tout naturellement les trahir dès que l'occasion s'en présentera."
  TRIBUTARYWEACCEPT_6:0 ""
@@ -7886,43 +7888,43 @@
  TRIBUTARYWEACCEPT_BTN2:0 "D'accord"
  TRIBUTARYWEACCEPT_BTN3:0 "Voir"
  TRIBUTARYBREAKOTHER_TITLE:0 "Fin tribut"
- TRIBUTARYBREAKOTHER_SETUP:0 "Si un pays refuse de rester tributaire d'un autre"
+ TRIBUTARYBREAKOTHER_SETUP:0 "Si un pays refuse de conserver un autre tributaire"
  TRIBUTARYBREAKOTHER_HEADER:0 "Un messager de"
  TRIBUTARYBREAKOTHER_1:0 "$ACTOR$"
  TRIBUTARYBREAKOTHER_2:0 " "
- TRIBUTARYBREAKOTHER_3:0 "$MONARCHTITLE$, $ACTOR$ refuse désormais de verser son tribut à $RECIPIENT$."
+ TRIBUTARYBREAKOTHER_3:0 "$MONARCHTITLE$, $ACTOR|Y$ a mis fin au statut de tributaire de $RECIPIENT|Y$."
  TRIBUTARYBREAKOTHER_4:0 ""
  TRIBUTARYBREAKOTHER_5:0 ""
  TRIBUTARYBREAKOTHER_6:0 ""
- TRIBUTARYBREAKOTHER_LOG:0 "$ACTOR$ ne verse désormais plus de tribut à $RECIPIENT$."
+ TRIBUTARYBREAKOTHER_LOG:0 "$ACTOR$ a mis fin au statut de tributaire de $RECIPIENT$."
  TRIBUTARYBREAKOTHER_BTN1:0 "D'accord"
  TRIBUTARYBREAKOTHER_BTN2:0 "D'accord"
  TRIBUTARYBREAKOTHER_BTN3:0 "Voir"
  TRIBUTARYBREAKOTHER_MAP:0 "" # [LocEditor:CustomLanguageKey]
  TRIBUTARYBREAK_TITLE:0 "Fin tribut"
- TRIBUTARYBREAK_SETUP:0 "Si un pays refuse désormais d'être notre tributaire"
+ TRIBUTARYBREAK_SETUP:0 "Si un pays refuse de nous garder tributaires"
  TRIBUTARYBREAK_HEADER:0 "$MESSENGER$"
- TRIBUTARYBREAK_1:0 "Tribut non versé !"
+ TRIBUTARYBREAK_1:0 "Fin du tribut !"
  TRIBUTARYBREAK_2:0 " "
- TRIBUTARYBREAK_3:0 "$MONARCHTITLE$, $ACTOR$ a, dans la folie qui est la sienne, mis fin au versement du tribut qui nous est dû."
+ TRIBUTARYBREAK_3:0 "$MONARCHTITLE$, $ACTOR|Y$ a, dans la folie qui est la sienne, cessé d'exiger de nous le tribut."
  TRIBUTARYBREAK_4:0 "$REASON$"
  TRIBUTARYBREAK_5:1 " "
- TRIBUTARYBREAK_6:0 "Nous allons bien évidemment devoir leur expliquer leur erreur."
- TRIBUTARYBREAK_LOG:1 "$ACTOR$ ne nous verse désormais plus de tribut."
+ TRIBUTARYBREAK_6:0 "Nous saurons bien évidemment profiter de son erreur."
+ TRIBUTARYBREAK_LOG:1 "$ACTOR$ a mis fin à notre statut de tributaire."
  TRIBUTARYBREAK_BTN1:0 "D'accord"
  TRIBUTARYBREAK_BTN2:0 "D'accord"
  TRIBUTARYBREAK_BTN3:0 "Voir"
  TRIBUTARYBREAK_MAP:0 "" # [LocEditor:CustomLanguageKey]
  WETRIBUTARYBREAK_TITLE:0 "Fin tribut"
- WETRIBUTARYBREAK_SETUP:0 "Si nous refusons désormais d'être tributaires d'un autre pays"
+ WETRIBUTARYBREAK_SETUP:0 "Si nous refusons de conserver un tributaire"
  WETRIBUTARYBREAK_HEADER:0 "$MESSENGER$"
- WETRIBUTARYBREAK_1:0 "Tribut non versé !"
+ WETRIBUTARYBREAK_1:0 "Fin du tribut"
  WETRIBUTARYBREAK_2:0 " "
- WETRIBUTARYBREAK_3:0 "Nous nous sommes lassés de verser le tribut à $RECIPIENT$."
+ WETRIBUTARYBREAK_3:0 "Nous nous sommes lassés du tribut de $RECIPIENT|Y$."
  WETRIBUTARYBREAK_4:0 " "
- WETRIBUTARYBREAK_5:0 "Ils devraient déjà être satisfaits que nous ayons accepté de le faire si longtemps."
+ WETRIBUTARYBREAK_5:0 "Ils devraient déjà être satisfaits que nous l'ayons accepté si longtemps."
  WETRIBUTARYBREAK_6:0 ""
- WETRIBUTARYBREAK_LOG:1 "Nous ne verserons désormais plus de tribut à $RECIPIENT$."
+ WETRIBUTARYBREAK_LOG:1 "Nous avons mis fin au statut de tributaire de $RECIPIENT$."
  WETRIBUTARYBREAK_BTN1:0 "D'accord"
  WETRIBUTARYBREAK_BTN2:0 "D'accord"
  WETRIBUTARYBREAK_BTN3:0 "Voir"
@@ -7932,9 +7934,9 @@
  ASK_FOR_TRIBUTARY_ACCEPT_HEADER:0 "Un message de"
  ASK_FOR_TRIBUTARY_ACCEPT_1:0 "$RECIPIENT$"
  ASK_FOR_TRIBUTARY_ACCEPT_2:0 " "
- ASK_FOR_TRIBUTARY_ACCEPT_3:0 "$RECIPIENT$ a accepté que nous lui versions désormais un §Ytribut§!."
+ ASK_FOR_TRIBUTARY_ACCEPT_3:0 "$RECIPIENT|Y$ a accepté que nous lui versions désormais un §Ytribut§!."
  ASK_FOR_TRIBUTARY_ACCEPT_4:0 " " # [LocEditor:CustomLanguageKey]
- ASK_FOR_TRIBUTARY_ACCEPT_5:1 "En échange de sa protection face à ceux qui ne lui versent pas tribut, $RECIPIENT$ va exiger un tribut tous les ans. Nous allons aussi bénéficier d'une recherche technologique plus rapide si ce pays est plus avancé que nous."
+ ASK_FOR_TRIBUTARY_ACCEPT_5:1 "En échange de sa protection face à ceux qui ne lui versent pas tribut, notre suzerain va exiger un tribut tous les ans. En revanche, nous allons aussi bénéficier d'une recherche technologique plus rapide s'il est plus avancé que nous."
  ASK_FOR_TRIBUTARY_ACCEPT_6:0 "" # [LocEditor:CustomLanguageKey]
  ASK_FOR_TRIBUTARY_ACCEPT_LOG:0 "Nous verserons désormais un tribut à $RECIPIENT$."
  ASK_FOR_TRIBUTARY_ACCEPT_BTN1:0 "Magnifique"
@@ -7942,11 +7944,11 @@
  ASK_FOR_TRIBUTARY_ACCEPT_BTN3:0 "Voir"
  ASK_FOR_TRIBUTARY_ACCEPT_MAP:0 "" # [LocEditor:CustomLanguageKey]
  ASK_FOR_TRIBUTARY_DENIED_TITLE:0 "Tribut refusé"
- ASK_FOR_TRIBUTARY_DENIED_SETUP:0 "Si un pays refuse que nous lui versions un tribut"
+ ASK_FOR_TRIBUTARY_DENIED_SETUP:0 "Si un pays refuse que nous devenions son tributaire"
  ASK_FOR_TRIBUTARY_DENIED_HEADER:0 ""
  ASK_FOR_TRIBUTARY_DENIED_1:0 "Tribut refusé"
  ASK_FOR_TRIBUTARY_DENIED_2:0 " "
- ASK_FOR_TRIBUTARY_DENIED_3:0 "$RECIPIENT$ a refusé notre demande de pouvoir lui verser un tribut."
+ ASK_FOR_TRIBUTARY_DENIED_3:0 "$RECIPIENT|Y$ a refusé notre demande de pouvoir lui verser un tribut."
  ASK_FOR_TRIBUTARY_DENIED_4:0 "" # [LocEditor:CustomLanguageKey]
  ASK_FOR_TRIBUTARY_DENIED_5:0 "" # [LocEditor:CustomLanguageKey]
  ASK_FOR_TRIBUTARY_DENIED_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7956,11 +7958,11 @@
  ASK_FOR_TRIBUTARY_DENIED_BTN3:0 "Voir"
  ASK_FOR_TRIBUTARY_DENIED_MAP:0 "" # [LocEditor:CustomLanguageKey]
  TRIBUTE_REFUSED_TITLE:0 "Tribut non versé"
- TRIBUTE_REFUSED_SETUP:0 "Si l'un de nos tributaires refuse de verser son tribut"
+ TRIBUTE_REFUSED_SETUP:0 "Si un tributaire refuse de nous verser son tribut"
  TRIBUTE_REFUSED_HEADER:0 "Un message de notre chancelier"
- TRIBUTE_REFUSED_1:0 "$ACTOR|Y$ refuse de verser le tribut !"
+ TRIBUTE_REFUSED_1:0 "Tribut non versé"
  TRIBUTE_REFUSED_2:0 " "
- TRIBUTE_REFUSED_3:0 "Notre tributaire, $ACTOR$, a refusé de verser son tribut de $AMOUNT|Y$ $TYPE$ que nous exigions de lui cette année."
+ TRIBUTE_REFUSED_3:0 "Notre tributaire, $ACTOR|Y$, a refusé de verser le tribut de $AMOUNT|Y$$TYPE$ que nous exigions de lui cette année."
  TRIBUTE_REFUSED_4:0 " "
  TRIBUTE_REFUSED_5:0 "Il est évident qu'on ne peut lui faire confiance."
  TRIBUTE_REFUSED_6:0 "" # [LocEditor:CustomLanguageKey]
@@ -7970,13 +7972,13 @@
  TRIBUTE_REFUSED_BTN3:0 "Voir"
  TRIBUTE_REFUSED_MAP:0 "" # [LocEditor:CustomLanguageKey]
  TRIBUTE_TEMP_CHANGED_TITLE:0 "Chang. tribut"
- TRIBUTE_TEMP_CHANGED_SETUP:0 "Si l'un de nos tributaires est incapable de payer le tribut exigé pour l'année"
+ TRIBUTE_TEMP_CHANGED_SETUP:0 "Si un tributaire est incapable de nous verser le tribut exigé pour l'année"
  TRIBUTE_TEMP_CHANGED_HEADER:0 "Un rapport de notre chancelier"
- TRIBUTE_TEMP_CHANGED_1:0 "$ACTOR|Y$ incapable de payer le tribut en $FIRSTTYPE|Y$"
+ TRIBUTE_TEMP_CHANGED_1:0 "Tribut de remplacement"
  TRIBUTE_TEMP_CHANGED_2:0 " "
- TRIBUTE_TEMP_CHANGED_3:0 "Notre tributaire $ACTOR$ est incapable de nous verser le tribut de $FIRSTAMOUNT|Y$ $FIRSTTYPE$ que nous exigions cette année."
+ TRIBUTE_TEMP_CHANGED_3:0 "Notre tributaire $ACTOR|Y$ est incapable de nous verser le tribut de $FIRSTAMOUNT|Y$$FIRSTTYPE$ que nous exigions cette année."
  TRIBUTE_TEMP_CHANGED_4:0 " "
- TRIBUTE_TEMP_CHANGED_5:0 "En remplacement, $SECONDAMOUNT|Y$ $SECONDTYPE$ nous ont été envoyés."
+ TRIBUTE_TEMP_CHANGED_5:0 "En remplacement, $SECONDAMOUNT|Y$$SECONDTYPE$ nous ont été envoyés."
  TRIBUTE_TEMP_CHANGED_6:0 "" # [LocEditor:CustomLanguageKey]
  TRIBUTE_TEMP_CHANGED_LOG:0 "$ACTOR$ a versé un tribut en $SECONDTYPE$ au lieu de $FIRSTTYPE$."
  TRIBUTE_TEMP_CHANGED_BTN1:0 "Regrettable"
@@ -7984,13 +7986,13 @@
  TRIBUTE_TEMP_CHANGED_BTN3:0 "Voir"
  TRIBUTE_TEMP_CHANGED_MAP:0 "" # [LocEditor:CustomLanguageKey]
  TRIBUTE_CHANGED_TITLE:0 "Chang. tribut"
- TRIBUTE_CHANGED_SETUP:0 "Si l'un de nos tributaires est incapable d'envoyer le type de tribut exigé"
+ TRIBUTE_CHANGED_SETUP:0 "Si un tributaire est incapable de verser le type de tribut exigé"
  TRIBUTE_CHANGED_HEADER:0 "Un rapport de notre chancelier"
  TRIBUTE_CHANGED_1:0 "$ACTOR|Y$ incapable de payer le tribut en $FIRSTTYPE|Y$"
  TRIBUTE_CHANGED_2:0 " "
- TRIBUTE_CHANGED_3:0 "Notre tributaire $ACTOR$ n'a plus les moyens de nous faire parvenir le tribut en $FIRSTTYPE$ que nous exigions."
+ TRIBUTE_CHANGED_3:0 "Notre tributaire $ACTOR|Y$ n'a plus les moyens de nous faire parvenir le tribut en $FIRSTTYPE$ que nous exigions."
  TRIBUTE_CHANGED_4:0 " "
- TRIBUTE_CHANGED_5:0 "Désormais nous recevrons $SECONDAMOUNT|Y$ $SECONDTYPE$ par an."
+ TRIBUTE_CHANGED_5:0 "Désormais nous recevrons $SECONDAMOUNT|Y$$SECONDTYPE$ par an."
  TRIBUTE_CHANGED_6:0 "" # [LocEditor:CustomLanguageKey]
  TRIBUTE_CHANGED_LOG:0 "$ACTOR$ va envoyer un tribut en $SECONDTYPE$ au lieu de $FIRSTTYPE$."
  TRIBUTE_CHANGED_BTN1:0 "Regrettable"
@@ -7998,11 +8000,11 @@
  TRIBUTE_CHANGED_BTN3:0 "Voir"
  TRIBUTE_CHANGED_MAP:0 "" # [LocEditor:CustomLanguageKey]
  OVERLORD_CHANGED_TRIBUTE_TITLE:0 "Chang. tribut"
- OVERLORD_CHANGED_TRIBUTE_SETUP:0 "Si notre suzerain exige un autre type de tribut exigé"
+ OVERLORD_CHANGED_TRIBUTE_SETUP:0 "Si notre suzerain exige un autre type de tribut"
  OVERLORD_CHANGED_TRIBUTE_HEADER:0 "Un messager de"
  OVERLORD_CHANGED_TRIBUTE_1:0 "$OVERLORD$"
  OVERLORD_CHANGED_TRIBUTE_2:0 " "
- OVERLORD_CHANGED_TRIBUTE_3:0 "$OVERLORD$ a décidé de modifier le tribut exigé. À la fin de l'année il sera exigé de nous $DEMAND$."
+ OVERLORD_CHANGED_TRIBUTE_3:0 "$OVERLORD|Y$ a décidé de modifier le tribut exigé. À la fin de l'année il sera exigé de nous $DEMAND$."
  OVERLORD_CHANGED_TRIBUTE_4:0 " "
  OVERLORD_CHANGED_TRIBUTE_5:0 "$ESTIMATE_TRIBUTE_AMOUNT$"
  OVERLORD_CHANGED_TRIBUTE_6:0 "$NO_TRIBUTE_DEMANDED$"
@@ -8029,7 +8031,7 @@
  SHOCK_SKILL:0 "compétence de choc"
  MANEUVER_SKILL:0 "compétence de manœuvre"
  SIEGE_SKILL:0 "compétence de siège"
- DRILL_SKILL_GAIN_TITLE:0 "Progrès d'un général"
+ DRILL_SKILL_GAIN_TITLE:0 "Prog. général"
  DRILL_SKILL_GAIN_SETUP:1 "Si un général gagne en compétence grâce à l'entraînement"
  DRILL_SKILL_GAIN_HEADER:0 " "
  DRILL_SKILL_GAIN_1:0 "$GENERAL$ gagne en compétence"
@@ -8043,7 +8045,7 @@
  DRILL_SKILL_GAIN_BTN2:0 "D'accord"
  DRILL_SKILL_GAIN_BTN3:0 "Voir"
  DRILL_SKILL_GAIN_MAP:0 "" # [LocEditor:CustomLanguageKey]
- FLAGSHIP_SKILL_GAIN_TITLE:0 "Progrès d'un amiral"
+ FLAGSHIP_SKILL_GAIN_TITLE:0 "Prog. amiral"
  FLAGSHIP_SKILL_GAIN_SETUP:1 "Si un amiral gagne en compétence en commandant le vaisseau amiral"
  FLAGSHIP_SKILL_GAIN_HEADER:0 "$GENERAL$ gagne en compétence"
  FLAGSHIP_SKILL_GAIN_1:0 " "
@@ -8057,7 +8059,7 @@
  FLAGSHIP_SKILL_GAIN_BTN2:0 "D'accord"
  FLAGSHIP_SKILL_GAIN_BTN3:0 "Voir"
  FLAGSHIP_SKILL_GAIN_MAP:0 "" # [LocEditor:CustomLanguageKey]
- NEW_ARMY_PROFESSIONALISM_ABILITY_TITLE:0 "Niv. professionnalisme"
+ NEW_ARMY_PROFESSIONALISM_ABILITY_TITLE:0 "Professionnalisme"
  NEW_ARMY_PROFESSIONALISM_ABILITY_SETUP:0 "Si notre armée dispose d'une nouvelle capacité grâce à son niveau de professionnalisme"
  NEW_ARMY_PROFESSIONALISM_ABILITY_HEADER:0 "$MESSENGER$"
  NEW_ARMY_PROFESSIONALISM_ABILITY_1:0 "Nouveau niveau de professionnalisme de l'armée"
@@ -8149,7 +8151,7 @@
  MINORITY_EXPELLED_2:0 " "
  MINORITY_EXPELLED_3:0 "$MONARCHTITLE$, la minorité $RELIGION$ de la province de $PROVINCE$ a enfin été déportée en $COLONY$ !"
  MINORITY_EXPELLED_4:0 " "
- MINORITY_EXPELLED_5:0 "Celle-ci est désormais peuplée d'une population $CULTURE$, qui y accroît le développement de $ADM|Y$£adm£ $DIP|Y$£dip£ $MIL|Y$£mil£"
+ MINORITY_EXPELLED_5:0 "Celle-ci est désormais peuplée d'une population $CULTURE$, qui y accroît le développement de $ADM|Y$£adm£ $DIP|Y$£dip£ $MIL|Y$£mil£" # [LocEditor:AwaitingBatchUpdate]
  MINORITY_EXPELLED_6:1 ""
  MINORITY_EXPELLED_LOG:0 "La minorité $RELIGION$ de $PROVINCE$ a été déportée en $COLONY$."
  MINORITY_EXPELLED_BTN1:0 "Bon débarras !"
@@ -8226,3 +8228,31 @@
  WELOSEDOFTIER_BTN2:0 "D'accord"
  WELOSEDOFTIER_BTN3:0 "Voir"
  WELOSEDOFTIER_MAP:0 "" # [LocEditor:CustomLanguageKey]
+ CURRYFAVORS_TITLE:0 "S'attirer les faveurs"
+ CURRYFAVORS_SETUP:0 "Si un pays commence à s'attirer les faveurs d'un autre"
+ CURRYFAVORS_HEADER:0 "Un messager de"
+ CURRYFAVORS_1:0 "$ACTOR$"
+ CURRYFAVORS_2:0 " "
+ CURRYFAVORS_3:0 "$MONARCHTITLE$, les diplomates de $WHO$ tentent de s'attirer les faveurs de $RECIPIENT$."
+ CURRYFAVORS_4:0 ""
+ CURRYFAVORS_5:0 "" # [LocEditor:CustomLanguageKey]
+ CURRYFAVORS_6:0 "" # [LocEditor:CustomLanguageKey]
+ CURRYFAVORS_LOG:0 "$WHO$ a dépêché des diplomates pour s'attirer les faveurs de $RECIPIENT$."
+ CURRYFAVORS_BTN1:0 "D'accord"
+ CURRYFAVORS_BTN2:0 "D'accord"
+ CURRYFAVORS_BTN3:0 "Voir"
+ CURRYFAVORS_MAP:0 "" # [LocEditor:CustomLanguageKey]
+ STOPCURRYFAVORS_TITLE:0 "Cesser de s'attirer les faveurs"
+ STOPCURRYFAVORS_SETUP:0 "Si un pays cesse de s'attirer les faveurs d'un autre"
+ STOPCURRYFAVORS_HEADER:0 "Un messager de"
+ STOPCURRYFAVORS_1:0 "$ACTOR$"
+ STOPCURRYFAVORS_2:0 " "
+ STOPCURRYFAVORS_3:0 "$MONARCHTITLE$, les diplomates de $WHO$ ont cessé de s'attirer les faveurs de $RECIPIENT$."
+ STOPCURRYFAVORS_4:0 ""
+ STOPCURRYFAVORS_5:0 "" # [LocEditor:CustomLanguageKey]
+ STOPCURRYFAVORS_6:0 "" # [LocEditor:CustomLanguageKey]
+ STOPCURRYFAVORS_LOG:0 "$WHO$ a rappelé les diplomates qui tentaient de lui attirer les faveurs de $RECIPIENT$."
+ STOPCURRYFAVORS_BTN1:0 "D'accord"
+ STOPCURRYFAVORS_BTN2:0 "D'accord"
+ STOPCURRYFAVORS_BTN3:0 "Voir"
+ STOPCURRYFAVORS_MAP:0 "" # [LocEditor:CustomLanguageKey]
