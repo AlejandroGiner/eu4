@@ -50,7 +50,7 @@
  estate_brahmins_brahmin_leadership:0 "Liderazgo brahmán"
  estate_brahmins_flexible_deities:0 "Elección de deidades personales"
  estate_brahmins_flexible_deities_effect_tooltip:1 "Activa una decisión que nos permite cambiar la deidad personal cada §Y20§! años al coste de §Y25§! legitimidad."
- brahmin_hindu_deity_decision_title:0 "Elegir deidad personal"
+ brahmin_hindu_deity_decision_title:0 "Elegir deidad personal de nuevo"
  brahmin_hindu_deity_decision_desc:0 "A veces lamentamos nuestros errores. ¿Por qué la elección en nuestra juventud sobre qué deidad adorar debe aplicarse al resto de nuestra vida? Por suerte, nuestros acuerdos con los brahmanes nos permiten cierta flexibilidad en este asunto."
  decision_once_every_ten_years:0 "Esta decisión solo se puede tomar cada §Y10§! años."
  estate_brahmins_loyalty_privilege:0 "Consejo brahmán"
@@ -159,7 +159,7 @@
  ESTATES_SEIZE_LAND_UNREST_DESC:0 "La parte de estamentos del desarrollo recibirá §R+5§! de §Ydescontento§! y el estamento más influyente decidirá insensatamente tomar las armas contra nosotros."
  IS_NOT_MOST_POWERFUL_ESTATE:0 "$ESTATE$ no es el estamento más poderoso."
  IS_MOST_POWERFUL_ESTATE:0 "$ESTATE$ es el estamento más poderoso."
- ESTATE_LAND_SHARE_CHANGE_ENTRY:0 " $ESTATE$: $CHANGE|2Y=%$\n"
+ ESTATE_LAND_SHARE_CHANGE_ENTRY:0 " $ESTATE$: $CHANGE|2Y=&$\n"
  APPLY_SPRITE_PACK_EFFECT:0 "§Y[Root.GetName]§! usará $SPRITE_PACK|Y$."
  crown_land_level_0:0 "Propiedad de tierra de la corona"
  crown_land_level_1:0 "Propiedad de Tierras de la corona"
@@ -323,7 +323,7 @@
  estate_brahmins_flexible_deities_revoke_tooltip:1 "Se desactivará decisión que permite cambiar la deidad personal cada §Y20§! años al precio de §Y25§! de legitimidad."
  estate_maratha_levies:0 "Levas incrementadas"
  estate_maratha_levies_for_muslims:0 "Reclutamiento maratha aumentado"
- estate_maratha_levies_for_muslims_effect_tooltip:0 "Toda provincia poseída de fe §Yhindú§! gana §Y'Reclutamiento maratha aumentado'§!, dando estos efectos:\nModif. soldadesca local: §G+20.0%§!"
+ estate_maratha_levies_for_muslims_effect_tooltip:0 "Toda provincia poseída de fe §Yhindú§! gana §Y'Reclutamiento maratha aumentado'§!, dando estos efectos:\nModif. soldadesca local: §G+30,0%§!" # [LocEditor:AwaitingBatchUpdate]
  estate_maratha_levies_for_muslims_revoke_tooltip:0 "Se quita el modificador §Y'Reclutamiento maratha aumentado'§! de todas las provincias §YHindúe§!."
  estate_maratha_levies_for_muslims_mod:0 "Reclutamiento maratha aumentado"
  desc_estate_maratha_levies_for_muslims_mod:0 "El estado ha aumentado el reclutamiento de los marathas."
@@ -568,6 +568,7 @@
  estate_dhimmi_build_university_in_y:0 "Patrocinar los conocimientos dhimmíes en [agenda_province.GetName]"
  estate_dhimmi_stop_converting_province_x:0 "Proteger derechos de minorías en [agenda_province.GetName]"
  estate_dhimmi_increase_autonomy_in_province_x:0 "Aumentar autonomía en [agenda_province.GetName]"
+ estate_dhimmi_increase_autonomy_in_province_x_tooltip:0 "La autonomía de [agenda_province.GetName] se reduce en más de 10"
  estate_dhimmi_three_privileges:0 "Aumentar privilegios dhimmíes"
  estate_dhimmi_relations_with_X:0 "Mejorar relaciones con [agenda_country.GetUsableName]"
  agenda_automatically_completed:0 "Este plan se cumple automáticamente."
@@ -626,6 +627,7 @@
  desc_agenda_guaranteed_minority_rights:0 "Se han garantizado recientemente los derechos de las minorías en esta provincia, lo que permite a su población respirar aliviada."
  #New Parliamentary Debate
  increase_crown_land_share:0 "Centralizar posesión de la tierra"
+ desc_increase_crown_land_share:0 "Al concentrar en manos reales la posesión de la tierra, podemos controlar mucho mejor la extensión del poder de los estamentos."
  #Estate monopoly events 
  monopoly_privileges.1.t:0 "Extensión del monopolio sobre las telas"
  monopoly_privileges.1.d.burghers:0 "El monopolio sobre textiles que concedimos a los [Root.GetBurguesesName] ha expirado, por lo que ahora podemos reclamar los ingresos de nuestra producción textil. Sin embargo, los [Root.GetBurguesesName] desean mantener sus privilegios y se ofrecen a realizar un pago único a cambio de garantizar el monopolio durante 10 años."
@@ -713,7 +715,7 @@
 
  pay_crown_land:0 "Permitir usar Tierras de la corona"
 
- estate_church_propagate_religion_trigger_tooltip:1 "Toda provincia habitada en el nodo de comercio de §Y[agenda_trade_node.GetTradeNodeName]§! sigue la fe §Y[Root.Religion.GetName]§!."
+ estate_church_propagate_religion_trigger_tooltip:2 "Toda provincia habitada en el nodo de comercio §Y[agenda_trade_node.GetTradeNodeName]§! sigue la fe §Y[Root.Religion.GetName]§! o una cristiana, musulmana o judía."
  agenda_automatically_completed_explain_dhimmi:0 "Se añade un §R25%§! de autonomía local a §Y[agenda_province.GetName]§!."
  estate_nobles_protect_our_culture_effect_tooltip:0 "Si es conquistada, §Y[agenda_province.GetName]§! perderá §G5§! años de separatismo."
  owned_by_country_of_root_religion:0 "Es posesión de un país de fe §Y[Root.Religion.GetName]§!."
@@ -1262,7 +1264,7 @@
  estate_cossacks_exploration_expedition_mod:0 "Exploración cosaca"
  desc_estate_cossacks_exploration_expedition_mod:0 "Estamos aprovechando los instintos aventureros de los cosacos para acelerar el asentamiento y el crecimiento de este área."
  decision_once_every_twenty_years:0 "Esta decisión solo se puede tomar cada §Y20§! años."
- estate_cossacks_exploration_expedition_effect_tooltip:1 "§G-15%§! coste del desarrollo local en todas las provincias de estepa"
+ estate_cossacks_exploration_expedition_effect_tooltip:1 "coste del desarrollo local en todas las provincias de estepa §G-15%§!"
  estate_cossacks_exploration_expedition_mod_revoke_tooltip:0 "Quita §Yexploración cosaca§! de todas las provincias poseídas de estepa."
  estate_burghers_exclusive_trade_rights_enact_tooltip:0 "Autonomía local §R+20§! coste desarrollo local §G-15%§! en centros de comercio del nodo de §Y[This.GetTradeNodeName]§!." # [LocEditor:AwaitingBatchUpdate]
  estate_burghers_exclusive_trade_rights_revoke_tooltip:0 "Quita el modificador «Derechos comerciales exclusivos» de todas las provincias poseídas"

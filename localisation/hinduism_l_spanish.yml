@@ -36,7 +36,8 @@
  hindu_events.1.e:0 "Adoro a Ganga, la diosa del río sagrado"
  hindu_events.1.f:0 "Ganesha nos guiará hacia la sabiduría"
  hindu_events.1.g:0 "Ganaré fuerzas por Surya, la Luz Suprema"
- hindu_events.1.h:0 "No estoy listo para tomar esa decisión."
+ hindu_events.1.h:1 "Buda es el camino a la Iluminación." # [LocEditor:AwaitingBatchUpdate]
+ hindu_events.1.i:0 "No estoy listo para tomar tal decisión."
  hindu_events.2.t:0 "Shiva el Creador"
  hindu_events.2.d:1 "De todos aquellos que tratan de captar la gloria de Shiva en el arte, $ARTIST$ siempre ha tenido más éxito que los demás. Por esto se le llamó a tu corte, pero a pesar de su útil asesoramiento sobre muchos temas, su conocimiento de lo divino sigue siendo un misterio para ti.\n\nUna noche, caminando por los pasillos del palacio de [Root.Capital.GetCapitalName], le ves dando los toques finales a una estatua y finalmente le preguntas qué visiones le permitieron retratar las muchas caras de Shiva.\n'Todas y cada una de las almas son parte del espíritu del señor Shiva', contesta, 'y al igual que Shiva creó todo lo que existe, el alma ha sido bendecida con el poder de crear. Si sabéis esto dentro de vos, conoceréis lo divino'."
  hindu_events.2.a:0 "Tengo que pensar en esto"

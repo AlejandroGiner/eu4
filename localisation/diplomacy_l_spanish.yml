@@ -1,4 +1,5 @@
 ﻿l_spanish:
+ SUPPORT_REBELS_POWER_PROJECT:0 "Esto también aumentará nuestra proyección de poder contra ellos."
  rival:0 "Rival"
  allied_to_rival:0 "Aliado con rival"
  enemy_of_my_enemy:0 "Enemigo de enemigo"
@@ -234,7 +235,7 @@
  SLANDERMERCHANTSALREADYPRESENTDESC:0 "Los comerciantes ya están siendo calumniados."
  SUPPORTREBELSTITLE:0 "Apoyar rebeldes"
  SUPPORTREBELSDESC:0 "\nApoyar rebeldes de un país."
- SUPPORTREBELSDESCDERIVED:0 "Apoyar a una facción rebelde reducirá el tamaño de nuestra Red de espionaje $ADJ|Y$ en $COST|R$ aumentará sus posibilidades de avanzar hacia un levantamiento al mes en §Y$AMT$%§! durante un periodo de $YEARS|Y$ años.\n\nTambién les apoyarás durante su levantamiento. Si los rebeldes se hacen con el poder se convertirán en tus aliados."
+ SUPPORTREBELSDESCDERIVED:1 "Apoyar a una facción rebelde reducirá el tamaño de nuestra Red de espionaje $ADJ|Y$ en $COST|R$ y aumentará sus probabilidades de avanzar hacia un levantamiento en un §Y$AMT$%§! al mes durante $YEARS|Y$ años.\nTambién les apoyarás en su levantamiento. Si los rebeldes se hacen con el poder se convertirán en tus aliados."
  SUPPORTREBELSDESCALREADYPRESENTDESC:0 "Alguien ya está apoyando a estos rebeldes en el país objetivo."
  SUPPORTREBELSDESCNOREBELSDESC:0 "No hay rebeldes a los que apoyar."
  SUPPORT_REBELS_OVERLORD:0 "No es posible apoyar rebeldes de uno de tus súbditos."
@@ -500,7 +501,7 @@
  CELESTIAL_EMPIRE_WAR_NAME:0 "$ORDER$$FIRST$-$SECOND$ guerra por Mandato del Cielo"
  FORCE_MIGRATION_WAR_NAME:0 "$ORDER$$FIRST$-$SECOND$ guerra de migración forzada"
  IN_WARGOAL_COST:1 "Parte del objetivo de guerra, no resultará en un coste extra £dip para $WHO|Y$!"
- NOT_IN_WARGOAL_COST:0 "No forma parte del objetivo de guerra y se traducirá en un coste extra de §Y$COST$§! de poder diplomático para $WHO|Y$"
+ NOT_IN_WARGOAL_COST:0 "No forma parte del objetivo de guerra y se traducirá en un coste extra de §Y$COST$§! de poder diplomático para $WHO|Y$" # [LocEditor:AwaitingBatchUpdate]
  UNLAWFUL_TERRITORY_WARN:0 "§RTerritorio ilegítimo, ¡el Emperador puede exigir que lo devuelvas!§!"
  UNLAWFUL_TERRITORY_WARN_DELAY:0 "Puesto que esta provincia es parte del Imperio y no núcleo tuyo, si lo tomas, será considerado territorio ilegítimo."
  RELEASE_NATION_BY_WHOM:0 "$NEW_NATION$ será liberada por $RELEASER$"
@@ -585,6 +586,7 @@
  BUILDSPYNETWORK_LONG_DESC_1_SUBJECTS:0 "Enviar un diplomático para construir nuestra red de espías e informadores en $COUNTRY|Y$ y sus súbditos ($SUBJECTS$)?"
  BUILDSPYNETWORK_LONG_DESC_2:0 "Aumentará el tamaño de nuestra red de espionaje en $AMT|G$ cada mes.\n\nMientras que nuestro agente esté activo y la red de espionaje sea mayor que §Y25§! existe un §R$RISK$%§! riesgo de descubrimiento cada mes. Si nos descubren, dañará las relaciones con el país de destino, reducirá el tamaño de nuestra red y nos impedirá que siga aumentando durante un tiempo."
  CANCEL_BUILDSPYNETWORK_LONG_DESC:0 "¿Llamar de vuelta a los agentes que están construyendo nuestra red de espías e informadores en $COUNTRY|Y$? Nuestra red existente decaerá lentamente si no se está aumentando activamente."
+ CURRY_FAVORS_OUTLINER:0 "$NAME$ se está congraciando con $COUNTRY|Y$. Ahora ganamos $VAL|+=2$ favores al mes gracias a:\n$WHY$"
  COUNTERESPIONAGE_OUTLINER:0 "$NAME$ está realizando contraespionaje en $PROV|Y$ ($COUNTRY|Y$). Esto aumenta nuestras probabilidades de detectar los agentes que nos envíen en $AMT$."
  COUNTERESPIONAGE_NO_SUBJECT:0 "Súbditos no pueden realizar contraespionaje." # [LocEditor:AwaitingBatchUpdate]
  COUNTERESPIONAGETITLE:0 "Contraespionaje"
@@ -659,7 +661,7 @@
  CALL_ALLIES:0 "Llama a los Aliados"
  ENEMY_ALLIES:0 "Aliados Enemigos"
  CALL_COLONIAL_ALLIES:0 "LLamar súbditos"
- FULL_ALLY_CHECKBOX_WILL_AUTOJOIN:1 "El $SUBJECTORALLY$ §Y$COUNTRY$§! enemigo se considerará cobeligerante en esta guerra pero NO podrá llamar a sus aliados."
+ FULL_ALLY_CHECKBOX_WILL_AUTOJOIN:2 "El §Y$COUNTRY$§! $SUBJECTORALLY$ enemigo se unirá a esta guerra a favor del defensor, pero NO podrá llamar a sus aliados."
  FULL_ALLY_CHECKBOX_WILL_CALL:1 "El $SUBJECTORALLY$ §Y$COUNTRY$§! enemigo se considerará cobeligerante en esta guerra. Podrá llamar a sus aliados."
  FULL_ALLY_CHECKBOX_WILL_NOT_CALL:1 "El $SUBJECTORALLY$ §Y$COUNTRY$§! enemigo NO se considerará cobeligerante en esta guerra. NO podrá llamar llamar a sus aliados, pero tomar sus provincias costará el doble."
  FULL_ALLY_CHECKBOX_DESC:1 "§GHaz clic para cambiar si el $SUBJECTORALLY$ enemigo será considerado cobeligerante o no.§!"
@@ -697,7 +699,7 @@
  REDUCED_BADBOY:0 "Expansión Agresiva reducida:"
  AGGRESSIVE_EXPANSION_TITLE:0 "Los actos agresivos enfadarán a otros países partiendo de una base de $VAL$."
  AGGRESSIVE_EXPANSION_FACTOR:0 "Modificadores de expansión agresiva:"
- PEACE_EFFECTS_BADBOY:1 "Con el casus belli $THE$$CASUS$, $ACTIVE$ sufre una base $BADBOY$ de penalización de relaciones por expansión agresiva."
+ PEACE_EFFECTS_BADBOY:2 "Con el casus belli $CASUS$, $ACTIVE$ sufre un máximo de penalización por expansión agresiva de $BADBOY$."
  PEACE_DEFENDER_EFFECTS_BADBOY:1 "Como defensor, $ACTIVE$ sufre una base $BADBOY$ de penalización de relaciones por expansión agresiva."
  ENFORCE_PEACE_INVALID_TARGET:0 "No puedes forzar una paz entre dos socios menor en una guerra como $WHO$ y $TARGET$."
  ENFORCE_PEACE_INVALID_TARGET_NOT_WAR:0 "No podemos forzar una pazcuando $WHO$ no está en guerra con $TARGET$!"
@@ -892,7 +894,7 @@
  CLAIMSTATETITLE:0 "Crear reclamación sobre un área"
  CLAIMSTATETITLEDESC:0 "Crear reclamación sobre todas las provincias de un área."
  CLAIM_STATE_SELECT_DESC:1 "Crear reclamación en el área reducirá el tamaño de nuestra red de espionaje $ADJ|Y$ en $COST|R$ y nos dará derechos sobre todas las provincias del estado $ADJ$ en §Y$AREA$§!. Los derechos durarán $YEARS|Y$ años."
- CURIA_BUY_INDULGENCE_AT_WAR:0 "§RYa estás librando una guerra por tu excomunión.§!"
+
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  BECOME_VASSAL:0 "$WHO$ se convertirá en un vasallo."

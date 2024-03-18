@@ -163,7 +163,7 @@
  DIPLO_IS_CONSOLIDATING:0 "tienen sus propios planes:"
  DIPLO_HAS_TRUCE_WITH:0 "$WHO1$ tiene una tregua con $WHO2$:"
  DIPLO_FEAR_OF_BEING_ANNEXED:0 "Temor a ser anexionado"
- DIPLO_RESTRICTED_REGION:0 "Escepticismo regional ante carta comercial"
+ DIPLO_RESTRICTED_REGION:0 "Escepticismo regional ante carta comercial: "
  DIPLO_TRADING_CITY:0 "Es la ciudad comercial: "
  DIPLO_SELL_PROVINCE_FREE_CITY:0 "Perdería estatus de §YCiudad Libre§!:"
  DIPLO_SELL_PROVINCE_TRADE_LEAGUE:0 "Tendría que salir de §YLiga comercial§!:"

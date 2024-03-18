@@ -1146,7 +1146,7 @@
  expansionist_country:0 "Políticas expansionistas"
  desc_expansionist_country:0 "La rápida integración de las nuevas tierras nos ha traído tanto respeto como valiosas lecciones de liderazgo."
  army_enthusiasm:0 "Entusiasmo por el ejército"
- desc_army_enthusiasm:0 "Nuestra voluntad de invertir en la creación de ejércitos permanente ha provocado una oleada de entusiasmo por el ejército. Muchos buscan carreras militares tanto entre plebeyos como adinerados y nuestro reclutadores ahora tienen el lujo de elegir cuando en el pasado tuvieron que aceptar a quien estuviera interesado."
+ desc_army_enthusiasm:0 "Nuestra voluntad de invertir en la creación de ejércitos permanente ha provocado una oleada de entusiasmo por el ejército. Muchos buscan carreras militares tanto entre plebeyos como adinerados y nuestro reclutadores ahora tienen el lujo de elegir cuando en el pasado tuvieron que aceptar a quien estuviera interesado." # [LocEditor:AwaitingBatchUpdate]
  hegemonic_ambition:0 "Ambición hegemónica"
  desc_hegemonic_ambition:0 "Nuestra expansión territorial y el liderazgo incuestionable de nuestra región natal ha aumentado nuestro respeto internacional y cohesión interna."
  influential_diplomacy:0 "Diplomáticos influyentes"
@@ -2142,7 +2142,7 @@
  MODIFIER_POWER_PROJECTION_FROM_INSULTS:0 "Proyección de poder por insultos"
  MODIFIER_LOCAL_RELIGIOUS_UNITY_CONTRIBUTION:0 "Contribución a la unidad religiosa local"
  IDEA_MAY_CONVERT_TERRITORIES:0 "Puede convertir la religión en territorios."
- territory_core:0 "Territorio"
+ territory_core:1 "Núcleo territorial"
  territory_non_core:0 "Territorio"
  territory:0 "Territorio"
  mor_saharan_trade:0 "Comercio sahariano"
@@ -2267,8 +2267,8 @@
  desc_basque_fisheries_modifier:0 "Nuestra inversión en la industria pesquera ha dado frutos y ya estamos cosechando los beneficios financieros."
  basque_exploration:0 "Exploradores vascos"
  desc_basque_exploration:0 "Nuestros valientes marineros han empezado a aventurarse cada vez más lejos en busca de aguas más ricas para la caza de ballenas."
- nav_newfoundland:0 "Comercio de la Gran Baya"
- desc_nav_newfoundland:0 "Hemos dominado el comercio en la Gran Baya, estableciendo monopolios sobre los recursos de la región."
+ nav_newfoundland:0 "Comercio de la Gran Baya" # [LocEditor:AwaitingBatchUpdate]
+ desc_nav_newfoundland:0 "Hemos dominado el comercio en la Gran Baya, estableciendo monopolios sobre los recursos de la región." # [LocEditor:AwaitingBatchUpdate]
  nav_reclaimed_coast:0 "Costa reclamada"
  desc_nav_reclaimed_coast:0 "¡Al fin hemos recuperado la costa que perdimos!"
  conquest_of_espainiako:1 "La conquista de Espainia"

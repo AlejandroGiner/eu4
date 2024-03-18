@@ -261,3 +261,17 @@
  dlc098_sle_sprite_pack:0 "Animaciones Piratas de Berbería"
  dlc098_nss_sprite_pack:0 "Animaciones Piratas del Nuevo Mundo"
  dlc100_rom_sprite_pack:0 "Animaciones Roma"
+ dlc107_aboriginal_sprite_pack:0 "Animaciones Aborígenes australianos"
+ dlc107_polynesian_sprite_pack:0 "Animaciones Polinesios"
+ dlc107_BEI_sprite_pack:0 "Animaciones Bruneanos"
+ dlc107_MAJ_sprite_pack:0 "Animaciones Majapahit"
+ dlc107_MLC_sprite_pack:0 "Animaciones Malacenses"
+ dlc107_PGR_sprite_pack:0 "Animaciones Pagarruyung"
+ dlc107_AYU_sprite_pack:0 "Animaciones Ayuthias"
+ dlc107_CHA_sprite_pack:0 "Animaciones Champas"
+ dlc107_LNA_sprite_pack:0 "Animaciones Lannas"
+ dlc107_LUA_sprite_pack:0 "Animaciones Prabanganos"
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ dlc106_aboriginal_sprite_pack:0 "Animaciones Aborígenes australianos"
+ dlc106_polynesian_sprite_pack:0 "Animaciones Polinesios"

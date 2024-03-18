@@ -178,6 +178,8 @@
  custom_meritocracy_desc:0 "Al exigir los criterios más exigentes a nuestros examinandos, nos aseguramos de que nuestra administración cuenta con la ayuda de las más grandes mentes." # [LocEditor:AwaitingBatchUpdate]
  custom_monarch_admin_power:0 "Educación regia" # [LocEditor:AwaitingBatchUpdate]
  custom_monarch_admin_power_desc:0 "Jamás faltará educación de gobierno a un descendiente de nuestra dinastía. La educación de quienes pronto serán monarcas será rigurosa y omnipresente." # [LocEditor:AwaitingBatchUpdate]
+ custom_governing_capacity_modifier:0 "Liderazgo competente"
+ custom_governing_capacity_modifier_desc:0 "Algunos son mejores que otros a la hora de mandar, así que pueden liderar a más gente con mayor eficacia."
  custom_max_absolutism:0 "Constitución suprema" # [LocEditor:AwaitingBatchUpdate]
  custom_max_absolutism_desc:0 "Está escrito en el mismo alma de nuestra nación que nuestro soberano es la persona más perfecta y suprema de la Tierra, por encima de todas la leyes humanas. Sin un juez por encima de su persona, podremos seguir adelante con el control absoluto de nuestras tierras." # [LocEditor:AwaitingBatchUpdate]
  custom_yearly_absolutism:0 "Autoridad incuestionable" # [LocEditor:AwaitingBatchUpdate]

@@ -131,6 +131,7 @@
  EST_VAL_RELIGIOUS_MINORITY:0 "Minorías religiosas: §Y$VAL$%§!"
  EST_VAL_PROVINCES:1 "Provincias controladas: §Y$VAL$%§! (§Y$REAL_VAL$%§! antes del tope)"
  EST_VAL_BASE:1 "Base: $VAL|Y1$§Y%§!"
+ EST_VAL_ALLIANCE_ON_VC:1 "Alianza con $NAME$: §R$VAL|1$%§!"
  EST_VAL_DEV:1 "Porción de la tierra: $VAL|Y1$§Y%§!"
  EST_VAL_LOW_TRADE_INCOME:0 "Ingresos comerciales bajos: §Y$VAL$%§!"
  EST_VAL_HIGH_TRADE_INCOME:0 "Ingresos comerciales altos: §Y$VAL$%§!"
@@ -206,10 +207,13 @@
  THREATENED_ATTITUDE_CANNOT_SET_DISTANCE:0 "§RNo puedes situar tu actitud en §YAmenazado§! porque §Y$COUNTRY$§! no está en posición de amenazar a §Y$PLAYER$§!.§!"
  THREATENED_ATTITUDE_DESC:0 "Situar tu actitud en §YAmenazado§! demuestra que sientes miedo de §Y$COUNTRY$§!. Ellos lo verán como un signo de que estás dispuesto de aliarte con ellos por seguridad, pero también que estás buscando otros poderosos aliados para protegerte contra ellos."
  TRUST_DESC:0 "§YConfianza§! es la medida de la fuerza de cualquier alianza que tengamos con §Y$COUNTRY$§!. Decrece si faltamos a nuestras promesas o actuamos deshonrosamente con ellos de cualquier otro modo. Se puede aumentar gastando favores. Confianza también aumentará con el tiempo mientras sigáis aliados o uno sea súbdito del otro." # [LocEditor:AwaitingBatchUpdate]
- FAVORS_INSTANT:0 "§Y$COUNTRY$§! nos debe §Y$NUM$§! favores"
- FAVORS_INSTANT_ALLY:2 "Como estamos aliados con ellos, ganaremos un Favor cada $YEARS|Y$ año(s). La cantidad de años necesarios para ganar un Favor depende de la fuerza relativa de nuestro país respecto al suyo. Ganaremos el siguiente favor durante §Y$YEAR$§!."
- FAVORS_INSTANT_NOT_OFFENSIVE_CALL:0 "Como estamos rechazando unirnos a sus guerras ofensivas, nos será imposible ganar nuevos favores y los favores ya existentes se desvanecerán con el tiempo."
- FAVORS_INSTANT_NOT_ALLY:0 "Como no estamos aliados con ellos, seremos incapaces de ganar nuevos favores y los favores existentes se desvanecerán con el tiempo."
+ FAVORS_INSTANT:1 "§Y$COUNTRY$§! nos debe §Y$NUM|2$§! favor(es)."
+ FAVORS_GAIN_TOOLTIP:1 "Ganamos $VAL|+=2$ favor(es) al mes por:\n$WHY$"
+ FAVOR_ALLIANCE_TT:0 "Aliado: fuerza relativa: $VAL|+=2$"
+ FAVOR_ALLIANCE_BLOCKED_TT:0 "Rechazó guerras ofensivas: $VAL|+=2$"
+ FAVOR_CURRY_FAVORS_REP_TT:0 "Congraciándose (reputación diplomática): $VAL|+=2$"
+ FAVOR_CURRY_FAVORS_OPINION_TT:0 "Congraciándose (opinión): $VAL|+=2$"
+ FAVOR_LACK_OF_ALLIANCE_TT:0 "Falta de alianza: $VAL|+=2$"
  FAVORS_DESC:0 "§YFavores§! es la medida de cuánto nos debe §Y$COUNTRY$§! por todos los gestos que hemos hecho por ellos en el pasado. Se puede gastar para aumentar su confianza hacia nosotros, pedirles que se preparen para la guerra con otro país, o llamarlos a una guerra donde no les prometemos ninguna ganancia territorial."
  TRUST_HIT_FROM_NO_LAND:0 "§Y$WHO$§! recibe menos territorio del que esperaban por su Contribución a la guerra de §Y$CONT$%§! reduciendo su confianza en §R$AMT$§!."
  EXPECTS_BIGGER_DEAL:0 "\n\n$WHO|Y$ cree que podemos presionarlos para conseguir un trato mejor."
@@ -673,6 +677,7 @@
  BUILD_UNIT_NOT_WHEN_MOTHBALLED:0 "§RNo podemos añadir a unidades navales inactivas.§!\n"
  BUILD_UNIT_NOT_WHEN_AUTO_TRANSPORTING:0 "§RNo podemos añadir a unidades transportadas.§!\n"
  BUILD_UNIT_NOT_AT_SEA:0 "§RNo podemos añadir a unidades navales en mar abierto.§!\n"
+ BUILD_UNIT_ONLY_TRANSPORTS:0 "§R¡Solo puede construir transportes!§!\n"
  THREATENWARTITLE:0 "Amenazar con la guerra"
  THREATENWARDESC:0 "Esto les amenazará con una guerra por una provincia sobre la que tienes un núcleo o una reclamación. Existe la posibilidad de que reculen dependiendo de cuánto te teman. Si no lo hacen, comenzará una guerra para esa provincia. Por otra parte, si aceptan y ganas la provincia, habrá una tregua."
  THREATENWAR_DESC:0 "Exigiremos $PROV|Y$ a $THEM$ bajo amenaza de guerra."
@@ -1482,6 +1487,9 @@
 
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ FAVORS_INSTANT_ALLY:2 "Como estamos aliados con ellos, ganaremos un Favor cada $YEARS|Y$ año(s). La cantidad de años necesarios para ganar un Favor depende de la fuerza relativa de nuestro país respecto al suyo. Ganaremos el siguiente favor durante §Y$YEAR$§!."
+ FAVORS_INSTANT_NOT_OFFENSIVE_CALL:0 "Como estamos rechazando unirnos a sus guerras ofensivas, nos será imposible ganar nuevos favores y los favores ya existentes se desvanecerán con el tiempo."
+ FAVORS_INSTANT_NOT_ALLY:0 "Como no estamos aliados con ellos, seremos incapaces de ganar nuevos favores y los favores existentes se desvanecerán con el tiempo."
  PROMISE_LAND_CHECKBOX_DISABLED_2:0 "No se ha llamado a §Y$COUNTRY$§! a la guerra, así que no se le puede prometer territorio."
  alert_weak_estate_instant:0 "§Y¡Estamentos exigen el control del territorio!§!"
  alert_weak_estate_delayed:0 "Los estamentos que controlan menos de la cantidad mínima de deseada de desarrollo no ultramarino verán su lealtad cambiada en $AMT|R$ cada mes.\n\nLos siguientes estamentos están insatisfechos con su actual cantidad de territorio: \n$LIST$"

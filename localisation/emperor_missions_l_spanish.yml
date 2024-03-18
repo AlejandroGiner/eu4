@@ -704,7 +704,7 @@
  emp_bur_league_of_public_weal_effect_tooltip:1 "§Y[This.GetName]§! gana derechos permanentes sobre todas las provincias posesión de §YFrancia§! en la región de Francia."
  emp_bur_king_of_the_franks_title:0 "Rey de los francos"
  emp_bur_king_of_the_franks_desc:0 "Debemos romper el poder del rey francés y apoderarnos de sus títulos y dominios."
- emp_bur_king_of_the_franks_effect_tooltip:0 "Todos los vasallos de §YFrancia§! en la región de Francia con deseo de libertad de al menos §Y50§!se convierten en vasallos de §Y[Root.GetName]§!."
+ emp_bur_king_of_the_franks_effect_tooltip:1 "Todos los vasallos de §YFrancia§! en la región de Francia se convierten en vasallos de §Y[Root.GetName]§!."
  emp_bur_influence_the_princes_title:0 "Influye en los príncipes"
  emp_bur_influence_the_princes_desc:0 "En el pasado fuimos forasteros para el Imperio. Esto debe cambiar, debemos hacer un esfuerzo coordinado para mejorar nneustra posición entre los príncipes imperiales."
  emp_bur_influence_the_princes_trigger_tooltip:1 " estados miembros del SIR:\n      Opinión sobre §Y[Root.GetName]§! es al menos §Y60§!."
@@ -1150,7 +1150,7 @@
  emp_ita_prosperity_for_all_tt:0 "Al menos 8 provincias poseídas deben tener §Yprosperidad§!."
  emp_ita_develop_the_south_tt:0 "Al menos 5 provincias poseídas en el §YSur de Italia§! deben tener al menos desarrollo §Y25§!"
  emp_ita_the_gallic_wars_tt:1 "Posee o que un súbdito no tributario posea al menos §Y50§! provincias en la región de §YFrancia§!"
- emp_ita_redeem_tirolo_tt:0 "Posee el área del §YTirol§!"
+ emp_ita_redeem_tirolo_tt:1 "Poseer 4 provincias en el §YTirol§!"
  # Venetian missions
  emp_ven_aldine_monopoly_title:0 "Monopolio aldino"
  emp_ven_aldine_monopoly_desc:0 "La imprenta ha traído muchas innovaciones a Venecia, incluyendo la introducción de una fuente inclinada o "cursiva" (que también lleva el nombre de "itálica" por su región de origen), y una forma primitiva de protección de derechos de autor mediante de la concesión de un monopolio en la producción de obras escritas en griego. Estas innovaciones de impresión seguramente ayudarán a generar nuevas ideas en toda la Serenísima República."

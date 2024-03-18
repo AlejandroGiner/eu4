@@ -445,7 +445,7 @@
  INNOVATIVENESS_AMOUNT:0 "Ya hemos conseguido $AMOUNT|Y$ capacidad de innovación."
  INNOVATIVENESS_CHANGE_DESC:0 "Nuestra capacidad de innovación se ve modificada por:\n"
  INNOVATIVENESS_FULL_MOD_DESC:0 "\nEfecto de capacidad de innovación en §Y100§!:\n$MOD$"
- INNOVATIVENESS_DESC:1 "Se puede aumentar la capacidad de innovación con:\nPrimeros en tecnología: §G+2§!\nPrimeros en idea: §G+2§!\nAdelantado a su tiempo: §G+0.005§!/mes\n\nSe puede reducir la capacidad de innovación con:\nRetraso respecto vecinos: §R-0.1§!/mes\n"
+ INNOVATIVENESS_DESC:2 "La capacidad de innovación puede incrementarse por:\nPrimeros en tecnología: $FIRSTINTECH|G$\nPrimeros en idea: $FIRSTINIDEA|G$\nAdelantados a su tiempo: $AHEADOFTIME|G$/mes\n\nLa capacidad de innovación puede reducirse por:\nRetraso respecto vecinos: $BEHINDNEIGHBOURS|R$/mes\n"
  INNOVATIVENESS_MOD_DESC:0 "\nEfecto de nuestra Capacidad de innovación actual:\n$MOD$"
  TECH_INNOVATIVENESS_DATE:0 "\nEl nivel tecnológico $TECH|Y$ se alcanzó por primera vez el $DATE|Y$."
  TECH_INNOVATIVENESS_DAYS_LEFT:0 " Disponible durante $DAYS|Y$ días más."

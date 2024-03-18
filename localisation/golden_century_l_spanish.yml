@@ -323,7 +323,7 @@
  CAN_NOT_ESTABLISH_ORDER:1 "No puede fundar una orden religiosa en $LOCATION|Y$."
  MODIFIER_CENTER_OF_TRADE_UPGRADE_COST:0 "Coste de mejorar centro de comercio"
  MODIFIER_MISSIONARY_MAINTENANCE_COST:0 "Coste de mantenimiento misionero"
- MODIFIER_NAVAL_TRADITION_FROM_TRADE:1 "Tradición naval por protección de comercio"
+ MODIFIER_NAVAL_TRADITION_FROM_TRADE:2 "Tradición naval por protección de comercio"
  MODIFIER_ADMIRAL_COST:0 "Coste de almirante"
  MODIFIER_EXPEL_MINORITIES_COST:0 "Coste de expulsar minorías"
  IDEA_MAY_FABRICATE_FOR_VASSALS:1 "Puede crear derechos para súbditos"

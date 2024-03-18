@@ -77,7 +77,7 @@
  TRADE_MISSION_OFFICE_DESC:0 "Te permite hacer dinero recaudando del comercio. Fuera de tu nodo base solo puedes recaudar del comercio mientras tu comerciante está presente. Si el comerciante regresa, el nodo sólo transferirá Poder comercial"
  TRADE_MISSION_TRANSIT_DESC:0 "Cualquier nodo donde tengas poder que no sea tu capital es un nodo de tránsito. Tu poder allí te permitirá dirigir el comercio y causará el valor comercial al mover la cadena."
  NON_CAPITAL_OFFICE_2:0 "Recaudación del comercio fuera de la capital: $VAL$"
- ENVOY_TRADING_TRADE_MISSION_TRANSIT:0 "$NAME$ está Transfiriendo Poder comercial en §Y$PROV$§!."
+ ENVOY_TRADING_TRADE_MISSION_TRANSIT:1 "$NAME$ está en §Y$FROMPROV$§W transfiriendo poder comercial a §Y$TOPROV$§W."
  ENVOY_TRADING_TRADE_MISSION_OFFICE:0 "$NAME$ está Recaudando del comercio en §Y$PROV$§!."
  MERCHANT_PRESENT:1 "Comerciante presente: §Y$VAL$§!"
  TRADE_POWER_PUSH_DESC:0 "§Y$VAL$§!% del poder es usado para transferir el comercio."

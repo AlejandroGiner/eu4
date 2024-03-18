@@ -431,8 +431,8 @@
  LIBERTY_DESIRE_FROM_ADM_EFFICIENCY:0 "Eficiencia administrativa: $VAL$"
  LIBERTY_DESIRE_FROM_WAR_EXHAUSTION:0 "Hastío de guerra de §Y$OVERLORD$§!: $VAL$"
  LIBERTY_DESIRE_FROM_MERCANTILISM:0 "Mercantilismo del §Y$OVERLORD$§!: $VAL$"
- LIBERTY_DESIRE_FROM_RELATIVE_POWER:0 "Poder relativo con §Y$OVERLORD$§! (§Y$AMT$%§!): $VAL$"
- LIBERTY_DESIRE_FROM_RELATIVE_POWER_ALL:1 "Poder relativo de todos $COUNTED$ a §Y$OVERLORD$§! (§Y$AMT$%§!): $VAL$" # [LocEditor:AwaitingBatchUpdate]
+ LIBERTY_DESIRE_FROM_RELATIVE_POWER:1 "Poder militar relativo respecto a §Y$OVERLORD$§! (§Y$AMT$%§!): $VAL$"
+ LIBERTY_DESIRE_FROM_RELATIVE_POWER_ALL:3 "Poder militar relativo de $COUNTED$ respecto a §Y$OVERLORD$§! (§Y$AMT$%§!): $VAL$"
  LIBERTY_DESIRE_ALL:0 "todos"
  AND_THE_SUPPORTER:0 "; y el partidario "
  AND_THE_SUPPORTERS:0 "; y los partidarios "
@@ -1762,11 +1762,11 @@
  tyw_events.27.d:0 "El resultado de dejar la educación de [Root.Monarch.GetName] en manos de los jesuitas, ha producido lo que muchos consideran el resultado esperado. Al nuevo [Root.Monarch.GetTitle] no le falta valentía ni convicción, pero es ferozmente leal a la Iglesia Católica y a los jesuitas en particular. Los fieles se alegran de ello, pero ahora los herejes temen a [Root.GetName] más que nunca."
  tyw_events.27.a:0 "Ad maiorem Dei gloriam."
  tyw_events.28.t:0 "Los nobles [Root.Culture.GetName] huyen al extranjero"
- tyw_events.28.d:0 "El guerra por la unidad religiosa en el Sacro Imperio Romano no va por nuestro camino. Nuestra capital de [Root.Capital.GetCapitalName], considerada por muchos como el último refugio seguro, ha sido tomada por el enemigo. Ahora los nobles, tanto los que residían en la capital como los que allí huyeron, temen que [Root.GetName] está perdido y han empezado a escapar hacia aquellos vecinos que siguen firmes la fe [Root.Religion.GetName]."
+ tyw_events.28.d:0 "La guerra por la unidad religiosa en el Sacro Imperio Romano no va como nos gustaría. Nuestra capital, [Root.Capital.GetCapitalName], que muchos consideraban el último refugio seguro, ha sido tomada por el enemigo. Ahora los nobles, tanto los que residían en la ciudad como los que allí huyeron, temen que [Root.GetName] esté perdido y han empezado a escapar hacia aquellos vecinos que aún albergan a creyentes [Root.Religion.GetName]s." # [LocEditor:AwaitingBatchUpdate]
  tyw_events.28.a:0 "Dejar que huyan, ya volverán a [Root.GetName] cuando lleguen tiempos mejores."
  tyw_events.28.b:0 "Llevarlos a un lugar seguro en nuestras fronteras, cueste lo que cueste."
  tyw_events.29.t:0 "Los nobles [From.Culture.GetName] buscan refugio"
- tyw_events.29.d:0 " La ocupación de [From.Capital.GetCapitalName] ha asustado a muchos nobles de [From.GetName] y ha provocado que huyan del país para buscar refugio aquí, entre sus compañeros [Root.Religion.GetName]s. Dado que el conflicto es, en apariencia, religioso, se supone que debemos prestar ayuda a aquellos que comparten nuestra misma fe. Pero los ojos de los enemigos de la Liga están puestos en nosotros y hay muchos a los que no agrada ver que protegemos a sus enemigos."
+ tyw_events.29.d:0 "La ocupación de [From.Capital.GetCapitalName] ha asustado a muchos nobles de [From.GetName] y provocado que huyan del país para buscar refugio aquí, entre sus correligionarios [Root.Religion.GetName]s. Dado que el conflicto es, en apariencia, religioso, se supone que debemos prestar ayuda a aquellos que comparten nuestra misma fe. Pero los enemigos de la Liga han fijado su vista en nosotros y muchos no se tomarían bien ver que protegemos a sus adversarios." # [LocEditor:AwaitingBatchUpdate]
  tyw_events.29.a:0 "Seguro que otros podrán cargar con ello."
  tyw_events.29.b:0 "Aquí, los fieles [Root.Religion.GetName] siempre encontrarán refugio."
  tyw_events.30.t:0 "Íñigo Vélez de Guevara"
@@ -1795,7 +1795,7 @@
  tyw_events.35.a:0 "Una iniciativa excelente."
  tyw_events.35.b:0 "No creemos que esta campaña tenga ningún sentido."
  tyw_events.36.t:0 "Hungría libre de opresión religiosa"
- tyw_events.36.d:0 "La formación de las Ligas en el Sacro Imperio Romano ha evidenciado que vivimos un tiempo en que las naciones no se quedan de brazos cruzados permitiendo que la gente seguidora de su fe sufra a causa de gobernantes impíos. No lejos de nuestra frontera, los [Root.Religion.GetName]s húngaros se encuentran exactamente en esta inaceptable situación. Nuestra nación tiene fuertes lazos con Hungría tanto por ley como de sentimiento, y no podemos permitir que esto continúe. Es el momento de liberarlos y reclamar la tierra, para que la sangre [Root.Religion.GetName] no vuelva a derramarse de nuevo por eso."
+ tyw_events.36.d:0 "La formación de las Ligas en el Sacro Imperio Romano ha evidenciado que vivimos un tiempo en el que las naciones no se quedan de brazos cruzados y dejan que sus hermanos de fe sufran bajo gobernantes impíos. No lejos de nuestra frontera, los [Root.Religion.GetName]s húngaros se encuentran exactamente en esta situación inaceptable. Nuestra nación tiene fuertes lazos con Hungría tanto de ley como de sentimiento y no podemos permitir que esto continúe. Es el momento de liberarlos y reclamar la tierra, para que el pueblo [Root.Religion.GetName] no vuelva a ver derramada su sangre." # [LocEditor:AwaitingBatchUpdate]
  tyw_events.36.a:0 "Transilvania está con los húngaros."
  tyw_events.37.t:0 "Edad de Oro de Transilvania"
  tyw_events.37.d:0 "Nuestra nación está viviendo quizá su mejor época desde que se formó en su forma actual. El [Root.Monarch.GetTitle] ha dado muestras de estar altamente capacitado, y se están haciendo inversiones para hacer de [Root.Capital.GetCapitalName] una ciudad culta y digna de admiración. Tenemos la esperanza de difundir la arquitectura y la educación por toda la nación durante la próxima década, y rezamos para que esta época de paz y prosperidad sea duradera."

@@ -1590,7 +1590,7 @@
  alert_pick_church_aspect_delayed:1 "Tienes suficiente §YPoder de la iglesia§! para elegir un nuevo $ASPECT_LONG|Y$."
  CONTINUE_FAILED_TITLE:0 "¡Fallo al continuar!"
  CONTINUE_FAILED_DESC:0 "No se ha podido continuar desde la última partida guardada. Esto se puede deber a los siguientes motivos:\n* La partida está rota\n* La partida requiere un DLC que no está activo\n* La partida no funciona con la versión actual del juego\n* La partida guardada es de Ironman, y tu partida está modificada, lo que impide logros"
- CULT_HELP_DESC:0 "Se pueden conseguir nuevos cultos teniendo fronteras con naciones fetichistas que hayan adoptado cultos e interactuando con naciones de otras religiones."
+ CULT_HELP_DESC:1 "Se pueden conseguir nuevos cultos teniendo fronteras con naciones de credo $RELIGION$ que hayan adoptado cultos e interactuando con naciones de otras religiones."
  ND_RANDOM_PERSONALITY:0 "Personalidad aleatoria"
  ND_RANDOM_PERSONALITY_DESC:0 "Se elegirá una partida aleatoria al comienzo de la partida."
  alert_can_intervene_in_war_instant:0 "§YPuedes intervenir en guerras con otras Grandes Potencias§!"

@@ -23,7 +23,7 @@
  client_vassal_long_desc:0 "Como un vasallo normal, un Estado clientelar debe seguir a su soberano a la guerra, no puede tomar ciertas acciones diplomáticas y pagará una fracción de sus ingresos a su soberano."
  daimyo_vassal_long_desc:0 "Un daimio súbdito debe seguir a su soberano a la guerra, no puede tomar ciertas acciones diplomáticas y pagará una fracción de sus ingresos a su soberano. Los daimios súbditos pueden luchar entre ellos."
  client_march_long_desc:0 "Como una marca normal, una Marca clientelar no puede ser anexionada y no paga impuestos, pero tiene mayor capacidad militar que un vasallo normal."
- colony_long_desc:0 "Una Colonia es un estado colonial separado bajo el gobierno de su soberano. Las colonias deben pagar una tarifa mensual a sus soberanos y someterán un $TRADE|0%$ de su poder comercial. Las colonias solo pueden declarar guerra a los nativos u otras colonias."
+ colony_long_desc:1 "Una colonia es un estado colonial separado bajo el gobierno de su soberano. Las colonias deben pagar un impuesto mensual consistente en la mitad de su producción y comercio a su soberano y ceder un $TRADE|0%$ de su poder comercial. Las colonias solo pueden declarar guerra a nativos u otras colonias."
  protectorate_long_desc:0 "Un Protectorado entregará la mitad de su poder comercial al soberano, mientras que éste lo protegerá."
  personal_union_long_desc:0 "En una unión personal, dos países están gobernados por el mismo monarca. El socio menor debe seguir a su soberano a la guerra y no puede tomar ciertas acciones diplomáticas. Cuando el monarca muera, la unión puede continuar, romperse o el socio menor puede ser heredado y anexionado."
  vassal_is_our:0 "$NAME|Y$ es nuestro vasallo."
