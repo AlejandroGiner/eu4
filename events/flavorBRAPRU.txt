@@ -618,6 +618,7 @@ country_event = {
 					}
 					cede_province = BRA
 					add_core = BRA
+					remove_core = TEU
 				}
 			}
 			4747 = {
@@ -628,6 +629,7 @@ country_event = {
 					}
 					cede_province = BRA
 					add_core = BRA
+					remove_core = TEU
 				}
 			}
 		}
@@ -672,6 +674,7 @@ country_event = {
 					}
 					cede_province = BRA
 					add_core = BRA
+					remove_core = TEU
 				}
 			}
 			4747 = {
@@ -682,6 +685,7 @@ country_event = {
 					}
 					cede_province = BRA
 					add_core = BRA
+					remove_core = TEU
 				}
 			}
 		}
