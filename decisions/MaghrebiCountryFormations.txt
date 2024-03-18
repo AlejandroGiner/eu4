@@ -57,8 +57,11 @@ country_decisions = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
-			owns_core_province = 343 #Fez
-			owns_core_province = 344 #Marrekech
+			owns_core_province = 343 	#Fez
+			owns_core_province = 344 	#Marrekech
+			344 = {						#Marrekech
+				is_state = yes
+			}
 			OR = {
 				owns_core_province = 348 #Sus
 				owns_core_province = 346 #Tafilalt
@@ -122,7 +125,10 @@ country_decisions = {
 			change_primary_culture = moroccan
 			set_country_flag = formed_morocco_flag
 			if = {
-				limit = { has_custom_ideas = no }
+				limit = { 
+					has_custom_ideas = no
+					NOT = { has_idea_group = MOR_ideas }
+				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 		}
@@ -211,8 +217,11 @@ country_decisions = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
-			owns_core_province = 338 #Algiers
-			owns_core_province = 2461 #Dahra
+			owns_core_province = 2461 	#Dahra
+			owns_core_province = 338 	#Algiers
+			338 = {						#Algiers
+				is_state = yes
+			}
 			OR = {
 				owns_core_province = 336 #Tlemcen
 				owns_core_province = 339 #Kabylia
@@ -271,7 +280,10 @@ country_decisions = {
 			add_prestige = 25
 			set_country_flag = formed_algiers_flag
 			if = {
-				limit = { has_custom_ideas = no }
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = berber_ideas }
+				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 		}
@@ -339,8 +351,11 @@ country_decisions = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
-			owns_core_province = 341 #Tunis
-			owns_core_province = 2473 #Souss
+			owns_core_province = 2473	#Souss
+			owns_core_province = 341 	#Tunis
+			341 = {						#Tunis
+				is_state = yes
+			}
 			OR = {
 				owns_core_province = 2454 #Kef
 				owns_core_province = 354 #Tripoli
@@ -376,7 +391,10 @@ country_decisions = {
 			add_prestige = 25
 			set_country_flag = formed_tunisia_flag
 			if = {
-				limit = { has_custom_ideas = no }
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = TUN_ideas }
+				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 		}
@@ -445,8 +463,11 @@ country_decisions = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
-			owns_core_province = 354 #Tripoli
-			owns_core_province = 2451 #Thubaqt
+			owns_core_province = 2451 	#Thubaqt
+			owns_core_province = 354	#Tripoli
+			354 = {						#Tripoli
+				is_state = yes
+			}
 			OR = {
 				owns_core_province = 355 #Sirt
 				owns_core_province = 353 #Djerba
@@ -481,7 +502,10 @@ country_decisions = {
 			add_prestige = 25
 			set_country_flag = formed_tripoli_flag
 			if = {
-				limit = { has_custom_ideas = no }
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = berber_ideas }
+				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 		}
