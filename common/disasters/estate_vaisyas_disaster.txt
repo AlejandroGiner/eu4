@@ -36,7 +36,7 @@ estate_vaisyas_disaster = {
 			factor = 1
 			NOT = {
 				estate_influence = {
-					estate = estate_rajput
+					estate = estate_vaisyas
 					influence = 100
 				}
 			}
