@@ -279,10 +279,9 @@ country_event = {
 		name = "native_americans.6.a"
 		set_country_flag = appointed_war_chief
 		define_ruler = {
-			adm = 0
-			dip = 1
-			mil = 5
-			fixed = yes
+			change_adm = 0
+			change_dip = 1
+			change_mil = 5
 		}
 	}
 
@@ -311,8 +310,8 @@ country_event = {
 	option = {
 		name = "native_americans.7.a"
 		define_ruler = {
-			adm = 2
-			dip = 2
+			change_adm = 2
+			change_dip = 2
 		}
 		clr_country_flag = appointed_war_chief
 	}
@@ -1148,8 +1147,7 @@ country_event = {
 			primary_culture = haida
 			primary_culture = salish
 		}
-		AND = {
-			is_month = 0
+		OR = {
 			NOT = { is_month = 2 }
 			is_month = 11
 		}
@@ -1802,11 +1800,11 @@ country_event = {
 			modifier = {
 				factor = 0
 				NOT = {
-					treasury = 50
+					years_of_income = 0.25
 				}
 			}
 		}	
-		add_treasury = -50
+		add_years_of_income = -0.25
 	}
 
 	option = {
@@ -1816,7 +1814,7 @@ country_event = {
 			modifier = {
 				factor = 2
 				NOT = {
-					treasury = 50
+					years_of_income = 0.25
 				}
 			}
 		}

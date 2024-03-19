@@ -97,6 +97,9 @@ country_event = {
 				NOT = { has_discovered = ROOT }
 			}
 			area = {
+				limit = {
+					NOT = { has_discovered = ROOT }
+				}
 				ROOT = {
 					discover_province = PREV
 				}
@@ -1426,7 +1429,7 @@ country_event = {
 	option = {
 		name = "personality_events.21.a"
 		define_heir = {
-			mil = 4
+			change_mil = 4
 			age = 0
 			dynasty = ROOT
 		}
@@ -1434,7 +1437,7 @@ country_event = {
 	option = {
 		name = "personality_events.21.b"
 		define_heir = {
-			adm = 4
+			change_adm = 4
 			age = 0
 			dynasty = ROOT
 		}
@@ -1466,7 +1469,7 @@ country_event = {
 	option = {
 		name = "personality_events.22.a"
 		define_heir = {
-			adm = 4
+			change_adm = 4
 			age = 0
 			dynasty = ROOT
 		}
@@ -1474,7 +1477,7 @@ country_event = {
 	option = {
 		name = "personality_events.22.b"
 		define_heir = {
-			mil = 4
+			change_mil = 4
 			age = 0
 			dynasty = ROOT
 		}
@@ -2069,7 +2072,10 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Rights of Man"
-		ruler_has_personality_ancestor = { key = lawgiver }
+		OR = {
+			ruler_has_personality_ancestor = { key = reformist }
+			ruler_has_personality_ancestor = { key = lawgiver }
+		}
 		num_of_cities = 2
 		any_owned_province = {
 			is_state = yes
@@ -2133,13 +2139,23 @@ country_event = {
 	title = "personality_events.30.t"
 	desc = "personality_events.30.d"
 	picture = ECONOMICALLY_TALLANTED_RULER_eventPicture
-	
+	goto = target_province
 	trigger = {
 		has_dlc = "Rights of Man"
 		ruler_has_personality_ancestor = { key = midas_touched }
 	}
 	
 	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_in_capital_area = yes
+				}
+				save_event_target_as = target_province
+			}
+		}
+	}
 	
 	mean_time_to_happen = {
 		days = 1
@@ -2147,10 +2163,7 @@ country_event = {
 
 	option = {
 		name = "personality_events.30.a" #
-		random_owned_province = {
-			limit = {
-				is_in_capital_area = yes
-			}
+		event_target:target_province = {
 			add_base_tax = 1
 		}
 	}
@@ -2633,7 +2646,7 @@ country_event = {
 		name = "personality_events.40.a"
 		custom_tooltip = "personality_events.40.a.tt"
 		highlight = yes
-		remove_heir = yes
+		remove_heir = {}
 		add_stability = -2
 		trigger = {
 			ruler_has_personality = cruel_personality
@@ -3090,15 +3103,14 @@ country_event = {
 		define_heir = {
 			claim = 25
 		   	dynasty = event_target:adoptive_country_1
-		   	culture = event_target:adoptive_country_1 
-			religion = event_target:adoptive_country_1 
+		   	culture = event_target:adoptive_country_1
+			religion = event_target:adoptive_country_1
 			name = "Maria"
 		   	adm = 4
 		   	dip = 1
 		   	mil = 2
 		   	age = 22
 		   	female = yes
-			fixed = yes
 		}
 	}
 
@@ -3110,15 +3122,14 @@ country_event = {
 		define_heir = {
 		   	claim = 25
 		   	dynasty = event_target:adoptive_country_2
-			culture = event_target:adoptive_country_2 
-			religion = event_target:adoptive_country_2 
+			culture = event_target:adoptive_country_2
+			religion = event_target:adoptive_country_2
 		   	name = "Alexander"
 		   	adm = 1
 		   	dip = 2
 		   	mil = 4
 		   	age = 30
 		   	female = no
-			fixed = yes
 		}
 	}
 
@@ -3129,15 +3140,14 @@ country_event = {
 		define_heir = {
 		   	claim = 25
 		   	dynasty = event_target:adoptive_country_3
-			culture = event_target:adoptive_country_3 
-			religion = event_target:adoptive_country_3 
+			culture = event_target:adoptive_country_3
+			religion = event_target:adoptive_country_3
 		   	name = "Stefanos"
 		   	adm = 2
 		   	dip = 4
 		   	mil = 1
 		   	age = 27
 		   	female = no
-			fixed = yes
 		}	
 	}	
 
@@ -3685,6 +3695,7 @@ country_event = {
 	picture = wihgfx_FEMALE_GENERAL_eventPicture
 	
 	trigger = {
+		has_regency = no
 		is_female = yes
 		is_monarch_leader = no
 		has_dlc = "Rights of Man"

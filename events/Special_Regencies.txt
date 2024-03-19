@@ -1,7 +1,7 @@
 ###########################################################
 # Events for Special Regencies
 #
-# written by Ver√≥nica Pazos
+# written by VerÛnica Pazos
 ###########################################################
 
 namespace = special_regency_events
@@ -58,7 +58,7 @@ country_event = {
 		name = special_regency_events.1.a
 		custom_tooltip = special_regency_events.1.tt
 		hidden_effect = {
-			exile_ruler_as = por_exhiled_maria
+			exile_ruler_as = { name = por_exhiled_maria }
 		}
 		if = {
 			limit = {
@@ -81,7 +81,7 @@ country_event = {
 	}
 }
 
-# Recovering the Ch√¢teau de Chenonceau
+# Recovering the Ch‚teau de Chenonceau
 country_event = {
 	id = special_regency_events.2
 	title = special_regency_events.2.t
@@ -172,10 +172,12 @@ country_event = {
 			has_heir = no
 		}
 		is_lesser_in_union = no
+		NOT = { dynasty = "Vasa" }
+		NOT = { has_ruler_modifier = swe_rise_of_a_new_dynasty }
 	}
 
 	mean_time_to_happen = {
-		months = 12
+		months = 4
 	}
 	
 	immediate = {
@@ -187,7 +189,10 @@ country_event = {
 	option = { #he should take care of the country
 		name = special_regency_events.3.a
 		hidden_effect = {
-			exile_ruler_as = swe_karl_exiled
+			exile_ruler_as = { 
+				name = swe_karl_exiled
+				kill_monarch = no
+			}
 		}
 		if = {
 			limit = {
@@ -204,9 +209,9 @@ country_event = {
 					regency = yes
 					age = 30
 					claim = 75
-					ADM = 1
-					DIP = 1
-					MIL = 1
+					change_adm = 1
+					change_dip = 1
+					change_mil = 1
 				}
 			}
 			else = {
@@ -215,9 +220,9 @@ country_event = {
 					dynasty = "Sture"
 					age = 30
 					claim = 75
-					ADM = 1
-					DIP = 1
-					MIL = 1
+					change_adm = 1
+					change_dip = 1
+					change_mil = 1
 				}
 			}
 			hidden_effect = {
@@ -232,9 +237,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				exists = DMK
+				exists = DAN
 			}
-			DMK = {
+			DAN = {
 				add_opinion = {
 					who = ROOT
 					modifier = sten_sture_opinion
@@ -299,6 +304,7 @@ country_event = {
 		OR = {
 			tag = DAI
 			primary_culture = vietnamese
+			primary_culture = vietnamese_new
 		}
 		NOT = { has_global_flag = nguyen_thi_anh }
 		has_ruler = "Nguyen Thi Anh"
@@ -326,27 +332,59 @@ country_event = {
 		add_dip_power = 100
 		add_mil_power = 100
 		add_meritocracy_effect = yes
-		define_advisor = {
-			name = "Nguyen Thi Anh"
-			culture = vietnamese
-			type = diplomat
-			discount = yes
-			skill = 2
-			female = yes
+		if = {
+			limit = {
+				has_updated_culture = { culture = vietnamese }
+			}
+			define_advisor = {
+				name = "Nguyen Thi Anh"
+				culture = vietnamese_new
+				type = diplomat
+				discount = yes
+				skill = 2
+				female = yes
+			}
+		}
+		else = {
+			define_advisor = {
+				name = "Nguyen Thi Anh"
+				culture = vietnamese
+				type = diplomat
+				discount = yes
+				skill = 2
+				female = yes
+			}
 		}
 	}
 	
 	option = { #give her the rule
 		name = special_regency_events.4.b
-		define_ruler = {
-			name = "Nguyen Thi Anh"
-			culture = vietnamese
-			age = 22
-			claim = 65
-			adm = 4
-			dip = 3
-			mil = 3
-			female = yes
+		if = {
+			limit = {
+				has_updated_culture = { culture = vietnamese }
+			}
+			define_ruler = {
+				name = "Nguyen Thi Anh"
+				culture = vietnamese_new
+				age = 22
+				claim = 65
+				adm = 4
+				dip = 3
+				mil = 3
+				female = yes
+			}
+		}
+		else = {
+			define_ruler = {
+				name = "Nguyen Thi Anh"
+				culture = vietnamese
+				age = 22
+				claim = 65
+				adm = 4
+				dip = 3
+				mil = 3
+				female = yes
+			}
 		}
 	}
 	
@@ -382,6 +420,7 @@ country_event = {
 		OR = {
 			tag = DAI
 			primary_culture = vietnamese
+			primary_culture = vietnamese_new
 		}
 		has_ruler = "Nguyen Thi Anh"
 		has_global_flag = nguyen_thi_anh
@@ -439,6 +478,7 @@ country_event = {
 		OR = {
 			tag = KOR
 			primary_culture = korean
+			primary_culture = korean_new
 		}
 		is_year = 1759
 		NOT = { is_year = 1805 }
@@ -478,17 +518,36 @@ country_event = {
 			has_heir = yes
 		}
 		hidden_effect = {
-			exile_ruler_as = yes
+			exile_ruler_as = { name = yes }
 		}
-		define_ruler = {
-			name = "Jung Soon"
-			culture = korean
-			regency = yes
-			claim = 65
-			change_adm = 3
-			change_dip = 3
-			change_mil = 1
-			female = yes
+		if = {
+			limit = {
+				has_updated_culture = { culture = korean }
+			}
+			define_ruler = {
+				name = "Jung Soon"
+				dynasty = "Gyeongju Kim"
+				culture = korean_new
+				regency = yes
+				claim = 65
+				change_adm = 3
+				change_dip = 3
+				change_mil = 1
+				female = yes
+			}
+		}
+		else = {
+			define_ruler = {
+				name = "Jung Soon"
+				dynasty = "Gyeongju Kim"
+				culture = korean
+				regency = yes
+				claim = 65
+				change_adm = 3
+				change_dip = 3
+				change_mil = 1
+				female = yes
+			}
 		}
 		custom_tooltip = special_regency_events.6.tt
 	}
@@ -496,16 +555,34 @@ country_event = {
 	option = { #give her the country
 		name = special_regency_events.6.b
 		hidden_effect = {
-			exile_ruler_as = yes
+			exile_ruler_as = { name = yes }
 		}
-		define_ruler = {
-			name = "Jung Soon"
-			culture = korean
-			claim = 65
-			change_adm = 3
-			change_dip = 3
-			change_mil = 1
-			female = yes
+		if = {
+			limit = {
+				has_updated_culture = { culture = korean }
+			}
+			define_ruler = {
+				name = "Jung Soon"
+				dynasty = "Gyeongju Kim"
+				culture = korean_new
+				claim = 65
+				change_adm = 3
+				change_dip = 3
+				change_mil = 1
+				female = yes
+			}
+		}
+		else = {
+			define_ruler = {
+				name = "Jung Soon"
+				dynasty = "Gyeongju Kim"
+				culture = korean
+				claim = 65
+				change_adm = 3
+				change_dip = 3
+				change_mil = 1
+				female = yes
+			}
 		}
 		add_stability = -1
 		custom_tooltip = special_regency_events.6.tt2
@@ -514,7 +591,7 @@ country_event = {
 	option = { #let the heir rule
 		name = special_regency_events.6.c
 		hidden_effect = {
-			exile_ruler_as = yes
+			exile_ruler_as = { name = yes }
 		}
 		trigger = {
 			heir_age = 15
