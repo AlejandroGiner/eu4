@@ -1,9 +1,9 @@
 ######################################################################
-# Throne Pretender rebels.
+# Renegade son of the sultan rebels.
 ######################################################################
-pretender_rebels = {
+renegade_sultan_son_rebels = {
 	
-	color = { 179 51 51 }
+	color = { 173 31 120 }
 	
 	area = nation
 	government = monarchy
@@ -34,197 +34,7 @@ pretender_rebels = {
 	handle_action_send_missionary = yes		
 	
 	spawn_chance = {
-		factor = 1
-		modifier = {
-			factor = 0
-			owner = {
-				has_reform = papacy_reform
-			}
-		}
-		modifier = {
-			factor = 0
-			owner = {
-				is_colonial_nation = yes
-			}
-		}
-		modifier = {
-			factor = 0
-			owner = {
-				NOT = { num_of_cities = 3 }
-			}
-		}
-		modifier = {
-			factor = 0
-			is_overseas = yes
-		}
-		modifier = {
-			factor = 0.05
-			owner = {
-				OR = {
-					has_country_modifier = the_mandate_of_heaven_lost
-					has_country_modifier = lost_mandate_of_heaven
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			owner = {
-				government = republic
-				aristocracy_ideas = 1
-			}
-		}
-		modifier = {
-			factor = 20
-			owner = {
-				has_disaster = civil_war
-				#has_disaster = counts_feud
-			}
-		}
-		modifier = {
-			factor = 20
-			owner = {
-				has_disaster = english_civil_war
-			}
-		}
-		modifier = {
-			factor = 10
-			owner = {
-				has_disaster = granada_succession_war
-			}
-		}
-		modifier = {
-			factor = 20
-			owner = {
-				has_disaster = counts_feud
-				has_country_flag = monarch_flag
-			}
-		}
-		modifier = {
-			factor = 20
-			owner = {
-				has_disaster = castilian_civil_war
-			}
-		}
-		modifier = {
-			factor = 5
-			owner = {
-				has_disaster = time_of_troubles
-			}
-		}
-		modifier = {
-			factor = 5.0
-			owner = {
-				government = republic
-				NOT = { republican_tradition = 40 }
-			}
-		}	
-		modifier = {
-			factor = 50.0
-			owner = { has_disaster = war_of_the_roses }
-		}
-		modifier = {
-			factor = 2
-			owner = { religion = inti }
-		}
-		modifier = {
-			factor = 30
-			owner = {
-				government = monarchy
-				has_regency = yes
-				has_heir = no
-			}
-		}
-		modifier = {
-			factor = 5
-			owner = {
-				government = monarchy
-				has_regency = yes
-				has_heir = yes
-				NOT = { heir_claim = 33 }
-			}
-		}
-		modifier = {
-			factor = 5
-			owner = {
-				government = monarchy
-				has_regency = yes
-				has_heir = yes
-				NOT = { heir_claim = 66 }
-			}
-		}
-		modifier = {
-			factor = 2
-			owner = {
-				government = monarchy
-				has_regency = yes
-				has_heir = yes
-				NOT = { heir_claim = 85 }
-			}
-		}
-		modifier = {
-			factor = 4.5
-			owner = {
-				is_lesser_in_union = yes
-			}
-		}
-		modifier = {
-			factor = 3
-			owner = {
-				is_lesser_in_union = yes
-				NOT = { legitimacy = 75 }
-			}
-		}
-		modifier = {
-			factor = 3
-			owner = {
-				is_lesser_in_union = yes
-				NOT = { legitimacy = 50 }
-			}
-		}
-		modifier = {
-			factor = 3
-			owner = {
-				is_lesser_in_union = yes
-				NOT = { legitimacy = 25 }
-			}
-		}
-		modifier = {
-			factor = 0.25
-			owner = {
-				NOT = { primary_culture = ROOT }
-			}
-		}
-		modifier = {
-			factor = 0.1
-			NOT = { is_core = ROOT }
-			any_core_country = {
-				primary_culture = ROOT
-	 		}
-		}
-		modifier = {
-			factor = 0.75
-			owner = {
-				government = monarchy
-				legitimacy = 66
-			}
-		}
-		modifier = {
-			factor = 0.5
-			owner = {
-				government = monarchy
-				legitimacy = 75
-			}
-		}
-		modifier = {
-			factor = 10
-			owner = { has_country_modifier = "tribal_succession_crisis" }
-		}
-		modifier = {
-			factor = 2.5
-			owner = {
-				government = tribal
-			}
-		}
+		factor = 0	#Spawned through events alone
 	}
  
  	# This is checked for EACH province in the Area of Operations
@@ -273,7 +83,7 @@ pretender_rebels = {
 	}
 	
 	# Localisation for their demands
-	demands_description = "pretender_rebels_demand"
+	demands_description = "renegade_sultan_son_rebels_demands"
 	
 	# Country Scope	
 	demands_enforced_effect = {
@@ -383,6 +193,12 @@ pretender_rebels = {
 		if = {
 			limit = { is_revolution_target = yes }
 			set_revolution_target = ---
+		}
+		if = {
+			limit = { is_eyalet_trigger = yes }
+			country_event = {
+				id = flavor_tur.998
+			}
 		}
 	}
 }
