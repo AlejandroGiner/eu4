@@ -764,7 +764,7 @@ tutorial = {
 				y = 180
 			}
 		}
-		connected_icons = { dummy-ul countrytechnologyview show_institutions total_tech_penalty2 }	
+		connected_icons = { dummy-ul countrytechnologyview show_institutions }
 		
 		option = {
 			button = "TutorialPageButtonOption"
