@@ -2,28 +2,16 @@
  tooltip_own_cossack_province:0 "Au moins une province possédée appartient à l'ordre des §Ycosaques§!."
  estate_nobles:0 "Nobles"
  estate_nobles_desc:0 "Cet ordre représente les familles de l'aristocratie terrienne du pays. Leurs privilèges sont garantis par les droits coutumiers, pour la plupart acquis en rendant d'importants services à l'État. Le rôle qui leur est dévolu par la tradition est de combattre et protéger le pays contre les dangers extérieurs, ainsi que d'aider le dirigeant à maintenir la paix."
- string_nobles_FR:0 "nobles" # [LocEditor:CustomLanguageKey]
- string_nobles_FR_this:0 "[This.GetNobles]" # [LocEditor:CustomLanguageKey]
  estate_church:0 "Clercs"
  estate_church_desc:0 "Cet ordre représente les prêtres éduqués de la religion d'État. Ils sont une longue tradition de service au sein de l'administration du pays, et le rôle qui leur est dévolu par la tradition est de veiller au salut spirituel du dirigeant et de la population. Au cours des siècles, ils ont acquis des propriétés, aussi bien léguées par les dirigeants du passé que par des individus pieux."
- string_church_FR:0 "clercs" # [LocEditor:CustomLanguageKey]
- string_church_FR_this:0 "[This.GetClercs]" # [LocEditor:CustomLanguageKey]
  estate_burghers:0 "Bourgeois"
  estate_burghers_desc:0 "Cet ordre représente la population des villes, artisans ou marchands, et réside à l'intérieur des murs. Le rôle qui leur est dévolu par la tradition consiste à travailler pour permettre la bonne marche de l'économie ; pour cela, ils s'attendent à se voir accorder des droits et privilèges particuliers, aussi bien pour eux-mêmes que pour les villes qu'ils estiment représenter."
- string_burghers_FR:0 "bourgeois" # [LocEditor:CustomLanguageKey]
- string_burghers_FR_this:0 "[This.GetBourgeois]" # [LocEditor:CustomLanguageKey]
  estate_cossacks:0 "Cosaques"
  estate_cossacks_desc:0 "Les cosaques sont le peuple libre des steppes. Leurs origines sont très diverses, certains étaient nés dans les plaines herbeuses, tandis que d'autres sont des serfs s'étant échappés des grands domaines se trouvant à la frontière des territoires non cultivés. Grands pillards et colons courageux, les cosaques aspirent à être reconnus comme un ordre à part entière, de la même importance que la noblesse, et sont prêts à s'attaquer à quiconque tenterait de restreindre leurs libertés."
- string_cossacks_FR:0 "cosaques" # [LocEditor:CustomLanguageKey]
- string_cossacks_FR_this:0 "[This.GetCosaques]" # [LocEditor:CustomLanguageKey]
  estate_dhimmi:0 "Dhimmî"
  estate_dhimmi_desc:0 "Le terme de « dhimmî », originellement réservé aux chrétiens et aux juifs, désigne les sujets non musulmans des pays de l'Islam. Leur statut et leurs privilèges sont très divers selon les pays, tout comme le sont leur organisation et leur nombre. Il est de coutume, pour un dirigeant empreint de justice, de protéger ces gens – tout en les séparant de la majorité musulmane. Ces principes sont parfois difficiles à appliquer, dans certaines régions du monde où les dhimmî peuvent parfois constituer la majorité de la population."
- string_dhimmi_FR:0 "dhimmî" # [LocEditor:CustomLanguageKey]
- string_dhimmi_FR_this:0 "[This.GetDhimmi]" # [LocEditor:CustomLanguageKey]
  estate_nomadic_tribes:0 "Tribus"
  estate_nomadic_tribes_desc:0 "Le dirigeant d'un peuple nomade doit toujours veiller à garder sous son contrôle les nombreuses tribus qui peuplent ses territoires. Du fait qu'il n'y a pas d'institutions fortes et permanentes au même titre que dans les pays sédentaires, les tribus sont la première source d'autorité, et leurs membres remplissent de multiples fonctions, depuis la collecte des taxes jusqu'à la guerre et jusqu'aux pillages. Alors que les tribus considèrent leur suzerain comme le premier d'entre eux, elles s'attendent à recevoir de vastes territoires où faire paître leurs chevaux afin de maintenir leur style de vie, et à influencer de façon importante toutes les questions les plus habituelles du pays."
- string_nomadic_tribes_FR:0 "tribus" # [LocEditor:CustomLanguageKey]
- string_nomadic_tribes_FR_this:0 "[This.GetTribus]" # [LocEditor:CustomLanguageKey]
  MAPMODE_ESTATES:0 "Ordres"
  MAPMODE_ESTATES_DESC:0 "Colore les provinces selon l'ordre qui en a reçu le contrôle."
  VITAL_PROVINCES:0 "Provinces intéressantes"
@@ -32,70 +20,39 @@
  FORT_PROTECTED_AGAINST_REBELS:1 "Du fait de la forteresse en $FORT|Y$, cela n'a aucun effet sur la province."
  FORT_DESCRIPTION:0 "Projette une zone de contrôle sur toutes les provinces limitrophes, y empêchant tout mouvement ennemi et interdisant aux rebelles d'avoir la moindre influence néfaste sur les provinces dont ils s'emparent."
  estate_beys:0 "Ümerâ"
- string_beys_FR:0 "ümerâ" # [LocEditor:CustomLanguageKey]
  estate_boyars:0 "Boyards"
- string_boyars_FR:0 "boyards" # [LocEditor:CustomLanguageKey]
  estate_szlachta:0 "Szlachcice"
- string_szlachta_FR:0 "szlachcice" # [LocEditor:CustomLanguageKey]
  estate_amirs:0 "Émirs"
- string_amirs_FR:0 "émirs" # [LocEditor:CustomLanguageKey]
  estate_ulema:0 "Oulémas"
- string_ulema_FR:0 "oulémas" # [LocEditor:CustomLanguageKey]
  estate_mansabdars:0 "Mansabdârs"
- string_mansabdars_FR:0 "mansabdârs" # [LocEditor:CustomLanguageKey]
  estate_qinwang:1 "Qinwang"
- string_qinwang_FR:0 "qinwang" # [LocEditor:CustomLanguageKey]
  estate_planters:0 "Planteurs"
- string_planters_FR:0 "planteurs" # [LocEditor:CustomLanguageKey]
  estate_bourgeoisie:0 "Bourgeois"
- string_bourgeoisie_FR:0 "bourgeois" # [LocEditor:CustomLanguageKey]
  estate_brahmins:0 "Brahmanes"
- string_brahmins_FR:0 "brahmanes" # [LocEditor:CustomLanguageKey]
- string_brahmins_FR_this:0 "[This.GetBrahmanes]" # [LocEditor:CustomLanguageKey]
+ estate_pastors:0 "Pasteurs"
+ estate_popes:0 "Popes"
+ estate_shamans:0 "Chamans"
+ estate_gurus:0 "Gourous"
+ estate_medicine_men:0 "Hommes-médecine"
+ estate_godar:0 "Goðar"
+ estate_rabbis:0 "Rabbins"
+ estate_mobeds:0 "Mobads"
+ estate_kannushi:0 "Kannushi"
+ estate_panacas:0 "Prêtres"
  estate_merchant_guilds:0 "Marchands"
- string_merchant_guilds_FR:0 "marchands" # [LocEditor:CustomLanguageKey]
  estate_monasteries:0 "Ordres monastiques"
- string_monasteries_FR:0 "ordres monastiques" # [LocEditor:CustomLanguageKey]
  estate_tetecuhtin:0 "Têtêuctin"
- string_tetecuhtin_FR:0 "têtêuctin" # [LocEditor:CustomLanguageKey]
  estate_andriana:0 "Andriana"
- string_andriana_FR:0 "andriana" # [LocEditor:CustomLanguageKey]
  estate_timawa:0 "Timawa"
- string_timawa_FR:0 "timawa" # [LocEditor:CustomLanguageKey]
  estate_babaylanes:0 "Babaylanes"
- string_babaylanes_FR:0 "babaylanes" # [LocEditor:CustomLanguageKey]
  estate_tlamacazqueh:0 "Tlamacazqueh"
- string_tlamacazqueh_FR:0 "tlamacazqueh" # [LocEditor:CustomLanguageKey]
  estate_kshatriyas:0 "Kshatriyas"
- string_kshatriyas_FR:0 "kshatriyas" # [LocEditor:CustomLanguageKey]
  estate_nayaks:0 "Nayaks"
- string_nayaks_FR:0 "nayaks" # [LocEditor:CustomLanguageKey]
  estate_samantas:0 "Samantas"
- string_samantas_FR:0 "samantas" # [LocEditor:CustomLanguageKey]
  estate_bushi:0 "Bushi"
- string_bushi_FR:0 "bushi" # [LocEditor:CustomLanguageKey]
- estate_pastors:0 "Pasteurs" # [LocEditor:CustomLanguageKey]
- string_pastors_FR:0 "pasteurs" # [LocEditor:CustomLanguageKey]
- estate_popes:0 "Popes" # [LocEditor:CustomLanguageKey]
- string_popes_FR:0 "popes" # [LocEditor:CustomLanguageKey]
- estate_shamans:0 "Chamans" # [LocEditor:CustomLanguageKey]
- string_shamans_FR:0 "chamans" # [LocEditor:CustomLanguageKey]
- estate_gurus:0 "Gourous" # [LocEditor:CustomLanguageKey]
- string_gurus_FR:0 "gourous" # [LocEditor:CustomLanguageKey]
- estate_medicine_men:0 "Hommes-médecine" # [LocEditor:CustomLanguageKey]
- string_medicine_men_FR:0 "hommes-médecine" # [LocEditor:CustomLanguageKey]
- estate_godar:0 "Goðar" # [LocEditor:CustomLanguageKey]
- string_godar_FR:0 "goðar" # [LocEditor:CustomLanguageKey]
- estate_rabbis:0 "Rabbins" # [LocEditor:CustomLanguageKey]
- string_rabbis_FR:0 "rabbins" # [LocEditor:CustomLanguageKey]
- estate_priests:0 "Prêtres" # [LocEditor:CustomLanguageKey]
- string_priests_FR:0 "prêtres" # [LocEditor:CustomLanguageKey]
- estate_mobeds:0 "Mobads" # [LocEditor:CustomLanguageKey]
- string_mobeds_FR:0 "mobads" # [LocEditor:CustomLanguageKey]
- estate_warriors:0 "Guerriers" # [LocEditor:CustomLanguageKey]
- string_warriors_FR:0 "guerriers" # [LocEditor:CustomLanguageKey]
- estate_pochteca:0 "Pochteca" # [LocEditor:CustomLanguageKey]
- string_pochteca_FR:0 "pochteca" # [LocEditor:CustomLanguageKey]
+ estate_warriors:0 "Guerriers"
+ estate_mani:0 "Awene"
+ estate_pochteca:0 "Pochteca"
  horde_unity:0 "Unité de la horde"
  CALL_DIET:0 "Convoquer l'Assemblée de la noblesse"
  ASK_FOR_CONTRIBUTION:0 "Exiger une contribution"
@@ -134,7 +91,7 @@
  EST_HUN_MAGNATES:0 "Pouvoir abandonné aux magnats : §Y$VAL$%§!"
  EST_VAL_PRIVATE_CHANCELLERY:0 "Administrateurs laïcs : §Y$VAL$%§!"
  EST_NUM_CITIES:0 "Nombre de provinces : §Y$VAL$%§!"
- DEVELOP_IN_SUBJECT_LIB_DESIRE:0 "Cela fera décroître de $VAL$ l'aspiration à la liberté de $NAME|Y$ (actuellement $CUR$)."
+ DEVELOP_IN_SUBJECT_LIB_DESIRE:0 "Cela fera décroître de $VAL$ l'aspiration à la liberté de $NAME|Y$ (actuellement $CUR|Y$)."
  EST_VAL_CARDINAL_IN_ADMINISTRATION:0 "Cardinal au sein de l'administration : §Y$VAL$%§!"
  EST_VAL_DANISH_PLURALISM:0 "Pluralisme danois : §Y$VAL$%§!"
  EST_VAL_SAVED_A_PROJECT:0 "Concourt à la réalisation de canaux : §Y$VAL$%§!"
@@ -187,7 +144,7 @@
  EST_VAL_RELIGIOUS_MINORITY:0 "Minorités religieuses : §Y$VAL$%§!"
  EST_VAL_PROVINCES:1 "Provinces contrôlées : §Y$VAL$%§! (§Y$REAL_VAL$%§! avant la limite)"
  EST_VAL_BASE:1 "Base : §Y$VAL|1$%§!"
- EST_VAL_ALLIANCE_ON_VC:1 "Alliance avec $NAME$ : §R$VAL|1$%§!"
+ EST_VAL_ALLIANCE_ON_VC:2 "Carte de victoire en territoire allié ($NAME|Y$) : §R$VAL|1$%§!"
  EST_VAL_DEV:1 "Part du pays contrôlée : §Y$VAL|1$%§!"
  EST_VAL_LOW_TRADE_INCOME:0 "Faibles revenus commerciaux : §Y$VAL$%§!"
  EST_VAL_HIGH_TRADE_INCOME:0 "Revenus commerciaux élevés : §Y$VAL$%§!"
@@ -215,6 +172,8 @@
  ESTATE_LOYALTY_TOOLTIP_DELAYED:3 "La §Yloyauté§! d'un ordre détermine l'effet qu'il a sur l'ensemble du pays :\n– tant qu'elle reste d'au moins $THRESHOLD|Y2&$, il confère des §Gavantages§! au pays ;\n– si elle tombe en dessous, l'ordre devient déloyal et inflige des §Rpénalités§!.\n\nL'importance de ces effets est déterminée par le niveau d'§Yinfluence§! de l'ordre."
  ESTATE_INFLUENCE_TOOLTIP:2 "Les $ESTATE|Y$ ont une influence de $INFLUENCE$ du fait de :"
  ESTATE_INFLUENCE_TOOLTIP_DELAYED:0 "L'§Yinfluence§! d'un ordre représente sa puissance au sein du pays : plus son influence est importante, plus cela accroît :\n– soit les §Gavantages§! permis par sa loyauté ; \n– soit les §Rpénalités§! conférées par sa déloyauté.\n\nEnfin, un ordre dont l'influence s'accroît au-delà de $DANGER|Y$ risque de prendre le pouvoir."
+ PRIVILEGES_COUNT:0 "$NUM$/$MAX$"
+ PRIVILEGES_COUNT_DESC:1 "Les $ESTATE|Y$ peuvent se voir conférer jusqu'à $MAX|Y0$ privilèges."
  PROVINCE_GRANT_ESTATE_TOOLTIP:1 "Accorder la province de $PROVINCE|Y$ aux $ESTATE|Y$."
  PROVINCE_GRANT_ESTATE_TOOLTIP_2:0 "Cela se traduirait dans la province par :"
  PROVINCE_GRANT_ESTATE_TOOLTIP_3:0 "§RAvec une loyauté inférieure à $AMT|Y$, cela se traduirait dans la province par :§!"
@@ -231,8 +190,8 @@
  CALL_FAVORS_COST_2:0 "Cela va nous coûter §Y10§! points de faveur."
  CALL_FAVORS_COST:0 "$COUNTRY|Y$ ne s'attendant à tirer aucun avantage de cette guerre, l'appeler aux armes va nous coûter $AMOUNT|Y$ points de faveur."
  JOIN_OFFENSIVE_WARS:0 "Rejoindre les guerres d'agression"
- GRANT_GENERALSHIP:0 "Accorder un titre de général"
- GRANT_ADMIRALSHIP:0 "Accorder un titre d'amiral"
+ GRANT_GENERALSHIP:0 "Recruter un général"
+ GRANT_ADMIRALSHIP:0 "Recruter un amiral"
  GRANT_GENERALSHIP_INFLUENCE:0 "La §Ynoblesse§! va gagner §Y20§! points d'influence pour les 10 années à venir.\n"
  INTERACTION_COOLDOWN_TOOLTIP:0 "§RNous ne pouvons $INTERACTION|Y$ que tous les $NUM|Y$ an(s). Nous ne pourrons donc pas y recourir avant le $DATE|Y$.§!"
  INTERACTION_ASK_FOR_CONTRIBUTION_TOOLTIP:0 "Nous ne pouvons exiger de contribution de cet ordre que tous les §Y2§! ans."
@@ -259,7 +218,7 @@
  NEUTRAL_ATTITUDE_DESC:0 "Adopter une attitude §Yneutre§! montrera que nous ne considérons pas $COUNTRY|Y$ comme d'un grand intérêt. Ce pays évitera le plus souvent d'entretenir avec nous des relations diplomatiques, et nos alliés interpréteront cela comme le signe que nous sommes indifférents envers lui."
  FRIENDLY_ATTITUDE_DESC:0 "Adopter une attitude §Yamicale§! montrera que nous souhaitons devenir l'allié de $COUNTRY|Y$. Nos propres alliés interpréteront cela comme le signe que nous ne souhaitons pas les attaquer."
  FRIENDLY_ATTITUDE_CANNOT_SET_OPINION:0 "§RNous ne pouvons adopter une attitude §Yamicale§! car $COUNTRY|Y$ n'a pas une opinion d'au moins $OPINION|Y$ à l'égard de $PLAYER|Y$.§!"
- THREATENED_ATTITUDE_CANNOT_SET_POWER:0 "§RNous ne pouvons adopter une attitude §Yinquiète§! car $COUNTRY|Y$ n'est pas au moins §Y33%§! plus puissant que $PLAYER|Y$.§!"
+ THREATENED_ATTITUDE_CANNOT_SET_POWER:1 "§R$COUNTRY|Y$ n'est pas au moins §Y33%§! plus puissant que $PLAYER|Y$.§!"
  THREATENED_ATTITUDE_CANNOT_SET_DISTANCE:0 "§RNous ne pouvons adopter une attitude §Yinquiète§! car $COUNTRY|Y$ n'est pas en mesure de menacer $PLAYER|Y$.§!"
  THREATENED_ATTITUDE_DESC:0 "Adopter une attitude §Yinquiète§! montrera que nous craignons $COUNTRY|Y$. Ce pays considérera cela comme le signe que nous souhaitons nous allier à lui pour notre propre sécurité, mais aussi que nous cherchons ailleurs des alliés suffisamment puissants contre lui."
  TRUST_DESC:1 "La §Yconfiance§! est une mesure de la force de l'alliance avec $COUNTRY|Y$. Elle décroît si nous ne tenons pas nos promesses ou agissons de façon déshonorable envers lui. Elle s'accroît soit en dépensant des points de faveur ; soit naturellement, tant que dure l'alliance ou si l'un des deux pays est une dépendance de l'autre."
@@ -267,8 +226,8 @@
  FAVORS_GAIN_TOOLTIP:1 "Nous gagnons $VAL|+=2$ points de faveur chaque mois :\n$WHY$"
  FAVOR_ALLIANCE_TT:0 "Puissance relative entre alliés : $VAL|+=2$"
  FAVOR_ALLIANCE_BLOCKED_TT:0 "Refus de participer aux guerres offensives : $VAL|+=2$"
- FAVOR_CURRY_FAVORS_REP_TT:0 "S'attire les faveur (réputation diplomatique) : $VAL|+=2$"
- FAVOR_CURRY_FAVORS_OPINION_TT:0 "S'attire les faveurs (opinion) : $VAL|+=2$"
+ FAVOR_CURRY_FAVORS_REP_TT:1 "Réputation diplomatique : $VAL|+=2$"
+ FAVOR_CURRY_FAVORS_OPINION_TT:1 "Opinion : $VAL|+=2$"
  FAVOR_LACK_OF_ALLIANCE_TT:0 "Pas d'alliance : $VAL|+=2$"
  FAVORS_DESC:0 "La §Yfaveur§! est une mesure de ce que $COUNTRY|Y$ nous doit pour lui avoir rendu service par le passé, en l'aidant dans ses guerres et en lui cédant les territoires qu'il demandait lors des nôtres. Elle peut être utilisée pour accroître sa confiance envers nous, lui demander de préparer la guerre contre un autre pays, ou l'appeler à intervenir dans un conflit sans leur avoir promis de gains territoriaux."
  TRUST_HIT_FROM_NO_LAND:0 "$WHO|Y$ reçoit moins de provinces qu'il ne l'escomptait du fait de sa contribution de §Y$CONT$%§! à la guerre, ce qui réduit sa confiance de $AMT|R$."
@@ -290,7 +249,7 @@
  FE_BLOCK_NATION_RUINING_DESC:0 "Interdit certaines actions destructrices, pour la durée de la trêve qui s'ensuit, aux joueurs ayant perdu une guerre."
  NO_VICTORY_CARD_HERE:0 "Pas de carte de victoire ici."
  VICTORY_CARD_EXPLANATION_TITLE:0 "Partie avec les cartes de victoire"
- VICTORY_CARD_EXPLANATION_DESC:0 "L'hôte a activé les cartes de victoire pour cette partie. À partir de $START_YEAR|Y$, vous pouvez recevoir une carte de victoire vous invitant à conquérir une contrée bien définie ; des cartes supplémentaires apparaîtront tous les $INTERVAL|Y$ ans. Ces cartes ne sont reçues qu'au-dessus d'un niveau de développement total de $MIN_DEV|Y$.\nConquérir toutes les provinces de la contrée spécifiée par la carte permet un bonus de score évolutif, qui atteint un maximum de $MAX_SCORE|Y$-$MAX_SCORE2|Y$ au bout de $SCORE_INCREASE|Y$ mois. Si vous perdez la moindre province de cette contrée, le bonus de score lié à cette carte retombera progressivement à zéro en $SCORE_DECREASE|Y$ mois."
+ VICTORY_CARD_EXPLANATION_DESC:0 "L'hôte a activé les cartes de victoire pour cette partie. À partir de $START_YEAR|Y$, vous pouvez recevoir une carte de victoire vous invitant à conquérir une contrée bien définie ; des cartes supplémentaires apparaîtront tous les $INTERVAL|Y$ ans. Ces cartes ne sont reçues qu'au-dessus d'un niveau de développement total de $MIN_DEV|Y$.\nConquérir toutes les provinces de la contrée spécifiée par la carte permet un bonus de score évolutif, qui atteint un maximum de $MAX_SCORE|Y$ à $MAX_SCORE2|Y$ au bout de $SCORE_INCREASE|Y$ mois. Si vous perdez la moindre province de cette contrée, le bonus de score lié à cette carte retombera progressivement à zéro en $SCORE_DECREASE|Y$ mois."
  PROVVIEW_IS_IN_AREA:0 "$NAME|Y$ se trouve dans la contrée de $AREA|Y$."
  PROVVIEW_IS_IN_REGION:0 "$NAME|Y$ se trouve dans la région de $REGION|Y$."
  DESIRE_PROV_VITAL:0 "$COUNTRY|Y$ considère la province de $PROV|Y$ comme d'un intérêt vital."
@@ -312,15 +271,15 @@
  SCORE_ACCUM_VC:0 "Valeur cumulée des cartes de victoire : $VAL|Y$\n"
  HORDE_RAZE_TOOLTIP_INSTANT:0 "§YDévaster la province§!"
  HORDE_RAZE_TOOLTIP_DELAYED:0 "\nLa province de $NAME|Y$ sera dévastée, faisant chuter son niveau de développement de $AMT|R$.\n\nCela nous fera par contre gagner $ADM|G$£adm£, $DIP|G$£dip£, $MIL|G$£mil£ et un butin de $LOOT|G$¤ ainsi que $UNITY$ en unité de la horde."
- HORDE_RAZE_TOOLTIP_DELAYED2:0 "Leur relation avec nous va se dégrader de $OPINION$."
+ HORDE_RAZE_TOOLTIP_DELAYED2:1 "Leur opinion à notre égard va évoluer de $OPINION$."
  HORDE_RAZE_TOOLTIP_NO_POWER:0 "§RNous ne tirerons aucune puissance de la dévastation du fait de :\n$MODIFIERDESC$§!"
  HORDE_RAZE_TOOLTIP_LATER:0 "Si nous choisissons de dévaster plus tard la province de $NAME|Y$, nous gagnerons $ADM|G$£adm£, $DIP|G$£dip£, $MIL|G$£mil£ et un butin de $LOOT|G$¤ ainsi que $UNITY$ en unité de la horde."
  CONFIRM_RAZE_TITLE:0 "Confirmer la dévastation"
- HORDE_RAZE_TOOLTIP_ONLY_NON_CORES:0 "§RSeules les provinces non légitimes que nous possédons et contrôlons peuvent être dévastées.§!"
- HORDE_RAZE_TOOLTIP_MIN_DEVELOPMENT:0 "§RCette province ne peut être dévastée car son niveau de développement est trop faible.§!"
- HORDE_RAZE_TOOLTIP_COOLDOWN:0 "§RCette province ne pourra pas être dévastée de nouveau avant le $DATE|Y$.§!"
- HORDE_RAZE_TOOLTIP_UNDER_SIEGE:0 "§RUne province ne peut être dévastée alors qu'elle est assiégée.§!"
- HORDE_RAZE_TOOLTIP_COLONY:0 "§RIl est impossible de dévaster une province que nous avons colonisée.§!"
+ HORDE_RAZE_TOOLTIP_ONLY_NON_CORES:1 "Seules les provinces non légitimes que nous possédons et contrôlons peuvent être dévastées."
+ HORDE_RAZE_TOOLTIP_MIN_DEVELOPMENT:1 "Cette province ne peut être dévastée car son niveau de développement est trop faible."
+ HORDE_RAZE_TOOLTIP_COOLDOWN:1 "Cette province ne pourra pas être dévastée de nouveau avant le $DATE|Y$."
+ HORDE_RAZE_TOOLTIP_UNDER_SIEGE:1 "Une province ne peut être dévastée alors qu'elle est assiégée."
+ HORDE_RAZE_TOOLTIP_COLONY:1 "Il est impossible de dévaster une province que nous avons colonisée."
  NO_SECONDARY_RELIGION:0 "Pas de syncrétisme religieux"
  CONVERT_TO_NO_SECONDARY:0 "Choisir de ne pas avoir de foi syncrétiste"
  SECONDARY_RELIGION_NAME:0 "Syncrétisme religieux : $NAME|Y$"
@@ -680,7 +639,7 @@
  GRANT_CLAIM:0 "Transférer une revendication"
  GRANT_PROVINCE_NO_ELIGBLE:0 "Nous ne possédons aucune province limitrophe de cette dépendance (ou qui lui serait accessible par la mer) que nous pourrions lui accorder."
  GRANT_CORE_CLAIM_NO_ELIGBLE:0 "Nous ne possédons aucune légitimité ou revendication sur une province limitrophe de cette dépendance (ou qui lui serait accessible par la mer) que nous pourrions lui transférer."
- THEY_WOULD_BE_OVEREXTENDED:0 "Cela placerait ce pays dans une situation de surexpansion."
+ THEY_WOULD_BE_OVEREXTENDED:2 "Cela placerait ce pays dans une situation de surexpansion : celle-ci est actuellement de $VAL|Y1%$ et la province en rajouterait §Y$ADD|1$%§!."
  GRANT_PROVINCE_DESC:0 "Accorde l'une de nos provinces à cette dépendance. Elle en serait des plus satisfaites."
  GRANT_CORE_PROVINCE_DESC:0 "Accorder la province de $PROV|Y$ et la légitimité dessus à cette dépendance va diminuer son aspiration à la liberté de $LD$, jusqu'à $LD_TOTAL$."
  GRANT_NONCORE_PROVINCE_DESC:0 "Accorder la province de $PROV|Y$ à cette dépendance va diminuer son aspiration à la liberté de $LD$, jusqu'à $LD_TOTAL$, et faire monter sa surexpansion à $OVEREXT$."
@@ -859,8 +818,8 @@
  COMISSION_MERCHANT_SHIPS_FOR_WAR:0 "Réquisitionner des vaisseaux"
  LIGHTEN_DHIMMI_TAX_BURDEN:0 "Alléger les taxes sur les dhimmî"
  EST_VAL_LIGHTEN_DHIMMI_TAX_BURDEN:0 "Taxes réduites : §Y$VAL$%§!"
- GRANT_NEW_WORLD_CHARTER:0 "Accorder des chartes au Nouveau Monde"
- EST_VAL_NEW_WORLD_CHARTER:0 "Droits de colonisation au Nouveau Monde : §Y$VAL$%§!"
+ GRANT_NEW_WORLD_CHARTER:0 "Accorder des chartes coloniales au Nouveau Monde"
+ EST_VAL_NEW_WORLD_CHARTER:0 "Chartes coloniales au Nouveau Monde : §Y$VAL$%§!"
  EST_VAL_PAPAL_LANDS:0 "États pontificaux"
  EST_VAL_TRIBES_DEMANDING:0 "Chefs tribaux libérés du service : §Y$VAL$%§!"
  EST_VAL_TRIBES_REFUSED_DEMANDING:0 "Service obligatoire pour les chefs tribaux : §Y$VAL$%§!"
@@ -989,6 +948,7 @@
  RECRUIT_FROM_THE_DHIMMI:0 "Recruter parmi les dhimmî"
  EST_VAL_RECRUITED_DHIMMI:0 "Recrutements parmi les dhimmî : §Y$VAL$%§!"
  EST_VAL_RAISED_HOST:0 "A levé les troupes : §Y$VAL$%§!"
+ EST_VAL_STRENGTHENED_TRIBAL_AUTONOMY:0 "Autonomie tribale reconnue : §Y$VAL$%§!"
  EST_VAL_SUCCESFUL_PARTICULARISTS:0 "Révolte couronnée de succès : §Y$VAL$%§!"
  EST_VAL_SUPPORT_TRIBES:0 "A soutenu les tribus : $VAL|G$"
  SEEK_SUPPORT_OF_CLERGY:0 "Chercher le soutien du clergé"
@@ -1009,7 +969,7 @@
  EST_VAL_COSSACK_REGISTER_EXPANDED_LOYALTY:0 "A étendu les registres des cosaques : $VAL|G$"
  EST_VAL_RAISED_COSSACK_HOST:0 "A levé l'armée cosaque : §Y$VAL$%§!"
  EST_VAL_EMISSARY_TO_POPE:0 "A envoyé un émissaire au pape : §Y$VAL$%§!"
- DEMAND_CONTRIBUTION:0 "Lever de nouvelles taxes religieuses"
+ DEMAND_CONTRIBUTION:0 "Imposer de nouvelles taxes religieuses"
  RECRUIT_MINISTER:0 "Recruter un ministre"
  RECRUIT_INQUISITOR:0 "Recruter un inquisiteur"
  FORTIFY_COSSACK_BORDER:0 "Fortifier la frontière cosaque"
@@ -1268,8 +1228,8 @@
  nobles_estate_events.9.c:0 "Il est grand temps de les faire remplacer par des hommes de confiance"
  nobles_estate_events.9.dd:0 "Consultons les brahmanes, certains de ces sages pourraient très bien commander"
  nobles_estate_events.10.t:0 "Croissance de l'administration"
- nobles_estate_events.10.d:0 "Alors que l'État et la bureaucratie sont en plein développement, le besoin de trouver des gens capables de contrôler et d'administrer les diverses possessions et bureaux se fait toujours plus pressant. Les [Root.GetNobles], par tradition, ont toujours été plus associés au service des armes ; mais ils ont clairement exprimé le fait qu'ils s'attendront toujours à occuper les premiers rangs dès lors que des offices sont disponibles. Les [Root.GetBourgeois], de leur côté, prétendent que les [Root.GetNobles] ne considèrent de telles fonctions que comme de simples récompenses, et n'en font guère usage que dans le but de s'enrichir – nous suggérant donc de nommer des individus qui le méritent.\n\nLa mort inattendue d'un secrétaire de confiance a laissé un poste vacant, objet de toutes les convoitises : les [Root.GetBourgeois] soutiennent un candidat, alors que les [Root.GetNobles] attendent de nous que nous en choisissions un autre. Tous deux étant des hommes de talent, la décision sera donc purement politique."
- nobles_estate_events.10.d.1:0 "Alors que l'État et la bureaucratie sont en plein développement, le besoin de trouver des gens capables de contrôler et d'administrer les diverses possessions et bureaux se fait toujours plus pressant. Les [Root.GetNobles], par tradition, ont toujours été plus associés au service des armes ; mais ils ont clairement exprimé le fait qu'ils s'attendront toujours à occuper les premiers rangs dès lors que des offices sont disponibles. Les [Root.GetVaishyas], de leur côté, prétendent que les [Root.GetNobles] ne considèrent de telles fonctions que comme de simples récompenses, et n'en font guère usage que dans le but de s'enrichir – nous suggérant donc de nommer des individus qui le méritent.\n\nLa mort inattendue d'un secrétaire de confiance a laissé un poste vacant, objet de toutes les convoitises : les [Root.GetVaishyas] soutiennent un candidat, alors que les [Root.GetNobles] attendent de nous que nous en choisissions un autre. Tous deux étant des hommes de talent, la décision sera donc purement politique."
+ nobles_estate_events.10.d:1 "Alors que l'État et la bureaucratie sont en plein développement, le besoin de trouver des gens capables de contrôler et d'administrer les divers possessions et bureaux se fait toujours plus pressant. Les [Root.GetNobles], par tradition, ont toujours été plus associés au service des armes ; mais ils ont clairement exprimé le fait qu'ils s'attendront toujours à occuper les premiers rangs dès lors que des offices sont disponibles. Les [Root.GetBourgeois], de leur côté, prétendent que les [Root.GetNobles] ne considèrent de telles fonctions que comme de simples récompenses, et n'en font guère usage que dans le but de s'enrichir – nous suggérant donc de nommer des individus qui le méritent.\n\nOr, la mort inattendue d'un secrétaire de confiance a laissé un poste vacant, objet de toutes les convoitises : les [Root.GetBourgeois] soutiennent un candidat, alors que les [Root.GetNobles] attendent de nous que nous en choisissions un autre. Tous deux étant des hommes de talent, la décision sera donc purement politique."
+ nobles_estate_events.10.d.1:0 "Alors que l'État et la bureaucratie sont en plein développement, le besoin de trouver des gens capables de contrôler et d'administrer les divers possessions et bureaux se fait toujours plus pressant. Les [Root.GetNobles], par tradition, ont toujours été plus associés au service des armes ; mais ils ont clairement exprimé le fait qu'ils s'attendront toujours à occuper les premiers rangs dès lors que des offices sont disponibles. Les [Root.GetVaishyas], de leur côté, prétendent que les [Root.GetNobles] ne considèrent de telles fonctions que comme de simples récompenses, et n'en font guère usage que dans le but de s'enrichir – nous suggérant donc de nommer des individus qui le méritent.\n\nOr, la mort inattendue d'un secrétaire de confiance a laissé un poste vacant, objet de toutes les convoitises : les [Root.GetVaishyas] soutiennent un candidat, alors que les [Root.GetNobles] attendent de nous que nous en choisissions un autre. Tous deux étant des hommes de talent, la décision sera donc purement politique."
  nobles_estate_events.10.a:0 "À bonne race, grandes capacités"
  nobles_estate_events.10.b:0 "Pour diriger le pays, ce sont des autodidactes qu'il nous faut"
  nobles_estate_events.10.c:0 "Tournons-nous plutôt vers les [Root.GetClercs]"
@@ -1470,6 +1430,11 @@
  curtail_estate_dhimmi_desc:0 "Les dhimmî ont commencé à étendre leur mainmise sur l'administration. Si nous souhaitons leur reprendre le contrôle, nous allons devoir limiter leur puissance et leurs privilèges."
  curtail_estate_jains_title:0 "Soumettre les jaïns"
  curtail_estate_jains_desc:0 "Les jaïns ont commencé à étendre leur mainmise sur l'administration. Si nous souhaitons reprendre le contrôle à ces marchands, nous allons devoir limiter leur puissance et leurs privilèges."
+ gain_access_to_estate_dhimmi_title:0 "Instituer l'ordre des dhimmî"
+ gain_access_to_estate_dhimmi_desc:0 "L'expansion dans les territoires païens pèse de plus en plus sur le pays. Nous devrions donc instituer un ordre qui pourrait regrouper tous les dhimmî."
+ brahmin_estate_is_not_in_power_tt:0 "Les §Ybrahmanes§! ne sont PAS au pouvoir."
+ gain_dhimmi_estate_tt:0 "[Root.GetLeLaNPCap] [Root.GetName] v[Root.GetAOntNP] désormais disposer d'un ordre des §Ydhimmî§!."
+ lose_access_to_brahmins_tt:0 "Les §Ybrahmanes§! ne seront plus considérés comme un ordre [Root.GetAuEnNP] [Root.GetName]."
  ESTATES_TITLE:0 "Ordres"
  ACHIEVEMENTS_FIX_SETTINGS:0 "Changer les paramètres pour pouvoir remporter des succès"
  RNW_GENERATION_HOST:0 "Génération du Nouveau Monde aléatoire…"
@@ -1515,8 +1480,8 @@
  CONSCRIPT_COSSACK_ELITE:1 "Recruter l'élite des cosaques"
  SUPPLY_ARMS:1 "Fournir des armes"
  EST_VAL_SUPPLY_ARMS:1 "Cosaques armés"
- PERMIT_SELF_GOVERNANCE:1 "Autoriser l'autonomie"
- EST_VAL_SELF_GOVERNANCE:1 "A autorisé l'autonomie"
+ PERMIT_SELF_GOVERNANCE:1 "Reconnaître l'autonomie"
+ EST_VAL_SELF_GOVERNANCE:1 "A reconnu l'autonomie"
  RANDOM_NEW_WORLD_ALREADY_CREATED:0 "§RNouveau Monde aléatoire déjà sélectionné.§!"
  ability_cossacks_mechanic:0 "Capacités gouvernementales des cosaques"
  cossacks_adm_power:0 "accueil des serfs"
@@ -1524,9 +1489,12 @@
  cossacks_mil_power:0 "levée des cosaques"
  cossacks_ability_receive_serfs:0 "Recueillir des serfs"
  cossacks_ability_raiding_parties:0 "Lancer des raids"
- COSSACKS_ABILITY_RAIDING_PARTIES_DESC:1 "User de $VAL|Y$ points de puissance pour $NAME|Y$ aura pour conséquence :"
+ COSSACKS_ABILITY_RAIDING_PARTIES_DESC:1 "User de $VAL|Y$ points de puissance pour $NAME|Y$ aura pour conséquence :" # [LocEditor:CustomLanguageKey]
+ cossacks_ability_raiding_parties_desc:3 ""
  cossacks_ability_cossacks:0 "Lever les cosaques"
- COSSACKS_ABILITY_RECEIVE_SERFS_DESC:0 "$NAME|Y$ va accroître le niveau de développement d'une province de $CHANGE|G$ dans une puissance de dirigeant aléatoire, au prix de $VAL|Y$ points de puissance. Quant au pays d'où se sont enfuis les serfs, il va subir :\n$MOD$"
+ COSSACKS_ABILITY_RECEIVE_SERFS_DESC:0 "$NAME|Y$ va accroître le niveau de développement d'une province de $CHANGE|G$ dans une puissance de dirigeant aléatoire, au prix de $VAL|Y$ points de puissance. Quant au pays d'où se sont enfuis les serfs, il va subir :\n$MOD$" # [LocEditor:CustomLanguageKey]
+ cossacks_ability_cossacks_desc:0 ""
+ cossacks_ability_receive_serfs_desc:3 ""
  RECEIVE_SERFS_NO_VALID_PROVINCES:1 "Les serfs des pays rivaux et voisins ne se réfugieront pas dans notre pays puisque toutes nos provinces sont d'une culture ou d'une religion qui sont acceptées dans leur pays."
  recieve_serf_flavor_desc:0 "Nous devons ouvrir nos bras aux serfs opprimés qui peinent sous le joug de nobles étrangers. Si nous les protégeons de leurs maîtres, ces gens deviendront rapidement des membres productifs de notre société."
  organize_rading_parties_flavor_desc:0 "Rassemblons des troupes pour mener un raid en utilisant au mieux notre connaissance des steppes pour surgir aux portes des cités et des châteaux des pays oppresseurs qui nous encerclent."
@@ -1540,4 +1508,51 @@
  raiding_parties_modifier:0 "Raids"
  desc_raiding_parties_modifier:0 "Nous avons rassemblé des troupes pour mener des raids et faire des steppes un véritable enfer pour nos ennemis. Ils contribuent grandement à accroître nos capacités de manœuvre et notre puissance sur ces territoires."
  COSSACKS_DESC:2 "Accorder des privilèges spécifiques à l'ordre des §Ycosaques§! permet de recruter dans nos armées leurs meilleurs cavaliers, qui font plus de dégâts que les unités de cavalerie habituelles."
+ string_nobles_FR:0 "nobles" # [LocEditor:CustomLanguageKey]
+ string_nobles_FR_this:0 "[This.GetNobles]" # [LocEditor:CustomLanguageKey]
+ string_church_FR:0 "clercs" # [LocEditor:CustomLanguageKey]
+ string_church_FR_this:0 "[This.GetClercs]" # [LocEditor:CustomLanguageKey]
+ string_burghers_FR:0 "bourgeois" # [LocEditor:CustomLanguageKey]
+ string_burghers_FR_this:0 "[This.GetBourgeois]" # [LocEditor:CustomLanguageKey]
+ string_cossacks_FR:0 "cosaques" # [LocEditor:CustomLanguageKey]
+ string_cossacks_FR_this:0 "[This.GetCosaques]" # [LocEditor:CustomLanguageKey]
+ string_dhimmi_FR:0 "dhimmî" # [LocEditor:CustomLanguageKey]
+ string_dhimmi_FR_this:0 "[This.GetDhimmi]" # [LocEditor:CustomLanguageKey]
+ string_nomadic_tribes_FR:0 "tribus" # [LocEditor:CustomLanguageKey]
+ string_nomadic_tribes_FR_this:0 "[This.GetTribus]" # [LocEditor:CustomLanguageKey]
+ string_beys_FR:0 "ümerâ" # [LocEditor:CustomLanguageKey]
+ string_boyars_FR:0 "boyards" # [LocEditor:CustomLanguageKey]
+ string_szlachta_FR:0 "szlachcice" # [LocEditor:CustomLanguageKey]
+ string_amirs_FR:0 "émirs" # [LocEditor:CustomLanguageKey]
+ string_ulema_FR:0 "oulémas" # [LocEditor:CustomLanguageKey]
+ string_mansabdars_FR:0 "mansabdârs" # [LocEditor:CustomLanguageKey]
+ string_qinwang_FR:0 "qinwang" # [LocEditor:CustomLanguageKey]
+ string_planters_FR:0 "planteurs" # [LocEditor:CustomLanguageKey]
+ string_bourgeoisie_FR:0 "bourgeois" # [LocEditor:CustomLanguageKey]
+ string_brahmins_FR:0 "brahmanes" # [LocEditor:CustomLanguageKey]
+ string_brahmins_FR_this:0 "[This.GetBrahmanes]" # [LocEditor:CustomLanguageKey]
+ string_pastors_FR:0 "pasteurs" # [LocEditor:CustomLanguageKey]
+ string_popes_FR:0 "popes" # [LocEditor:CustomLanguageKey]
+ string_shamans_FR:0 "chamans" # [LocEditor:CustomLanguageKey]
+ string_gurus_FR:0 "gourous" # [LocEditor:CustomLanguageKey]
+ string_medicine_men_FR:0 "hommes-médecine" # [LocEditor:CustomLanguageKey]
+ string_godar_FR:0 "goðar" # [LocEditor:CustomLanguageKey]
+ string_rabbis_FR:0 "rabbins" # [LocEditor:CustomLanguageKey]
+ string_mobeds_FR:0 "mobads" # [LocEditor:CustomLanguageKey]
+ string_kannushi_FR:0 "kannushi" # [LocEditor:CustomLanguageKey]
+ string_panacas_FR:0 "prêtres" # [LocEditor:CustomLanguageKey]
+ string_merchant_guilds_FR:0 "marchands" # [LocEditor:CustomLanguageKey]
+ string_monasteries_FR:0 "ordres monastiques" # [LocEditor:CustomLanguageKey]
+ string_tetecuhtin_FR:0 "têtêuctin" # [LocEditor:CustomLanguageKey]
+ string_andriana_FR:0 "andriana" # [LocEditor:CustomLanguageKey]
+ string_timawa_FR:0 "timawa" # [LocEditor:CustomLanguageKey]
+ string_babaylanes_FR:0 "babaylanes" # [LocEditor:CustomLanguageKey]
+ string_tlamacazqueh_FR:0 "tlamacazqueh" # [LocEditor:CustomLanguageKey]
+ string_kshatriyas_FR:0 "kshatriyas" # [LocEditor:CustomLanguageKey]
+ string_nayaks_FR:0 "nayaks" # [LocEditor:CustomLanguageKey]
+ string_samantas_FR:0 "samantas" # [LocEditor:CustomLanguageKey]
+ string_bushi_FR:0 "bushi" # [LocEditor:CustomLanguageKey]
+ string_warriors_FR:0 "guerriers" # [LocEditor:CustomLanguageKey]
+ string_mani_FR:0 "awene" # [LocEditor:CustomLanguageKey]
+ string_pochteca_FR:0 "pochteca" # [LocEditor:CustomLanguageKey]
 

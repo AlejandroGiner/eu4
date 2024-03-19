@@ -75,9 +75,6 @@
  lose_savanarola_support_tt:0 "Savonarole va perdre des fidèles, facilitant ainsi une restauration des §YMédicis§!."
  SAVANAROLA_GOVERNMENT:0 "Dictature théocratique"
  BROTHER:0 "Frère"
- string_BROTHER_FR:0 "frère" # [LocEditor:CustomLanguageKey]
- SISTER:0 "Sœur" # [LocEditor:CustomLanguageKey]
- string_SISTER_FR:0 "sœur" # [LocEditor:CustomLanguageKey]
  # Great Peasants' War
  great_peasant_war.1.t:0 "La guerre des paysans"
  great_peasant_war.1.d:0 "La paysannerie s'est révoltée contre ses maîtres légitimes, exigeant la fin du servage et la garantie officielle de ses droits. Ce n'est pas une rébellion localisée : la révolte s'est répandue dans tout l'Empire, le plus souvent attisée par de dangereux hérétiques. Tous les princes d'Empire sont désormais contraints d'apprêter leurs défenses et de préparer la guerre contre ce peuple qu'ils gouvernaient encore il y a peu."
@@ -107,10 +104,10 @@
  king_in_prussia.2.b:0 "[PRU.GetIlElleDirCap] devra se contenter d'être [PRU.GetRoiReineDir] EN Prusse"
  king_in_prussia.2.c:0 "Nous ne reconnaîtrons jamais un[PRU.GetXEDir] [PRU.GetRoiReineDir] autoproclamé[PRU.GetXEDir]"
  king_in_prussia.3.t:0 "Le royaume de Prusse"
- king_in_prussia.3.d:0 "Notre ami[emperor.GetXEDir] et allié[emperor.GetXEDir], l'[emperor.GetEmpereurImperatriceDirCap] [emperor.Monarch.GetName], a gracieusement agréé d'élever la Prusse au rang de royaume ! Un tel privilège n'a plus été conféré depuis l'élévation du royaume de Bohême. Les souverains de Prusse porteront désormais à leur front la couronne avec une grande fierté, gardant toujours en mémoire la faveur qui leur a été faite par [emperor.Monarch.GetName]."
- king_in_prussia.3.d2:0 "La tradition du Saint-Empire veut que les seuls rois soient ceux-là mêmes qui sont rois des Romains – donc les futurs empereurs – et les rois de Bohême. Nous avons malgré tout obtenu un compromis des plus intéressants : nos souverains porteront désormais le titre de « rois en Prusse ». La Prusse se trouvant en dehors des frontières du Saint-Empire, [Root.Monarch.GetName] peut donc devenir [Root.GetRoiReineDir] sans que [emperor.Monarch.GetName] ait à rompre avec la tradition."
- king_in_prussia.3.d3:0 "[emperor.GetCeCetteFDirCap] sale mâtin[emperor.GetXEDir] d'[emperor.GetEmpereurImperatriceDirCap] a refusé de reconnaître à [Root.Monarch.GetName] le droit de porter le titre de [Root.GetRoiReineDir] en dépit du compromis des plus raisonnables que nous lui avions présenté. Bien évidemment, nous n'avons aucun compte à tenir [emperor.GetDeluiDelleDir], et [Root.Monarch.GetName] sera [Root.GetRoiReineDir], quel que soit son avis."
- king_in_prussia.3.a:0 "Grâce en soit rendue à Dieu et à l'[emperor.GetEmpereurImperatriceDirCap] !"
+ king_in_prussia.3.d:0 "Notre ami[Emperor.GetXEDir] et allié[Emperor.GetXEDir], l'[Emperor.GetEmpereurImperatriceDirCap] [Emperor.Monarch.GetName], a gracieusement agréé d'élever la Prusse au rang de royaume ! Un tel privilège n'a plus été conféré depuis l'élévation du royaume de Bohême. Les souverains de Prusse porteront désormais à leur front la couronne avec une grande fierté, gardant toujours en mémoire la faveur qui leur a été faite par [Emperor.Monarch.GetName]."
+ king_in_prussia.3.d2:0 "La tradition du Saint-Empire veut que les seuls rois soient ceux-là mêmes qui sont rois des Romains – donc les futurs empereurs – et les rois de Bohême. Nous avons malgré tout obtenu un compromis des plus intéressants : nos souverains porteront désormais le titre de « rois en Prusse ». La Prusse se trouvant en dehors des frontières du Saint-Empire, [Root.Monarch.GetName] peut donc devenir [Root.GetRoiReineDir] sans que [Emperor.Monarch.GetName] ait à rompre avec la tradition."
+ king_in_prussia.3.d3:0 "[Emperor.GetCeCetteFDirCap] sale mâtin[Emperor.GetXEDir] d'[Emperor.GetEmpereurImperatriceDirCap] a refusé de reconnaître à [Root.Monarch.GetName] le droit de porter le titre de [Root.GetRoiReineDir] en dépit du compromis des plus raisonnables que nous lui avions présenté. Bien évidemment, nous n'avons aucun compte à tenir [Emperor.GetDeluiDelleDir], et [Root.Monarch.GetName] sera [Root.GetRoiReineDir], quel que soit son avis."
+ king_in_prussia.3.a:0 "Grâce en soit rendue à Dieu et à l'[Emperor.GetEmpereurImperatriceDirCap] !"
  king_in_prussia.3.b:0 "Ce compromis semble tout à fait satisfaisant"
  king_in_prussia.3.c:0 "Nous n'avons après tout pas à demander la permission"
  elevated_prussia:0 "A érigé la Prusse en royaume"
@@ -133,25 +130,30 @@
  ADMIRALTY:0 "Amirauté"
  HIGH_ADMIRALTY:0 "Haute amirauté"
  SUPREME_ADMIRALTY:0 "Amirauté suprême"
+ LORD_ADMIRAL:0 "Amiral"
+ LORD_ADMIRAL_fem:0 "Amirale"
  LORD_HIGH_ADMIRAL:0 "Grand amiral"
- string_LORD_HIGH_ADMIRAL_FR:0 "grand amiral" # [LocEditor:CustomLanguageKey]
- LORD_HIGH_ADMIRAL_fem:0 "Grande amirale" # [LocEditor:CustomLanguageKey]
- string_LORD_HIGH_ADMIRAL_fem_FR:0 "grande amirale" # [LocEditor:CustomLanguageKey]
  SUPREME_ADMIRAL:0 "Amiral suprême"
- string_SUPREME_ADMIRAL_FR:0 "amiral suprême" # [LocEditor:CustomLanguageKey]
- SUPREME_ADMIRAL_fem:0 "Amirale suprême" # [LocEditor:CustomLanguageKey]
- string_SUPREME_ADMIRAL_fem_FR:0 "amirale suprême" # [LocEditor:CustomLanguageKey]
  prussian_republic_reform:0 "Administration stratocratique"
  prussian_republic_reform_desc:0 "La République prussienne est gouvernée non par des oligarques corrompus, ni non plus selon les caprices d'un peuple ignorant, mais par ceux qui se sont avérés être les commandants militaires les plus compétents sur le champ de bataille. L'expansion et la protection des frontières est le rôle premier de l'État.\n\nCe régime politique ne pratique pas les élections."
  prussian_republic:0 "Administration stratocratique"
  prussian_republic_descs:0 "La République prussienne est gouvernée non par des oligarques corrompus, ni non plus selon les caprices d'un peuple ignorant, mais par ceux qui se sont avérés être les commandants militaires les plus compétents sur le champ de bataille. L'expansion et la protection des frontières est le rôle premier de l'État.\n\nCe régime politique ne pratique pas les élections."
  STRATOCRACY:0 "Stratocratie des junkers"
  FIELD_MARSHAL:0 "Maréchal"
- string_FIELD_MARSHAL_FR:0 "maréchal" # [LocEditor:CustomLanguageKey]
- FIELD_MARSHAL_fem:0 "Maréchale" # [LocEditor:CustomLanguageKey]
- string_FIELD_MARSHAL_fem_FR:0 "maréchale" # [LocEditor:CustomLanguageKey]
  ARCHPIRATE:0 "Archipirate"
- string_ARCHPIRATE_FR:0 "archipirate" # [LocEditor:CustomLanguageKey]
+ MARSHAL_fem:1 "Maréchale"
+ SERENE_MARSHAL_fem:1 "Maréchale sérénissime"
+ MOST_SERNE_MARSHAL_fem:1 "Très sérénissime maréchale"
+ KRONPRINZ:0 "Kronprinz"
+ KRONPRINZEN:0 "Kronprinzessin"
+ FIELD_MARSHAL_fem:1 "Maréchale"
+ LORD_HIGH_ADMIRAL_fem:1 "Grande amirale"
+ SUPREME_ADMIRAL_fem:1 "Amirale suprême"
+ SISTER:0 "Sœur"
+ FIRST_RANGER_fem:0 "Dame-chevalier"
+ MAGISTER_HOCHMEISTER_fem:0 "Grande Hochmeisterin"
+ DEUTSCHMEISTER_fem:0 "Magistra Germaniæ"
+ COMMANDER_EMPRESS:1 "Impératrice-commanderesse"
  # The Borgia Pope
  borgia_pope_tt:0 "La corruption va se répandre au sein de l'Église, au grand dam des fidèles."
  borgia_pope:0 "Pape Borgia"
@@ -267,7 +269,7 @@
  has_mil_advisor_tooltip:0 "Emploie un conseiller §Ymilitaire§!."
  has_mil_advisor_2_tooltip:0 "Emploie un conseiller §Ymilitaire§! au moins de niveau §Y2§!"
  has_mil_advisor_3_tooltip:0 "Emploie un conseiller §Ymilitaire§! au moins de niveau §Y3§!."
- has_completed_all_reforms_trigger_tooltip:0 "A adopté toutes les réformes gouvernementales."
+ has_completed_all_reforms_trigger_tooltip:0 "A adopté une réforme gouvernementale de chacun des niveaux."
  has_been_insulted_by_root:1 "A été insulté par [Root.GetLeLaNP] §Y[Root.GetName]§!."
  #DHEs
  new_flavour_bav.12.t:0 "Ingolstadt capitale de la bière ?"
@@ -556,7 +558,7 @@
  advisor_antiliaisons:0 "Posture agressive"
  advisor_spurious_accusations:0 "Accusations fallacieuses"
  new_court_flavour_events.35.name:0 "Un exilé [exile_country.GetFromAdjMS]"
- new_court_flavour_events.35.desc:1 "Un certain [Root.fleeing_advisor.GetName] vient tout juste d'arriver à [Root.Capital.GetCapitalName]. Exilé [exile_country.GetDuDeNP] [exile_country.GetName], il prétend y avoir été [Root.GetEventAdvisorTitleMinus], et a offert ses services à [Root.Monarch.GetName] si [Root.GetCeluiCelleDir]-ci s'engage à assurer sa protection face [exile_country.GetAuAlaDir] [exile_country.GetDir] [exile_country.GetDuDeNP] [exile_country.GetName]. Devons-nous accepter sa proposition ?"
+ new_court_flavour_events.35.desc:1 "Un certain [Root.fleeing_advisor.GetName] vient tout juste d'arriver à [Root.Capital.GetCapitalName]. Exilé [exile_country.GetDuDeNP] [exile_country.GetName], il prétend y avoir été [Root.GetExileAdvisorAAnTitle], et a offert ses services à [Root.Monarch.GetName] si [Root.GetCeluiCelleDir]-ci s'engage à assurer sa protection face [exile_country.GetAuAlaDir] [exile_country.GetDir] [exile_country.GetDuDeNP] [exile_country.GetName]. Devons-nous accepter sa proposition ?"
  new_court_flavour_events.35.A:0 "Ses services pourraient nous être utiles"
  new_court_flavour_events.35.B:0 "Nous ne pouvons prendre personne à notre service"
  new_court_flavour_events.36.name:0 "Exilés [exile_country.GetDuDeNP] [exile_country.GetName]"
@@ -597,9 +599,6 @@
  EventAdvisorTitle.A:0 "[This.Adm_Advisor.GetTitle]"
  EventAdvisorTitle.D:0 "[This.Dip_Advisor.GetTitle]"
  EventAdvisorTitle.M:0 "[This.Mil_Advisor.GetTitle]"
- EventAdvisorTitleMinus.A:0 "[This.GetAdm]" # [LocEditor:CustomLanguageKey]
- EventAdvisorTitleMinus.D:0 "[This.GetDip]" # [LocEditor:CustomLanguageKey]
- EventAdvisorTitleMinus.M:0 "[This.GetMil]" # [LocEditor:CustomLanguageKey]
  #GetEventAdvisorSheHeCap
  EventAdvisorSheHeCap.A:0 "[This.GetIlElleAdmCap]"
  EventAdvisorSheHeCap.D:0 "[This.GetIlElleDipCap]"
@@ -616,37 +615,10 @@
  EventAdvisorHerHis.A:0 "[This.Adm_Advisor.GetHerHis]"
  EventAdvisorHerHis.D:0 "[This.Dip_Advisor.GetHerHis]"
  EventAdvisorHerHis.M:0 "[This.Mil_Advisor.GetHerHis]"
- EventAdvisorHerHimCap.A:0 "[This.GetLuiElleAdmCap]" # [LocEditor:CustomLanguageKey]
- EventAdvisorHerHimCap.D:0 "[This.GetLuiElleDipCap]" # [LocEditor:CustomLanguageKey]
- EventAdvisorHerHimCap.M:0 "[This.GetLuiElleMilCap]" # [LocEditor:CustomLanguageKey]
  #GetEventAdvisorHerHim
  EventAdvisorHerHim.A:0 "[This.GetLuiElleAdm]"
  EventAdvisorHerHim.D:0 "[This.GetLuiElleDip]"
  EventAdvisorHerHim.M:0 "[This.GetLuiElleMil]"
- EventAdvisorQueluiQuelleCap.A:0 "[This.GetQueluiQuelleAdmCap]" # [LocEditor:CustomLanguageKey]
- EventAdvisorQueluiQuelleCap.D:0 "[This.GetQueluiQuelleDipCap]" # [LocEditor:CustomLanguageKey]
- EventAdvisorQueluiQuelleCap.M:0 "[This.GetQueluiQuelleMilCap]" # [LocEditor:CustomLanguageKey]
- EventAdvisorQueluiQuelle.A:0 "[This.GetQueluiQuelleAdm]" # [LocEditor:CustomLanguageKey]
- EventAdvisorQueluiQuelle.D:0 "[This.GetQueluiQuelleDip]" # [LocEditor:CustomLanguageKey]
- EventAdvisorQueluiQuelle.M:0 "[This.GetQueluiQuelleMil]" # [LocEditor:CustomLanguageKey]
- EventAdvisorXE.A:0 "[This.GetXEAdm]" # [LocEditor:CustomLanguageKey]
- EventAdvisorXE.D:0 "[This.GetXEDip]" # [LocEditor:CustomLanguageKey]
- EventAdvisorXE.M:0 "[This.GetXEMil]" # [LocEditor:CustomLanguageKey]
- EventAdvisorLeLaFCap.A:0 "[This.GetLeLaFAdmCap]" # [LocEditor:CustomLanguageKey]
- EventAdvisorLeLaFCap.D:0 "[This.GetLeLaFDipCap]" # [LocEditor:CustomLanguageKey]
- EventAdvisorLeLaFCap.M:0 "[This.GetLeLaFMilCap]" # [LocEditor:CustomLanguageKey]
- EventAdvisorLeLaF.A:0 "[This.GetLeLaFAdm]" # [LocEditor:CustomLanguageKey]
- EventAdvisorLeLaF.D:0 "[This.GetLeLaFDip]" # [LocEditor:CustomLanguageKey]
- EventAdvisorLeLaF.M:0 "[This.GetLeLaFMil]" # [LocEditor:CustomLanguageKey]
- EventAdvisorElElle.A:0 "[This.GetElElleFAdm]" # [LocEditor:CustomLanguageKey]
- EventAdvisorElElle.D:0 "[This.GetElElleFDip]" # [LocEditor:CustomLanguageKey]
- EventAdvisorElElle.M:0 "[This.GetElElleFMil]" # [LocEditor:CustomLanguageKey]
- GetEventAdvisorManWoman.A:0 "[This.Adm_Advisor.GetWomanMan]" # [LocEditor:CustomLanguageKey]
- GetEventAdvisorManWoman.D:0 "[This.Dip_Advisor.GetWomanMan]" # [LocEditor:CustomLanguageKey]
- GetEventAdvisorManWoman.M:0 "[This.Mil_Advisor.GetWomanMan]" # [LocEditor:CustomLanguageKey]
- GetEventAdvisorErEre.A:0 "[This.GetErEreAdm]" # [LocEditor:CustomLanguageKey]
- GetEventAdvisorErEre.D:0 "[This.GetErEreDip]" # [LocEditor:CustomLanguageKey]
- GetEventAdvisorErEre.M:0 "[This.GetErEreMil]" # [LocEditor:CustomLanguageKey]
  #National Ideas
  ans_fayencemanufaktur:0 "Ansbacher Fayencemanufaktur"
  ans_fayencemanufaktur_desc:0 "Nos manufactures peuvent nous rendre riches. Les artisans ont copié les techniques utilisées ailleurs pour produire de la porcelaine, et sont ainsi parvenus à donner naissance à un style de céramique propre à Ansbach."
@@ -905,7 +877,6 @@
  selanik_jews:0 "Juifs séfarades de Selanik"
  desc_selanik_jews:0 "Selanik est devenu un refuge pour les juifs chassés d'Espagne, ce qui profite grandement à l'économie de la province."
  estate_junkers:0 "Junkers"
- string_junkers_FR:0 "junkers" # [LocEditor:CustomLanguageKey]
  # Another Sforza event
  ambrosian_republic.9.t:0 "Francesco Sforza"
  ambrosian_republic.9.d:0 "Le condottiere Francesco Sforza vient d'offrir ses services à cette fragile République ambrosienne, qui l'a rudement rejeté. Outragé de la rebuffade, il a décidé de participer à la guerre contre Milan en entrant dans les armées [Root.GetRootAdjFP]."
@@ -958,7 +929,7 @@
  curia.10.b:0 "Mieux vaut éviter de s'attirer les foudres de l'Église"
  curia.11.t:0 "Requête de la Curie"
  curia.11.d:0 "Avec la Réforme, de moins en moins de pays versent désormais la dîme due à l'Église. Mais [Root.GetLeLaNP] [Root.GetName] demeur[Root.GetEEntNP] parmi les bastions de la foi véritable, aussi la Curie nous a-t-elle fait demander d'accroître nos contributions pour compenser une partie des pertes dont sont responsables les hérétiques."
- curia.11.a:0 "[Root.GetLeLaNPCap] [Root.GetName] n'abandonner[Root.GetAOntNP] pas la Sainte-Église !"
+ curia.11.a:0 "[Root.GetLeLaNPCap] [Root.GetName] n'abandonner[Root.GetAOntNP] pas la Sainte Église !"
  curia.11.b:0 "Nous versons déjà bien assez d'argent comme cela"
  curia.12.t:0 "Soutien à la croisade"
  curia.12.d:0 "[crusading_country.GetLeLaLDirCap] [crusading_country.GetDir] [crusading_country.GetDuDeNP] [crusading_country.GetName], [crusading_country.Monarch.GetName], a lancé ses armées contre les infidèles [crusade_target_country.GetRootAdjMP]. Elles marchent en ce moment même pour la bataille, pour la plus grande gloire de Dieu et de Son Église. Afin de montrer notre soutien à cette cause juste, nous pourrions réserver des fonds du trésor de la Curie afin de financer une partie de l'effort de guerre [crusading_country.GetRootAdjMS]."
@@ -1014,7 +985,7 @@
  shadow_kingdom.2.d:1 "Si le royaume d'Italie relève toujours officiellement du Saint-Empire romain germanique, il est dans les faits devenu un « royaume fantôme ». Les États italiens agissent en toute indépendance de l'[Emperor.GetEmpereurImperatriceDirCap], et les échecs successifs des titulaires du titre impérial à restaurer leur autorité sur la région ont laissé des pans de territoires sous le contrôle de potentats qui refusent de reconnaître toute autorité impériale.\n\nLa question désormais pour les Italiens est donc de savoir pour quelle raison ils devraient même reconnaître la suzeraineté de [Emperor.Monarch.GetName] [Emperor.Monarch.Dynasty.GetName]."
  shadow_kingdom.2.a:0 "Il est temps de renoncer à l'Italie"
  shadow_kingdom.2.b:0 "Ces Italiens doivent être contrôlés"
- shadow_kingdom_emperor_gives_up_tt:0 "Les États italiens se trouvant au sein de l'Empire et ayant été placés sous contrôle §Yresteront§! dans l'Empire.\nCeux qui n'auront pas été placés sous contrôle en §Ysortiront§!."
+ shadow_kingdom_emperor_gives_up_tt:1 "Les États italiens se trouvant au sein de l'Empire et ayant été placés sous contrôle §Yresteront§! dans l'Empire.\nCeux qui n'auront pas été placés sous contrôle en §Ysortiront§!.\n\n§YL'[Emperor.GetEmpereurImperatriceDirCap] va perdre §R0.2§! en autorité impériale par niveau de développement de chaque province sortant de l'Empire.§!"
  shadow_kingdom_incident_tt:0 "L'[Emperor.GetEmpereurImperatriceDirCap] a jusqu'à §Y1490§! pour réaffirmer son autorité sur les États italiens membres de l'Empire."
  shadow_kingdom.3.t:0 "Le royaume fantôme"
  shadow_kingdom.3.d:0 "En dépit de toute sa résolution à réaffirmer son autorité sur l'Italie, l'[Emperor.GetEmpereurImperatriceDir] [Emperor.Monarch.GetName] est toujours confronté[Emperor.GetXEDir] au refus opiniâtre de certains États de reconnaître la suprématie impériale. Tous ses efforts n'ont pas été vains, pourtant : tous ceux qui ont pu être contrôlés n'oseront plus défier l'Empire à nouveau."
@@ -1126,17 +1097,8 @@
  flavor_pol.22.b:0 "Vive le Sejm !"
  MOST_SERENE_REPUBLIC:0 "Sérénissime République"
  MARSHAL:0 "Maréchal"
- string_MARSHAL_FR:0 "maréchal" # [LocEditor:CustomLanguageKey]
- MARSHAL_fem:0 "Maréchale" # [LocEditor:CustomLanguageKey]
- string_MARSHAL_fem_FR:0 "maréchale" # [LocEditor:CustomLanguageKey]
  SERENE_MARSHAL:0 "Maréchal sérénissime"
- string_SERENE_MARSHAL_FR:0 "maréchal sérénissime" # [LocEditor:CustomLanguageKey]
- SERENE_MARSHAL_fem:0 "Maréchale sérénissime" # [LocEditor:CustomLanguageKey]
- string_SERENE_MARSHAL_fem_FR:0 "maréchale sérénissime" # [LocEditor:CustomLanguageKey]
  MOST_SERNE_MARSHAL:0 "Très sérénissime maréchal"
- string_MOST_SERNE_MARSHAL_FR:0 "très sérénissime maréchal" # [LocEditor:CustomLanguageKey]
- MOST_SERNE_MARSHAL_fem:0 "Très sérénissime maréchale" # [LocEditor:CustomLanguageKey]
- string_MOST_SERNE_MARSHAL_fem_FR:0 "très sérénissime maréchale" # [LocEditor:CustomLanguageKey]
  pol_struggle_for_royal_power_disaster:0 "La lutte pour le pouvoir"
  desc_pol_struggle_for_royal_power_disaster:0 "Le conflit fait rage dans le pays pour déterminer qui du souverain ou du Sejm doit exercer le pouvoir."
  # Mercenary Events
@@ -1199,7 +1161,7 @@
  flavour_tupi_tamoyo_jesuits:1 "Chaque province [Root.GetRootAdjFS] de culture §Ytupinamba§! reçoit pour §Y10§! ans §YHostilité des Tupis§! :\nAgitation locale : §R+1§!\nModif. local d'impôts : §R-10%§!\nCroissance coloniale locale : §R-15§!"
  flavor_tupi_confederation:1 "Faire ce choix devrait permettre de conclure des alliances avec d'autres tribus tupies."
  tamoyo_rivals:1 "Ingérence d'une colonie rivale"
- EVTOPTC710:0 "Faisons exécuter cet homme !" # [LocEditor:AwaitingBatchUpdate]
+ EVTOPTC710:2 "Faisons exécuter cet homme !"
  # Memes - remember to come back to this later
  memes.1.t:0 "Prœlium regiorum"
  memes.1.d:0 "Devant trouver quelque remède à l'ennui des hommes de la [da_company.GetName], [da_company.Leader.GetName] a décidé d'organiser une sorte de jeu dans lequel chaque mercenaire est libéré dans une région reculée de la province de [da_company.Location.GetName] et chargé de traquer et tuer tous les autres."
@@ -1274,6 +1236,24 @@
  ulm_swiss_mercs_desc:0 "Nos voisins au sud sont réputés dans toutes les cours d'Europe pour leurs excellents mercenaires. En cultivant de bonnes relations qui pourront nous être mutuellement bénéfiques, nous pourrons trouver des soldats compétents pour défendre notre havre de prospérité contre quiconque souhaiterait nous menacer, et peut-être même décourager ceux qui chercheraient à mettre fin à notre indépendance. La ville libre d'Ulm doit rester entièrement libre, et à jamais."
  ulm_minster:0 "Achèvement de l'église principale d'Ulm"
  ulm_minster_desc:0 "L'église principale d'Ulm est plus vaste que bon nombre de cathédrales. Elle a été construite pour accueillir jusqu'à 20 000 fidèles, et sa flèche est la plus haute au monde, qui est par elle-même un monument érigé pour montrer non seulement la puissance de l'Église, mais aussi la prospérité des bourgeois. Malgré tout, même si le chantier a débuté au XIVe s., l'église est toujours inachevée. Nous devons donc faire une priorité de son achèvement."
+ #Augsburger Ideas
+ AUG_ideas:0 "Doctrines augsbourgeoises"
+ AUG_ideas_start:0 "traditions augsbourgeoises"
+ AUG_ideas_bonus:0 "ambitions augsbourgeoises"
+ aug_augusta_vindelicorum:0 "Augusta Vindelicorum"
+ aug_augusta_vindelicorum_desc:0 "Augsbourg est une cité ancienne, fondée par nuls autres que les Romains. Elle s'appelait alors Augusta Vindelicorum, en l'honneur du premier et grand empereur, Auguste, et était le siège de la province de Rhétie. Si aujourd'hui les Romains ne sont plus, Augsbourg est toujours bien vivante, et en elle l'héritage de Rome."
+ aug_afra_ulrich:0 "Sainte Afre et saint Ulrich"
+ aug_afra_ulrich_desc:0 "Augsbourg a été la patrie de deux des grands saints du passé, sainte Afre et saint Ulrich. Afre a offert l'abri de sa maison à l'évêque chrétien Narcisse de Gérone, au temps de la persécution, sous les Romains, avant d'être ensuite baptisée par lui. Les Romains, en découvrant le rôle qu'elle avait joué, l'exécutèrent en 304.\nSaint Ulrich, lui, a joué un rôle plus mineur pour le christianisme, mais a été un grand dirigeant pour Augsbourg, entre 923 et 973, assurant notamment la construction d'un rempart qui assura notre protection face aux pillards hongrois."
+ aug_hans_holbein:0 "Patrie de Hans Holbein le Jeune"
+ aug_hans_holbein_desc:0 "Hans Holbein le Jeune (1497-1543) était l'héritier d'une dynastie de peintres, et était imprimeur et peintre lui-même. Si les œuvres de son père se voient toujours dans les alentours d'Augsbourg, Hans le Jeune a quant à lui beaucoup voyagé – jusqu'à se trouver, par l'entremise du philosophe Érasme, à la cour d'Angleterre. Parmi ses œuvres les plus fameuses se trouvent ainsi les portraits du roi Henri VIII."
+ aug_fugger_welser:0 "Banque Fugger"
+ aug_fugger_welser_desc:1 "C'est d'Augsbourg qu'est originaire la famille Fugger, une grande famille de marchands et banquiers, dont les investissements et les talents pour la finance ont eu une grande importance pour les puissances européennes. À l'origine simples tisserands et marchands de futaines, la famille a rapidement étendu son influence dans la plus grande partie de l'Europe grâce à leurs opérations banquières, leur rôle dans le commerce et leur domination du commerce du cuivre."
+ aug_elias_holl:0 "Bâtiments d'Elias Holl"
+ aug_elias_holl_desc:0 "Elias Holl (1573-1646) était un « maître bâtisseur », chargé de la construction de la célèbre Goldener Saal, la splendide « salle dorée » de l'hôtel de ville d'Augsbourg. Son œuvre constitue une inspiration majeure pour tout maître bâtisseur de la cité."
+ aug_religionsfrieden:0 "Augsburger Religionsfriede"
+ aug_religionsfrieden_desc:0 "La Réforme protestante s'est propagée comme la peste dans le Saint-Empire romain germanique. Catholiques et protestants se sont affrontés par les armes, menaçant jusqu'à la souveraineté de l'Empereur lui-même. Charles Quint (1500-1558) a eu beau tout faire pour prévenir que la Réforme se propage davantage, en combattant les princes hérétiques, il dut finir par admettre sa défaite. C'est ainsi que le 25 septembre 1555 il a signé la Augsburger Reichs- und Religionsfrieden, le traité de paix impériale et de liberté de religion, assurant ainsi l'unité religieuse au sein de chaque territoire. Si cela n'a pas assuré aux protestants une liberté religieuse totale ni empêché la guerre de Trente Ans d'éclater en 1618, elle aura au moins permis de mettre sur pied un compromis qui sera repris ensuite par la Westfälischer Friede, le traité de Westphalie."
+ aug_textile_industry:0 "Industrie textile augsbourgeoise"
+ aug_textile_industry_desc:0 "Augsbourg a toujours été une cité de tisserands élaborant des produits de premier ordre, et cette réputation a été largement entretenue grâce aux pratiques commerciales des premières générations des Fugger. Grâce aux moulins sur le Lech, les manufactures textiles parviennent à produire en grande quantité des étoffes de qualité, qui sont ensuite vendues dans toute l'Europe."
  #Frankfurter Ideas
  FRN_ideas:0 "Doctrines francfortoises"
  FRN_ideas_start:0 "traditions francfortoises"
@@ -1392,22 +1372,15 @@
  #Government Names
  COUNTY:0 "Comté"
  COUNT:0 "Comte"
- string_COUNT_FR:0 "comte" # [LocEditor:CustomLanguageKey]
  ELECTORAL_PALATINATE:0 "Électorat palatin"
  ELECTOR_PALATINE:0 "Électeur palatin"
- string_ELECTOR_PALATINE_FR:0 "électeur palatin" # [LocEditor:CustomLanguageKey]
  ELECTRESS_PALATINE:0 "Électrice palatine"
- string_ELECTRESS_PALATINE_FR:0 "électrice palatine" # [LocEditor:CustomLanguageKey]
  COUNTY_PALATINE:0 "Comté palatin"
  KINGDOM_PALATINE:0 "Royaume palatin"
  COUNT_PALATINE:0 "Comte palatin"
- string_COUNT_PALATINE_FR:0 "comte palatin" # [LocEditor:CustomLanguageKey]
  KING_PALATINE:0 "Roi palatin"
- string_KING_PALATINE_FR:0 "roi palatin" # [LocEditor:CustomLanguageKey]
  COUNTESS_PALATINE:0 "Comtesse palatine"
- string_COUNTESS_PALATINE_FR:0 "comtesse palatine" # [LocEditor:CustomLanguageKey]
  QUEEN_PALATINE:0 "Reine palatine"
- string_QUEEN_PALATINE_FR:0 "reine palatine" # [LocEditor:CustomLanguageKey]
  #Old Content
  EST_VAL_VIJ_PROTECT_JAINS:0 "Communautés jaïnas protégées : $VAL|G$"
  #Government Reforms
@@ -1418,13 +1391,12 @@
  austrian_archduchy_reform:0 "Archiduché d'Autriche"
  austrian_archduchy_reform_desc:0 "S'il est organisé à la manière d'un État féodal, l'archiduché d'Autriche a une longueur d'avance sur tous les autres en Europe. De fait, l'expérience acquise en gouvernant leurs dépendances – qu'il s'agisse du Tyrol, de la Styrie, de la Hongrie ou de la Bohême – et en concluant des générations d'alliances dynastiques profitables a permis aux archiducs de développer un système administratif extrêmement performant, capable de gouverner leurs possessions et de préserver leur unité."
  austrian_archduchy:0 "Archiduché d'Autriche"
- austrian_archduchy_desc:0 "S'il est organisé à la manière d'un État féodal, l'archiduché d'Autriche a une longueur d'avance sur tous les autres en Europe. De fait, l'expérience acquise en gouvernant leurs dépendances – qu'il s'agisse du Tyrol, de la Styrie, de la Hongrie ou de la Bohême – et en concluant des générations d'alliances dynastiques profitables a permis aux archiducs de développer un système administratif extrêmement performant, capable de gouverner leurs possessions et de préserver leur unité." # [LocEditor:CustomLanguageKey]
  #Korean content
  kor_factional_upheaval:0 "Luttes entre factions"
  desc_kor_factional_upheaval:0 "L'apparition des néo-confucéens a déclenché une nouvelle lutte entre factions dans le pays."
  kor_factional_unity:0 "Unité des factions"
  desc_kor_factional_unity:0 "La lutte entre factions qui déchirait le pays est enfin terminée, et nous sommes à l'aube d'une nouvelle ère d'unité."
- flavor_kor.10.tt2:0 "Ce modificateur ne sera retiré que lorsque la mission §YFin des luttes entre factions§! aura été menée à bien.\n"
+ flavor_kor.10.tt2:0 "Ce modificateur n'expirera que lorsque la mission §YFin des luttes entre factions§! aura été menée à bien.\n"
  no_country_is_EoC:0 "Nul ne détient le titre d'empereur de Chine."
  #English Disasters
  war_of_the_roses_end_tooltip_pretender_still_lives:1 "Le prétendant est mort."
@@ -1552,17 +1524,11 @@
  GRAND_ELECTORAL_REPUBLIC:0 "Grande République électorale"
  GREAT_ELECTORAL_REPUBLIC:0 "Suprême République électorale"
  CONSUL_ELECTOR:0 "Consul-électeur"
- string_CONSUL_ELECTOR_FR:0 "consul-électeur" # [LocEditor:CustomLanguageKey]
  GRAND_CONSUL_ELECTOR:0 "Grand consul-électeur"
- string_GRAND_CONSUL_ELECTOR_FR:0 "grand consul-électeur" # [LocEditor:CustomLanguageKey]
  GREAT_CONSUL_ELECTOR:0 "Consul-électeur suprême"
- string_GREAT_CONSUL_ELECTOR_FR:0 "consul-électeur suprême" # [LocEditor:CustomLanguageKey]
  CONSULESS_ELECTOR:0 "Consule-électrice"
- string_CONSULESS_ELECTOR_FR:0 "consule-électrice" # [LocEditor:CustomLanguageKey]
  GRAND_CONSULESS_ELECTOR:0 "Grande consule-électrice"
- string_GRAND_CONSULESS_ELECTOR_FR:0 "grande consule-électrice" # [LocEditor:CustomLanguageKey]
  GREAT_CONSULESS_ELECTOR:0 "Consule-électrice suprême"
- string_GREAT_CONSULESS_ELECTOR_FR:0 "consule-électrice suprême" # [LocEditor:CustomLanguageKey]
 
  flavor_kor.12.t:0 "Détresse des paysans"
  flavor_kor.12.d:0 "Si la Corée a connu une période de prospérité ces dernières années, cela ne s'est pas traduit par une amélioration du sort des paysans, qui continuent de vivre dans la plus grande misère. Déjà, les premiers signes de mécontentement peuvent être notés, qui risquent de déstabiliser le pays. Des mesures vont devoir être prises pour améliorer le sort de la paysannerie si nous voulons éviter que surviennent de véritables soulèvements."
@@ -1610,7 +1576,7 @@
  institution_events.80.t:0 "L'industrialisation"
  institution_events.80.d:0 "L'accélération des progrès technologiques commence à avoir de profonds effets sur l'organisation même de la société. L'invention de la machine à vapeur, l'usage de la coke pour la production du fer et de nouveaux procédés mécaniques permettent des économies d'échelle jamais vues, assurant une productivité inédite des travailleurs. D'autres inventions contribuent encore à accélérer et faciliter le transport de grands volumes de marchandises. Le commerce mondial est plus connecté que jamais auparavant, et les usines peuvent aussi profiter de matières premières venues du monde entier, et vendre dans le monde entier les biens transformés qu'elles produisent, assurant à leurs propriétaires une richesse incommensurable.\n\nPendant ce temps, dans le domaine agricole, de nouvelles pratiques comme la rotation des cultures ou l'usage des enclosures accroissent la productivité de façon semblable. Beaucoup moins de bras sont désormais nécessaires pour travailler les mêmes superficies, poussant de nombreux habitants des campagnes à en partir pour s'établir dans les villes industrielles en pleine croissance. C'est un monde nouveau qui est en train de naître, un monde où les plus ambitieux et les plus riches domineront la société comme jamais auparavant."
  institution_events.80.a:0 "C'est un bouleversement, une véritable révolution !"
- institution_events.80.a.tt:0 "Les pays n'ayant pas pleinement §Yadopté§! l'institution de l'§Yindustrialisation§! subiront désormais un coût technologique plus élevé de §R1%§! par an, jusqu'à un maximum de §R50%§!."
+ institution_events.80.a.tt:1 "§YAdopter§! l'institution de l'§Yindustrialisation§! est crucial pour tous les progrès §Ytechnologiques§! futurs."
  institution_events.801.d:0 "Les marchands rapportent que des quantités massives de produits manufacturés étrangers, à bas coût, inondent les marchés [Root.GetRootAdjMP], tandis que les négociants étrangers qui les leur vendent leur achètent des quantités tout aussi importantes de matières premières. Si leur lieu de fabrication n'est pas clairement déterminé, ces changements ont déjà un grand impact sur notre propre société."
  birthplace_of_industrialization:0 "Usines de production de masse"
  desc_birthplace_of_industrialization:0 "[Root.GetCapitalName] a vu naître les méthodes et les technologies les plus novatrices de la révolution industrielle. Jusqu'à nos jours, elle reste un centre industriel de première importance."
@@ -1674,13 +1640,7 @@
 
  KAISERREICH:0 "Kaiserreich"
  KAISER:0 "Kaiser"
- string_KAISER_FR:0 "Kaiser" # [LocEditor:CustomLanguageKey]
  KAISERIN:0 "Kaiserin"
- string_KAISERIN_FR:0 "Kaiserin" # [LocEditor:CustomLanguageKey]
- KRONPRINZ:0 "Kronprinz" # [LocEditor:CustomLanguageKey]
- string_KRONPRINZ_FR:0 "Kronprinz" # [LocEditor:CustomLanguageKey]
- KRONPRINZEN:0 "Kronprinzessin" # [LocEditor:CustomLanguageKey]
- string_KRONPRINZEN_FR:0 "Kronprinzessin" # [LocEditor:CustomLanguageKey]
 
  opinion_supporting_pope:0 "Soutien au pape légitime"
 
@@ -1697,6 +1657,7 @@
  emperor_hofgericht_emperor:0 "Réforme de la Hofgericht"
  emperor_erbkaisertum_emperor:0 "Proclamation de l'Erbkaisertum"
  emperor_privilegia_de_non_appelando_emperor:0 "Révocation du Privilegium de non appellando"
+ emperor_privilegia_de_non_appelando_member:0 "Révocation du Privilegium de non appellando"
  emperor_reichsreform_province:0 "Reichsreform"
  emperor_reichsregiment_province:0 "Reichsregiment"
  emperor_reichsstabilitaet_province:0 "Reichsstabilität absolue"
@@ -1740,6 +1701,8 @@
  incident_reformer_dissension:0 "Protestations des réformés"
  incident_reformer_dissension_emperor_alert:0 "Les princes d'Empire de confession réformée sont atterrés que tous leurs efforts pour contrecarrer les catholiques aient permis [Emperor.GetAuAlaFDir] nouv[Emperor.GetElElleFDir] [Emperor.GetEmpereurImperatriceDirCap] de faire du protestantisme la foi officielle du Saint-Empire. Ils sont de fait en majorité au sein de l'Empire. Menés par [reformed_leader_country.GetLeLaLDir] [reformed_leader_country.GetDir] [reformed_leader_country.Monarch.GetName] [reformed_leader_country.GetDuDeNP] [reformed_leader_country.GetName], ils ont donc approché [Emperor.Monarch.GetName] pour lui demander que la Réforme, à défaut de recevoir la préséance, soit au moins placée sur un pied d'égalité avec le protestantisme."
  incident_reformer_dissension_member_alert:0 "Les princes d'Empire de confession réformée sont atterrés que tous leurs efforts pour contrecarrer les catholiques aient permis [Emperor.GetAuAlaFDir] nouv[Emperor.GetElElleFDir] [Emperor.GetEmpereurImperatriceDirCap] de faire du protestantisme la foi officielle du Saint-Empire. Ils sont de fait en majorité au sein de l'Empire. Menés par [reformed_leader_country.GetLeLaLDir] [reformed_leader_country.GetDir] [reformed_leader_country.Monarch.GetName] [reformed_leader_country.GetDuDeNP] [reformed_leader_country.GetName], ils ont donc approché [Emperor.Monarch.GetName] pour lui demander que la Réforme, à défaut de recevoir la préséance, soit au moins placée sur un pied d'égalité avec le protestantisme."
+ mary_is_on_the_throne:0 "Marie de Bourgogne"
+ desc_mary_is_on_the_throne:0 "Bah c'est Marie de Bourgogne. Voilà quoi."
  reformer_dissension.1.name:0 "Protestations des réformés"
  reformer_dissension.1.desc:0 "Les princes d'Empire de confession réformée sont atterrés que tous leurs efforts pour contrecarrer les catholiques aient permis [Emperor.GetAuAlaFDir] nouv[Emperor.GetElElleFDir] [Emperor.GetEmpereurImperatriceDirCap] de faire du protestantisme la foi officielle du Saint-Empire. Ils sont de fait en majorité au sein de l'Empire. Menés par [reformed_leader_country.GetLeLaLDir] [reformed_leader_country.GetDir] [reformed_leader_country.Monarch.GetName] [reformed_leader_country.GetDuDeNP] [reformed_leader_country.GetName], ils ont donc approché [Emperor.Monarch.GetName] pour lui demander que la Réforme, à défaut de recevoir la préséance, soit au moins placée sur un pied d'égalité avec le protestantisme."
  reformer_dissension.1.A:0 "L'Empire est et restera protestant"
@@ -1789,16 +1752,6 @@
  string_l_cocoa:0 "cacao"
  string_l_coffee:0 "café"
  string_l_sugar:0 "sucre"
- string_slave:0 "des esclaves" # [LocEditor:CustomLanguageKey]
- string_tobacco:0 "du tabac" # [LocEditor:CustomLanguageKey]
- string_wine:0 "du vin" # [LocEditor:CustomLanguageKey]
- string_salt:0 "du sel" # [LocEditor:CustomLanguageKey]
- string_cotton:0 "du coton" # [LocEditor:CustomLanguageKey]
- string_tea:0 "du thé" # [LocEditor:CustomLanguageKey]
- string_natural_dyes:0 "des teintures" # [LocEditor:CustomLanguageKey]
- string_cocoa:0 "du cacao" # [LocEditor:CustomLanguageKey]
- string_coffee:0 "du café" # [LocEditor:CustomLanguageKey]
- string_sugar:0 "du sucre" # [LocEditor:CustomLanguageKey]
  random_event.EVTOPTA25.tt.ttt.tttt.ttttt:0 "Toutes les provinces possédées en Europe et pratiquant la foi protestante, réformée ou anglicane gagnent §R10§! en agitation."
 
  this_parliament:0 "[This.GetParliamentName]"
@@ -1868,9 +1821,9 @@
  penal_colonies_reform:0 "Colonies pénitentiaires"
  penal_colonies_reform_desc:0 "Le Nouveau Monde est un lieu où quiconque peut profiter de toutes les chances, nombreuses, qui s'offrent à lui. Pour nous, c'est l'opportunité d'établir des colonies pénitentiaires et ainsi de débarrasser le pays les criminels et les minorités. En autorisant les compagnies coloniales à prendre en charge ces indésirables, nous assurons donc l'harmonie de l'Ancien Monde tout en étendant notre influence dans le Nouveau."
  john_calvin_modifier:0 "Guide spirituel de Calvin"
- john_calvin_modifier_desc:0 "Jean Calvin sert [Root.GetLeLaNP] [Root.GetName] en étant [Root.GetSonLeurNP] guide spirituel."
+ desc_john_calvin_modifier:0 "Jean Calvin sert [Root.GetLeLaNP] [Root.GetName] en étant [Root.GetSonLeurNP] guide spirituel."
  mercenary_monopoly_modifier:0 "Monopole sur les mercenaires"
- mercenary_monopoly_modifier_desc:0 "[Root.GetLeLaNPCap] [Root.GetName] détien[Root.GetTNentNP] un quasi monopole sur le marché des mercenaires."
+ desc_mercenary_monopoly_modifier:0 "[Root.GetLeLaNPCap] [Root.GetName] détien[Root.GetTNentNP] un quasi-monopole sur le marché des mercenaires."
  colonial_assimilation_of_natives_mod:0 "Assimilation des indigènes"
  desc_colonial_assimilation_of_natives_mod:0 "[Root.GetLeLaNPCap] [Root.GetName] [Root.GetAOntNP] tout fait pour intégrer les peuples indigènes au sein de [Root.GetSesLeursNP] colonies."
  colonial_accommodation_mod:0 "Intégration des indigènes"
@@ -1947,6 +1900,7 @@
  incidents_bur_inheritance.102.a:0 "Nous ne nous soumettrons pas à [Emperor.Monarch.GetName]"
  incidents_bur_inheritance.102.b:0 "Accordons ce Grand Privilège"
  incidents_bur_inheritance.102.c:0 "Mieux vaut renoncer aux Pays-Bas"
+ incidents_bur_inheritance.102.c.tt:0 "Toutes les dépendances [BUR.GetDuDelaNP] §Y[BUR.GetName]§! dont la capitale se trouve dans les §YPays-Bas§! vont accéder à l'indépendance et intégrer le §YSaint-Empire romain germanique§!."
  incidents_bur_inheritance.103.t:0 "L'héritage bourguignon"
  incidents_bur_inheritance.103.d.fra:1 "Les ducs de Bourgogne ont toujours été une gêne pour le trône de France, mais avec la mort du dernier mâle de la lignée Marie a offert de faire repasser la Bourgogne sous souveraineté française. Cette décision a une grande portée, car cela signifie que le duché rebelle n'existe plus désormais et que l'autorité des [Root.Monarch.Dynasty.GetName] est désormais bien plus assurée sur l'ensemble du pays. Toutefois, il y a des chances que l'[Emperor.GetEmpereurImperatriceDir] [Emperor.Monarch.GetName] [Emperor.GetDuDeNP] [Emperor.GetName] prenne mal le fait que nous recevions ainsi les Pays-Bas…"
  incidents_bur_inheritance.103.d.emp:1 "Avec la mort du duc de Bourgogne, nos liens royaux avec sa famille ont porté leurs fruits. Plusieurs de leurs possessions relèvent déjà du Saint-Empire, et Marie a décidé d'intégrer pleinement l'Empire en offrant d'épouser un prince [Root.Monarch.Dynasty.GetName]. [FRA.GetLeLaLDirCap] [FRA.GetDir] de France, pour sa part, s'attend à voir les possessions bourguignonnes revenir sous sa souveraineté, mais nous sommes désormais en mesure de nous opposer à ses revendications et de conserver la Bourgogne au sein de l'Empire."
@@ -2004,7 +1958,7 @@
  incidents_bur_join_empire.4.a:0 "[Emperor.Monarch.GetName] n'a d'[Emperor.GetEmpereurImperatriceDirCap] que le nom"
  burgundy_has_resolved_imperial_issue_tt:1 "Cette mission aura été menée à bien une fois que la question de notre appartenance au Saint-Empire aura été traitée."
  burgundy_has_secured_succession_tt:1 "La §Ycrise de succession bourguignonne§! a été résolue, ou l'année 1500 atteinte sans qu'elle se produise."
- burgundy_asks_to_join_empire_tt:0 "Il va être demandé à l'§Y[Emperor.GetEmpereurImperatriceDir]§! [Emperor.Monarch.GetName] de laisser entrer la Bourgogne dans le §YSaint-Empire romain germanique§!."
+ burgundy_asks_to_join_empire_tt:0 "Il va être demandé à l'[Emperor.GetEmpereurImperatriceDir] [Emperor.Monarch.GetName] [Emperor.GetDuDeNP] §Y[Emperor.GetName]§! de laisser entrer [Root.GetLeLaNP] §Y[Root.GetName]§! dans le §YSaint-Empire romain germanique§!."
  burgundy_may_refuse_tt:0 "Il va être demandé à la §YBourgogne§! d'§Yaccorder l'indépendance à tous les pays d'Europe ayant la légitimité sur ses provinces§! en tant que §Yprinces d'Empire§!.\nIl est fort possible que la §YBourgogne§! refuse une telle offre."
  become_balkanised_tt:0 "Nous allons §Yaccorder l'indépendance à tous les pays européens§! ayant la §Ylégitimité§! sur leurs provinces en tant que §Yprinces d'Empire§!."
  incident_burgundian_succ_emp_emperor_alert:0 "L'[Emperor.GetEmpereurImperatriceDir] [Emperor.Monarch.GetName] a hérité de la Bourgogne et doit maintenant décider des liens que celle-ci doit entretenir désormais avec l'Empire, ainsi que de la réaction à adopter à l'égard de la France."
@@ -2240,13 +2194,9 @@
  united_cantons_legacy_desc:0 "La Confédération suisse n'est pas une nation homogène, mais une fédération de cantons indépendants ayant pour objectif commun de préserver leur indépendance et la stabilité économique."
  no_other_head_tt:0 "Aucun autre pays pratiquant [Root.GetLeLaRel] §Y[Root.GetRelN]§! n'a encore promulgué cette réforme."
  MONSHU:0 "Monshu"
- string_MONSHU_FR:0 "monshu" # [LocEditor:CustomLanguageKey]
  HIGH_MONSHU:0 "Monshu-shôgun"
- string_HIGH_MONSHU_FR:0 "monshu-shôgun" # [LocEditor:CustomLanguageKey]
  HIGH_MONSHUESS:0 "Monshu-shôgunesse"
- string_HIGH_MONSHUESS_FR:0 "monshu-shôgunesse" # [LocEditor:CustomLanguageKey]
  SHINRAN:0 "Shinran"
- string_SHINRAN_FR:0 "shinran" # [LocEditor:CustomLanguageKey]
  WARRIOR_MONK_ORDER:0 "Sôhei"
  WARRIOR_MONK_HIGH_ORDER:0 "Shôgunat monastique"
  DIVINE_PROTECTORS:0 "Protectorat divin"
@@ -2256,53 +2206,27 @@
  BLACK_WATCH:0 "Garde d'Hadrien"
  BLACK_LONG_KNIGHTS:0 "Grande-ordre d'Hadrien"
  FIRST_RANGER:0 "Seigneur-chevalier"
- string_FIRST_RANGER_FR:0 "seigneur-chevalier" # [LocEditor:CustomLanguageKey]
- FIRST_RANGER_fem:0 "Dame-chevalier" # [LocEditor:CustomLanguageKey]
- string_FIRST_RANGER_fem_FR:0 "dame-chevalier" # [LocEditor:CustomLanguageKey]
  LORD_COMMANDER:0 "Seigneur-commandeur"
- string_LORD_COMMANDER_FR:0 "seigneur-commandeur" # [LocEditor:CustomLanguageKey]
  LADY_COMMANDER:0 "Dame-commanderesse"
- string_LADY_COMMANDER_FR:0 "dame-commanderesse" # [LocEditor:CustomLanguageKey]
  KNIGHT_KING:0 "Roi-chevalier"
- string_KNIGHT_KING_FR:0 "roi-chevalier" # [LocEditor:CustomLanguageKey]
  KNIGHT_QUEEN:0 "Reine-chevalier"
- string_KNIGHT_QUEEN_FR:0 "reine-chevalier" # [LocEditor:CustomLanguageKey]
  MAGISTER_HOCHMEISTER:0 "Grand Hochmeister"
- string_MAGISTER_HOCHMEISTER_FR:0 "grand Hochmeister" # [LocEditor:CustomLanguageKey]
- MAGISTER_HOCHMEISTER_fem:0 "Grande Hochmeisterin" # [LocEditor:CustomLanguageKey]
- string_MAGISTER_HOCHMEISTER_fem_FR:0 "grande Hochmeisterin" # [LocEditor:CustomLanguageKey]
  DEUTSCHMEISTER:0 "Magister Germaniæ"
- string_DEUTSCHMEISTER_FR:0 "Magister Germaniæ" # [LocEditor:CustomLanguageKey]
- DEUTSCHMEISTER_fem:0 "Magistra Germaniæ" # [LocEditor:CustomLanguageKey]
- string_DEUTSCHMEISTER_fem_FR:0 "magistra Germaniæ" # [LocEditor:CustomLanguageKey]
  COMMANDER_EMPEROR:0 "Empereur-commandeur"
- string_COMMANDER_EMPEROR_FR:0 "empereur-commandeur" # [LocEditor:CustomLanguageKey]
- COMMANDER_EMPRESS:0 "Impératrice-commanderesse" # [LocEditor:CustomLanguageKey]
- string_COMMANDER_EMPRESS_FR:0 "impératrice-commanderesse" # [LocEditor:CustomLanguageKey]
  TRAPPIST_STATE:0 "Ordre trappiste"
  BREWING_EMPIRE:0 "Empire brasseur"
  TRAPPIST:0 "Trappiste"
- string_TRAPPIST_FR:0 "trappiste" # [LocEditor:CustomLanguageKey]
  TRAPPISTINE:0 "Trappistine"
- string_TRAPPISTINE_FR:0 "trappistine" # [LocEditor:CustomLanguageKey]
  ARCH_TRAPPIST:0 "Prieur trappiste"
- string_ARCH_TRAPPIST_FR:0 "prieur trappiste" # [LocEditor:CustomLanguageKey]
  ARCH_TRAPPISTINE:0 "Prieure trappistine"
- string_ARCH_TRAPPISTINE_FR:0 "prieure trappistine" # [LocEditor:CustomLanguageKey]
  BREWMASTER:0 "Maître-brasseur"
- string_BREWMASTER_FR:0 "maître-brasseur" # [LocEditor:CustomLanguageKey]
  BREWMISTRESS:0 "Maîtresse-brasseuse"
- string_BREWMISTRESS_FR:0 "maîtresse-brasseuse" # [LocEditor:CustomLanguageKey]
  HERCEGSEG:0 "Hercegovina"
  GRAND_HERCEGSEG:0 "Vojvodstvo"
  HERCEG:0 "Herceg"
- string_HERCEG_FR:0 "herceg" # [LocEditor:CustomLanguageKey]
  PRINCE_HERCEG:0 "Vojovda"
- string_PRINCE_HERCEG_FR:0 "Vojovda" # [LocEditor:CustomLanguageKey]
  HERCEGI:0 "Hercegné"
- string_HERCEGI_FR:0 "hercegné" # [LocEditor:CustomLanguageKey]
  PRINCESS_HERCEGI:0 "Vojvotkinja"
- string_PRINCESS_HERCEGI_FR:0 "vojvotkinja" # [LocEditor:CustomLanguageKey]
  militarists:0 "Militaristes"
  militarists_MECHANIC_TOOLTIP:0 "militaristes"
  theocrats:0 "Théocrates"
@@ -2321,7 +2245,7 @@
  pious_merchants_reform:0 "Dîme des marchands"
  pious_merchants_reform_desc:0 "Propager la seule véritable foi est une entreprise coûteuse. Fort heureusement, les marchands auront les moyens de la financer si nous élevons ces hommes riches aux postes les plus élevés."
  monastic_breweries_reform:0 "Granges monastiques"
- monastic_breweries_reform_desc:0 "Dans la croyance catholique, la consommation d'alcool est strictement interdite au clergé. Aussi, de nombreux monastères tirent des profits importants de l'élaboration de vin ou de bière."
+ monastic_breweries_reform_desc:1 "Dans la religion catholique, la consommation d'alcool pour le clergé est associée au dévouement par le travail physique, l'humilité et le respect de la nature divine. Aussi de nombreux monastères font-ils profit de la fabrication du vin et de la bière, réputés pour leur qualité."
  warrior_monks_reform:0 "Intégration des sôhei"
  warrior_monks_reform_desc:0 "Dans tout l'Extrême-Orient, des ordres monastiques puissants pratiquent aussi bien la prière que les arts martiaux. Si nous autorisions ces moines à construire des temples sur nos terres, ils deviendraient vite un pilier de l'État et permettraient de renforcer la discipline et la conviction de nos armées."
  partial_secularisation_reform:0 "Sécularisation partielle"
@@ -2337,11 +2261,11 @@
  regionally_elected_commanders:0 "Commandeurs régionaux élus"
  regionally_elected_commanders_desc:0 "Au sein du gouvernement, le successeur de notre dirigeant est élu par les guerriers de la foi, ceux qui ont dédié leurs vies à protéger la religion. En autorisant les habitants des villes et villages sous notre protection à participer à l'élection du Commandeur représentant leurs intérêts, nous pourrions notablement développer l'administration et donner le sentiment aux fidèles d'être représentés à la cour des Commandeurs."
  monastic_elections_reform:0 "Élections ouvertes au peuple"
- monastic_elections_reform_desc:0 "De nombreux villages placés sous notre protection exigent d'être représentés. Si ces gens n'entendant rien au fait que le Commandeur gouverne par droit divin, nous devrions malgré tout leur accorder quelques concessions afin de les satisfaire. Par tradition, seuls les commandeurs votent pour élire le nouveau dirigeant de l'ordre ; mais en ouvrant les élections au peuple et en établissant deux nouvelles classes au sein de l'Ordre afin qu'il puisse voter, il pourrait avoir l'impression que ses intérêts sont pris en compte."
- commander_king_reform:0 "Ordre dynastique"
- commander_king_reform_desc:0 "L'État accorde évidemment un rôle fondamental à la foi, mais il paraît désormais évident qu'il ne parvient guère à administrer des territoires trop étendus ou à s'adapter aux changements survenant dans le monde. En réorganisant l'État en un ordre dynastique et en donnant à nos commandeurs le titre de roi, nous deviendrons protecteurs autant de la foi que de la Couronne."
+ monastic_elections_reform_desc:1 "De nombreux villages placés sous notre protection exigent d'être représentés. Si ces gens n'entendent rien au fait que nous gouvernons par droit divin, nous devrions malgré tout leur accorder quelques concessions afin de les satisfaire. Par tradition, seuls les membres les plus éminents du clergé votent pour élire le nouveau dirigeant du pays ; mais en ouvrant les élections au peuple et en établissant deux nouvelles classes afin qu'il puisse voter, il pourrait avoir l'impression que ses intérêts sont pris en compte."
+ commander_king_reform:1 "Théocratie dynastique"
+ commander_king_reform_desc:1 "L'État accorde évidemment un rôle fondamental à la foi, mais il paraît désormais évident qu'il ne parvient guère à administrer des territoires trop étendus ou à s'adapter aux changements survenant dans le monde. En réorganisant l'État en une théocratie dynastique et en donnant à nos théocrates le titre de roi, nous deviendrons protecteurs autant de la foi que de la Couronne."
  admiral_king_reform:0 "Seigneurs des mers"
- admiral_king_reform_desc:0 "L'excellent travail de nos soldats pour assurer la sécurité des pèlerins en mer fait désormais craindre à tous les pirates et païens la vue de nos voiles. Malgré tout, il est évident que ces pirates constituent une menace pour la foi loin au-delà de nos côtes ; aussi devons-nous étendre notre ordre jusque sur les côtes les plus lointaines pour mener à bien notre mission sacrée. En promulguant une série de réformes, nous pourrions étendre nos possessions loin au-delà de nos frontières, et les membres de l'ordre pourront élire tous les dirigeants à venir selon le nombre de capitaines pirates qu'ils auront contraints à s'humilier devant Dieu."
+ admiral_king_reform_desc:1 "L'excellent travail de nos soldats pour assurer la sécurité des pèlerins en mer fait désormais craindre à tous les pirates et païens la vue de nos voiles. Malgré tout, il est évident que ces pirates constituent une menace pour la foi loin au-delà de nos côtes ; aussi devons-nous étendre notre autorité jusque sur les côtes les plus lointaines pour mener à bien notre mission sacrée. En promulguant une série de réformes, nous pourrions étendre nos possessions loin au-delà de nos frontières, et nos membres pourront élire tous les dirigeants à venir selon le nombre de capitaines pirates qu'ils auront contraints à s'humilier devant Dieu."
  church_and_state_reform:0 "La foi et l'État"
  church_and_state_reform_desc:0 "La foi et l'État sont les deux piliers sur lesquels repose le monde. Nos lois sont sacrées et ne peuvent être remises en cause."
  religious_harmony_reform:0 "Le corps et l'âme"
@@ -2400,7 +2324,7 @@
  become_rev_empire_reform:0 "Empire révolutionnaire"
  become_rev_empire_reform_desc:0 "Même au sein d'une république née des feux de la Révolution, il est évident que les dynasties politiques existeront toujours, génération après génération. Notre dirigeant, élu, souhaiterait être couronné empereur afin de disposer de tous les moyens de propager nos valeurs. Lui conférer ce titre est le seul moyen de lui donner tout pouvoir sur tous afin d'atteindre ce but."
  legion_of_honor_reform:0 "Légion d'honneur"
- legion_of_honor_reform_desc:0 "La Révolution a donné naissance à un empire révolutionnaire. Nous devons donc maintenant distribuer aux membres les plus éminents de la nation des titres qui permettront en retour de légitimer notre règne. La Légion d'honneur sera un ordre composé de chevaliers, commandeurs, officiers et grands officiers, qui seront ainsi distingués par la cour pour avoir œuvré à la gloire de la nation."
+ legion_of_honor_reform_desc:1 "La Révolution a donné naissance à un empire révolutionnaire. Nous devons donc maintenant distribuer aux membres les plus éminents de la nation des titres qui permettront en retour de légitimer notre règne. La Légion d'honneur sera un ordre composé de chevaliers, commandeurs, officiers et grands officiers, qui seront ainsi distingués par la cour pour avoir œuvré à la gloire du pays."
  imperial_nobility_reform:0 "Noblesse d'Empire"
  imperial_nobility_reform_desc:0 "La majorité des nobles de l'Ancien Régime sont désormais enterrés dans des fosses communes, sans tête. L'heure est venue de rétablir notre propre noblesse, structurée selon un cadre répondant mieux aux objectifs de l'empire. En attribuant des titres uniquement aux citoyens loyaux et aux membres de la famille impériale, nous pourrons veiller à ce que cette noblesse nouvelle ne contreviendra jamais aux intérêts du pouvoir."
  imperial_decree_reform:0 "Décrets impériaux"
@@ -2602,7 +2526,7 @@
  SIE_artists:0 "L'école siennoise"
  SIE_artists_desc:0 "L'art de la peinture a commencé à véritablement fleurir en Italie lors de la Renaissance, mais aucun artiste ne peut égaler le talent de ceux de Sienne. Au contraire des gribouillages des Florentins, qu'eux-mêmes qualifient d'art, à Sienne le style est élégant et coloré, et se centre sur les miracles des figures bibliques et des saints. Et quand bien même d'autres artistes peuvent paraître brillants sur le moment, c'est assurément la subtilité des Siennois qui marquera les générations à venir."
  SIE_saints_of_siena:0 "Les saints de Sienne"
- SIE_saints_of_siena_desc:0 "Au XVe s. seulement, nous avons vu deux Siennois être canonisés. Tout laisse croire que la Curie favorise Sienne avant toute autre, et même si nous devions un jour perdre les faveurs de la Sainte-Église ou devions rejoindre la Réforme, l'héritage de sainte Catherine et de saint Bernardin nous ouvrira les portes de tous les pays chrétiens."
+ SIE_saints_of_siena_desc:0 "Au XVe s. seulement, nous avons vu deux Siennois être canonisés. Tout laisse croire que la Curie favorise Sienne avant toute autre, et même si nous devions un jour perdre les faveurs de la Sainte Église ou devions rejoindre la Réforme, l'héritage de sainte Catherine et de saint Bernardin nous ouvrira les portes de tous les pays chrétiens."
  SIE_peoples_republic:0 "La République du peuple"
  SIE_peoples_republic_desc:0 "Sienne s'est toujours trouvée prise entre les doigts croches des nobles, mais à chaque fois le peuple s'est dressé contre l'oppression pour restaurer la république et la paix. En vérité, ce régime politique est rarement stable et souvent de dure guère ; mais comme un chien fidèle revenant à son maître, nous reviendrons toujours à ces valeurs qui nous font Siennois !"
  LUC_ideas:0 "Doctrines lucquoises"
@@ -2905,7 +2829,7 @@
  custom_available_province_loot_desc:0 "Le butin récolté lors des conflits est fort profitable. Nous devrions piller systématiquement chaque acre des territoires ennemis et n'y laisser aucun trésor caché où que ce soit."
  greek_orthodox_constantinople_title:0 "Restaurer Constantinople"
  greek_orthodox_constantinople_desc:0 "La cité de Constantinople était autrefois le centre du monde, le véritable cœur de l'Empire romain d'Orient, avant que les Turcs ne conquièrent la ville et la contraignent à la conversion. Nous devons donc la reprendre et la restaurer à sa gloire de jadis."
- EVTDESC3072.TC:0 "Les colons établis dans la colonie de [Root.GetName] ne font que tenter d'amener la civilisation dans les territoires sauvages de l'[colonial_province_target.GetSuperRegionName] et d'y importer les lumières de notre culture. Malgré tout, il semble que les sauvages d'une tribu [Root.NativeCulture.GetName] refusent d'accepter nos coutumes si supérieures aux leurs, et la répression que nous avons dû pratiquer n'a fait qu'accroître les tensions avec les colons…"
+ EVTDESC3072.TC:0 "Les colons établis dans la colonie de [Root.GetName] ne font que tenter d'amener la civilisation dans les territoires sauvages [colonial_province_target.GetDuDeSuperRegion] [colonial_province_target.GetSuperRegionName] et d'y importer les lumières de notre culture. Malgré tout, il semble que les sauvages d'une tribu [Root.NativeCulture.GetName] refusent d'accepter nos coutumes si supérieures aux leurs, et la répression que nous avons dû pratiquer n'a fait qu'accroître les tensions avec les colons…"
  EVTDESC3074.TC:0 "Il semble que la répression contre la population [Root.NativeCulture.GetName] vivant dans et autour de la colonie de [Root.GetName] a porté ses fruits. Obliger ces sauvages à quitter les terres fertiles a créé des opportunités nouvelles pour les colons, qui ont rapidement pris leur place. Les compagnies coloniales ont déjà commencé à exploiter les territoires ancestraux des tribus, mais un soutien financier leur permettrait d'achever plus rapidement un nouvel établissement."
  extremadura_area:0 "Estrémadure"
  extremadura_area_name:0 "Estrémadure"
@@ -2937,7 +2861,7 @@
  cornish:0 "cornique"
  PROV4785:0 "Sheffield"
  PROV_ADJ4785:0 "sheffieldoise"
- loses_old_world_provs_tt:0 "§RNous allons renoncer à tous nos territoires en Europe, en Asie et en Afrique.§!\nToutes les §Ynations coloniales§! sous notre dépendance vont être annexées."
+ loses_old_world_provs_tt:2 "§RNous allons renoncer à toutes nos provinces légitimes et toutes nos dépendances en Europe, en Asie et en Afrique.§!\nToutes les §Ynations coloniales§! sous notre dépendance vont être annexées."
  producing_wine_and_grain_tt:0 "Production de §Ycéréales§! : §G+75%§!\nProduction de §Yvin§! : §G+50%§!"
  ALA:0 "Alaska"
  ALA_ADJ:0 "alaskienne"
@@ -3113,7 +3037,7 @@
  UTRAQUIST:0 "utraquiste"
  ORPHAN:0 "orébite"
  clerical_poverty_aspect:0 "Pauvreté cléricale"
- desc_clerical_poverty_aspect:0 "Le clergé ne devrait posséder aucune richesse et renoncer à toute possession matérielle. C'est à Dieu qu'il doit consacrer toute son attention, et non pas aux biens de ce bas-monde."
+ desc_clerical_poverty_aspect:0 "Le clergé ne devrait posséder aucune richesse et renoncer à toute possession matérielle. C'est à Dieu qu'il doit consacrer toute son attention, et non pas aux biens de ce bas monde."
  bread_and_wine_aspect:0 "Le pain & le vin"
  desc_bread_and_wine_aspect:0 "Pour les utraquistes, le premier désaccord doctrinal avec l'Église catholique concerne la communion sous les deux espèces. Les hussites pensent que seule la communion incluant le pain et le vin est valide, même pour les laïcs."
  sola_scriptura_aspect:0 "Sola scriptura"
@@ -3203,9 +3127,7 @@
  THE_CALIPHATE_ADJ:0 "califale"
  ISLAMIC_CALIPHATE:0 "Califat islamique"
  CALIPH:0 "Calife"
- string_CALIPH_FR:0 "calife" # [LocEditor:CustomLanguageKey]
- CALIPHA:0 "Califa"
- string_CALIPHA_FR:0 "califa" # [LocEditor:CustomLanguageKey]
+ CALIPHA:0 "Califesse"
  elephants_in_europe:0 "Des éléphants en Europe"
  desc_elephants_in_europe:0 "Des éléphants sont revenus en Europe, pour la première fois depuis l'époque d'Hannibal."
  elephants_in_europe_mercs:0 "Des éléphants en Europe"
@@ -3334,9 +3256,9 @@
  trade_company_astrakhan:0 "Charte pour la Caspienne"
  TRADE_COMPANY_ASTRAKHAN_Root_Culture_GetName:0 "Compagnie [Root.GetRootAdjFS] de la Caspienne"
  TRADE_COMPANY_ASTRAKHAN_Europe_Trade_Company:0 "Compagnie de la Caspienne"
- trade_company_basra:0 "Charte pour le Mashreq"
- TRADE_COMPANY_BASRA_Root_Culture_GetName:0 "Compagnie [Root.GetRootAdjFS] du Mashreq"
- TRADE_COMPANY_BASRA_Near_East_Trade_Company:0 "Compagnie du Mashreq"
+ trade_company_basra:0 "Charte pour le Machrek"
+ TRADE_COMPANY_BASRA_Root_Culture_GetName:0 "Compagnie [Root.GetRootAdjFS] du Machrek"
+ TRADE_COMPANY_BASRA_Near_East_Trade_Company:0 "Compagnie du Machrek"
  trade_company_persia:0 "Charte pour la Perse"
  TRADE_COMPANY_PERSIA_Root_Culture_GetName:0 "Compagnie [Root.GetRootAdjFS] de Perse"
  TRADE_COMPANY_PERSIA_Near_East_Trade_Company:0 "Compagnie de la Perse"
@@ -3444,18 +3366,20 @@
  shadow_kingdom_decision_title:0 "Contrôler l'Italie"
  shadow_kingdom_decision_desc:0 "Les princes d'Italie doivent être replacés dans le giron de l'Empire, que ce soit par la diplomatie ou par la force. Nous ne pouvons laisser l'Italie devenir un royaume fantôme !"
  shadow_kingdom_will_leave_info_decision_tt:1 "N'a pas encore été placé sous contrôle et pourrait quitter le Saint-Empire."
- has_reined_in_all_italians_early:0 "Tous les princes italiens sont sous contrôle."
+ has_reined_in_all_italians_early:1 "Tous les princes §Yitaliens§! sont sous contrôle.\n\nCela signifie que le pays §Yvisé§! doit remplir au moins une de ces conditions :\n– son opinion à l'égard [Root.GetDuDelaNP] §Y[Root.GetName]§! est au moins de §G150§! ;\n– il a adopté la réforme gouvernementale §YVille livre§! ;\n– il est une dépendance §Y[Root.GetRootAdjFS]§! ;\n– il est allié [Root.GetAuAlaNP] §Y[Root.GetName]§! ;\n– il a été vaincu par l'[Emperor.GetEmpereurImperatriceDir] [Emperor.Monarch.GetName] [Emperor.GetDuDeNP] §Y[Emperor.GetName]§! au cours d'une guerre."
  great_peasants_war_emperor_decision_title:0 "Terminer la guerre des paysans"
  great_peasants_war_emperor_decision_desc:0 "Il convient de mettre un terme à la guerre des paysans, en reconnaissant la victoire soit des paysans, soit des nobles. Lorsque les paysans imposent leurs vues ou créent de nouvelles républiques, ils se rapprochent de la victoire ; mais si au contraire une nouvelle république est écrasée ce sont les nobles qui s'en approchent."
- high_peasant_score_emperor_tt:0 "Le score de la guerre des paysans doit être supérieur à §Y9§! ou inférieur à §Y-9§!. Il est actuellement de §Y[1.GPW_counting_variable.GetValue]§!."
+ high_peasant_score_emperor_tt:1 "Le score de la guerre des paysans doit être supérieur à §Y9§! ou inférieur à §Y-9§!. Il est actuellement de §Y[1.GPW_counting_variable.GetValue]§!.\n\nIl peut évoluer grâce à ces éléments :\n– si des §Ypaysans révoltés§! imposent leurs exigences à un §Yprince du Saint-Empire§! : §R-1§! ;\n– si un §Yprince du Saint-Empire§! devient une §Yrépublique paysanne§! : §R-2§! ;\n– si un §Yprince du Saint-Empire§! contraint une §Yrépublique paysanne§! à changer de §Yrégime politique§! : §G+3§!."
  great_peasants_war_peasant_decision_title:0 "Répondre aux exigences des paysans"
  great_peasants_war_peasant_decision_desc:1 "Cela fait trop longtemps que nous souffrons de l'autorité de ces nobles tyranniques. Notre score de guerre progressera chaque fois que des pays deviendront des républiques paysannes ou que les paysans révoltés imposeront leurs exigences."
- high_peasant_score__peasant_tt:0 "Le score de guerre des paysans doit être au moins de §Y10§!. Il est actuellement de §Y[1.GPW_counting_variable.GetValue]§!."
+ high_peasant_score__peasant_tt:1 "Le score de la guerre des paysans doit être supérieur à §Y9§! ou inférieur à §Y-9§!. Il est actuellement de §Y[1.GPW_counting_variable.GetValue]§!.\n\nIl peut évoluer grâce à ces éléments :\n– si des §Ypaysans révoltés§! imposent leurs exigences à un §Yprince du Saint-Empire§! : §G-1§! ;\n– si un §Yprince du Saint-Empire§! devient une §Yrépublique paysanne§! : §G-2§! ;\n– si un §Yprince du Saint-Empire§! contraint une §Yrépublique paysanne§! à changer de §Yrégime politique§! : §R+3§!."
  passed_golden_bull_tt:0 "[Root.GetLeLaNPCap] §Y[Root.GetName]§! [Root.GetAOntNP] fait publier une bulle pontificale."
  medici_pope_modifier:0 "Notre pape"
  desc_medici_pope_modifier:0 "À force de patience et d'intrigues, c'est enfin un[PAP.GetXEDir] [PAP.GetDir] d'origine [Root.GetRootAdjFS] qui règne à Rome."
  add_hussite_cor_tt:0 "Un §Yfoyer de la Réforme hussite§! va apparaître."
  dutch_revolt_disaster_tt:0 "[Root.GetLeLaNPCap] [Root.GetName] possèd[Root.GetEEntNP] une province de culture §Ynéerlandaise§!, §Yflamande§! ou §Yfrisonne§! sans que cette culture soit acceptée."
+ dutch_revolt_disaster_at:0 "N'est pas une province §Y[Root.GetRelFS]§! des §YPays-Bas§!."
+ dutch_revolt_disaster_bt:0 "Est une province des §YPays-Bas§! ayant une agitation d'au moins §Y3§!."
  flavor_pap.21.t:0 "Clôture du concile de Trente"
  flavor_pap.21.d:0 "Le concile de Trente avait été réuni dans l'espoir de réconcilier les différentes Églises schismatiques qui étaient apparues avec le mouvement de la Réforme. Mais, au terme d'une série interminable de débats et de négociations, les résultats sont peu probants. Il a donc enfin été décidé de mettre fin au concile. Puisse Dieu avoir pitié des âmes de ceux qui se sont détournés définitivement de notre sainte Église."
  flavor_pap.21.d2:0 "Le concile de Trente avait été réuni dans l'espoir de réconcilier les différentes Églises schismatiques qui étaient apparues avec le mouvement de la Réforme. Mais maintenant qu'un conflit a éclaté dans toute l'Europe entre protestants et catholiques, il a été décidé d'y mettre fin. Tous les participants au concile sont désormais repartis, aucun d'entre eux n'étant satisfait. Puisse Dieu avoir pitié des âmes de ceux qui se sont détournés définitivement de notre sainte Église."
@@ -3480,7 +3404,7 @@
  east_african_sea_superregion:0 "Océan Indien occidental"
  indian_pacific_sea_superregion:0 "Océan Indien"
  north_pacific_sea_superregion:0 "Pacifique ouest"
- vedic_education_tt:0 "Ajoute §G25§! en progrès pour la dernière institution pas encore adoptée dans la contrée de [Root.Capital.GetAreaName]."
+ vedic_education_tt:0 "Ajoute §G25§! en progrès pour la dernière institution pas encore adoptée [Root.Capital.GetAuEnContree] §Y[Root.Capital.GetAreaName]§!."
  same_govt_as_root_tt:0 "A le même type de régime politique que [Root.GetLeLaNP] §Y[Root.GetName]§!"
  imperial_ban_fallback_tt:0 "Toute province légitime est possédée par [Root.GetLeLaNP] §Y[Root.GetName]§!."
  EST_VAL_HEATHEN_PEACE_LOYALTY:0 "En paix avec les païens : $VAL|G$"
@@ -3513,12 +3437,117 @@
  desc_rebuilt_joan_of_arc_statue_protestant:0 "Cette statue de Jeanne d'Arc est un rappel bien vivant que tous les chrétiens ont leur place [Root.GetAuEnNP] [Root.GetName]."
  destroyed_joan_of_arc_statue_catholic:0 "Statue de Jeanne d'Arc détruite"
  desc_destroyed_joan_of_arc_statue_catholic:0 "Jeanne d'Arc était un symbole de l'intolérance religieuse, qui n'avait plus sa place [Root.GetAuEnNP] [Root.GetName]."
- destroyed_joan_of_arc_statue_protestant:0 "Statue de Jeanne d'Arc détruite" # [LocEditor:AwaitingBatchUpdate]
+ destroyed_joan_of_arc_statue_protestant:1 "Statue de Jeanne d'Arc détruite"
  desc_destroyed_joan_of_arc_statue_protestant:0 "Jeanne d'Arc était un symbole de l'oppression catholique, qui n'a désormais plus sa place [Root.GetAuEnNP] [Root.GetName]."
  joan_of_arc_catholic_league_symbol:0 "Symbole de la Ligue catholique"
  desc_joan_of_arc_catholic_league_symbol:0 "La Ligue catholique utilise largement Jeanne d'Arc comme un symbole dans la lutte contre la Réforme."
  joan_of_arc_beatified:0 "Sainte Jeanne d'Arc"
  desc_joan_of_arc_beatified:0 "Jeanne d'Arc a été reconnue sainte par l'Église catholique. Cela rappellera à tous que Dieu viendra toujours au secours [Root.GetDuDelaNP] [Root.GetName] lors de [Root.GetSesLeursNP] heures les plus sombres."
- merc_militant_order_of_saint_joan:0 "Compagnie Sainte-Jeanne"
+ merc_militant_order_of_saint_joan:1 "§JCompagnie Sainte-Jeanne§!"
  sisters_takeover:0 "Ordre de Sainte-Jeanne au pouvoir"
  desc_sisters_takeover:0 "Il a été décidé que l'Ordre de Sainte-Jeanne devait guider désormais [Root.GetLeLaNP] [Root.GetName] vers la gloire."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ string_BROTHER_FR:0 "frère" # [LocEditor:CustomLanguageKey]
+ string_LORD_HIGH_ADMIRAL_FR:0 "grand amiral" # [LocEditor:CustomLanguageKey]
+ string_SUPREME_ADMIRAL_FR:0 "amiral suprême" # [LocEditor:CustomLanguageKey]
+ string_FIELD_MARSHAL_FR:0 "maréchal" # [LocEditor:CustomLanguageKey]
+ string_ARCHPIRATE_FR:0 "archipirate" # [LocEditor:CustomLanguageKey]
+ string_MARSHAL_fem_FR:0 "maréchale" # [LocEditor:CustomLanguageKey]
+ string_SERENE_MARSHAL_fem_FR:0 "maréchale sérénissime" # [LocEditor:CustomLanguageKey]
+ string_MOST_SERNE_MARSHAL_fem_FR:0 "très sérénissime maréchale" # [LocEditor:CustomLanguageKey]
+ string_KRONPRINZ_FR:0 "Kronprinz" # [LocEditor:CustomLanguageKey]
+ string_KRONPRINZEN_FR:0 "Kronprinzessin" # [LocEditor:CustomLanguageKey]
+ string_FIELD_MARSHAL_fem_FR:0 "maréchale" # [LocEditor:CustomLanguageKey]
+ string_LORD_HIGH_ADMIRAL_fem_FR:0 "grande amirale" # [LocEditor:CustomLanguageKey]
+ string_SUPREME_ADMIRAL_fem_FR:0 "amirale suprême" # [LocEditor:CustomLanguageKey]
+ string_SISTER_FR:0 "sœur" # [LocEditor:CustomLanguageKey]
+ string_FIRST_RANGER_fem_FR:0 "dame-chevalier" # [LocEditor:CustomLanguageKey]
+ string_MAGISTER_HOCHMEISTER_fem_FR:0 "grande Hochmeisterin" # [LocEditor:CustomLanguageKey]
+ string_DEUTSCHMEISTER_fem_FR:0 "magistra Germaniæ" # [LocEditor:CustomLanguageKey]
+ string_COMMANDER_EMPRESS_FR:0 "impératrice-commanderesse" # [LocEditor:CustomLanguageKey]
+ EventAdvisorTitleMinus.A:0 "[This.GetAdm]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorTitleMinus.D:0 "[This.GetDip]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorTitleMinus.M:0 "[This.GetMil]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorHerHimCap.A:0 "[This.GetLuiElleAdmCap]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorHerHimCap.D:0 "[This.GetLuiElleDipCap]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorHerHimCap.M:0 "[This.GetLuiElleMilCap]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorQueluiQuelleCap.A:0 "[This.GetQueluiQuelleAdmCap]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorQueluiQuelleCap.D:0 "[This.GetQueluiQuelleDipCap]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorQueluiQuelleCap.M:0 "[This.GetQueluiQuelleMilCap]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorQueluiQuelle.A:0 "[This.GetQueluiQuelleAdm]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorQueluiQuelle.D:0 "[This.GetQueluiQuelleDip]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorQueluiQuelle.M:0 "[This.GetQueluiQuelleMil]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorXE.A:0 "[This.GetXEAdm]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorXE.D:0 "[This.GetXEDip]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorXE.M:0 "[This.GetXEMil]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorLeLaFCap.A:0 "[This.GetLeLaFAdmCap]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorLeLaFCap.D:0 "[This.GetLeLaFDipCap]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorLeLaFCap.M:0 "[This.GetLeLaFMilCap]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorLeLaF.A:0 "[This.GetLeLaFAdm]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorLeLaF.D:0 "[This.GetLeLaFDip]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorLeLaF.M:0 "[This.GetLeLaFMil]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorElElle.A:0 "[This.GetElElleFAdm]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorElElle.D:0 "[This.GetElElleFDip]" # [LocEditor:CustomLanguageKey]
+ EventAdvisorElElle.M:0 "[This.GetElElleFMil]" # [LocEditor:CustomLanguageKey]
+ GetEventAdvisorManWoman.A:0 "[This.Adm_Advisor.GetWomanMan]" # [LocEditor:CustomLanguageKey]
+ GetEventAdvisorManWoman.D:0 "[This.Dip_Advisor.GetWomanMan]" # [LocEditor:CustomLanguageKey]
+ GetEventAdvisorManWoman.M:0 "[This.Mil_Advisor.GetWomanMan]" # [LocEditor:CustomLanguageKey]
+ GetEventAdvisorErEre.A:0 "[This.GetErEreAdm]" # [LocEditor:CustomLanguageKey]
+ GetEventAdvisorErEre.D:0 "[This.GetErEreDip]" # [LocEditor:CustomLanguageKey]
+ GetEventAdvisorErEre.M:0 "[This.GetErEreMil]" # [LocEditor:CustomLanguageKey]
+ string_junkers_FR:0 "junkers" # [LocEditor:CustomLanguageKey]
+ string_MARSHAL_FR:0 "maréchal" # [LocEditor:CustomLanguageKey]
+ string_SERENE_MARSHAL_FR:0 "maréchal sérénissime" # [LocEditor:CustomLanguageKey]
+ string_MOST_SERNE_MARSHAL_FR:0 "très sérénissime maréchal" # [LocEditor:CustomLanguageKey]
+ string_COUNT_FR:0 "comte" # [LocEditor:CustomLanguageKey]
+ string_ELECTOR_PALATINE_FR:0 "électeur palatin" # [LocEditor:CustomLanguageKey]
+ string_ELECTRESS_PALATINE_FR:0 "électrice palatine" # [LocEditor:CustomLanguageKey]
+ string_COUNT_PALATINE_FR:0 "comte palatin" # [LocEditor:CustomLanguageKey]
+ string_KING_PALATINE_FR:0 "roi palatin" # [LocEditor:CustomLanguageKey]
+ string_COUNTESS_PALATINE_FR:0 "comtesse palatine" # [LocEditor:CustomLanguageKey]
+ string_QUEEN_PALATINE_FR:0 "reine palatine" # [LocEditor:CustomLanguageKey]
+ austrian_archduchy_desc:0 "S'il est organisé à la manière d'un État féodal, l'archiduché d'Autriche a une longueur d'avance sur tous les autres en Europe. De fait, l'expérience acquise en gouvernant leurs dépendances – qu'il s'agisse du Tyrol, de la Styrie, de la Hongrie ou de la Bohême – et en concluant des générations d'alliances dynastiques profitables a permis aux archiducs de développer un système administratif extrêmement performant, capable de gouverner leurs possessions et de préserver leur unité." # [LocEditor:CustomLanguageKey]
+ string_CONSUL_ELECTOR_FR:0 "consul-électeur" # [LocEditor:CustomLanguageKey]
+ string_GRAND_CONSUL_ELECTOR_FR:0 "grand consul-électeur" # [LocEditor:CustomLanguageKey]
+ string_GREAT_CONSUL_ELECTOR_FR:0 "consul-électeur suprême" # [LocEditor:CustomLanguageKey]
+ string_CONSULESS_ELECTOR_FR:0 "consule-électrice" # [LocEditor:CustomLanguageKey]
+ string_GRAND_CONSULESS_ELECTOR_FR:0 "grande consule-électrice" # [LocEditor:CustomLanguageKey]
+ string_GREAT_CONSULESS_ELECTOR_FR:0 "consule-électrice suprême" # [LocEditor:CustomLanguageKey]
+ string_KAISER_FR:0 "Kaiser" # [LocEditor:CustomLanguageKey]
+ string_KAISERIN_FR:0 "Kaiserin" # [LocEditor:CustomLanguageKey]
+ string_slave:0 "des esclaves" # [LocEditor:CustomLanguageKey]
+ string_tobacco:0 "du tabac" # [LocEditor:CustomLanguageKey]
+ string_wine:0 "du vin" # [LocEditor:CustomLanguageKey]
+ string_salt:0 "du sel" # [LocEditor:CustomLanguageKey]
+ string_cotton:0 "du coton" # [LocEditor:CustomLanguageKey]
+ string_tea:0 "du thé" # [LocEditor:CustomLanguageKey]
+ string_natural_dyes:0 "des teintures" # [LocEditor:CustomLanguageKey]
+ string_cocoa:0 "du cacao" # [LocEditor:CustomLanguageKey]
+ string_coffee:0 "du café" # [LocEditor:CustomLanguageKey]
+ string_sugar:0 "du sucre" # [LocEditor:CustomLanguageKey]
+ string_MONSHU_FR:0 "monshu" # [LocEditor:CustomLanguageKey]
+ string_HIGH_MONSHU_FR:0 "monshu-shôgun" # [LocEditor:CustomLanguageKey]
+ string_HIGH_MONSHUESS_FR:0 "monshu-shôgunesse" # [LocEditor:CustomLanguageKey]
+ string_SHINRAN_FR:0 "shinran" # [LocEditor:CustomLanguageKey]
+ string_FIRST_RANGER_FR:0 "seigneur-chevalier" # [LocEditor:CustomLanguageKey]
+ string_LORD_COMMANDER_FR:0 "seigneur-commandeur" # [LocEditor:CustomLanguageKey]
+ string_LADY_COMMANDER_FR:0 "dame-commanderesse" # [LocEditor:CustomLanguageKey]
+ string_KNIGHT_KING_FR:0 "roi-chevalier" # [LocEditor:CustomLanguageKey]
+ string_KNIGHT_QUEEN_FR:0 "reine-chevalier" # [LocEditor:CustomLanguageKey]
+ string_MAGISTER_HOCHMEISTER_FR:0 "grand Hochmeister" # [LocEditor:CustomLanguageKey]
+ string_DEUTSCHMEISTER_FR:0 "Magister Germaniæ" # [LocEditor:CustomLanguageKey]
+ string_COMMANDER_EMPEROR_FR:0 "empereur-commandeur" # [LocEditor:CustomLanguageKey]
+ string_TRAPPIST_FR:0 "trappiste" # [LocEditor:CustomLanguageKey]
+ string_TRAPPISTINE_FR:0 "trappistine" # [LocEditor:CustomLanguageKey]
+ string_ARCH_TRAPPIST_FR:0 "prieur trappiste" # [LocEditor:CustomLanguageKey]
+ string_ARCH_TRAPPISTINE_FR:0 "prieure trappistine" # [LocEditor:CustomLanguageKey]
+ string_BREWMASTER_FR:0 "maître-brasseur" # [LocEditor:CustomLanguageKey]
+ string_BREWMISTRESS_FR:0 "maîtresse-brasseuse" # [LocEditor:CustomLanguageKey]
+ string_HERCEG_FR:0 "herceg" # [LocEditor:CustomLanguageKey]
+ string_PRINCE_HERCEG_FR:0 "Vojovda" # [LocEditor:CustomLanguageKey]
+ string_HERCEGI_FR:0 "hercegné" # [LocEditor:CustomLanguageKey]
+ string_PRINCESS_HERCEGI_FR:0 "vojvotkinja" # [LocEditor:CustomLanguageKey]
+ string_CALIPH_FR:0 "calife" # [LocEditor:CustomLanguageKey]
+ string_CALIPHA_FR:0 "califesse" # [LocEditor:CustomLanguageKey]
+ militant_order_of_saint_joan_tt:0 "Jeanne d'Arc doit avoir été canonisée et l'ordre de Sainte-Jeanne fondé à [184.GetCapitalName]." # [LocEditor:CustomLanguageKey]
