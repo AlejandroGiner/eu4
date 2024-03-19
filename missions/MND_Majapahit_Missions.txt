@@ -65,7 +65,10 @@ mnd_maj_1 = {
 			capital_scope = {
 				development = 50
 			}
-			num_of_times_used_transfer_development = 3
+			OR = {
+				num_of_times_used_transfer_development = 2
+				capital_scope = { num_of_times_improved = 5 }
+			}
 		}
 		effect = {
 			add_country_modifier = {
@@ -597,6 +600,12 @@ mnd_maj_3 = {
 						religion = hinduism
 					}
 					custom_tooltip = propagate_religion_maj_tt
+					enable_propagate_religion_in_abrahamic_provinces= yes
+				}
+				else = {
+					hidden_effect = {
+						enable_propagate_religion_in_abrahamic_provinces= yes
+					}
 				}
 				every_province = {
 					limit = {
@@ -830,7 +839,7 @@ mnd_maj_4 = {
 				}
 				SUN = {
 					change_primary_culture = javanese
-					add_accepted_culture = sundanese
+					add_accepted_culture_or_dip_power = { culture = sundanese dip_reward = yes }
 				}				
 			}
 			if = {
@@ -895,6 +904,7 @@ mnd_maj_4 = {
 						has_dlc = "El Dorado"
 						has_dlc = "Mare Nostrum"
 						has_dlc = "Golden Century"
+						has_dlc = "Lions of the North"
 					}
 				}
 				add_country_modifier = {
@@ -923,6 +933,7 @@ mnd_maj_4 = {
 						has_dlc = "El Dorado"
 						has_dlc = "Mare Nostrum"
 						has_dlc = "Golden Century"
+						has_dlc = "Lions of the North"
 					}
 				}
 				1371 = {

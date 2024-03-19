@@ -24,7 +24,10 @@ mnd_siam_1 = {
 			capital_scope = {
 				development = 30
 			}
-			num_of_times_used_transfer_development = 3
+			OR = {
+				num_of_times_used_transfer_development = 2
+				capital_scope = { num_of_times_improved = 5 }
+			}
 		}
 		effect = {
 			change_government_reform_progress = 50
@@ -267,6 +270,7 @@ mnd_siam_2 = {
 					NOT = { exists = SIA }
 				}
 				change_tag = SIA
+				on_change_tag_effect = yes
 				if = {
 					limit = { has_custom_ideas = no }
 					country_event = { id = ideagroups.1 } #Swap Ideas
@@ -345,6 +349,7 @@ mnd_siam_3 = {
 				add_casus_belli = {
 					target = KHM
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
@@ -464,6 +469,7 @@ mnd_siam_3 = {
 					reverse_add_casus_belli = {
 						target = ROOT
 						type = cb_vassalize_mission
+						months = 120
 					}
 				}
 			}
@@ -536,7 +542,10 @@ mnd_siam_3 = {
 			if = {
 				limit = {
 					any_country = {
-						primary_culture = vietnamese
+						OR = {
+							primary_culture = vietnamese
+							primary_culture = vietnamese_new
+						}
 						capital_scope = {
 							region = indo_china_region
 						}
@@ -545,7 +554,10 @@ mnd_siam_3 = {
 				}
 				every_country = {
 					limit = {
-						primary_culture = vietnamese
+						OR = {
+							primary_culture = vietnamese
+							primary_culture = vietnamese_new
+						}
 						capital_scope = {
 							region = indo_china_region
 						}
@@ -554,6 +566,7 @@ mnd_siam_3 = {
 					reverse_add_casus_belli = {
 						target = ROOT
 						type = cb_vassalize_mission
+						months = 120
 					}
 				}
 			}
@@ -592,12 +605,18 @@ mnd_siam_3 = {
 				limit = {
 					any_country = {
 						is_subject_of = ROOT
-						primary_culture = vietnamese
+						OR = {
+							primary_culture = vietnamese
+							primary_culture = vietnamese_new
+						}
 					}
 				}
 				NOT = {
 					any_subject_country = {
-						primary_culture = vietnamese
+						OR = {
+							primary_culture = vietnamese
+							primary_culture = vietnamese_new
+						}
 						liberty_desire = 50
 					}
 				}
@@ -753,6 +772,7 @@ mnd_siam_4 = {
 				add_casus_belli = {
 					type = cb_vassalize_mission
 					target = LNA
+					months = 120
 				}
 			}
 			else = {
@@ -802,6 +822,7 @@ mnd_siam_4 = {
 				add_casus_belli = {
 					type = cb_vassalize_mission
 					target = PEG
+					months = 120
 				}
 			}
 			else = {
@@ -1010,6 +1031,7 @@ mnd_siam_5 = {
 				add_casus_belli = {
 					target = MLC
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {

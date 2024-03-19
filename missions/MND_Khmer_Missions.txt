@@ -24,9 +24,19 @@ mnd_khmer_1 = {
 		trigger = {
 			609 = {
 				development = 15
-				has_great_project = {
-					type = angkor_wat
-					tier = 1
+				OR = { 
+					has_great_project = {
+						type = angkor_wat
+						tier = 1
+					}
+					has_great_project = {
+						type = angkor_wat
+						tier = 2
+					}
+					has_great_project = {
+						type = angkor_wat
+						tier = 3
+					}
 				}
 			}
 		}
@@ -181,7 +191,10 @@ mnd_khmer_2 = {
 				absolutism = 50
 			}
 			total_own_and_non_tributary_subject_development = 600
-			num_of_times_used_transfer_development = 3
+			OR = {
+				num_of_times_used_transfer_development = 2
+				capital_scope = { num_of_times_improved = 5 }
+			}
 		}
 		effect = {
 			set_country_flag = siam_royal_absolutism
@@ -337,17 +350,24 @@ mnd_khmer_3 = {
 				limit = {
 					any_country = {
 						is_free_or_tributary_trigger = yes
-						primary_culture = vietnamese
+						OR = {
+							primary_culture = vietnamese
+							primary_culture = vietnamese_new
+						}
 					}
 				}
 				every_country = {
 					limit = {
 						is_free_or_tributary_trigger = yes
-						primary_culture = vietnamese
+						OR = {
+							primary_culture = vietnamese
+							primary_culture = vietnamese_new
+						}
 					}
 					reverse_add_casus_belli = {
 						target = ROOT
 						type = cb_vassalize_mission
+						months = 120
 					}
 				}
 			}
@@ -405,6 +425,7 @@ mnd_khmer_3 = {
 					reverse_add_casus_belli = {
 						target = ROOT
 						type = cb_vassalize_mission
+						months = 120
 					}
 				}
 			}
@@ -502,6 +523,7 @@ mnd_khmer_4 = {
 				add_casus_belli = {
 					target = AYU
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
@@ -644,6 +666,7 @@ mnd_khmer_5 = {
 					reverse_add_casus_belli = {
 						target = ROOT
 						type = cb_vassalize_mission
+						months = 120
 					}
 				}
 			}
@@ -681,7 +704,6 @@ mnd_khmer_5 = {
 				amount = 12
 				all_province = {
 					OR = {
-						area = south_laos_area
 						area = north_laos_area
 						area = champasak_area
 						area = vientiane_area
