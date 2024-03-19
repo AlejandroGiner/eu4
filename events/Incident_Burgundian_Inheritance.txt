@@ -66,7 +66,6 @@ country_event = {
 				claim = 95
 				block_disinherit = yes
 				female = yes
-				fixed = yes
 			}
 		}
 		else = {
@@ -80,7 +79,6 @@ country_event = {
 				claim = 95
 				block_disinherit = yes
 				female = yes
-				fixed = yes
 			}
 		}
 
@@ -517,6 +515,7 @@ country_event = {
 		trigger = {
 			FRA = {
 				exists = yes
+				government = monarchy
 				is_emperor = no
 				NOT = {
 					is_subject = yes
@@ -559,15 +558,10 @@ country_event = {
 					FRA = { is_rival = ROOT }
 				}
 			}
-		}
-		trigger = { 
-			FRA = { 
-				exists = yes
-				government = monarchy
+			modifier = {
+				factor = 10 
+				has_country_flag = fra_guaranteed_succession_flag
 			}
-		}
-		ai_chance = {
-			factor = 10
 		}
 		custom_tooltip = marry_french_tt
 		#Absorb subjects
@@ -589,7 +583,9 @@ country_event = {
 		}
 		FRA = {
 			create_union = ROOT
-			save_event_target_as = bur_strongest_ally
+			hidden_effect = {
+				save_event_target_as = bur_strongest_ally
+			}
 		}
 		hidden_effect = {
 			FRA = {
@@ -628,6 +624,10 @@ country_event = {
 				}
 			}
 		}
+		if = { 
+			limit = { has_country_flag = fra_guaranteed_succession_flag }
+			clr_country_flag = fra_guaranteed_succession_flag 
+		}
 	}
 }
 
@@ -657,6 +657,32 @@ country_event = {
 		name = "incidents_bur_inheritance.101.a"
 		ai_chance = {
 			factor = 90
+			modifier = {
+				factor = 0.01
+				BUR = {
+					is_subject_of = emperor
+				}
+				emperor = {
+					OR = {
+						army_size = ROOT
+						total_own_and_non_tributary_subject_development = ROOT
+						num_of_allies = 5
+						AND = {
+							tag = HAB
+							senior_union_with = HUN
+						}
+					}
+				}
+			}
+			modifier = { #Is already at war with the overlord of BUR
+				factor = 0
+				BUR = {
+					is_subject = yes
+					overlord = {
+						war_with = ROOT
+					}
+				}
+			}
 		}
 		if = {
 			limit = {
@@ -725,7 +751,7 @@ country_event = {
 	option = { #Let them come
 		name = "incidents_bur_inheritance.102.a"
 		ai_chance = {
-			#factor = 0
+			factor = 1
 		}
 		every_country = {
 			limit = {
@@ -818,27 +844,28 @@ country_event = {
 				}
 			}
 		}
-		every_country = {
-			limit = {
-				capital_scope = {
-					OR = {
-						culture = dutch
-						culture = flemish
-						culture = frisian
-						is_part_of_hre = yes
-					}
-				}
-				is_subject_of = BUR
-			}
-			grant_independence = yes #vassals gain independence
-			if = {
-				limit = {
-					is_part_of_hre = no
-				}
-				set_in_empire = yes	
-			}
-		}
+		custom_tooltip = incidents_bur_inheritance.102.c.tt
 		hidden_effect = {
+			every_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+							culture = dutch
+							culture = flemish
+							culture = frisian
+							is_part_of_hre = yes
+						}
+					}
+					is_subject_of = BUR
+				}
+				grant_independence = yes #vassals gain independence
+				if = {
+					limit = {
+						is_part_of_hre = no
+					}
+					set_in_empire = yes	
+				}
+			}
 			BUR = {
 				clr_country_flag = burgundian_succession_start
 				set_country_flag = bur_crisis_has_happened
@@ -964,7 +991,7 @@ country_event = { #Great Privelege event (emperor)
 			}
 			declare_war_with_cb = {
 				who = BUR
-				casus_belli = cb_imperial_ban
+				casus_belli = cb_imperial_ban_incident
 			}
 		}
 		else = {
@@ -1069,7 +1096,7 @@ country_event = {
 		trigger = {
 			FRA = { 
 				is_emperor = no 
-				is_subject = yes
+				is_subject = no
 			}
 		}
 		custom_tooltip = bur_france_gets_france_tt
@@ -1307,21 +1334,19 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		BUR = {
-			every_owned_province = {
-				limit = {
-					OR = {
-						culture = dutch
-						culture = flemish
-						culture = frisian
-						is_part_of_hre = yes
-					}
-				}
-				set_province_flag = lowland_demanded_province
-			}
-		}
 		hidden_effect = {
 			BUR = {
+				every_owned_province = {
+					limit = {
+						OR = {
+							culture = dutch
+							culture = flemish
+							culture = frisian
+							is_part_of_hre = yes
+						}
+					}
+					set_province_flag = lowland_demanded_province
+				}
 				clr_country_flag = burgundian_succession_start
 				set_country_flag = bur_crisis_has_happened
 				clr_country_flag = burgundy_during_imperial_incident
@@ -1418,7 +1443,7 @@ country_event = {
 				}
 				declare_war_with_cb = {
 					who = BUR
-					casus_belli = cb_imperial_ban
+					casus_belli = cb_imperial_ban_incident
 				}
 			}
 			else = {
