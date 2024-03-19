@@ -444,7 +444,7 @@
 - Added ruler_consort_marriage_length integer Trigger.
 - ruler_consort_marriage_length is now an exportable variable.
 - Updated Dynamic Province Names for Poland.
-- Added advisor localisation keys ([ROOT.Mil_Advisor.GetName/GetSheHe/etc., ROOT.Dip_Advisor.x, ROOT.Adm_Advisor.x])
+- Added advisor localisation keys ([Root.Mil_Advisor.GetName/GetSheHe/etc., Root.Dip_Advisor.x, Root.Adm_Advisor.x])
 - Added Republican Faction Events.
 - Added change_consort_regent_to_ruler effect.
 - Added Missions for Coptic conquest of Holy Sites.

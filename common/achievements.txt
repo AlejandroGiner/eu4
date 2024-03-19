@@ -1344,6 +1344,7 @@ achievement_no_trail_of_tears = {
 		has_institution = global_trade
 		has_institution = manufactories
 		has_institution = enlightenment
+		has_institution = industrialization
 		susquehanna_area = {
 			type = all
 			owned_by = CHE
@@ -1574,22 +1575,42 @@ achievement_world_conqueror = {
 	provinces_to_highlight = {
 		is_wasteland = no
 		is_sea = no
-		NOT = { country_or_non_sovereign_subject_holds = ROOT }
-	}
-	
-	happened = {
-		NOT = {
-			any_country = {
-				NOT = {
-					OR = {
-						tag = ROOT
-						AND = {
-							is_subject_of = ROOT
-							NOT = { is_subject_of_type = tributary_state }
+		owner = {
+			NOT = { tag = ROOT }
+			OR = {
+				is_subject = no
+				is_subject_of_type = tributary_state
+				AND = {
+					is_subject = yes
+					#This checks ensuures that only subjects will be taken into account, whose overlord is not a subject to ROOT
+					overlord = {
+						NOT = { tag = ROOT }
+						OR = {
+							NOT = { is_subject_of = ROOT }
+							is_subject_of_type = tributary_state
 						}
 					}
 				}
-				exists = yes
+			}
+		}
+	}
+	
+	happened = {
+		all_country = {
+			OR = {
+				tag = ROOT
+				AND = {
+					is_subject = yes
+					NOT = { is_subject_of_type = tributary_state }
+					#This checks ensuures that only subjects will be taken into account, whose overlord is a subject to ROOT / or is ROOT
+					overlord = {
+						NOT = { is_subject_of_type = tributary_state }
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
 			}
 		}
 	}
@@ -1759,6 +1780,7 @@ achievement_turning_the_tide = {
 		has_institution = global_trade
 		has_institution = manufactories
 		has_institution = enlightenment
+		has_institution = industrialization
 	}
 }
 
@@ -3572,6 +3594,7 @@ achievement_a_sun_god = {
 		has_institution = global_trade
 		has_institution = manufactories
 		has_institution = enlightenment
+		has_institution = industrialization
 		
 		south_america = {
 			type = all
@@ -4477,12 +4500,12 @@ achievement_six_nations = {
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
-		tag = IRO
+		primary_culture = iroquois
 	}
 
 	happened = {
 		has_switched_nation = no
-		tag = IRO
+		primary_culture = iroquois
 		is_federation_leader = yes
 		federation_size = 6
 	}
@@ -4856,7 +4879,10 @@ achievement_the_burgundian_inheritance = {
 
 	happened = {
 		has_switched_nation = no
-		tag = BUR
+		OR = {
+			tag = BUR
+			tag = LOT
+		}
 		FRA = { is_subject_of = ROOT }
 		HAB = { is_subject_of = ROOT }
 		low_countries_region = {
@@ -4914,6 +4940,8 @@ achievement_back_to_the_piast = {
 		OR = {
 			tag = MAZ
 			tag = SIL
+			tag = OPL
+			tag = GLG
 		}
 	}
 
@@ -6116,7 +6144,7 @@ achievement_cities_of_cibola = {
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
-		tag = PUE
+		primary_culture = pueblo
 	}
 
 	happened = {
@@ -6201,6 +6229,7 @@ achievement_fanatic_collectivist = {
 			is_institution_origin = global_trade
 			is_institution_origin = manufactories
 			is_institution_origin = enlightenment
+			is_institution_origin = industrialization
 		}
 		NOT = { owned_by = ROOT }
 	}
@@ -6212,6 +6241,7 @@ achievement_fanatic_collectivist = {
 		is_institution_enabled = global_trade
 		is_institution_enabled = manufactories
 		is_institution_enabled = enlightenment
+		is_institution_enabled = industrialization
 		custom_trigger_tooltip = {
 			tooltip = achievement_fanatic_collectivist_tooltip
 			any_owned_province = { is_institution_origin = renaissance }
@@ -6220,6 +6250,7 @@ achievement_fanatic_collectivist = {
 			any_owned_province = { is_institution_origin  = global_trade }
 			any_owned_province = { is_institution_origin  = manufactories }
 			any_owned_province = { is_institution_origin  = enlightenment }
+			any_owned_province = { is_institution_origin  = industrialization }
 		}
 	}
 }
@@ -8100,9 +8131,9 @@ achievement_narcissism = {
 				any_army = {
 					general_with_steam_name = yes
 				}
+				has_country_flag = general_with_steam_name_won_battle
 				custom_trigger_tooltip = {
 					tooltip = general_with_steam_name_won_battle_tt
-					has_country_flag = general_with_steam_name_won_battle
 				}
 			}
 			OR = {
@@ -9834,6 +9865,7 @@ achievement_spaghetti_western = {
 		OR = {
 			tag = MEX
 			tag = TEX
+			tag = SNA
 		}
 	}
 }
@@ -9929,7 +9961,7 @@ achievement_stiff_upper_lippe = {
 		if = {
 			limit = {
 				NOT = {
-					tag = LPP
+					owned_by = LPP
 				}
 			}
 			is_core = LPP
@@ -10059,5 +10091,244 @@ achievement_holiest_roman_empire = {
 		hre_religion = catholic
 		hre_religion_locked = yes
 		PAP = { is_elector = yes }
+	}
+}
+
+# 1.31 Achievements - Leviathan DLC
+
+achievement_wonderful = {
+	id = 311
+	localization = NEW_ACHIEVEMENT_61
+	
+	visible = {
+		has_dlc = "Leviathan"
+	}
+	
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		is_random_new_world = no
+	}
+	happened = {
+		calc_true_if = {
+			amount = 8
+			all_owned_province_cumulative = {
+				has_great_project = {
+					type = monument
+					tier = 3
+				}
+			}
+		}
+	}
+}
+
+achievement_spice_girls = {
+	id = 312
+	localization = NEW_ACHIEVEMENT_62
+	
+	visible = {
+		has_dlc = "Leviathan"
+	}
+	
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		is_random_new_world = no
+	}
+	happened = {
+		trading_bonus = {
+			trade_goods = cloves
+			value = yes
+		}
+		trading_bonus = {
+			trade_goods = spices
+			value = yes
+		}
+		trading_bonus = {
+			trade_goods = salt
+			value = yes
+		}
+		trading_bonus = {
+			trade_goods = sugar
+			value = yes
+		}
+		is_female = yes
+	}
+}
+
+achievement_to_the_bone = {
+	id = 314
+	localization = NEW_ACHIEVEMENT_64
+	
+	visible = {
+		has_dlc = "Leviathan"
+	}
+	
+	possible = {
+		tag = BNE
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		is_random_new_world = no
+	}
+	happened = {
+		tag = BNE
+		num_of_times_used_pillage_capital = 7
+	}
+}
+
+achievement_keep_the_flame_burning = {
+	id = 315
+	localization = NEW_ACHIEVEMENT_65
+	
+	visible = {
+		has_dlc = "Leviathan"
+	}
+	
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		religion = zoroastrian
+		421 = {
+			owned_by = ROOT
+			religion = zoroastrian
+			has_great_project = {
+				type = fire_temple_of_ateshgah
+				tier = 3
+			}
+		}
+		2223 = {
+			owned_by = ROOT
+			religion = zoroastrian
+		}
+		4430 = {
+			owned_by = ROOT
+			religion = zoroastrian
+		}
+		441 = {
+			owned_by = ROOT
+			religion = zoroastrian
+		}
+		2235 = {
+			owned_by = ROOT
+			religion = zoroastrian
+		}
+	}
+}
+
+achievement_new_new_deli = {
+	id = 316
+	localization = NEW_ACHIEVEMENT_66
+	
+	visible = {
+		has_dlc = "Leviathan"
+	}
+	
+	possible = {
+		tag = DLI
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		is_random_new_world = no
+	}
+	happened = {
+		tag = DLI
+		capital = 522
+	}
+}
+
+achievement_the_power_of_three = {
+	id = 317
+	localization = NEW_ACHIEVEMENT_67
+	
+	visible = {
+		has_dlc = "Leviathan"
+	}
+	
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		is_random_new_world = no
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = have_crown_colony_tt
+			has_subject_of_type = crown_colony
+		}
+		custom_trigger_tooltip = {
+			tooltip = have_private_enterprise_tt
+			has_subject_of_type = private_enterprise
+		}
+		custom_trigger_tooltip = {
+			tooltip = have_self_governing_colony_tt
+			has_subject_of_type = self_governing_colony
+		}
+	}
+}
+
+achievement_quizquiz_pro_quo = {
+	id = 318
+	localization = NEW_ACHIEVEMENT_68
+	
+	visible = {
+		has_dlc = "Leviathan"
+	}
+	
+	possible = {
+		tag = QUI
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		is_random_new_world = no
+	}
+	happened = {
+		tag = QUI
+		capital = 178
+	}
+}
+
+achievement_thats_no_mon = { 
+	id = 319
+	localization = NEW_ACHIEVEMENT_69
+	
+	visible = {
+		has_dlc = "Leviathan"
+	}
+	
+	possible = {
+		tag = PEG
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		is_random_new_world = no
+	}
+	happened = {
+		tag = PEG
+		num_of_owned_provinces_with = {
+			value = 50
+			NOT = { culture = mon }
+		}
 	}
 }
