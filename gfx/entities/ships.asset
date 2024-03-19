@@ -365,6 +365,7 @@ entity = {
 ############												###############
 ###########################################################################
 
+
 entity = {
 	name = "cog"
 	pdxmesh = "cog"
@@ -376,6 +377,8 @@ entity = {
 		event = { time = 0.7	node = "gun_02"	particle = "ship_cannon" }
 	}
 }
+
+entity = { clone = "cog"     	name = "war_canoe" }
 
 entity = {
 	name = "flute"
