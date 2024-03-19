@@ -11,51 +11,86 @@ federal_constitution = {
 		if = { 
 			limit = { primary_culture = creek NOT = { exists = CRE } }
 			change_tag = CRE
+			on_change_tag_effect = yes
 			add_permanent_claims_for_federation_nation = { ORIGINAL = ROOT TAG = CRE }
-			swap_federation_idea_group = yes
-
+			if = {
+				limit = {
+					NOT = { has_idea_group = CRE_ideas }
+				}
+				swap_federation_idea_group = yes
+			}
 		}
 		else_if = { 
 			limit = { primary_culture = dakota NOT = { exists = SIO } }
 			change_tag = SIO
+			on_change_tag_effect = yes
 			add_permanent_claims_for_federation_nation = { ORIGINAL = ROOT TAG = SIO }
-			swap_federation_idea_group = yes
-
+			if = {
+				limit = {
+					NOT = { has_idea_group = siouan_federation_ideas }
+				}
+				swap_federation_idea_group = yes
+			}
 		}
 		else_if = { 
 			limit = { primary_culture = huron NOT = { exists = HUR } }
 			change_tag = HUR
+			on_change_tag_effect = yes
 			add_permanent_claims_for_federation_nation = { ORIGINAL = ROOT TAG = HUR }
-			swap_federation_idea_group = yes
-
+			if = {
+				limit = {
+					NOT = { has_idea_group = HUR_ideas }
+				}
+				swap_federation_idea_group = yes
+			}
 		}
 		else_if = { 
 			limit = { primary_culture = illini NOT = { exists = ILL } }
 			change_tag = ILL
+			on_change_tag_effect = yes
 			add_permanent_claims_for_federation_nation = { ORIGINAL = ROOT TAG = ILL }
-			swap_federation_idea_group = yes
-
+			if = {
+				limit = {
+					NOT = { has_idea_group = ne_native_ideas }
+				}
+				swap_federation_idea_group = yes
+			}
 		}
 		else_if = { 
 			limit = { primary_culture = iroquois NOT = { exists = IRO } }
 			change_tag = IRO
+			on_change_tag_effect = yes
 			add_permanent_claims_for_federation_nation = { ORIGINAL = ROOT TAG = IRO }
-			swap_federation_idea_group = yes
-
+			if = {
+				limit = {
+					NOT = { has_idea_group = IRO_ideas }
+				}
+				swap_federation_idea_group = yes
+			}
 		} 
 		else_if = { 
 			limit = { primary_culture = anishinabe NOT = { exists = POT } }
 			change_tag = POT
+			on_change_tag_effect = yes
 			add_permanent_claims_for_federation_nation = { ORIGINAL = ROOT TAG = POT }
-			swap_federation_idea_group = yes
-
+			if = {
+				limit = {
+					NOT = { has_idea_group = ne_native_ideas }
+				}
+				swap_federation_idea_group = yes
+			}
 		}
 		else_if = { 
 			limit = { primary_culture = shawnee NOT = { exists = SHA } }
 			change_tag = SHA
+			on_change_tag_effect = yes
 			add_permanent_claims_for_federation_nation = { ORIGINAL = ROOT TAG = SHA }
-			swap_federation_idea_group = yes
-
+			if = {
+				limit = {
+					NOT = { has_idea_group = SHA_ideas }
+				}
+				swap_federation_idea_group = yes
+			}
 		}
 		else = {
 			form_federation_nation = {
@@ -69,7 +104,16 @@ federal_constitution = {
 		custom_tooltip = INTEGRATE_FEDERATION_MEMBERS
 		hidden_effect = {
 			every_federation_member = {
+				limit = {
+					ai = yes
+				}
 				every_tribal_land_province = {
+					limit = {
+						OR = {
+							owned_by = PREV
+							is_empty = yes
+						}
+					}
 					change_tribal_land = ROOT
 				}
 			}
@@ -78,11 +122,23 @@ federal_constitution = {
 					NOT = { tag = PREV }
 					ai = yes
 				}
+				every_tribal_land_province = {
+					limit = {
+						NOT = { owned_by = PREV }
+					}
+					change_tribal_land = ---
+				}
 				ROOT = {
 					inherit = PREV
 				}
 			}
 			every_owned_province = {
+				limit = {	#Kinda unnecessary, but better safe than sorry unless we want colonies to vanish once again
+					OR = {
+						owned_by = PREV
+						is_empty = yes
+					}
+				}
 				change_tribal_land = ROOT
 			}
 		}
@@ -105,7 +161,7 @@ federal_constitution = {
 	}
 
 	ai_chance = {
-		factor = 1
+		factor = 0
 	}
 }
 
@@ -127,7 +183,7 @@ unified_warbands = {
 	}
 
 	ai_chance = {
-		factor = 1
+		factor = 5
 	}
 }
 
@@ -143,7 +199,7 @@ mutual_trust = {
 	}
 
 	ai_chance = {
-		factor = 2
+		factor = 15
 	}
 }
 
@@ -159,7 +215,7 @@ joint_grain_depots = {
 	}
 
 	ai_chance = {
-		factor = 2
+		factor = 15
 	}
 }
 
@@ -175,7 +231,7 @@ pax_americana = {
 	}
 
 	ai_chance = {
-		factor = 1
+		factor = 15
 	}
 }
 
@@ -190,7 +246,7 @@ united_resistance = {
 	}
 
 	ai_chance = {
-		factor = 1
+		factor = 5
 	}
 }
 
@@ -205,7 +261,7 @@ chartered_settlements = {
 	}
 
 	ai_chance = {
-		factor = 1
+		factor = 10
 	}
 }
 
