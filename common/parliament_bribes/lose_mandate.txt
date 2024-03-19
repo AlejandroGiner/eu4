@@ -1,9 +1,11 @@
-lose_mercantilism = {
+lose_mandate = {
 	trigger = {
 		has_reached_seat_threshold = no
-		mercantilism = 20
+		has_dlc = "Mandate of Heaven"
+		is_emperor_of_china = yes
+		imperial_mandate = 2
 		has_not_bribe_blocking_debate_active = {
-			type = mercantilism
+			type = mandate
 		}
 	}
 	
@@ -13,7 +15,7 @@ lose_mercantilism = {
 				has_expensive_debate = yes
 				NOT = { halved_parliament_bribes = yes }
 			}
-			add_mercantilism = -4
+			add_mandate = -4
 		}
 		else_if = {
 			limit = {
@@ -28,41 +30,43 @@ lose_mercantilism = {
 					}
 				}
 			}
-			add_mercantilism = -2
+			add_mandate = -2
 		}
 		else = {
-			add_mercantilism = -1
+			add_mandate = -1
 		}
 	}
 	
 	chance = {
 		factor = 1
 	}
-
+	
 	ai_will_do = {
 		factor = 1
-	}	
+	}
 }
 
-national_lose_mercantilism = {
+national_lose_mandate = {
 	trigger = {
 		has_reached_seat_threshold = yes
-		mercantilism = 20
+		has_dlc = "Mandate of Heaven"
+		is_emperor_of_china = yes
+		imperial_mandate = 6
 		has_not_bribe_blocking_debate_active = {
-			type = mercantilism
+			type = mandate
 		}
 	}
 	
 	effect = {
 		back_seats_of_bribe_type = {
-			bribe = lose_mercantilism
+			bribe = lose_mandate
 		}
 		if = {
 			limit = {
 				has_expensive_debate = yes
 				NOT = { halved_parliament_bribes = yes }
 			}
-			add_mercantilism = -8
+			add_mandate = -12
 		}
 		else_if = {
 			limit = {
@@ -77,14 +81,18 @@ national_lose_mercantilism = {
 					}
 				}
 			}
-			add_mercantilism = -4
+			add_mandate = -6
 		}
 		else = {
-			add_mercantilism = -2
+			add_mandate = -3
 		}
+	}
+	
+	chance = {
+		factor = 1
 	}
 	
 	ai_will_do = {
 		factor = 1
-	}	
+	}
 }

@@ -1,10 +1,9 @@
-lose_navy_tradition = {
+lose_sailors = {
 	trigger = {
 		has_reached_seat_threshold = no
-		FROM = { has_port = yes }
-		navy_tradition = 5
+		sailors_percentage = 0.1
 		has_not_bribe_blocking_debate_active = {
-			type = navy_tradition
+			type = sailors
 		}
 	}
 	
@@ -16,10 +15,10 @@ lose_navy_tradition = {
 			}
 			bribe_effect_scaling_with_estate_loyalty = {
 				estate = estate_burghers
-				effect_angry = "add_navy_tradition = -4"
-				effect_neutral = "add_navy_tradition = -2"
-				effect_happy = "add_navy_tradition = -1"
-				default_effect = "add_navy_tradition = -2"
+				effect_angry = "add_yearly_sailors = -0.16"
+				effect_neutral = "add_yearly_sailors = -0.08"
+				effect_happy = "add_yearly_sailors = -0.04"
+				default_effect = "add_yearly_sailors = -0.08"
 			}
 		}
 		else_if = {
@@ -37,19 +36,19 @@ lose_navy_tradition = {
 			}
 			bribe_effect_scaling_with_estate_loyalty = {
 				estate = estate_burghers
-				effect_angry = "add_navy_tradition = -2"
-				effect_neutral = "add_navy_tradition = -1"
-				effect_happy = "add_navy_tradition = -0.5"
-				default_effect = "add_navy_tradition = -1"
+				effect_angry = "add_yearly_sailors = -0.08"
+				effect_neutral = "add_yearly_sailors = -0.04"
+				effect_happy = "add_yearly_sailors = -0.02"
+				default_effect = "add_yearly_sailors = -0.04"
 			}
 		}
 		else = {
 			bribe_effect_scaling_with_estate_loyalty = {
 				estate = estate_burghers
-				effect_angry = "add_navy_tradition = -1"
-				effect_neutral = "add_navy_tradition = -0.5"
-				effect_happy = "add_navy_tradition = -0.25"
-				default_effect = "add_navy_tradition = -0.5"
+				effect_angry = "add_yearly_sailors = -0.04"
+				effect_neutral = "add_yearly_sailors = -0.02"
+				effect_happy = "add_yearly_sailors = -0.01"
+				default_effect = "add_yearly_sailors = -0.02"
 			}
 		}
 	}
@@ -57,25 +56,24 @@ lose_navy_tradition = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 0.1
+			factor = 0
 			is_at_war = yes
 		}
 	}
 }
 
-national_lose_navy_tradition = {
+national_lose_sailors = {
 	trigger = {
 		has_reached_seat_threshold = yes
-		FROM = { has_port = yes }
-		navy_tradition = 5
+		sailors_percentage = 0.25
 		has_not_bribe_blocking_debate_active = {
-			type = navy_tradition
+			type = sailors
 		}
 	}
 	
 	effect = {
 		back_seats_of_bribe_type = {
-			bribe = lose_navy_tradition
+			bribe = lose_sailors
 		}
 		if = {
 			limit = {
@@ -84,10 +82,10 @@ national_lose_navy_tradition = {
 			}
 			bribe_effect_scaling_with_estate_loyalty = {
 				estate = estate_burghers
-				effect_angry = "add_navy_tradition = -20"
-				effect_neutral = "add_navy_tradition = -10"
-				effect_happy = "add_navy_tradition = -5"
-				default_effect = "add_navy_tradition = -10"
+				effect_angry = "add_yearly_sailors = -0.8"
+				effect_neutral = "add_yearly_sailors = -0.4"
+				effect_happy = "add_yearly_sailors = -0.2"
+				default_effect = "add_yearly_sailors = -0.4"
 			}
 		}
 		else_if = {
@@ -105,31 +103,27 @@ national_lose_navy_tradition = {
 			}
 			bribe_effect_scaling_with_estate_loyalty = {
 				estate = estate_burghers
-				effect_angry = "add_navy_tradition = -10"
-				effect_neutral = "add_navy_tradition = -5"
-				effect_happy = "add_navy_tradition = -2.5"
-				default_effect = "add_navy_tradition = -5"
+				effect_angry = "add_yearly_sailors = -0.4"
+				effect_neutral = "add_yearly_sailors = -0.2"
+				effect_happy = "add_yearly_sailors = -0.1"
+				default_effect = "add_yearly_sailors = -0.2"
 			}
 		}
 		else = {
 			bribe_effect_scaling_with_estate_loyalty = {
 				estate = estate_burghers
-				effect_angry = "add_navy_tradition = -5"
-				effect_neutral = "add_navy_tradition = -2.5"
-				effect_happy = "add_navy_tradition = -1.25"
-				default_effect = "add_navy_tradition = -2.5"
+				effect_angry = "add_yearly_sailors = -0.2"
+				effect_neutral = "add_yearly_sailors = -0.1"
+				effect_happy = "add_yearly_sailors = -0.05"
+				default_effect = "add_yearly_sailors = -0.1"
 			}
 		}
 	}
 	
-	chance = {
-		factor = 1
-	}
-
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 0.1
+			factor = 0
 			is_at_war = yes
 		}
 	}
