@@ -1,19 +1,18 @@
-estate_vaisyas_disaster = {
+estate_qizilbash_disaster = {
 	potential = {
-		has_dlc = "Dharma"
-		has_estate = estate_vaisyas
+		has_dlc = "King of Kings"
+		has_estate = estate_qizilbash
 		estate_influence = {
-			estate = estate_vaisyas
+			estate = estate_qizilbash
 			influence = 80
 		}
 		NOT = { has_disaster = tur_disaster_ottoman_power_struggle }
 	}
-
-
+	
 	can_start = {
 		has_any_disaster = no
 		estate_influence = {
-			estate = estate_vaisyas
+			estate = estate_qizilbash
 			influence = 100
 		}
 		is_at_war = no
@@ -24,7 +23,7 @@ estate_vaisyas_disaster = {
 			has_any_disaster = yes
 			NOT = {
 				estate_influence = {
-					estate = estate_vaisyas
+					estate = estate_qizilbash
 					influence = 100
 				}		
 			}
@@ -37,29 +36,19 @@ estate_vaisyas_disaster = {
 			factor = 1
 			NOT = {
 				estate_influence = {
-					estate = estate_vaisyas
+					estate = estate_qizilbash
 					influence = 100
 				}
 			}
 		}
 	}
 	
-	progress = {
+	progress = {	
 		modifier = {
 			factor = 0.5
 			NOT = {
 				estate_loyalty = {
-					estate = estate_vaisyas
-					loyalty = 60
-				}
-			}
-			is_at_war = no
-		}
-		modifier = {
-			factor = 0.5
-			NOT = {
-				estate_loyalty = {
-					estate = estate_vaisyas
+					estate = estate_qizilbash
 					loyalty = 50
 				}
 			}
@@ -69,7 +58,7 @@ estate_vaisyas_disaster = {
 			factor = 0.5
 			NOT = {
 				estate_loyalty = {
-					estate = estate_vaisyas
+					estate = estate_qizilbash
 					loyalty = 40
 				}
 			}
@@ -79,7 +68,7 @@ estate_vaisyas_disaster = {
 			factor = 1
 			NOT = {
 				estate_loyalty = {
-					estate = estate_vaisyas
+					estate = estate_qizilbash
 					loyalty = 30
 				}
 			}
@@ -89,36 +78,35 @@ estate_vaisyas_disaster = {
 			factor = 1
 			NOT = {
 				estate_loyalty = {
-					estate = estate_vaisyas
+					estate = estate_qizilbash
 					loyalty = 20
 				}
 			}
 			is_at_war = no
-		}	
+		}
 	}
 	
 	can_end = {
 		custom_trigger_tooltip = {
-			tooltip = EST_CRUSHED_VAISYAS
+			tooltip = EST_CRUSHED_QIZILBASH
 			OR = {
-				NOT = { has_country_flag = estate_vaisyas_in_power }
+				NOT = { has_country_flag = estate_qizilbash_in_power }
 				has_country_flag = estate_nobles_in_power
 				has_country_flag = estate_church_in_power
-			}						
+			}
 		}
 	}
-	
-	modifier = {	
-		land_morale = -0.1
-		global_manpower_modifier = -0.25
-		land_forcelimit_modifier = -0.25
-		prestige = -1
-	}
 
-	on_start = estate_disasters.14
-	on_end = estate_disasters.15
-	
-	on_monthly = {
+	modifier = {
+		global_autonomy = 0.1
+		discipline = -0.05
+		legitimacy = -2
+		devotion = -2
+		horde_unity = -2
+		meritocracy = -2
+		republican_tradition = -0.5
 	}
+	
+	on_start = estate_disasters.23
+	on_end = estate_disasters.24
 }
-

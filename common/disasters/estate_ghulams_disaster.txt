@@ -1,19 +1,26 @@
-estate_vaisyas_disaster = {
+estate_ghulams_disaster = {
+
 	potential = {
-		has_dlc = "Dharma"
-		has_estate = estate_vaisyas
+		has_dlc = "King of Kings"
+		has_estate = estate_ghulams
 		estate_influence = {
-			estate = estate_vaisyas
+			estate = estate_ghulams
 			influence = 80
+		}
+		OR = {
+			NOT = { has_country_flag = estate_ghulams_triggered }
+			had_country_flag = {
+				flag = estate_ghulams_triggered
+				days = 365
+			}
 		}
 		NOT = { has_disaster = tur_disaster_ottoman_power_struggle }
 	}
-
-
+	
 	can_start = {
 		has_any_disaster = no
 		estate_influence = {
-			estate = estate_vaisyas
+			estate = estate_ghulams
 			influence = 100
 		}
 		is_at_war = no
@@ -24,7 +31,7 @@ estate_vaisyas_disaster = {
 			has_any_disaster = yes
 			NOT = {
 				estate_influence = {
-					estate = estate_vaisyas
+					estate = estate_ghulams
 					influence = 100
 				}		
 			}
@@ -37,29 +44,19 @@ estate_vaisyas_disaster = {
 			factor = 1
 			NOT = {
 				estate_influence = {
-					estate = estate_vaisyas
+					estate = estate_ghulams
 					influence = 100
 				}
 			}
 		}
 	}
 	
-	progress = {
+	progress = {	
 		modifier = {
 			factor = 0.5
 			NOT = {
 				estate_loyalty = {
-					estate = estate_vaisyas
-					loyalty = 60
-				}
-			}
-			is_at_war = no
-		}
-		modifier = {
-			factor = 0.5
-			NOT = {
-				estate_loyalty = {
-					estate = estate_vaisyas
+					estate = estate_ghulams
 					loyalty = 50
 				}
 			}
@@ -69,7 +66,7 @@ estate_vaisyas_disaster = {
 			factor = 0.5
 			NOT = {
 				estate_loyalty = {
-					estate = estate_vaisyas
+					estate = estate_ghulams
 					loyalty = 40
 				}
 			}
@@ -79,7 +76,7 @@ estate_vaisyas_disaster = {
 			factor = 1
 			NOT = {
 				estate_loyalty = {
-					estate = estate_vaisyas
+					estate = estate_ghulams
 					loyalty = 30
 				}
 			}
@@ -89,36 +86,29 @@ estate_vaisyas_disaster = {
 			factor = 1
 			NOT = {
 				estate_loyalty = {
-					estate = estate_vaisyas
+					estate = estate_ghulams
 					loyalty = 20
 				}
 			}
 			is_at_war = no
-		}	
-	}
-	
-	can_end = {
-		custom_trigger_tooltip = {
-			tooltip = EST_CRUSHED_VAISYAS
-			OR = {
-				NOT = { has_country_flag = estate_vaisyas_in_power }
-				has_country_flag = estate_nobles_in_power
-				has_country_flag = estate_church_in_power
-			}						
 		}
 	}
 	
-	modifier = {	
-		land_morale = -0.1
-		global_manpower_modifier = -0.25
-		land_forcelimit_modifier = -0.25
-		prestige = -1
+	can_end = {
+		always = yes
 	}
-
-	on_start = estate_disasters.14
-	on_end = estate_disasters.15
 	
-	on_monthly = {
+	on_start = estate_disasters.22
+	
+	on_start_effect = {
+		if = {
+			limit = {
+				has_dlc = "The Cossacks"
+			}
+			custom_tooltip = estate_ghulams_disaster_tooltip_cossacks
+		}
+		else = {
+			custom_tooltip = estate_ghulams_disaster_tooltip
+		}
 	}
 }
-
