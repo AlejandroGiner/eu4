@@ -153,7 +153,7 @@
  desc_levee_en_masse:0 "Wenn die Republik in Gefahr ist, sind alle fähigen Männer verpflichtet, im Militärdienst das Land zu verteidigen."
  professional_diplomatic_corps:0 "Berufsdiplomatenkorps"
  desc_professional_diplomatic_corps:0 "Durch die Einstellung von Berufsdiplomaten und nicht einfach von Leuten, die aufgrund ihres blauen Blutes Botschafter geworden sind, gewinnen wir an Effizienz."
- letters_of_marque:0 "Kaperbriefe"
+ letters_of_marque:1 "Finanzierte Freibeuter"
  desc_letters_of_marque:0 "Durch Ausstellung von Kaperbriefen an geschäftstüchtige Privatkapitäne erhöhen wir das Ausmaß unserer Freibeuterei."
  the_citizen_service_act:0 "Bürgerdienstgesetz"
  desc_the_citizen_service_act:0 "Wenn Bürger staatliche Vorzüge genießen, dann haben sie dem Staat gegenüber auch Verpflichtungen. Dienst garantiert Staatsbürgerschaft!"
@@ -248,7 +248,7 @@
  the_superior_armament_act:0 "Gesetz für überlegene Bewaffnung"
  desc_the_superior_armament_act:0 "Stellt strikte Anforderungen an die Qualität und die Größe der Kanonen auf unseren Schiffen."
  superior_hull_designs:0 "Überlegene Rumpfentwürfe"
- desc_superior_hull_designs:0 "Standardisiert die Rumpfentwürfe für unsere Kriegsschiffe, damit sie sowohl feindlichem Feuer als auch dem täglichen Verschleiß besser standhalten können."
+ desc_superior_hull_designs:0 "Standardisiert die Rumpfentwürfe für unsere Kriegsschiffe, damit sie sowohl feindlichem Feuer als auch der täglichen Zermürbung besser standhalten können."
  timber_importation_standards:0 "Bauholzimport-Standards"
  desc_timber_importation_standards:0 "Gibt strenge Qualitätsstandards für das Bauholz vor, was wir für den Schiffsbau importieren."
  the_naval_conscription_act:0 "Flottenrekrutierungsgesetz"
@@ -392,7 +392,7 @@
  commercial_tribes_policy:0 "Kommerzielle Stämme"
  desc_commercial_tribes_policy:0 "Unser kommerzielles Netzwerk wurde deutlich erweitert, und unsere Händler können nun eine beträchtliche Menge an Land abdecken. Wo ein Wille ist, ist auch ein Weg."
  war_horses_policy:0 "Streitrösser"
- desc_war_on_horses:1 "Wir schützen unsere Pferde ebenso wie uns selbst. Ihre Schnelligkeit und ihre Ausdauer haben uns bei zahlreichen Gelegenheiten geholfen und sind der Grund dafür, dass unsere Expansionsambitionen nahezu unmögliche Grenzen erreichen können. Was ein einfacher Mensch in einer Woche zurücklegt, plündern wir an einem Tag."
+ desc_war_horses_policy:1 "Wir schützen unsere Pferde genau wie uns selbst. Ihre Schnelligkeit und ihre Ausdauer haben uns bei zahlreichen Gelegenheiten geholfen und sind der Grund dafür, dass unsere Expansionsambitionen an schier unmögliche Grenzen gehen können. Was ein einfacher Mensch in einer Woche zurücklegt, plündern wir an einem Tag."
  the_best_defense_policy:0 "Die beste Verteidigung"
  desc_the_best_defense_policy:0 "Die beste Verteidigung ist eigentlich nur eine ... gute Verteidigung. Wir haben uns von anderen Armeen inspirieren lassen, um eine überlegene Version unserer Rüstung zu entwickeln, die der Härte unserer Schlachten standhält, ohne dabei die Mobilität zu beeinträchtigen."
  omne_datum_optimum_policy:0 "Omne Datum Optimum"
@@ -417,3 +417,6 @@
  desc_render_unto_caesar_policy:0 "Was Gott dir gegeben hat, musst du ihm zurückgeben. Was wir anderen gegeben haben, müssen sie uns zurückgeben. Unsere Expansion in der Welt ist ein Geschenk der Erleuchtung."
  canoe_expertise_policy:0 "Kanu-Experten"
  desc_canoe_expertise_policy:0 "Das Kanu war schon immer ein wichtiger Teil unserer Geschichte, und wir haben gelernt, wie man mit ihm außergewöhnlich gut manövriert. Unsere Seeleute können ihr Wissen im Umgang mit Kanus auch auf die Nutzung größerer Schiffe übertragen."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ desc_war_on_horses:1 "Wir schützen unsere Pferde ebenso wie uns selbst. Ihre Schnelligkeit und ihre Ausdauer haben uns bei zahlreichen Gelegenheiten geholfen und sind der Grund dafür, dass unsere Expansionsambitionen nahezu unmögliche Grenzen erreichen können. Was ein einfacher Mensch in einer Woche zurücklegt, plündern wir an einem Tag."
