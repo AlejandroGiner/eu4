@@ -1127,6 +1127,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		on_non_estate_disaster_end = yes
 		hidden_effect = {
 			
 			# Clear Flags
@@ -1295,6 +1296,7 @@ country_event = {
 				}
 			}
 		}
+		set_country_flag = war_of_the_roses_ended
 		end_disaster = war_of_the_roses
 	}
 	
@@ -1377,6 +1379,7 @@ country_event = {
 				}
 			}
 		}
+		set_country_flag = war_of_the_roses_ended
 		end_disaster = war_of_the_roses
 	}
 	
@@ -1557,6 +1560,7 @@ country_event = {
 			}
 			
 		}
+		set_country_flag = war_of_the_roses_ended
 		end_disaster = war_of_the_roses
 	}
 	
