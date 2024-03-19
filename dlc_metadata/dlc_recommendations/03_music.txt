@@ -281,3 +281,6 @@ dlc105 = {
 		}
 	}
 }
+
+#dlc108 is in Leviathan
+#dlc109 is in Leviathan

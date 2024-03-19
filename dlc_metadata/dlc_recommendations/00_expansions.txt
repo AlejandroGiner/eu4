@@ -879,3 +879,53 @@ dlc101 = {
 		}
 	}
 }
+
+# Leviathan
+dlc106 = {
+	reason = { #North American tribes new mechanics (totemism, migration), events and missions
+		tooltip_desc = "dlc0106_reason_natives"
+		tooltip_reason = "dlc0106_reason_natives_reason"
+		weight = 50
+		trigger = {
+			capital_scope = {
+				continent = north_america
+			}
+			technology_group = north_american
+		}
+	}
+	reason = { #New Colonial Nations types
+		tooltip_desc = "dlc010_reason_colonists"
+		tooltip_reason = "dlc010_reason_colonists_reason"
+		weight = 20
+		trigger = {
+			OR = {
+				tag = ENG
+				tag = SCO
+				tag = FRA
+				tag = CAS
+				tag = POR
+				tag = NED
+			}
+		}
+	}
+	reason = { #East Indies Superregion new content (missions, events, Mandala government, disasters, unit models etc)
+		tooltip_desc = "dlc0106_reason_east_indies"
+		tooltip_reason = "dlc0106_reason_east_indies_reason"
+		weight = 100
+		trigger = {
+			capital_scope = {
+				superregion = east_indies_superregion
+			}
+		}
+	}	
+	reason = { #Oceania new content (unit models, tags, flags, ideas, etc)
+		tooltip_desc = "dlc0106_reason_oceania"
+		tooltip_reason = "dlc0106_reason_oceania_reason"
+		weight = 30
+		trigger = {
+			capital_scope = {
+				continent = oceania
+			}
+		}
+	}
+}
