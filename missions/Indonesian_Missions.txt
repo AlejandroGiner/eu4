@@ -6,6 +6,7 @@ indonesians_3 = {
 		technology_group = chinese
 		culture_group = malay
 		NOT = { tag = MAJ }
+		NOT = { has_reform = pirate_republic_reform }
 	}
 	has_country_shield = yes
 	
@@ -29,15 +30,21 @@ indonesians_3 = {
 		required_missions = {  }
 		provinces_to_highlight = {
 			OR = {
-				AND = {
-					province_id = 1357
-					OR = {
-						NOT = { is_strongest_trade_power = ROOT }
-						NOT = { highest_value_trade_node = yes }
+				ROOT = {
+					home_trade_node = {
+						province_id = PREV_PREV	#Yes, it does work. And yes, it is supported in the game.
+						NOT = {
+							trade_share = {
+								country = ROOT
+								share = 60
+							}
+						}
 					}
 				}
 				AND = {
+					has_dlc = "Dharma"
 					NOT = { province_has_center_of_trade_of_level = 3 }
+					province_has_center_of_trade_of_level = 1
 					owned_by = ROOT
 				}
 			}
@@ -148,6 +155,7 @@ indonesians_4 = {
 		technology_group = chinese
 		culture_group = malay
 		NOT = { tag = MAJ }
+		NOT = { has_reform = pirate_republic_reform }
 	}
 	has_country_shield = yes
 	
@@ -665,6 +673,12 @@ indonesians_4 = {
 				name = malay_united_nusantara
 				duration = -1
 			}
+			if = { 
+				limit = { 
+					NOT = { government_rank = 3 } 
+				}
+				set_government_rank = 3
+			}
 		}
 	}	
 	indonesia_expel_europeans = {
@@ -721,6 +735,7 @@ indonesians_5 = {
 	potential = {
 		technology_group = chinese
 		culture_group = malay
+		NOT = { has_reform = pirate_republic_reform }
 	}
 	has_country_shield = yes
 	

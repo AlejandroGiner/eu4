@@ -59,6 +59,10 @@ atj_1 = {
 				}
 			}
 			custom_tooltip = atj_holy_war_cb_sumatra_tt
+			set_country_flag = 35_trade_power_for_propogate_religion
+		}
+		ai_weight = {
+			factor = 500
 		}
 	}
 	atj_sumatra_islam = {
@@ -83,6 +87,9 @@ atj_1 = {
 		}
 		effect = {
 			custom_tooltip = atj_holy_war_cb_java_tt
+		}
+		ai_weight = {
+			factor = 75	#Default
 		}
 	}
 	atj_java_islam = {
@@ -114,6 +121,9 @@ atj_1 = {
 		effect = {
 			custom_tooltip = atj_holy_war_cb_moluccas_tt
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 	atj_moluccas_islam = {
 		icon = mission_mosque
@@ -143,6 +153,9 @@ atj_1 = {
 		}
 		effect = {
 			custom_tooltip = atj_holy_war_cb_neighbors_tt
+		}
+		ai_weight = {
+			factor = 75	#Default
 		}
 	}
 }
@@ -199,6 +212,9 @@ atj_2 = {
 				duration = -1
 			}
 		}
+		ai_weight = {
+			factor = 500	#Probably a nerf to the Ottomans as they have some random Pacific nation as ally
+		}
 	}
 
 	atj_conquer_aceh = {
@@ -237,6 +253,9 @@ atj_2 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 	atj_sumatra_campaign = {
 		icon = mission_kowtow
@@ -250,16 +269,13 @@ atj_2 = {
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			calc_true_if = {
-				amount = 10
-				all_province = {
-					OR = {
-						area = central_sumatra_area
-						area = batak_area
-						area = minangkabau_area
-					}
-					country_or_non_sovereign_subject_holds = ROOT
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				OR = {
+					area = central_sumatra_area
+					area = batak_area
+					area = minangkabau_area
 				}
+				value = 10
 			}
 		}
 		effect = {
@@ -314,6 +330,9 @@ atj_2 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 	atj_peninsula_campaign = {
 		icon = mission_asian_cannon
@@ -343,6 +362,9 @@ atj_2 = {
 		}
 		effect = {
 			add_mil_power = 200
+		}
+		ai_weight = {
+			factor = 75	#Default
 		}
 	}
 }
