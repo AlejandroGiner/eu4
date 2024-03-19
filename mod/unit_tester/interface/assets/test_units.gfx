@@ -1,8 +1,0 @@
-objectTypes = {
-	pdxmesh = {
-		name = "unit_test_frame"
-		file = "gfx/models/Units/unit_tester_frame.mesh"
-
-		scale = 1.0
-	}
-}
