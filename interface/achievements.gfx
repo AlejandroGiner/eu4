@@ -1654,5 +1654,237 @@ spriteTypes = {
 		name = "GFX_achievement_319"
 		texturefile = "gfx/interface/achievements/achievement_thats_no_mon.dds"
 	}	
-	
+
+	### Origins
+
+	spriteType = {
+		name = "GFX_achievement_320"
+		texturefile = "gfx/interface/achievements/achievement_mansa_musa.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_321"
+		texturefile = "gfx/interface/achievements/achievement_ultimate_military.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_322"
+		texturefile = "gfx/interface/achievements/achievement_golden_wind.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_323"
+		texturefile = "gfx/interface/achievements/achievement_fugger_banking.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_324"
+		texturefile = "gfx/interface/achievements/achievement_where_are_the_penguins.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_325"
+		texturefile = "gfx/interface/achievements/achievement_this_is_fine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_326"
+		texturefile = "gfx/interface/achievements/achievement_khaaaaaan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_327"
+		texturefile = "gfx/interface/achievements/achievement_knights_of_the_caribbean.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_328"
+		texturefile = "gfx/interface/achievements/achievement_australia_hungary.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_329"
+		texturefile = "gfx/interface/achievements/achievement_shemot_is_not.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_330"
+		texturefile = "gfx/interface/achievements/achievement_one_nation_to_rule_them_all.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_331"
+		texturefile = "gfx/interface/achievements/achievement_swahili_persuasion.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_332"
+		texturefile = "gfx/interface/achievements/achievement_i_dont_like_sand.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_333"
+		texturefile = "gfx/interface/achievements/achievement_surfin_usa.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_334"
+		texturefile = "gfx/interface/achievements/achievement_imposter_syndrome.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_335"
+		texturefile = "gfx/interface/achievements/achievement_atwix_legacy.dds"
+	}
+
+	### Lions Of The North
+
+	spriteType = {
+		name = "GFX_achievement_336"
+		texturefile = "gfx/interface/achievements/achievement_brick_by_brick.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_337"
+		texturefile = "gfx/interface/achievements/achievement_super_trooper.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_338"
+		texturefile = "gfx/interface/achievements/achievement_assemble_instructions_needed.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_339"
+		texturefile = "gfx/interface/achievements/achievement_let_it_go.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_340"
+		texturefile = "gfx/interface/achievements/achievement_holy_horder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_341"
+		texturefile = "gfx/interface/achievements/achievement_for_the_emperor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_342"
+		texturefile = "gfx/interface/achievements/achievement_the_freest_man_in_the_world.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_343"
+		texturefile = "gfx/interface/achievements/achievement_crossing_the_finnish_line.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_344"
+		texturefile = "gfx/interface/achievements/achievement_purify_the_temple.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_345"
+		texturefile = "gfx/interface/achievements/achievement_almost_prussian_blue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_346"
+		texturefile = "gfx/interface/achievements/achievement_hannukah_mutapa.dds"
+	}
+
+	### Dominations
+
+	spriteType = {
+		name = "GFX_achievement_347"
+		texturefile = "gfx/interface/achievements/achievement_frankfurt_andes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_348"
+		texturefile = "gfx/interface/achievements/achievement_mehmet_ambition.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_349"
+		texturefile = "gfx/interface/achievements/achievement_triple_rome.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_350"
+		texturefile = "gfx/interface/achievements/achievement_no_country_for_old_tercios.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_351"
+		texturefile = "gfx/interface/achievements/achievement_all_blue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_352"
+		texturefile = "gfx/interface/achievements/achievement_stardust_crusaders.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_353"
+		texturefile = "gfx/interface/achievements/achievement_copium_wars.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_354"
+		texturefile = "gfx/interface/achievements/achievement_brentry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_355"
+		texturefile = "gfx/interface/achievements/achievement_reapers.dds"
+	}
+
+	#King of Kings 
+
+	spriteType = {
+		name = "GFX_achievement_356"
+		texturefile = "gfx/interface/achievements/achievement_king_of_kings.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_357"
+		texturefile = "gfx/interface/achievements/achievement_restore_the_pentarchy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_358"
+		texturefile = "gfx/interface/achievements/achievement_mets_hayk.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_359"
+		texturefile = "gfx/interface/achievements/achievement_desert_power.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_360"
+		texturefile = "gfx/interface/achievements/achievement_breadbasket_of_the_world.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_361"
+		texturefile = "gfx/interface/achievements/achievement_truly_good_maaaaaaaaaaaaaaaaaaaaaaaaaatch.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_362"
+		texturefile = "gfx/interface/achievements/achievement_the_last_crusade.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_363"
+		texturefile = "gfx/interface/achievements/achievement_legacy_saint_george.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievement_364"
+		texturefile = "gfx/interface/achievements/achievement_zoroaustrians.dds"
+	}
 }

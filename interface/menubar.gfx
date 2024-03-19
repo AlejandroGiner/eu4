@@ -270,8 +270,8 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_messageicons"
-		texturefile = "gfx//interface//messageicons.tga"
-		noOfFrames = 44
+		texturefile = "gfx//interface//messageicons.dds" 
+		noOfFrames = 65
 		effectFile = "gfx/FX/buttonstate.lua"
 		alwaystransparent = yes
 	}
@@ -443,6 +443,20 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_mapmode_religious_leagues"
 		texturefile = "gfx//interface//mapmode_religious_leagues.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_mapmode_piracy"
+		texturefile = "gfx//interface//mapmode_piracy.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_mapmode_razing"
+		texturefile = "gfx//interface//mapmode_razing.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		noOfFrames = 2
 	}
@@ -723,6 +737,13 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		noOfFrames = 2
 	}
+
+	spriteType = {
+		name = "GFX_mapmode_razing"
+		texturefile = "gfx//interface//mapmode_razing.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2
+	}
 	spriteType = {
 		name = "GFX_mapmode_super_region"
 		texturefile = "gfx//interface//mapmode_super_region.dds"
@@ -750,6 +771,24 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_mapmode_mercenary_companies"
 		texturefile = "gfx//interface//mapmode_mercenary_companies.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_mapmode_scorched_earth"
+		texturefile = "gfx//interface//mapmode_scorched_earth.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_mapmode_improved_infrastructure"
+		texturefile = "gfx//interface//mapmode_improved_infrastructure.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2
+	}
+		spriteType = {
+		name = "GFX_mapmode_parliament_seats"
+		texturefile = "gfx//interface//mapmode_parliament_seats.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		noOfFrames = 2
 	}

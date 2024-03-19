@@ -1,4 +1,9 @@
 spriteTypes = {
+	spriteType = {
+		name = "GFX_sub_black_bg_tile"
+		texturefile = "gfx//interface//sub//black_bg_tile.dds"
+	}
+
 	corneredTileSpriteType = {
 		name = GFX_sub_message_bg
 		size = { x=256 y=554 }
@@ -104,5 +109,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_sub_message_content_16"
 		texturefile = "gfx/interface/sub/startup/subscription_startup_image_17_leviathan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sub_message_content_17"
+		texturefile = "gfx/interface/sub/startup/subscription_startup_image_18_origins.dds"
 	}
 }
