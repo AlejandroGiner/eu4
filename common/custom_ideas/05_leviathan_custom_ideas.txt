@@ -17,7 +17,7 @@ leviathan_idea_adm_modifiers = {
 	custom_missionary_strength_heretics = {
 		global_heretic_missionary_strength = 0.01
 		max_level = 2
-		level_cost_1 = 5
+		level_cost_1 = 0
 		level_cost_2 = 15
 		chance = {
 			factor = 1
@@ -31,7 +31,7 @@ leviathan_idea_adm_modifiers = {
 	custom_missionary_strength_heathens = {
 		global_heathen_missionary_strength = 0.01
 		max_level = 2
-		level_cost_1 = 5
+		level_cost_1 = 0
 		level_cost_2 = 15
 		chance = {
 			factor = 1
@@ -54,10 +54,11 @@ leviathan_idea_adm_modifiers = {
 	}
 
 	custom_tribal_development_growth = {
-		tribal_development_growth = 0.075
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
+		tribal_development_growth = 0.015
+		level_cost_1 = 10
+		level_cost_2 = 20
+		level_cost_3 = 30
+		level_cost_4 = 40
 		chance = {
 			factor = 0
 		}
@@ -89,7 +90,7 @@ leviathan_idea_adm_modifiers = {
 	custom_country_admin_power = {
 		country_admin_power = 1
 		max_level = 1
-		level_cost_1 = 50
+		level_cost_1 = 60
 		chance = {
 			factor = 0.05
 		}
@@ -139,7 +140,7 @@ leviathan_idea_adm_modifiers = {
 	}
 
 	custom_yearly_tribal_allegiance = {
-		yearly_tribal_allegiance = 0.5
+		yearly_government_power = 0.5
 		level_cost_2 = 3
 		level_cost_3 = 9
 		level_cost_4 = 18
@@ -210,12 +211,10 @@ leviathan_idea_adm_modifiers = {
 	}
 
 	custom_expand_administration_cost = {
-		expand_administration_cost = -0.25
-		level_cost_1 = 5
-		level_cost_2 = 25
-		max_level = 2
+		expand_administration_cost = -1
+		max_level = 4
 		chance = {
-			factor = 0.25
+			factor = 0.01
 		}
 	}
 
@@ -247,7 +246,7 @@ leviathan_idea_adm_modifiers = {
 	}
 
 	custom_good_monthly_karma = {
-		monthly_karma = 0.001
+		monthly_karma = 0.01
 		max_level = 2
 		level_cost_1 = 9
 		level_cost_2 = 18
@@ -266,7 +265,7 @@ leviathan_idea_adm_modifiers = {
 	}
 
 	custom_bad_monthly_karma = {
-		monthly_karma = -0.001
+		monthly_karma = -0.01
 		max_level = 2
 		level_cost_1 = 9
 		level_cost_2 = 18
@@ -297,7 +296,7 @@ leviathan_idea_adm_modifiers = {
 	custom_free_policy = {
 		free_policy = 1
 		max_level = 1
-		level_cost_1 = 25
+		level_cost_1 = 40
 		chance = {
 			factor = 0.2
 		}
@@ -337,7 +336,7 @@ leviathan_idea_adm_modifiers = {
 	custom_idea_claim_colonies = {
 		idea_claim_colonies = yes
 		max_level = 1
-		level_cost_1 = 50
+		level_cost_1 = 35
 		chance = {
 			factor = 0.1
 			modifier = {
@@ -416,7 +415,7 @@ leviathan_idea_dip_modifiers = {
 	custom_country_diplomatic_power = {
 		country_diplomatic_power = 1
 		max_level = 1
-		level_cost_1 = 50
+		level_cost_1 = 60
 		chance = {
 			factor = 0.05
 		}
@@ -458,6 +457,7 @@ leviathan_idea_dip_modifiers = {
 			OR = {
 				has_dlc = "Mare Nostrum"
 				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
 			}
 		}
 		chance = {
@@ -558,8 +558,9 @@ leviathan_idea_dip_modifiers = {
 
 	custom_rival_change_cost = {
 		rival_change_cost = -0.25
-		level_cost_1 = 9
-		level_cost_2 = 18
+		level_cost_2 = 3
+		level_cost_3 = 9
+		level_cost_4 = 18
 		chance = {
 			factor = 0.25
 		}
@@ -596,7 +597,7 @@ leviathan_idea_dip_modifiers = {
 	custom_reduced_stab_impacts = {
 		reduced_stab_impacts = yes
 		max_level = 1
-		level_cost_1 = 50
+		level_cost_1 = 35
 		chance = {
 			factor = 0.01
 		}
@@ -605,7 +606,7 @@ leviathan_idea_dip_modifiers = {
 	custom_may_explore = {
 		may_explore = yes
 		max_level = 1
-		level_cost_1 = 50
+		level_cost_1 = 40
 		chance = {
 			factor = 0.01
 		}
@@ -617,6 +618,10 @@ leviathan_idea_mil_modifiers = {
 
 	custom_yearly_army_professionalism = {
 		yearly_army_professionalism = 0.005
+		level_cost_1 = 10
+		level_cost_2 = 20
+		level_cost_3 = 30
+		level_cost_4 = 40
 		enabled = {
 			has_dlc = "Cradle of Civilization"
 		}
@@ -770,7 +775,7 @@ leviathan_idea_mil_modifiers = {
 	custom_country_military_power = {
 		country_military_power = 1
 		max_level = 1
-		level_cost_1 = 50
+		level_cost_1 = 60
 		chance = {
 			factor = 0.05
 		}
