@@ -410,7 +410,7 @@ upper_andalucia_area = { #4
 
 castille_area = { #5
 	color = { 58 58 207 }
-	215 217 2755 4551 4789
+	217 2755 4551 4789
 }
 
 toledo_area = { #5
@@ -418,7 +418,7 @@ toledo_area = { #5
 }
 
 asturias_area = { #4
-	 207 1745 4552 1746
+	1745 4552 1746 215
 }
 
 galicia_area = { #4
@@ -435,7 +435,7 @@ basque_country = { #3
 
 leon_area = { #3
 	color = { 243 235 28 }
-	208 216 4553 
+	208 216 4553 207 
 }
 
 extremadura_area = {
@@ -1156,7 +1156,7 @@ armenia_area = { #5
 
 shirvan_area = { #5 #Northern Azerbaijan
 	color = { 225 231 53 }
-	421 424 4299 4305 4340
+	421 4299 4305 4340
 }
 
 circassia_area = { #4
@@ -2024,7 +2024,7 @@ isfahan_area = { #3
 }
 
 tabriz_area = { #4 Central Azerbaijan
-	416 2206 2207 4304
+	416 2206 2207 4304 424
 }
 
 tabarestan_area = { #5
@@ -3732,128 +3732,7 @@ transvaal_area = { #4
 #Deprecated:
 #############################
 
-great_moluccas_area = {
-
-}
-
-khorasan_area = {
-}
-
-libyan_desert_area = {
-	 
-}
-
-gharbia_area = {
-}
-
-sharqiya_area = {
-}
-
-central_egypt_area = {
-}
-
-upper_egypt_area = {
-}
-
-eastern_mediterrenean_islands_area = {
-}
-
-western_aegean_area = {
-}
-
-odishi_area = {
-}
-
-georgia_area = {
-}
-
-rakka_area = {
-}
-
-south_kurdistan_area = {
-}
-
-east_china_sea_islands_area = {
-
-}
-
-east_african_islands_area = {
-	 
-}
-
-arabian_sea_islands_area = {
-	 
-}
-
-baltic_islands_area = {
-	 
-}
-
-east_altishahr_area = {
-
-}
-
-amnok_area = {
-
-}
-
-north_korea_area = {
-
-}
-
-hejaz_area = {
-
-}
-
-sarat_area = {
-	
-}
-
-ad_dahna_area = {
-}
-
-najd_area = {
-
-}
-
-northern_england_area = {
-}
-
-mercia_area = { 
-}
-
-eastern_ireland_area = {
-}
-
-western_ireland_area = {
-}
-
-
-seine_area = {
-}
-
-luxemburg_liege_area = {
-}
-
-coromandel_area = {
-}
-
-carnatic_area = {
-
-}
-
-kerala_area = {
-
-}
-maharashtra_area = {
-
-}
-gujarat_area = { }
-
-central_doab_area = {
-}
-
-nepalese_area = { }
+#The areas below are used within other scripts and should be not deleted
 
 pomerelia_area = { }
 
@@ -3866,7 +3745,5 @@ netherlands_area = { }
 indonesian_islands_area = {  }
 
 iceland_area = { }
-
-ceram_area = { }
 
 south_laos_area = { }
