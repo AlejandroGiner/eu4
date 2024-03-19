@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { exists = BAV }
 			primary_culture = bavarian
 		}
@@ -102,6 +106,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = BAV
+			on_change_tag_effect = yes
 			restore_country_name_effect = yes
 			if = {
 				limit = {
@@ -150,7 +155,13 @@ country_decisions = {
 			set_capital = 65
 			65 = { add_base_tax = 2 }
 			set_country_flag = formed_bavaria_flag
-
+			if = {
+				limit = { 
+					has_custom_ideas = no
+					NOT = { has_idea_group = BAV_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
 			if = {
 				limit = {
 					NOT = { tag = UBV }
@@ -164,7 +175,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		ai_importance = 400
 	}
@@ -179,6 +190,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			NOT = { exists = POM }
 			primary_culture = pommeranian
@@ -273,6 +288,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = POM
+			on_change_tag_effect = yes
 			restore_country_name_effect = yes
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -308,7 +324,7 @@ country_decisions = {
 				limit = {
 					RUG = {
 						is_subject_of = ROOT
-						NOT = { has_reform = pirate_republic_reform }
+						NOT = { has_government_attribute = is_pirate_republic_reform }
 					}
 				}
 				inherit = RUG
@@ -371,6 +387,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			NOT = { exists = FKN }
 			is_colonial_nation = no
@@ -456,6 +476,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = FKN
+			on_change_tag_effect = yes
 			restore_country_name_effect = yes
 			franconia_area = {
 				limit = {
@@ -515,6 +536,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { exists = SWA }
 			is_colonial_nation = no
 			OR = {
@@ -566,6 +591,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = SWA
+			on_change_tag_effect = yes
 			restore_country_name_effect = yes
 			lower_swabia_area = {
 				limit = {
@@ -657,6 +683,10 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			OR = {
 				ai = no
 				NOT = { exists = SAX }
 			}
@@ -739,6 +769,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = SAX
+			on_change_tag_effect = yes
 			restore_country_name_effect = yes
 			south_saxony_area = {
 				limit = {
@@ -798,6 +829,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			NOT = { tag = HLR }
 			NOT = { tag = PAP }
@@ -872,6 +907,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = HAN
+			on_change_tag_effect = yes
 			restore_country_name_effect = yes
 			1758 = {
 				add_base_tax = 1
@@ -933,6 +969,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			NOT = { tag = HLR }
 			NOT = { tag = HAN }
@@ -1047,6 +1087,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = WES
+			on_change_tag_effect = yes
 			restore_country_name_effect = yes
 			set_country_flag = formed_westphalia_flag
 			if = {

@@ -10,8 +10,15 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { exists = TIB }
-			primary_culture = tibetan
+			OR = {
+				primary_culture = tibetan
+				primary_culture = tibetan_new
+			}
 			OR = {
 				ai = no
 				AND = {
@@ -57,6 +64,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = TIB
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {

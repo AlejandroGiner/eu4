@@ -10,8 +10,11 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { exists = SPI }
-			government = monarchy
 			OR = {
 				tag = SAV
 				tag = SAR
@@ -89,6 +92,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = SPI
+			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -140,6 +144,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			NOT = { exists = SPI }
 			government = monarchy
@@ -221,6 +229,7 @@ country_decisions = {
 				set_government_rank = 2
 			}
 			change_tag = SPI
+			on_change_tag_effect = yes
 			set_country_flag = formed_sardinia_piedmont_flag
 			add_prestige = 25
 			

@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
@@ -130,6 +134,7 @@ country_decisions = {
 				}
 			}
 			change_tag = ADU
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -151,11 +156,15 @@ country_decisions = {
 				change_primary_culture = andalucian
 			}
 			if = {
-				limit = {
-					government = tribal
+				limit = { 
+					NOT = { government = monarchy }
+					is_revolutionary = no
 				}
-				change_government_to_monarchy = yes #Desert tribes settling down, theocracies become monarchies.
-				#set_legacy_government = despotic_monarchy
+				change_government = monarchy
+			}
+			if = {
+				limit = { is_revolutionary = no }
+				add_government_reform = al_andalusia_government
 			}
 			lower_andalucia_area = {
 				limit = {

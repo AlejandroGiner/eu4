@@ -9,6 +9,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { exists = TTS }
 			OR = {
 				primary_culture = neapolitan
@@ -76,6 +80,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = TTS
+			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { tag = NAP }
